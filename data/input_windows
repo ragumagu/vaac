@@ -1,0 +1,11 @@
+cut,^^x
+copy,^^c
+paste,^^v
+undo,^^z
+redo,^^y
+new document,^^n
+open document,^^o
+save,^^s
+print,^^p
+find,^^f
+find and replace,^^h
