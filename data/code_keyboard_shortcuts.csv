@@ -1,0 +1,140 @@
+show command palette,Ctrl+Shift+p
+quick open,Ctrl+p
+go to file,Ctrl+p
+new window,Ctrl+Shift+n
+close window,Ctrl+w
+user settings,"Ctrl+,"
+keyboard shortcuts,Ctrl+k Ctrl+s
+cut line (empty selection),Ctrl+x
+copy line (empty selection),Ctrl+c
+move line down,Alt+Down
+move line up,Alt+Up
+delete line,Ctrl+Shift+k
+insert line below,Ctrl+Return
+insert line above,Ctrl+Shift+Return
+jump to matching bracket,Ctrl+Shift+backslash
+indent line,Ctrl+bracketright
+outdent line,Ctrl+bracketleft
+go to beginning of line,Home
+go to end of line,End
+go to beginning of file,Ctrl+Home
+go to end of file,End
+scroll line up,Ctrl+Up
+scroll line down,Ctrl+Down
+scroll page up,Alt+Page_Up
+scroll page down,Alt+Page_Down
+fold region,Ctrl+Shift+bracketleft
+unfold region,Ctrl+Shift+bracketright
+fold all subregions,Ctrl+k Ctrl+bracketleft
+unfold all subregions,Ctrl+k Ctrl+bracketright
+fold all regions,Ctrl+k Ctrl+0
+unfoldall regions,Ctrl+k Ctrl+j
+add line comment,Ctrl+k Ctrl+c
+remove line comment,Ctrl+k Ctrl+u
+toggle line comment,Ctrl+slash
+toggle block comment,Ctrl+Shift+a
+toggle word wrap,Alt+z
+trigger suggestion,Ctrl+Space
+trigger parameter hints,Ctrl+Shift+Space
+format document,Ctrl+Shift+i
+format selection,Ctrl+k Ctrl+f
+go to definition,F12
+peek definition,Ctrl+Shift+F10
+open definition to the side,Ctrl+k F12
+quick fix,Ctrl+period
+show references,Shift+F12
+rename symbol,F2
+trim trailing whitespace,Ctrl+k Ctrl+x
+change file language,Ctrl+k m
+insert cursor,Alt+Click
+insert cursor above,Shift+Alt+Up
+insert cursor below,Shift+Alt+Down
+undo last cursor operation,Ctrl+u
+insert cursor at end of each line selected,Shift+Alt+i
+select current line,Ctrl+l
+select all occurrences of current selection,Ctrl+Shift+l
+select all occurrences of current word,Ctrl+F2
+expand selection,Shift+Alt+Right
+shrink selection,Shift+Alt+Left
+toggle full screen,F11
+toggle editor layout(horizontal/vertical),Shift+Alt+0
+zoom in,Ctrl+plus
+zoom out,Ctrl+minus
+toggle sidebar visibility,Ctrl+b
+show explorer,Ctrl+Shift+e
+toggle focus,Ctrl+Shift+e
+show search,Ctrl+Shift+f
+show source control,Ctrl+Shift+g
+show debug,Ctrl+Shift+d
+show extensions,Ctrl+Shift+x
+replace in files,Ctrl+Shift+h
+toggle search details,Ctrl+Shift+j
+open new command prompt/terminal,Ctrl+Shift+c
+show output panel,Ctrl+k Ctrl+h
+open markdown preview,Ctrl+Shift+v
+open markdown preview to the side,Ctrl+k v
+zen mode,Ctrl+k z
+exit zen mode,Escape Escape
+find,Ctrl+f
+replace,Ctrl+h
+find next,F3
+find previous,Shift+F3
+select all occurrences of find match,Alt+Return
+add selection to next find match,Ctrl+d
+move last selection to next find match,Ctrl+k Ctrl+d
+show all symbols,Ctrl+t
+go to line...,Ctrl+g
+go to file...,Ctrl+p
+go to symbol...,Ctrl+Shift+o
+show problems panel,Ctrl+Shift+m
+go to next error or warning,F8
+go to previous error or warning,Shift+F8
+navigate editor group history,Ctrl+Shift+Tab
+go back,Ctrl+Alt+minus
+go forward,Ctrl+Shift+minus
+toggle tab moves focus,Ctrl+m
+close editor,Ctrl+w
+close folder,Ctrl+k f
+split editor,Ctrl+backslash
+focus into first editor group,Ctrl+1
+focus into second editor group,Ctrl+2
+focus into third editor group,Ctrl+3
+focus into previous editor group,Ctrl+k Ctrl+Left
+focus into next editor group,Ctrl+k Ctrl+Right
+move editor left,Ctrl+Shift+Page_Up
+move editor right,Ctrl+Shift+Page_Down
+move active editor group left,Ctrl+k Left
+move active editor group up,Ctrl+k Left
+move active editor group right,Ctrl+k Right
+move active editor group down,Ctrl+k Right
+new file,Ctrl+n
+open file...,Ctrl+o
+save,Ctrl+s
+save as...,Ctrl+Shift+s
+close,Ctrl+w
+close all,Ctrl+k Ctrl+w
+reopen closed editor,Ctrl+Shift+t
+keep preview mode editor open,Ctrl+k Return
+open next,Ctrl+Tab
+open previous,Ctrl+Shift+Tab
+copy path of active file,Ctrl+k p
+reveal active file in explorer,Ctrl+k r
+show active file in new window/instance,Ctrl+k o
+toggle breakpoint,F9
+start,F5
+continue,F5
+step into,F11
+step out,Shift+F11
+step over,F10
+stop,Shift+F5
+show hover,Ctrl+k Ctrl+i
+show integrated terminal,Ctrl+grave
+create new terminal,Ctrl+Shift+grave
+copy selection,Ctrl+Shift+c
+paste into active terminal,Ctrl+Shift+v
+scroll up,Ctrl+Shift+Up
+scroll down,Ctrl+Shift+Down
+scroll page up,Shift+Page_Up
+scroll page down,Shift+Page_Down
+scroll to top,Shift+Home
+scroll to bottom,Shift+End

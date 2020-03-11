@@ -28,7 +28,6 @@ def populate(fileName="./vaac/data/input"): #Hardcoded default.
 	connection.commit()
 	connection.close()
 
-
 class translator():	
 	"""Translator object to translate commands to keys."""
 	def __init__(self):

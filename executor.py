@@ -26,6 +26,7 @@ class executor():
                 >>> executor.run(['open','app']) # Opens app
                 
         '''
+        print("Executor run received",argslist)
         if self.platform == 'Linux':
             if argslist[0] == 'open':
                 subprocess.run(argslist[1])

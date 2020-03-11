@@ -1,0 +1,112 @@
+back,Ctrl+bracketleft
+forward,Ctrl+bracketright
+home,Alt+Home
+open file,Ctrl+o
+reload,Ctrl+r
+reload (override cache),Ctrl+Shift+r
+stop,Escape
+focus next link or input field,Tab
+focus previous link or input field,Shift+Tab
+go down a screen,Page_Down
+go up a screen,Page_Up
+go to bottom of page,End
+go to top of page,Home
+move to next frame,F6
+move to previous frame,Shift+F6
+print,Ctrl+p
+save page as,Ctrl+s
+zoom in,Ctrl+plus
+zoom out,Ctrl+minus
+zoom reset,Ctrl+0
+copy,Ctrl+c
+cut,Ctrl+x
+delete,Delete
+delete word to the left,Ctrl+Backspace
+delete word to the right,Ctrl+Delete
+go one word to the left,Ctrl+Left
+go one word to the right,Ctrl+Right
+go to beginning of line,Home
+go to end of line,End
+go to beginning of text,Ctrl+Home
+go to end of text,Ctrl+End
+paste,Ctrl+v
+paste (as plain text),Ctrl+Shift+v
+redo,Ctrl+Shift+z
+select all,Ctrl+a
+undo,Ctrl+z
+find,Ctrl+f
+find again,Ctrl+g
+find previous,Ctrl+Shift+g
+quick find within link-text only,apostrophe
+quick find,slash
+close the find or quick find bar,Escape
+focus search bar,Ctrl+k
+close tab,Ctrl+w
+close window,Ctrl+Shift+w
+cycle through tabs in recently used order,Ctrl+Tab
+quit,Ctrl+q
+go one tab to the left,Ctrl+Page_Up
+go one tab to the right,Ctrl+Page_Down
+move tab left,Ctrl+Shift+Page_Up
+move tab right,Ctrl+Shift+Page_Down
+move tab to start,Ctrl+Shift+Home
+move tab to end,Ctrl+Shift+End
+mute/unmute audio,Ctrl+m
+new tab,Ctrl+t
+new window,Ctrl+n
+new private window,Ctrl+Shift+p
+undo close tab,Ctrl+Shift+t
+undo close window,Ctrl+Shift+n
+history sidebar,Ctrl+h
+library window (history),Ctrl+Shift+h
+clear recent history,Ctrl+Shift+Delete
+bookmark this page,Ctrl+d
+bookmarks sidebar,Ctrl+b
+library window (bookmarks),Ctrl+Shift+o
+downloads,Ctrl+Shift+y
+add-ons,Ctrl+Shift+a
+toggle developer tools,Ctrl+Shift+i
+web console,Ctrl+Shift+k
+inspector,Ctrl+Shift+c
+debugger,Ctrl+Shift+s
+style editor,Shift+F7
+profiler,Shift+F5
+network,Ctrl+Shift+e
+developer toolbar,Shift+F2
+responsive design view,Ctrl+Shift+m
+scratchpad,Shift+F4
+page source,Ctrl+u
+browser console,Ctrl+Shift+j
+page info,Ctrl+i
+next page,n
+previous page,p
+rotate the document clockwise,r
+rotate counterclockwise,Shift+r
+switch to presentation mode,Ctrl+Alt+p
+choose text selection tool,s
+choose hand tool,h
+focus the page number input box,Ctrl+Alt+g
+complete .com address,Ctrl+Return
+delete selected autocomplete entry,Delete
+toggle full screen,F11
+toggle menu bar activation (showing it temporarily when hidden),F10
+toggle reader mode,Ctrl+Alt+r
+caret browsing,F7
+select location bar,Ctrl+l
+go to search field in library,Ctrl+f
+stop autoscroll mode,Escape
+cancel drag-and-drop operation,Escape
+clear search field in library or sidebar,Escape
+close a menu,Escape
+toggle context menu,Shift+F10
+toggle play/pause,space
+decrease volume,Down
+increase volume,Up
+mute audio,Ctrl+Down
+unmute audio,Ctrl+Up
+seek back fifteen seconds,Left
+seek back ten percent,Ctrl+Left
+seek forward fifteen seconds,right
+seek forward ten percent,Ctrl+Right
+seek to the beginning,Home
+seek to the end,End
