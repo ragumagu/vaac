@@ -52,6 +52,7 @@ class extractor():
 			
 			i+=1		
 		
+		print("Extractor: max_ratio:",max_ratio)
 		return current_app,self.map[current_app][n]
 
 
