@@ -16,3 +16,5 @@ if [ "$1" == "$key" ]; then
 elif [ "$1" == "$type" ]; then	
 	xdotool type $2
 fi
+
+xdotool key Alt+Tab
