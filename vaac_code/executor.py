@@ -32,5 +32,5 @@ class executor():
                 subprocess.run(argslist[1])
             else:
                 al = argslist[:]
-                al.insert(0,'./vaac/executor.sh') # Hardcoded string.
+                al.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
                 subprocess.run(al)
