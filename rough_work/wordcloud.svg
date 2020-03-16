@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="768">
+<defs/>
+<g>
+<g transform="translate(512,382) rotate(-7560.000000000001,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="134.959px" font-style="normal" font-weight="400" x="-93.81666564941406" y="-53.986663818359375" text-anchor="start" dominant-baseline="alphabetic">tab</text>
+</g>
+<g transform="translate(510,474) rotate(-14400,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="125.319px" font-style="normal" font-weight="400" x="-97.53333282470703" y="-50.12768051200001" text-anchor="start" dominant-baseline="alphabetic">line</text>
+</g>
+<g transform="translate(514,278) rotate(-9000,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="110.859px" font-style="normal" font-weight="400" x="-135.5416717529297" y="-44.34666748046875" text-anchor="start" dominant-baseline="alphabetic">move</text>
+</g>
+<g transform="translate(512,534) rotate(-17280,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="101.219px" font-style="normal" font-weight="400" x="-140.61666870117188" y="-40.48774195200001" text-anchor="start" dominant-baseline="alphabetic">switch</text>
+</g>
+<g transform="translate(352,384) rotate(-8640,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="91.5794px" font-style="normal" font-weight="400" x="-73.83333587646484" y="-36.63333435058594" text-anchor="start" dominant-baseline="alphabetic">find</text>
+</g>
+<g transform="translate(702,390) rotate(-17280,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="86.7594px" font-style="normal" font-weight="400" x="-108.51667022705078" y="-34.706668090820315" text-anchor="start" dominant-baseline="alphabetic">editor</text>
+</g>
+<g transform="translate(508,590) rotate(-6120.000000000001,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="81.9395px" font-style="normal" font-weight="400" x="-111.61666870117188" y="-32.775791104" text-anchor="start" dominant-baseline="alphabetic">toggle</text>
+</g>
+<g transform="translate(462,202) rotate(-7919.999999999999,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="77.1195px" font-style="normal" font-weight="400" x="-89.96666717529297" y="-30.847803392000003" text-anchor="start" dominant-baseline="alphabetic">scroll</text>
+</g>
+<g transform="translate(356,422) rotate(-360,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="77.1195px" font-style="normal" font-weight="400" x="-64.32499694824219" y="-30.847803392000003" text-anchor="start" dominant-baseline="alphabetic">one</text>
+</g>
+<g transform="translate(694,446) rotate(-5760,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="77.1195px" font-style="normal" font-weight="400" x="-90" y="-30.847803392000003" text-anchor="start" dominant-baseline="alphabetic">close</text>
+</g>
+<g transform="translate(350,310) rotate(-9720,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="77.1195px" font-style="normal" font-weight="400" x="-70.7249984741211" y="-30.847803392000003" text-anchor="start" dominant-baseline="alphabetic">new</text>
+</g>
+<g transform="translate(498,644) rotate(-7560.000000000001,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="72.2995px" font-style="normal" font-weight="400" x="-78.3499984741211" y="-28.920001220703128" text-anchor="start" dominant-baseline="alphabetic">word</text>
+</g>
+<g transform="translate(340,460) rotate(-17639.999999999996,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="72.2995px" font-style="normal" font-weight="400" x="-80.4000015258789" y="-28.920001220703128" text-anchor="start" dominant-baseline="alphabetic">page</text>
+</g>
+<g transform="translate(208,384) rotate(-7560.000000000001,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="72.2995px" font-style="normal" font-weight="400" x="-80.4000015258789" y="-28.920001220703128" text-anchor="start" dominant-baseline="alphabetic">open</text>
+</g>
+<g transform="translate(316,264) rotate(-8640,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="72.2995px" font-style="normal" font-weight="400" x="-68.31666564941406" y="-28.920001220703128" text-anchor="start" dominant-baseline="alphabetic">next</text>
+</g>
+<g transform="translate(726,492) rotate(-7200,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="67.4796px" font-style="normal" font-weight="400" x="-78.7750015258789" y="-26.993331909179688" text-anchor="start" dominant-baseline="alphabetic">show</text>
+</g>
+<g transform="translate(248,506) rotate(-8280,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="62.6596px" font-style="normal" font-weight="400" x="-118.42500305175781" y="-25.06666717529297" text-anchor="start" dominant-baseline="alphabetic">previous</text>
+</g>
+<g transform="translate(238,338) rotate(-4680.000000000001,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="62.6596px" font-style="normal" font-weight="400" x="-40.04999923706055" y="-25.06666717529297" text-anchor="start" dominant-baseline="alphabetic">file</text>
+</g>
+<g transform="translate(698,554) rotate(-15120.000000000002,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="62.6596px" font-style="normal" font-weight="400" x="-80.13333129882812" y="-25.06666717529297" text-anchor="start" dominant-baseline="alphabetic">group</text>
+</g>
+<g transform="translate(286,538) rotate(-7919.999999999999,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="57.8396px" font-style="normal" font-weight="400" x="-89.99166870117188" y="-23.135852544000002" text-anchor="start" dominant-baseline="alphabetic">current</text>
+</g>
+<g transform="translate(170,426) rotate(-4680.000000000001,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="57.8396px" font-style="normal" font-weight="400" x="-96.44166564941406" y="-23.135852544000002" text-anchor="start" dominant-baseline="alphabetic">window</text>
+</g>
+<g transform="translate(844,418) rotate(-3959.9999999999995,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="53.0197px" font-style="normal" font-weight="400" x="-63.349998474121094" y="-21.207864832000002" text-anchor="start" dominant-baseline="alphabetic">focus</text>
+</g>
+<g transform="translate(842,382) rotate(-16560,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="53.0197px" font-style="normal" font-weight="400" x="-42.724998474121094" y="-21.207864832000002" text-anchor="start" dominant-baseline="alphabetic">text</text>
+</g>
+<g transform="translate(616,610) rotate(-1080,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="53.0197px" font-style="normal" font-weight="400" x="-44.224998474121094" y="-21.207864832000002" text-anchor="start" dominant-baseline="alphabetic">end</text>
+</g>
+<g transform="translate(270,214) rotate(-4680.000000000001,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="53.0197px" font-style="normal" font-weight="400" x="-98.7249984741211" y="-21.207864832000002" text-anchor="start" dominant-baseline="alphabetic">selected</text>
+</g>
+<g transform="translate(256,170) rotate(-8640,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="53.0197px" font-style="normal" font-weight="400" x="-116.40833282470703" y="-21.207864832000002" text-anchor="start" dominant-baseline="alphabetic">document</text>
+</g>
+<g transform="translate(178,284) rotate(-10440,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="53.0197px" font-style="normal" font-weight="400" x="-104.61666870117188" y="-21.207864832000002" text-anchor="start" dominant-baseline="alphabetic">selection</text>
+</g>
+<g transform="translate(188,460) rotate(-16920,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="48.1997px" font-style="normal" font-weight="400" x="-65.65833282470703" y="-19.280000305175783" text-anchor="start" dominant-baseline="alphabetic">delete</text>
+</g>
+<g transform="translate(632,324) rotate(-12240.000000000002,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="43.3797px" font-style="normal" font-weight="400" x="-28.933332443237305" y="-17.353334045410158" text-anchor="start" dominant-baseline="alphabetic">left</text>
+</g>
+<g transform="translate(358,566) rotate(0,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="43.3797px" font-style="normal" font-weight="400" x="-42.20000076293945" y="-17.353334045410158" text-anchor="start" dominant-baseline="alphabetic">right</text>
+</g>
+<g transform="translate(700,504) rotate(-12240.000000000002,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="38.5598px" font-style="normal" font-weight="400" x="-50.375" y="-15.426666259765625" text-anchor="start" dominant-baseline="alphabetic">active</text>
+</g>
+<g transform="translate(512,368) rotate(-14759.999999999998,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="38.5598px" font-style="normal" font-weight="400" x="-53.56666564941406" y="-15.426666259765625" text-anchor="start" dominant-baseline="alphabetic">cursor</text>
+</g>
+<g transform="translate(742,580) rotate(-9720,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="38.5598px" font-style="normal" font-weight="400" x="-83.64167022705078" y="-15.426666259765625" text-anchor="start" dominant-baseline="alphabetic">beginning</text>
+</g>
+<g transform="translate(784,320) rotate(-18000,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="38.5598px" font-style="normal" font-weight="400" x="-57.875" y="-15.426666259765625" text-anchor="start" dominant-baseline="alphabetic">search</text>
+</g>
+<g transform="translate(488,654) rotate(-7919.999999999999,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="33.7398px" font-style="normal" font-weight="400" x="-44.06666564941406" y="-13.495913984000001" text-anchor="start" dominant-baseline="alphabetic">select</text>
+</g>
+<g transform="translate(836,434) rotate(-6839.999999999999,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="33.7398px" font-style="normal" font-weight="400" x="-50.63333511352539" y="-13.495913984000001" text-anchor="start" dominant-baseline="alphabetic">screen</text>
+</g>
+<g transform="translate(630,270) rotate(-17639.999999999996,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="33.7398px" font-style="normal" font-weight="400" x="-41.25" y="-13.495913984000001" text-anchor="start" dominant-baseline="alphabetic">zoom</text>
+</g>
+<g transform="translate(468,452) rotate(-10440,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-30.549999237060547" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">save</text>
+</g>
+<g transform="translate(800,498) rotate(-7200,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-48.21666717529297" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">forward</text>
+</g>
+<g transform="translate(386,594) rotate(-18000,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-33.766666412353516" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">quick</text>
+</g>
+<g transform="translate(502,266) rotate(-720,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-30.549999237060547" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">seek</text>
+</g>
+<g transform="translate(270,550) rotate(-6839.999999999999,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-42.599998474121094" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">history</text>
+</g>
+<g transform="translate(578,166) rotate(-1440,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-30.549999237060547" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">copy</text>
+</g>
+<g transform="translate(734,274) rotate(-14759.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-30.549999237060547" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">back</text>
+</g>
+<g transform="translate(164,326) rotate(-8280,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-36.17499923706055" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">mode</text>
+</g>
+<g transform="translate(844,458) rotate(-16200.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-35.375" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">paste</text>
+</g>
+<g transform="translate(876,334) rotate(-12600,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="28.9198px" font-style="normal" font-weight="400" x="-35.36666488647461" y="-11.567926272000001" text-anchor="start" dominant-baseline="alphabetic">insert</text>
+</g>
+<g transform="translate(510,520) rotate(-360,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="24.0998px" font-style="normal" font-weight="400" x="-26.799999237060547" y="-9.640000152587891" text-anchor="start" dominant-baseline="alphabetic">undo</text>
+</g>
+<g transform="translate(694,380) rotate(-12240.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="24.0998px" font-style="normal" font-weight="400" x="-22.774999618530273" y="-9.640000152587891" text-anchor="start" dominant-baseline="alphabetic">stop</text>
+</g>
+<g transform="translate(446,520) rotate(-9360.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="24.0998px" font-style="normal" font-weight="400" x="-26.108333587646484" y="-9.640000152587891" text-anchor="start" dominant-baseline="alphabetic">clear</text>
+</g>
+<g transform="translate(374,304) rotate(-5399.999999999999,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-31.600000381469727" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">sidebar</text>
+</g>
+<g transform="translate(636,280) rotate(-4680.000000000001,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-33.20000076293945" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">preview</text>
+</g>
+<g transform="translate(574,364) rotate(-14759.999999999998,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-14.991666793823242" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">last</text>
+</g>
+<g transform="translate(250,380) rotate(-10080,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-39.63333511352539" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">comment</text>
+</g>
+<g transform="translate(622,380) rotate(-1080,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-18.733333587646484" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">start</text>
+</g>
+<g transform="translate(638,436) rotate(-4680.000000000001,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-26.78333282470703" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">region</text>
+</g>
+<g transform="translate(494,134) rotate(0,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-26.233333587646484" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">library</text>
+</g>
+<g transform="translate(742,380) rotate(-17280,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-24.108333587646484" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">menu</text>
+</g>
+<g transform="translate(430,136) rotate(-3959.9999999999995,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-39.099998474121094" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">clipboard</text>
+</g>
+<g transform="translate(592,520) rotate(-14039.999999999998,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-17.674999237060547" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">field</text>
+</g>
+<g transform="translate(552,448) rotate(-12959.999999999998,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-13.925000190734863" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">bar</text>
+</g>
+<g transform="translate(568,316) rotate(-1080,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="19.2799px" font-style="normal" font-weight="400" x="-13.391666412353516" y="-7.7133331298828125" text-anchor="start" dominant-baseline="alphabetic">top</text>
+</g>
+<g transform="translate(312,452) rotate(-6120.000000000001,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-25.733333587646484" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">terminal</text>
+</g>
+<g transform="translate(446,580) rotate(-16200.000000000002,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-19.700000762939453" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">match</text>
+</g>
+<g transform="translate(576,476) rotate(-10080,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-15.283333778381348" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">case</text>
+</g>
+<g transform="translate(490,660) rotate(-9000,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-23.733333587646484" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">replace</text>
+</g>
+<g transform="translate(568,176) rotate(-1440,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-17.691667556762695" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">string</text>
+</g>
+<g transform="translate(724,284) rotate(-4320,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-19.316667556762695" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">plugin</text>
+</g>
+<g transform="translate(730,432) rotate(-7200,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-20.108333587646484" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">create</text>
+</g>
+<g transform="translate(596,612) rotate(-10080,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-22.116666793823242" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">bottom</text>
+</g>
+<g transform="translate(568,256) rotate(-16560,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-14.074999809265137" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">print</text>
+</g>
+<g transform="translate(660,240) rotate(-16560,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-13.675000190734863" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">tabs</text>
+</g>
+<g transform="translate(488,676) rotate(-3600,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-17.70833396911621" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">audio</text>
+</g>
+<g transform="translate(402,604) rotate(-2880,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-15.691666603088379" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">input</text>
+</g>
+<g transform="translate(488,692) rotate(-15120.000000000002,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-17.70833396911621" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">panel</text>
+</g>
+<g transform="translate(644,180) rotate(-17280,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-13.675000190734863" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">step</text>
+</g>
+<g transform="translate(694,548) rotate(-18000,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-24.125" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">remove</text>
+</g>
+<g transform="translate(840,468) rotate(-1800,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-39.40833282470703" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">occurrences</text>
+</g>
+<g transform="translate(502,404) rotate(-5040,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-11.666666984558105" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">fold</text>
+</g>
+<g transform="translate(502,420) rotate(-1080,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-12.074999809265137" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">add</text>
+</g>
+<g transform="translate(570,296) rotate(-11880.000000000002,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-13.274999618530273" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">side</text>
+</g>
+<g transform="translate(490,320) rotate(-10799.999999999998,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-9.25" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">full</text>
+</g>
+<g transform="translate(806,508) rotate(-15120.000000000002,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-28.96666717529297" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">definition</text>
+</g>
+<g transform="translate(548,512) rotate(-9360.000000000002,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="14.4599px" font-style="normal" font-weight="400" x="-9.649999618530273" y="-5.7866664886474615" text-anchor="start" dominant-baseline="alphabetic">cut</text>
+</g>
+<g transform="translate(492,286) rotate(-4680.000000000001,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-15.550000190734863" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">volume</text>
+</g>
+<g transform="translate(574,386) rotate(-7560.000000000001,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.149999618530273" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">fifteen</text>
+</g>
+<g transform="translate(508,386) rotate(-5040,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-6.708333492279053" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">ten</text>
+</g>
+<g transform="translate(446,358) rotate(-10080,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.683333396911621" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">trigger</text>
+</g>
+<g transform="translate(586,438) rotate(-2520,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-12.875" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">action</text>
+</g>
+<g transform="translate(630,402) rotate(-6839.999999999999,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.675000190734863" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">format</text>
+</g>
+<g transform="translate(420,442) rotate(-17280,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-15.816666603088379" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">convert</text>
+</g>
+<g transform="translate(572,406) rotate(-6120.000000000001,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-15.024999618530273" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">reopen</text>
+</g>
+<g transform="translate(502,218) rotate(-5040,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.941666603088379" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">closed</text>
+</g>
+<g transform="translate(512,442) rotate(-12600,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-10.466666221618652" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">gedit</text>
+</g>
+<g transform="translate(458,258) rotate(-8640,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.416666984558105" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">reload</text>
+</g>
+<g transform="translate(628,442) rotate(-18000,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-16.09166717529297" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">percent</text>
+</g>
+<g transform="translate(572,138) rotate(-6120.000000000001,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-23.600000381469727" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">subregions</text>
+</g>
+<g transform="translate(262,282) rotate(-12240.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-21.191667556762695" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">developer</text>
+</g>
+<g transform="translate(720,242) rotate(-6479.999999999999,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-23.58333396911621" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">bookmarks</text>
+</g>
+<g transform="translate(630,562) rotate(-720,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-16.625" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">console</text>
+</g>
+<g transform="translate(536,370) rotate(-13320,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-7.7833333015441895" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">tool</text>
+</g>
+<g transform="translate(456,294) rotate(-4320,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-12.341666221618652" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">rotate</text>
+</g>
+<g transform="translate(246,416) rotate(0,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-15.550000190734863" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">choose</text>
+</g>
+<g transform="translate(582,342) rotate(-13679.999999999998,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.133333206176758" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">empty</text>
+</g>
+<g transform="translate(468,386) rotate(-2160,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-7.7833333015441895" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">quit</text>
+</g>
+<g transform="translate(574,414) rotate(-13320,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-9.383333206176758" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">user</text>
+</g>
+<g transform="translate(584,238) rotate(-11520,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-15.824999809265137" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">regions</text>
+</g>
+<g transform="translate(460,246) rotate(-15120.000000000002,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-12.333333015441895" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">frame</text>
+</g>
+<g transform="translate(626,286) rotate(-15480,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-13.149999618530273" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">unfold</text>
+</g>
+<g transform="translate(770,430) rotate(-14400,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-16.891666412353516" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">recently</text>
+</g>
+<g transform="translate(490,498) rotate(-16200.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-9.658333778381348" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">redo</text>
+</g>
+<g transform="translate(618,348) rotate(0,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-7.241666793823242" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">link</text>
+</g>
+<g transform="translate(662,194) rotate(-15839.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-17.95833396911621" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">seconds</text>
+</g>
+<g transform="translate(636,606) rotate(-3239.9999999999995,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-15.274999618530273" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">symbol</text>
+</g>
+<g transform="translate(280,394) rotate(-1080,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-14.475000381469727" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">source</text>
+</g>
+<g transform="translate(718,228) rotate(0,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-18.5" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">directory</text>
+</g>
+<g transform="translate(500,206) rotate(-10080,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-12.066666603088379" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">erase</text>
+</g>
+<g transform="translate(548,626) rotate(-10080,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-16.08333396911621" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">reverse</text>
+</g>
+<g transform="translate(622,474) rotate(-9720,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-10.191666603088379" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">error</text>
+</g>
+<g transform="translate(378,610) rotate(-11880.000000000002,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-16.899999618530273" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">warning</text>
+</g>
+<g transform="translate(154,374) rotate(-15480,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-17.983333587646484" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">highlight</text>
+</g>
+<g transform="translate(678,582) rotate(-6479.999999999999,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-17.96666717529297" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">instance</text>
+</g>
+<g transform="translate(468,374) rotate(-3239.9999999999995,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-7.775000095367432" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">zen</text>
+</g>
+<g transform="translate(682,182) rotate(-5040,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-21.174999237060547" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">command</text>
+</g>
+<g transform="translate(498,702) rotate(-6839.999999999999,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-14.225000381469727" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">trailing</text>
+</g>
+<g transform="translate(652,614) rotate(-3959.9999999999995,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-20.125" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">operation</text>
+</g>
+<g transform="translate(720,218) rotate(-15839.999999999998,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-20.108333587646484" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">character</text>
+</g>
+<g transform="translate(830,334) rotate(-7919.999999999999,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-17.433332443237305" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">explorer</text>
+</g>
+<g transform="translate(338,166) rotate(-8640,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="9.63994px" font-style="normal" font-weight="400" x="-22.25" y="-3.8559754240000004" text-anchor="start" dominant-baseline="alphabetic">markdown</text>
+</g>
+<g transform="translate(506,422) rotate(-1080,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.166666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">activation</text>
+</g>
+<g transform="translate(538,374) rotate(-16920,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.349999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">entry</text>
+</g>
+<g transform="translate(554,430) rotate(-16200.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.758333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">shortcuts</text>
+</g>
+<g transform="translate(572,478) rotate(-2520,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.841666221618652" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">showing</text>
+</g>
+<g transform="translate(474,446) rotate(-15839.999999999998,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.9666666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">reader</text>
+</g>
+<g transform="translate(510,378) rotate(-9720,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.349999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">caret</text>
+</g>
+<g transform="translate(468,390) rotate(-5040,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.366666793823242" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">normal</text>
+</g>
+<g transform="translate(468,394) rotate(-4680.000000000001,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.241666793823242" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">hidden</text>
+</g>
+<g transform="translate(412,462) rotate(-720,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.908333778381348" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">temporarily</text>
+</g>
+<g transform="translate(496,406) rotate(-11880.000000000002,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.275000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">size</text>
+</g>
+<g transform="translate(468,398) rotate(-6479.999999999999,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.550000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">com</text>
+</g>
+<g transform="translate(390,438) rotate(-5399.999999999999,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-13.258333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">presentation</text>
+</g>
+<g transform="translate(528,178) rotate(-2160,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-12.449999809265137" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">incremental</text>
+</g>
+<g transform="translate(738,362) rotate(-12240.000000000002,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-18.325000762939453" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">counterclockwise</text>
+</g>
+<g transform="translate(602,362) rotate(-13679.999999999998,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.291666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">clockwise</text>
+</g>
+<g transform="translate(504,374) rotate(-4320,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-3.883333444595337" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">info</text>
+</g>
+<g transform="translate(390,502) rotate(-4320,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-17.274999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">non-incremental</text>
+</g>
+<g transform="translate(538,410) rotate(-15839.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.366666793823242" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">hand</text>
+</g>
+<g transform="translate(572,346) rotate(-2520,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.175000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">number</text>
+</g>
+<g transform="translate(526,262) rotate(-3239.9999999999995,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.641666412353516" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">browsing</text>
+</g>
+<g transform="translate(572,298) rotate(-15480,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.566666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">address</text>
+</g>
+<g transform="translate(426,430) rotate(-15120.000000000002,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.774999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">complete</text>
+</g>
+<g transform="translate(468,402) rotate(-3959.9999999999995,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.633333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">leaving</text>
+</g>
+<g transform="translate(496,386) rotate(-10799.999999999998,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-3.883333444595337" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">box</text>
+</g>
+<g transform="translate(474,178) rotate(-7919.999999999999,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-14.466666221618652" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">autocomplete</text>
+</g>
+<g transform="translate(538,414) rotate(-12240.000000000002,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.150000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">listing</text>
+</g>
+<g transform="translate(468,362) rotate(-9360.000000000002,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.691666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">goto</text>
+</g>
+<g transform="translate(540,422) rotate(-13679.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.050000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">undone</text>
+</g>
+<g transform="translate(548,514) rotate(-8280,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.108333587646484" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">filename</text>
+</g>
+<g transform="translate(476,238) rotate(-14039.999999999998,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.566666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">browser</text>
+</g>
+<g transform="translate(400,334) rotate(-15120.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.166666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">spelling</text>
+</g>
+<g transform="translate(630,394) rotate(-4680.000000000001,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.2833333015441895" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">check</text>
+</g>
+<g transform="translate(468,412) rotate(-10440,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.758333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">place</text>
+</g>
+<g transform="translate(508,578) rotate(-11520,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.291666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">settings</text>
+</g>
+<g transform="translate(536,230) rotate(-3239.9999999999995,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.100000381469727" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">contents</text>
+</g>
+<g transform="translate(506,334) rotate(-13679.999999999998,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.758333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">lower</text>
+</g>
+<g transform="translate(440,386) rotate(-6839.999999999999,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.691666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">onto</text>
+</g>
+<g transform="translate(440,382) rotate(-11520,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.558333396911621" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">hide</text>
+</g>
+<g transform="translate(468,418) rotate(-12240.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.233333110809326" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">palette</text>
+</g>
+<g transform="translate(454,298) rotate(-2160,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.908333778381348" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">keyboard</text>
+</g>
+<g transform="translate(440,378) rotate(-5399.999999999999,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.041666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">unmute</text>
+</g>
+<g transform="translate(438,390) rotate(-17639.999999999996,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.166666507720947" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">upper</text>
+</g>
+<g transform="translate(472,346) rotate(-15839.999999999998,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.758333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">context</text>
+</g>
+<g transform="translate(382,560) rotate(-10440,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-15.274999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">drag-and-drop</text>
+</g>
+<g transform="translate(590,442) rotate(-17639.999999999996,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.958333492279053" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">cancel</text>
+</g>
+<g transform="translate(574,258) rotate(-11880.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.300000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">autoscroll</text>
+</g>
+<g transform="translate(518,430) rotate(-5760,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.900000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">guide</text>
+</g>
+<g transform="translate(494,426) rotate(-16200.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.891666889190674" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">make</text>
+</g>
+<g transform="translate(624,478) rotate(-17280,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.649999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">play/pause</text>
+</g>
+<g transform="translate(440,370) rotate(-2880,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.625" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">spaces</text>
+</g>
+<g transform="translate(440,400) rotate(0,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.358333110809326" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">mute</text>
+</g>
+<g transform="translate(500,198) rotate(-5399.999999999999,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.100000381469727" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">increase</text>
+</g>
+<g transform="translate(530,324) rotate(0,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-3.4833333492279053" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">run</text>
+</g>
+<g transform="translate(574,462) rotate(-3239.9999999999995,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.908333778381348" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">decrease</text>
+</g>
+<g transform="translate(544,426) rotate(-5040,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.300000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">location</text>
+</g>
+<g transform="translate(278,386) rotate(-12240.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.574999809265137" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">bookmark</text>
+</g>
+<g transform="translate(496,382) rotate(-14039.999999999998,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-3.866666555404663" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">first</text>
+</g>
+<g transform="translate(468,426) rotate(-5760,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.766666889190674" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">second</text>
+</g>
+<g transform="translate(440,366) rotate(-1440,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.683333396911621" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">third</text>
+</g>
+<g transform="translate(440,406) rotate(-8640,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.275000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">split</text>
+</g>
+<g transform="translate(438,362) rotate(-2520,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.025000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">folder</text>
+</g>
+<g transform="translate(396,286) rotate(-2880,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.375" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">references</text>
+</g>
+<g transform="translate(550,362) rotate(-9000,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-2.4000000953674316" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">fix</text>
+</g>
+<g transform="translate(642,358) rotate(-6479.999999999999,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.0916666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">moves</text>
+</g>
+<g transform="translate(518,454) rotate(-4680.000000000001,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">peek</text>
+</g>
+<g transform="translate(464,334) rotate(-2880,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.083333492279053" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">hints</text>
+</g>
+<g transform="translate(376,302) rotate(-1440,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.25" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">breakpoint</text>
+</g>
+<g transform="translate(502,622) rotate(-2880,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.983333587646484" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">parameter</text>
+</g>
+<g transform="translate(624,486) rotate(-17280,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.108333587646484" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">continue</text>
+</g>
+<g transform="translate(266,362) rotate(-8640,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-17.674999237060547" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">window/instance</text>
+</g>
+<g transform="translate(378,354) rotate(-14400,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.558333396911621" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">reveal</text>
+</g>
+<g transform="translate(574,374) rotate(-14400,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">keep</text>
+</g>
+<g transform="translate(440,414) rotate(-2160,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.691666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">path</text>
+</g>
+<g transform="translate(608,378) rotate(-9000,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.175000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">rename</text>
+</g>
+<g transform="translate(624,490) rotate(-12600,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.108333587646484" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">navigate</text>
+</g>
+<g transform="translate(544,454) rotate(-15120.000000000002,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.9083333015441895" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">expand</text>
+</g>
+<g transform="translate(596,402) rotate(-15839.999999999998,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.275000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">files</text>
+</g>
+<g transform="translate(618,330) rotate(-14400,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.958333492279053" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">details</text>
+</g>
+<g transform="translate(384,478) rotate(-16560,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.508333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">extensions</text>
+</g>
+<g transform="translate(398,326) rotate(-3600,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.708333492279053" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">debug</text>
+</g>
+<g transform="translate(280,378) rotate(-9000,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.274999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">visibility</text>
+</g>
+<g transform="translate(454,274) rotate(-15120.000000000002,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.416666507720947" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">shrink</text>
+</g>
+<g transform="translate(440,346) rotate(-11880.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">control</text>
+</g>
+<g transform="translate(624,214) rotate(-4680.000000000001,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-16.733333587646484" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">prompt/terminal</text>
+</g>
+<g transform="translate(570,278) rotate(-16920,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.699999809265137" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">output</text>
+</g>
+<g transform="translate(496,378) rotate(-10799.999999999998,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.008333206176758" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">trim</text>
+</g>
+<g transform="translate(486,536) rotate(-10440,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.824999809265137" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">symbols</text>
+</g>
+<g transform="translate(502,222) rotate(-11520,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.908333778381348" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">problems</text>
+</g>
+<g transform="translate(464,562) rotate(-9720,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-12.050000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">whitespace</text>
+</g>
+<g transform="translate(440,422) rotate(-2880,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.9083333015441895" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">change</text>
+</g>
+<g transform="translate(486,542) rotate(-11160,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.925000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">language</text>
+</g>
+<g transform="translate(512,358) rotate(-3239.9999999999995,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-3.741666555404663" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">exit</text>
+</g>
+<g transform="translate(624,498) rotate(-360,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.649999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">suggestion</text>
+</g>
+<g transform="translate(398,382) rotate(-16920,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.025000095367432" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">hover</text>
+</g>
+<g transform="translate(564,566) rotate(-360,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.708333015441895" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">add-ons</text>
+</g>
+<g transform="translate(440,342) rotate(-12959.999999999998,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.083333492279053" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">tools</text>
+</g>
+<g transform="translate(440,338) rotate(-6120.000000000001,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.425000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">web</text>
+</g>
+<g transform="translate(388,506) rotate(-2880,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.524999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">downloads</text>
+</g>
+<g transform="translate(454,622) rotate(-1440,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-25.950000762939453" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">layout(horizontal/vertical</text>
+</g>
+<g transform="translate(492,482) rotate(-4320,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">private</text>
+</g>
+<g transform="translate(518,462) rotate(-2880,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">jump</text>
+</g>
+<g transform="translate(398,322) rotate(-10080,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.691666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">recent</text>
+</g>
+<g transform="translate(682,398) rotate(-7560.000000000001,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.766666412353516" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">inspector</text>
+</g>
+<g transform="translate(386,510) rotate(-12240.000000000002,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.191666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">debugger</text>
+</g>
+<g transform="translate(560,186) rotate(-1800,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.641666412353516" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">responsive</text>
+</g>
+<g transform="translate(538,222) rotate(-12240.000000000002,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.099999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">design</text>
+</g>
+<g transform="translate(452,318) rotate(-3959.9999999999995,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.816666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">view</text>
+</g>
+<g transform="translate(564,314) rotate(-1440,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.366666793823242" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">toolbar</text>
+</g>
+<g transform="translate(556,178) rotate(-6839.999999999999,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.433333396911621" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">network</text>
+</g>
+<g transform="translate(444,446) rotate(-10799.999999999998,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-4.941666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">style</text>
+</g>
+<g transform="translate(452,310) rotate(-9000,0,0)">
+<text fill="#66d9ef" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.358333110809326" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">profiler</text>
+</g>
+<g transform="translate(626,462) rotate(-5399.999999999999,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-9.774999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">matching</text>
+</g>
+<g transform="translate(200,412) rotate(0,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-14.066666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">mute/unmute</text>
+</g>
+<g transform="translate(560,182) rotate(-14400,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.699999809265137" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">override</text>
+</g>
+<g transform="translate(350,350) rotate(-18000,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.425000190734863" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">cache</text>
+</g>
+<g transform="translate(466,406) rotate(-2880,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.349999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">reset</text>
+</g>
+<g transform="translate(442,374) rotate(-5399.999999999999,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.0333333015441895" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">home</text>
+</g>
+<g transform="translate(672,294) rotate(-15839.999999999998,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.975000381469727" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">unfoldall</text>
+</g>
+<g transform="translate(666,278) rotate(-5399.999999999999,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-10.716666221618652" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">integrated</text>
+</g>
+<g transform="translate(530,314) rotate(-5399.999999999999,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">wrap</text>
+</g>
+<g transform="translate(470,422) rotate(-14039.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.616666793823242" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">block</text>
+</g>
+<g transform="translate(664,342) rotate(-7200,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.041666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">outdent</text>
+</g>
+<g transform="translate(604,422) rotate(-12600,0,0)">
+<text fill="#f92772" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.0916666984558105" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">plain</text>
+</g>
+<g transform="translate(568,318) rotate(-14039.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-7.891666889190674" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">bracket</text>
+</g>
+<g transform="translate(530,310) rotate(-4320,0,0)">
+<text fill="#fd9720" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.224999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">used</text>
+</g>
+<g transform="translate(518,470) rotate(-14759.999999999998,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.625" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">order</text>
+</g>
+<g transform="translate(518,474) rotate(-17639.999999999996,0,0)">
+<text fill="#a6e22a" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-5.474999904632568" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">cycle</text>
+</g>
+<g transform="translate(426,494) rotate(-4680.000000000001,0,0)">
+<text fill="#a581ff" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.566666603088379" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">indent</text>
+</g>
+<g transform="translate(478,290) rotate(-14039.999999999998,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-6.1583333015441895" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">within</text>
+</g>
+<g transform="translate(348,346) rotate(-11160,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-8.283333778381348" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">link-text</text>
+</g>
+<g transform="translate(700,310) rotate(-3239.9999999999995,0,0)">
+<text fill="#a6e22d" stroke="none" font-family="Arial" font-size="4.81997px" font-style="normal" font-weight="400" x="-11.774999618530273" y="-1.9279877120000002" text-anchor="start" dominant-baseline="alphabetic">scratchpad</text>
+</g>
+</g>
+</svg>
