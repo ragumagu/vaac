@@ -20,9 +20,8 @@ def __docs__():
 class extractor():
     '''This is the extractor class.'''
 
-    def __init__(self):
-        self.applications = [['firefox', 'browser', 'mozilla-firefox', 'mozilla'], ['gedit', 'text-editor'], [
-            'code', 'ide', 'visual-studio-code', 'vs-code'], ['gnome-terminal', 'terminal']]
+    def __init__(self):        
+        self.applications = [['mozilla-firefox','mozilla','browser','firefox'], ['text-editor','gedit'], ['visual-studio-code','vs-code','code'], ['terminal','gnome-terminal']]
         code_shortcuts_file = open(
             "./data/code_keyboard_shortcuts.csv")  # Hardcoded string
         self.code_keyboard_shortcuts = list(csv.reader(code_shortcuts_file))
@@ -61,7 +60,7 @@ class extractor():
         for i in range(len(self.applications)):
             for app in self.applications[i]:
                 if app in string:
-                    new_app = self.applications[i][0]
+                    new_app = self.applications[i][-1]
                     string = string.replace(app, '').strip()
                     break
 
