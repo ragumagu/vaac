@@ -11,9 +11,9 @@ import time
 
 class executor():
     '''This is the Executor class.'''    
-    def __init__(self):
+    def __init__(self,s):
         self.platform = platform.system()
-
+        self.s = s
     def run(self,input_commands_list):
         '''This takes in, a list argument with:
                 command[0] = 'key' or 'type' or 'open' or 'focus'
@@ -33,11 +33,13 @@ class executor():
             for command in input_commands_list:
                 if command[0] == 'open':
                     Popen(command[1])
-                    time.sleep(1) #REMOVE THIS
-                    subprocess.run(["wmctrl", "-R", "shrinidhi@computer: ~/project/vaac"]) #REMOVE THIS                    
+                    time.sleep(1) #REMOVE THIS  
+                    subprocess.run(["wmctrl","-R",self.s])
+
                 elif command[0] == "focus":
                     subprocess.run(["wmctrl", "-R", command[1]])                
                 else:
                     c = command[:]
                     c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
                     subprocess.run(c)
+                    subprocess.run(["wmctrl","-R",self.s])

@@ -10,6 +10,10 @@ def __docs__():
             Text editor: Gedit.
             IDE: Visual Studio Code.
             Terminal: Gnome-terminal.
+
+    Commands can be chained using the word "and".
+    "open","focus","switch to" commands are also supported.
+    
     '''
 
 

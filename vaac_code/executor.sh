@@ -18,5 +18,4 @@ elif [ "$1" == "$type" ]; then
 	xdotool type $2
 fi
 
-wmctrl -R "shrinidhi@computer: ~/project/vaac" #REMOVE THIS
 echo "Returning from executor.sh"
