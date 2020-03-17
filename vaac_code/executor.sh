@@ -17,4 +17,5 @@ elif [ "$1" == "$type" ]; then
 	xdotool type $2
 fi
 
-xdotool key Alt+Tab
+#xdotool key Alt_L+Tab
+wmctrl -R "shrinidhi@computer: ~/project/vaac"

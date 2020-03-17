@@ -61,7 +61,7 @@ class extractor():
 			i+=1		
 		
 		print("Extractor: max_ratio:",max_ratio)
-		command = self.map[self.current_app][n][1:]
+		command = self.map[self.current_app][n][1:]		
 		command.append(self.current_app)
 		command.insert(0,"key") #REMOVE THIS. 
 		print("Extractor, sending command:",command)
