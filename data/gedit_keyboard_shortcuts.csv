@@ -34,9 +34,9 @@ move the selected word right one word,Alt+Right
 move the selected word left one word,Alt+Left
 undo the last action,Ctrl+z
 redo the last undone action,Ctrl+Shift+z
-cut the selected text or region and place it on the clipboard,Ctrl+x
-copy the selected text or region onto the clipboard,Ctrl+c
-paste the contents of the clipboard,Ctrl+v
+cut,Ctrl+x
+copy,Ctrl+c
+paste,Ctrl+v
 select all text in the file,Ctrl+a
 delete the current line,Ctrl+d
 move the selected line up one line,Alt+Up

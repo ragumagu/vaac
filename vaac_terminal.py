@@ -7,7 +7,7 @@ executorObj = executor()
 while True:
 	inputString = input("> ")
 	if inputString != "exit":		
-		command = extractorObj.extract(inputString)						
+		command = extractorObj.find_commands(inputString)						
 		executorObj.run(command)
 	else:
 		break

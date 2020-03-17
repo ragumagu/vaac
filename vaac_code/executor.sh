@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "In Executor.sh"
 if [ "$3" ]; then
 	echo "Executor.sh: Focusing" $3
 	wmctrl -R $3
@@ -17,5 +18,5 @@ elif [ "$1" == "$type" ]; then
 	xdotool type $2
 fi
 
-#xdotool key Alt_L+Tab
-wmctrl -R "shrinidhi@computer: ~/project/vaac"
+wmctrl -R "shrinidhi@computer: ~/project/vaac" #REMOVE THIS
+echo "Returning from executor.sh"
