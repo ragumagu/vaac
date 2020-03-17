@@ -2,7 +2,7 @@ from vaac_code.extractor import extractor
 from vaac_code.executor import executor
 import subprocess
 
-s = subprocess.run(["xdotool","getwindowfocus","getwindowname"])
+s = subprocess.getoutput("xdotool getwindowfocus getwindowname")
 
 extractorObj = extractor()
 executorObj = executor(s)

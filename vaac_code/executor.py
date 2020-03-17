@@ -13,7 +13,7 @@ class executor():
     '''This is the Executor class.'''    
     def __init__(self,s):
         self.platform = platform.system()
-        self.s = s
+        self.s = s        
     def run(self,input_commands_list):
         '''This takes in, a list argument with:
                 command[0] = 'key' or 'type' or 'open' or 'focus'
