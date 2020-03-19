@@ -885,7 +885,6 @@ previous,['go to previous tab nautilus']
 previous,['find previous terminal']
 previous,['switch to previous tab terminal']
 previous,['delete previous word terminal']
-previous,['Switch to previous input source']
 __________________________________________________
 word,['move the selected word right one word gedit']
 word,['move the selected word left one word gedit']
@@ -1274,7 +1273,6 @@ input,['focus next link or input field firefox']
 input,['focus previous link or input field firefox']
 input,['focus the page number input box firefox']
 input,['switch to next input source']
-input,['Switch to previous input source']
 __________________________________________________
 last,['undo the last action gedit']
 last,['redo the last undone action gedit']
@@ -1351,7 +1349,6 @@ __________________________________________________
 source,['page source firefox']
 source,['show source control code']
 source,['switch to next input source']
-source,['Switch to previous input source']
 __________________________________________________
 start,['move tab to start firefox']
 start,['start code']
@@ -1866,8 +1863,6 @@ lower,['convert the selected text to lower case gedit']
 __________________________________________________
 make,['run "make" in the current directory (with plugin) gedit']
 __________________________________________________
-maximization,['Toggle maximization state']
-__________________________________________________
 maximize,['maximize window']
 __________________________________________________
 moves,['toggle tab moves focus code']
@@ -1973,21 +1968,15 @@ spaces,['remove trailing spaces (with plugin) gedit']
 __________________________________________________
 spelling,['check spelling gedit']
 __________________________________________________
-state,['Toggle maximization state']
-__________________________________________________
 style,['style editor firefox']
 __________________________________________________
 suggestion,['trigger suggestion code']
-__________________________________________________
-Switch,['Switch to previous input source']
 __________________________________________________
 symbols,['show all symbols code']
 __________________________________________________
 temporarily,['toggle menu bar activation (showing it temporarily when hidden) firefox']
 __________________________________________________
 third,['focus into third editor group code']
-__________________________________________________
-Toggle,['Toggle maximization state']
 __________________________________________________
 toolbar,['developer toolbar firefox']
 __________________________________________________

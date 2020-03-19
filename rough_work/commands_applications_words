@@ -16,7 +16,6 @@ new
 find
 editor
 next
-toggle
 scroll
 page
 previous
@@ -278,11 +277,10 @@ spelling
 state
 style
 suggestion
-Switch
 symbols
 temporarily
 third
-Toggle
+toggle
 toolbar
 tools
 trash

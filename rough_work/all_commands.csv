@@ -343,7 +343,7 @@ show the notification list,Super+v
 show the overview,Super+s
 show the run command prompt,Alt+F2
 switch to next input source,Super+Space
-Switch to previous input source,Shift+Super+Space
+switch to previous input source,Shift+Super+Space
 turn screen reader on,Alt+Super+S
 turn screen reader off,Alt+Super+S
 turn zoom on,Alt+Super+8
@@ -357,7 +357,7 @@ maximize window,Super+Page_Up
 move window,Alt+F7
 resize window,Alt+F8
 restore window,Super+Down
-Toggle maximization state,Alt+F10
+toggle maximization state,Alt+F10
 view split on left,Super+left
 view split on right,Super+Right
 new window,Ctrl+n

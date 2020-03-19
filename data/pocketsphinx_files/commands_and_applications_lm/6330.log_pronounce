@@ -1,0 +1,377 @@
+LtoS pronounce: verbosity is 1
+MAKE - Morpheme: MAKE 
+AS - Morpheme: AS 
+BOOKMARKS - Morpheme: BOOK MARK S 
+EMPTY - Morpheme: EMPTY 
+HISTORY - Morpheme: HISTORY 
+OVERRIDE - Morpheme: OVER RIDE 
+SHOWING - Morpheme: SHOW ING 
+WITH - Morpheme: WITH 
+COM - By LtoS rules
+I think this is a non-word: /
+I think this is a non-word: 1
+ONE - Morpheme: ONE 
+I think this is a non-word: 10
+ONE - Morpheme: ONE 
+ZERO - Morpheme: ZERO 
+I think this is a non-word: 2
+TWO - Morpheme: TWO 
+I think this is a non-word: 3
+THREE - Morpheme: THREE 
+I think this is a non-word: 4
+FOUR - Morpheme: FOUR 
+I think this is a non-word: 5
+FIVE - Morpheme: FIVE 
+I think this is a non-word: 6
+SIX - Morpheme: SIX 
+I think this is a non-word: 7
+SEVEN - Morpheme: SEVEN 
+I think this is a non-word: 8
+EIGHT - Morpheme: EIGHT 
+I think this is a non-word: 9
+NINE - Morpheme: NINE 
+A - Main 
+ABOVE - Main 
+ACTION - Main 
+ACTIVATE - Main 
+ACTIVATION - Main 
+ACTIVE - Main 
+ACTIVITIES - Main 
+ADD - Main 
+ADD - Main [base] 
+ONS - Main [base] 
+ADDRESS - Main 
+AGAIN - Main 
+ALL - Main 
+AN - Main 
+AND - Main 
+APP - Main 
+APPLICATION - Main 
+APPLICATIONS - Main 
+AREA - Main 
+AS - Main 
+AS - Morpheme: AS 
+AT - Main 
+AUDIO - Main 
+AUTOCOMPLETE - Morpheme: AUTO COMPLETE 
+AUTOSCROLL - By LtoS rules
+BACK - Main 
+BAR - Main 
+BEGINNING - Main 
+BELOW - Main 
+BLOCK - Main 
+BOOKMARK - Main 
+BOOKMARKS - Main 
+BOTTOM - Main 
+BOX - Main 
+BRACKET - Main 
+BREAKPOINT - Morpheme: BREAK POINT 
+BROWSER - Main 
+BROWSING - Main 
+BY - Main 
+CACHE - Morpheme: CACHE 
+CANCEL - Main 
+CARET - By LtoS rules
+CASE - Main 
+CHANGE - Main 
+CHARACTER - Main 
+CHECK - Main 
+CHOOSE - Main 
+CLEAR - Main 
+CLIPBOARD - Main 
+CLOCKWISE - Main 
+CLOSE - Main 
+CLOSED - Main 
+CODE - Main 
+COMMAND - Main 
+COMMENT - Main 
+COMPLETE - Main 
+CONSOLE - Main 
+CONTEXT - Main 
+CONTINUE - Main 
+CONTROL - Main 
+CONVERT - Main 
+COPY - Main 
+COUNTERCLOCKWISE - Main 
+CREATE - Main 
+CURRENT - Main 
+CURSOR - Main 
+CUT - Main 
+CYCLE - Main 
+DEBUG - Main 
+DEBUGGER - Morpheme: DE BUGGER 
+DECREASE - Main 
+DEFAULT - Main 
+DEFINITION - Main 
+DELETE - Main 
+DESIGN - Main 
+DETAILS - Main 
+DEVELOPER - Main 
+DIRECTLY - Main 
+DIRECTORY - Main 
+DOCUMENT - Main 
+DOWN - Main 
+DOWNLOADS - Main 
+DRAG - Main [base] 
+AND - Main [base] 
+DROP - Main [base] 
+EACH - Main 
+EDITOR - Main 
+END - Main 
+ENTER - Main 
+ENTRY - Main 
+ERASE - Main 
+ERROR - Main 
+EXIT - Main 
+EXPAND - Main 
+EXPLORER - Main 
+EXTENSIONS - Main 
+FIELD - Main 
+FIFTEEN - Main 
+FILE - Main 
+FILE - Morpheme: FILE 
+FILENAME - Morpheme: FILE NAME 
+FILES - Main 
+FIND - Main 
+FIREFOX - Morpheme: FIRE FOX 
+FIRST - Main 
+FIX - Main 
+FOCUS - Main 
+FOLD - Main 
+FOLDER - Main 
+FORMAT - Main 
+FORWARD - Main 
+FRAME - Main 
+FROM - Main 
+FULL - Main 
+GEDIT - By LtoS rules
+GO - Main 
+GOTO - Main 
+GROUP - Main 
+GUIDE - Main 
+HAND - Main 
+HELP - Main 
+HIDDEN - Main 
+HIDDEN - Morpheme: HID EN 
+HIDE - Main 
+HIGHLIGHT - Main 
+HINTS - Main 
+HISTORY - Main 
+HOME - Main 
+HOVER - Main 
+IN - Main 
+INCREASE - Main 
+INCREMENTAL - Main 
+INDENT - Main 
+INFO - Main 
+INPUT - Main 
+INSERT - Main 
+INSPECTOR - Main 
+INSTANCE - Main 
+INTEGRATED - Main 
+INTO - Main 
+INVERT - Main 
+IT - Main 
+ITEM - Main 
+ITEMS - Main 
+JUMP - Main 
+KEEP - Main 
+KEYBOARD - Main 
+LANGUAGE - Main 
+LAST - Main 
+LAYOUT - Morpheme: LAY OUT 
+HORIZONTAL - Morpheme: HORIZONTAL 
+VERTICAL - Morpheme: VERTICAL 
+LEAVING - Main 
+LEFT - Main 
+LIBRARY - Main 
+LINE - Main 
+LINE - Morpheme: LINE 
+LINK - Main 
+LINK - Main [base] 
+TEXT - Main [base] 
+LIST - Main 
+LISTING - Main 
+LOCATION - Main 
+LOCK - Main 
+LOG - Main 
+LOWER - Main 
+MARKDOWN - Main 
+MATCH - Main 
+MATCHING - Main 
+MAXIMIZATION - Main 
+MAXIMIZE - Main 
+MENU - Main 
+MODE - Main 
+MONITOR - Main 
+MOST - Main 
+MOVE - Main 
+MOVES - Main 
+MUTE - Main 
+MUTE - Morpheme: MUTE 
+UNMUTE - Morpheme: UN MUTE 
+NAUTILUS - Main 
+NAVIGATE - Main 
+NETWORK - Main 
+NEW - Main 
+NEXT - Main 
+NON - Main [base] 
+INCREMENTAL - Main [base] 
+NORMAL - Main 
+NOTIFICATION - Main 
+NUMBER - Main 
+OCCURRENCES - Main 
+OF - Main 
+OFF - Main 
+ON - Main 
+ONE - Main 
+ONLY - Main 
+OPEN - Main 
+OPERATION - Main 
+OR - Main 
+ORDER - Main 
+OUT - Main 
+OUTDENT - Morpheme: OUT DENT 
+OUTPUT - Main 
+OVER - Main 
+OVERVIEW - Main 
+PAGE - Main 
+PALETTE - Main 
+PANEL - Main 
+PARAMETER - Main 
+PASTE - Main 
+PATH - Main 
+PEEK - Main 
+PERCENT - Main 
+PERMANENTLY - Main 
+PICTURES - Main 
+PLAIN - Main 
+PLAY - Morpheme: PLAY 
+PAUSE - Morpheme: PAUSE 
+PLUGIN - Morpheme: PLUG IN 
+PRESENTATION - Main 
+PREVIEW - Main 
+PREVIOUS - Main 
+PRINT - Main 
+PRIVATE - Main 
+PROBLEMS - Main 
+PROFILER - Morpheme: PROFILE ER 
+PROMPT - Main 
+PROMPT - Morpheme: PROMPT 
+TERMINAL - Morpheme: TERMINE AL 
+PROPERTIES - Main 
+QUICK - Main 
+QUIT - Main 
+READER - Main 
+RECENT - Main 
+RECENTLY - Main 
+RECORD - Main 
+REDO - Main 
+REFERENCES - Main 
+REFRESH - Main 
+REGION - Main 
+REGIONS - Main 
+RELOAD - Main 
+REMOVE - Main 
+RENAME - Main 
+REOPEN - Main 
+REPLACE - Main 
+RESET - Main 
+RESIZE - Morpheme: RE SIZE 
+RESPONSIVE - Main 
+RESTORE - Main 
+REVEAL - Main 
+REVERSE - Main 
+RIGHT - Main 
+ROTATE - Main 
+RUN - Main 
+SAVE - Main 
+SCRATCHPAD - Morpheme: SCRATCH PAD 
+SCREEN - Main 
+SCREENCAST - Morpheme: SCREEN CAST 
+SCREENSHOT - Morpheme: SCREEN SHOT 
+SCROLL - Main 
+SEARCH - Main 
+SECOND - Main 
+SECONDS - Main 
+SEEK - Main 
+SELECT - Main 
+SELECTED - Main 
+SELECTION - Main 
+SELECTION - Morpheme: SELECT ION 
+SETTINGS - Main 
+SHORT - Main 
+SHORTCUTS - Main 
+SHOW - Main 
+SHRINK - Main 
+SIDE - Main 
+SIDEBAR - Main 
+SIZE - Main 
+SOURCE - Main 
+SPACE - Main 
+SPACES - Main 
+SPELLING - Main 
+SPLIT - Main 
+START - Main 
+STATE - Main 
+STEP - Main 
+STOP - Main 
+STRING - Main 
+STYLE - Main 
+SUBREGIONS - Morpheme: SUB REG ION S 
+SUGGESTION - Main 
+SWITCH - Main 
+SYMBOL - Main 
+SYMBOL - Morpheme: SYMBOL 
+SYMBOLS - Main 
+TAB - Main 
+TABS - Main 
+TEMPORARILY - Main 
+TEN - Main 
+TERMINAL - Main 
+TEXT - Main 
+TEXT - Morpheme: TEXT 
+THE - Main 
+THIRD - Main 
+THIS - Main 
+THROUGH - Main 
+TO - Main 
+TOGGLE - Main 
+TOOL - Main 
+TOOLBAR - Main 
+TOOLS - Main 
+TOP - Main 
+TRAILING - Main 
+TRASH - Main 
+TRIGGER - Main 
+TRIM - Main 
+TURN - Main 
+UNDO - Main 
+UNDONE - Main 
+UNFOLD - Main 
+UNFOLDALL - Morpheme: UN FOLD ALL 
+UNMUTE - Morpheme: UN MUTE 
+UP - Main 
+UPPER - Main 
+USED - Main 
+USER - Main 
+VIEW - Main 
+VISIBILITY - Main 
+VOLUME - Main 
+WARNING - Main 
+WEB - Main 
+WHEN - Main 
+WHITESPACE - Morpheme: WHITE SPACE 
+WINDOW - Main 
+WINDOW - Morpheme: WINDOW 
+INSTANCE - Morpheme: INSTANCE 
+WINDOWS - Main 
+WITH - Main 
+WITHIN - Main 
+WORD - Main 
+WORKING - Main 
+WORKSPACE - Morpheme: WORK SPACE 
+WRAP - Main 
+ZEN - Main 
+ZOOM - Main 
+

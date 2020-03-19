@@ -459,7 +459,6 @@ previous,['find previous']
 previous,['previous page']
 previous,['previous tab group']
 previous,['find the previous instance of the string']
-previous,['Switch to previous input source']
 previous,['go to previous tab']
 previous,['find previous']
 previous,['switch to previous tab']
@@ -852,7 +851,6 @@ input,['focus next link or input field']
 input,['focus previous link or input field']
 input,['focus the page number input box']
 input,['switch to next input source']
-input,['Switch to previous input source']
 __________________________________________________
 last,['undo last cursor operation']
 last,['move last selection to next find match']
@@ -929,7 +927,6 @@ __________________________________________________
 source,['show source control']
 source,['page source']
 source,['switch to next input source']
-source,['Switch to previous input source']
 __________________________________________________
 start,['start']
 start,['move tab to start']
@@ -1465,8 +1462,6 @@ lower,['convert the selected text to lower case']
 __________________________________________________
 make,['run "make" in the current directory (with plugin)']
 __________________________________________________
-maximization,['Toggle maximization state']
-__________________________________________________
 maximize,['maximize window']
 __________________________________________________
 moves,['toggle tab moves focus']
@@ -1572,21 +1567,15 @@ spaces,['remove trailing spaces (with plugin)']
 __________________________________________________
 spelling,['check spelling']
 __________________________________________________
-state,['Toggle maximization state']
-__________________________________________________
 style,['style editor']
 __________________________________________________
 suggestion,['trigger suggestion']
-__________________________________________________
-Switch,['Switch to previous input source']
 __________________________________________________
 symbols,['show all symbols']
 __________________________________________________
 temporarily,['toggle menu bar activation (showing it temporarily when hidden)']
 __________________________________________________
 third,['focus into third editor group']
-__________________________________________________
-Toggle,['Toggle maximization state']
 __________________________________________________
 toolbar,['developer toolbar']
 __________________________________________________

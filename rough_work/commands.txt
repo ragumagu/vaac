@@ -343,7 +343,7 @@ show the notification list
 show the overview
 show the run command prompt
 switch to next input source
-Switch to previous input source
+switch to previous input source
 turn screen reader on
 turn screen reader off
 turn zoom on
@@ -357,7 +357,7 @@ maximize window
 move window
 resize window
 restore window
-Toggle maximization state
+toggle maximization state
 view split on left
 view split on right
 new window
