@@ -23,15 +23,15 @@ class executor():
             The target application name is optional: if not provided, the key_stroke is sent to the current window.
             Usage examples:
                 >>> executor.run(['key','ctrl+a', 'app']) # To send keys to app.
-                >>> executor.run(['key','F11']) # Sends key F11 to current window.
                 >>> executor.run(['type','this is my name','editor']) # To type into a text editor.
                 >>> executor.run(['open','app']) # Opens app
+                >>> executor.run(['focus','app']) # Focus app
                 
         '''
         print("Executor run received",input_commands_list)
         if self.platform == 'Linux':
             for command in input_commands_list:
-                if command[0] == 'open':
+                if command[0] == "open":
                     Popen(command[1])
                     time.sleep(1) #REMOVE THIS  
                     subprocess.run(["wmctrl","-R",self.s])

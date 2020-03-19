@@ -2,7 +2,7 @@ hide all normal windows,Ctrl+Super+d
 move to workspace above,Super+Page_Up
 move to workspace below,Super+Page_Down
 move window one monitor down,Shift+Super+Page_Down
-move window one monitor to the keft,Shift+Super+Page_Left
+move window one monitor to the left,Shift+Super+Page_Left
 move window one monitor up,Shift+Super+Page_Up
 move window one monitor to the right,Shift+Super+Page_Right
 move window one workspace down,Shift+Super+Page_Down

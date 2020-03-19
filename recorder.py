@@ -34,7 +34,10 @@ print("Pressing unexpected keys will terminate the program.")
 
 getch = _GetchUnix()
 
-input_strings = ['copy firefox','paste gedit','open code']
+fileids = open("./data/pocketsphinx_files/recordings.fileids","a")
+transcription = open("./data/pocketsphinx_files/recordings.transcription","a")
+
+input_strings = []
 n = 0
 i = 0
 number_of_recordings_per_command = 20
@@ -51,7 +54,7 @@ while n<len(input_strings):
             # Recording
             print("\rRecording... Press k to stop recording.",end="")
             
-            p = Popen(['exec arecord -f S16_LE -r 16000 test.wav'],stdin=PIPE, stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,shell=True)
+            p = Popen(['exec arecord -f S16_LE -r 16000 /tmp/test.wav'],stdin=PIPE, stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,shell=True)
             previous = command
 
         elif command == "k" and previous == "j":        
@@ -63,8 +66,11 @@ while n<len(input_strings):
         elif command == "l" and previous == "k":
             # save
             print("Saving...")
-            fname = "./data/recordings/recording"+str(n)+"_"+str(i)+".wav"
-            subprocess.run(['mv','test.wav',fname])
+            fname = "./data/recordings/recording"+str(n)+"_"+str(i)
+            subprocess.run(['mv','/tmp/test.wav',fname+".wav"])
+            fileids.write(fname+"\n")
+            transcription.write("<s> "+command.upper()+" </s>\n")
+
             i += 1
             print("\nRead:", input_strings[n])
             print("\rPress j to start recording.",end="")

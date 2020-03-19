@@ -1,9 +1,4 @@
-code
-firefox
-gedit
 tab
-terminal
-nautilus
 move
 line
 switch
@@ -26,11 +21,11 @@ zoom
 group
 current
 focus
-left
 right
 delete
 document
 end
+left
 selection
 copy
 screen
@@ -103,6 +98,7 @@ split
 step
 string
 tabs
+terminal
 application
 bookmarks
 character
@@ -121,6 +117,7 @@ fifteen
 files
 format
 frame
+gedit
 hidden
 highlight
 home
@@ -223,6 +220,7 @@ keep
 language
 layout(horizontal/vertical
 leaving
+left
 link-text
 list
 listing
