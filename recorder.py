@@ -1,14 +1,3 @@
-desc = '''
-This program prompts a command and records it in a file.
-Read the prompted command vocally into the microphone.
-Press j to start recording.
-Press k to stop recording.
-Press l to store recording.
-Press ; to re-record without storing.
-Press e or any other key to exit.
-INFO: Verify your recordings as often as possible.
-"WARNING: Before stopping recording, wait for a moment, in order to account for delay from the microphone.
-'''
 from subprocess import Popen, PIPE
 import subprocess
 import csv
@@ -16,11 +5,6 @@ import json
 import argparse
 import time
 
-parser = argparse.ArgumentParser(description=desc)
-parser.add_argument("--c", default=10,type=int, help="Takes number of repetitions of each command to be prompted.")
-
-args = parser.parse_args()
-count = args.c
 ### The _GetchUnix function replicates the functionality of the getch() method.
 
 class _GetchUnix:
@@ -40,32 +24,47 @@ class _GetchUnix:
 
 getch = _GetchUnix()
 
-print("This program prompts a command and records it in a file.")
-print("Read the prompted command vocally into the microphone.")
-print("Press j to start recording.")
-print("Press k to stop recording.")
-print("Press l to store recording.")
-print("Press ; to re-record without storing.")
-print("Press e or any other key to exit.")
-print("INFO: Verify your recordings as often as possible.")
-print("WARNING: Before stopping recording, wait for a moment, in order to account for delay from the microphone.")
+desc = '''
+This program prompts a command and records it in a file.
+Read the prompted command vocally into the microphone.
+Press j to start recording.
+Press k to stop recording.
+Press l to store recording.
+Press ; to re-record without storing.
+Press e or any other key to exit.
+INFO: Verify your recordings as often as possible.
+"WARNING: Before stopping recording, wait for a moment, in order to account for delay from the microphone.
+'''
+parser = argparse.ArgumentParser(description=desc)
+parser.add_argument("--count", default=10,type=int, help="Takes number of repetitions of each sentence in corpus to be prompted.")
+parser.add_argument("--corpus",required=True,type=str, help="Takes path to corpus file.")
+parser.add_argument("--modeldir",required=True,type=str, help="Takes path to model directory.")
 
-commands_file = open("./rough_work/commands_applications.txt")
-commands = list(csv.reader(commands_file))
+args = parser.parse_args()
+count = args.count
+corpus_file_string = args.corpus
+model_dir_string = args.modeldir
+corpus_file = open(corpus_file_string)
+corpus = list(csv.reader(corpus_file))
 
-with open("./data/recording_data.json",'r') as recording_data_file:
+with open(model_dir_string+"recording_progress.json",'r') as recording_data_file:
     recording_data = json.load(recording_data_file)
     i = recording_data["i"]
     n = recording_data["n"]
 
 def printStatus():
-    print("Read "+str(i+1)+" of "+str(count)+":\n\t", commands[n][0])
+    if n < len(corpus):
+        print("Read "+str(i+1)+" of "+str(count)+":\n\t", corpus[n][0])
 
+print(desc)
 print("___________________________________")
+print("Length of corpus:",len(corpus))
+print("Progress:")
+print("Number of corpus words done:",n)
 printStatus()
 print("Press j to start recording.",end="",flush=True)
 
-while n < len(commands):
+while n < len(corpus):
     ch = getch()
     if ch == "j":
         # Recording
@@ -81,13 +80,25 @@ while n < len(commands):
     elif ch == "l" and previous == "k":
         # save
         print("Saving...")
-        fname = "./data/recordings/recording"+str(n)+"_"+str(i)
+        fname = model_dir_string+"recordings/recording"+str(n)+"_"+str(i)
         subprocess.run(['mv','/tmp/test.wav',fname+".wav"])
         
         i += 1
         if i == count:
             i = 0
             n += 1        
+                
+        if n == len(corpus) and i == 0:
+            print("Hurray! You finished recording a complete set with "+str(count)+" repetitions.")
+            print()
+            recording_data["i"] = i
+            recording_data["n"] = n
+            with open(model_dir_string+"recording_progress.json",'w') as recording_data_file:
+                json.dump(recording_data,recording_data_file)
+        
+            corpus_file.close()
+            recording_data_file.close()
+            break
         printStatus()
         print("\rPress j to start recording.",end="")
         previous = ch
@@ -100,13 +111,9 @@ while n < len(commands):
         print()
         recording_data["i"] = i
         recording_data["n"] = n
-        with open("./data/recording_data.json",'w') as recording_data_file:
+        with open(model_dir_string+"recording_progress.json",'w') as recording_data_file:
             json.dump(recording_data,recording_data_file)
         
-        commands_file.close()
+        corpus_file.close()
         recording_data_file.close()
         break     
-    
-if n == len(commands) and i == count:
-    print("Hurray! You finished recording a complete set with "+str(count)+" repetitions.")
-
