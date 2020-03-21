@@ -29,7 +29,7 @@ unfold region,Ctrl+Shift+bracketright
 fold all subregions,Ctrl+k Ctrl+bracketleft
 unfold all subregions,Ctrl+k Ctrl+bracketright
 fold all regions,Ctrl+k Ctrl+0
-unfoldall regions,Ctrl+k Ctrl+j
+unfold all regions,Ctrl+k Ctrl+j
 add line comment,Ctrl+k Ctrl+c
 remove line comment,Ctrl+k Ctrl+u
 toggle line comment,Ctrl+slash

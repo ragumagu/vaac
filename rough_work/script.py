@@ -1,10 +1,6 @@
 import csv
-#with open("gedit_keyboard_shortcuts.csv","r") as csvfile:
 
-#with open("firefox_keyboard_shortcuts.csv","r") as csvfile:
-#with open("terminal_keyboard_shortcuts.csv","r") as csvfile:
-#with open("code_keyboard_shortcuts.csv","r") as csvfile:
-#with open("keyboard_shortcuts.csv","r") as csvfile:
+files = ["code_keyboard_shortcuts.csv","firefox_keyboard_shortcuts.csv","gedit_keyboard_shortcuts.csv","general_keyboard_shortcuts.csv","nautilus_keyboard_shortcuts.csv","terminal_keyboard_shortcuts.csv",]
 
 '''
 #The following generates partitions.
