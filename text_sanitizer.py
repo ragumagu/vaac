@@ -1,21 +1,8 @@
 import argparse
 import csv
 import re
-desc = '''This program sanitizes the input commands csv files, removes any extraneous characters, and converts input to proper representation. This sanitizer also and verifies if each keystroke is a valid X keysym string.
+desc = '''This program sanitizes the dataset: removes any extraneous characters, and converts input to proper representation. This sanitizer also verifies if each keystroke is a valid X keysym string.
 '''
-parser = argparse.ArgumentParser(description=desc)
-parser.add_argument("--csv",required=True,type=str, help="Takes path to csv file.")
-
-args = parser.parse_args()
-csv_file_string = args.csv
-input_file = open(csv_file_string,"r")
-csv_file = csv.reader(input_file)
-
-x_keysym_file = open("./data/keys/xdotool_keysym_names.csv")
-keysym = list(csv.reader(x_keysym_file))
-
-output = open("output","w")
-
 def get_repr(string):
     s2 = ""
     keys = string.split("+")
@@ -30,14 +17,33 @@ def get_repr(string):
     s2 = s2[:-1]
     return s2
 
-for sentence in csv_file:
-    s1 = re.sub('[\W_]+', ' ', sentence[0])
-    s1 = s1.upper()
-    strings = sentence[1].split(" ")
-    s2 = ""
-    for string in strings:
-        s2 = s2+ get_repr(string) + " "
-    s2 = s2[:-1]
-    output.write(s1+","+s2+"\n")
 
-output.close()
+files = ["./data/keys/code_keyboard_shortcuts.csv","./data/keys/firefox_keyboard_shortcuts.csv","./data/keys/gedit_keyboard_shortcuts.csv","./data/keys/general_keyboard_shortcuts.csv","./data/keys/nautilus_keyboard_shortcuts.csv","./data/keys/terminal_keyboard_shortcuts.csv"]
+
+for file_string in files:
+	input_file = open(file_string,"r")
+	csv_file = csv.reader(input_file)
+
+	x_keysym_file = open("./data/keys/xdotool_keysym_names.csv")
+	keysym = list(csv.reader(x_keysym_file))
+
+	output = open("/tmp/output","w")
+
+	for sentence in csv_file:
+		s1 = re.sub('[\W_]+', ' ', sentence[0])
+		s1 = s1.upper()
+		strings = sentence[1].split(" ")
+		s2 = ""
+		for string in strings:
+		    s2 = s2+ get_repr(string) + " "
+		s2 = s2[:-1]
+		output.write(s1+","+s2+"\n")
+
+	output.close()
+	
+	src = open("/tmp/output","r")
+	dest = open(file_string,"w")
+	for line in src:
+		dest.write(line)
+	dest.close()
+		
