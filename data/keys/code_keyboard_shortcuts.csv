@@ -45,7 +45,7 @@ OPEN DEFINITION TO SIDE,ctrl+k F12
 QUICK FIX,ctrl+period
 SHOW REFERENCES,shift+F12
 RENAME SYMBOL,F2
-TRIM TRAILING WHITESPACE,ctrl+k ctrl+x
+TRIM LINE,ctrl+k ctrl+x
 CHANGE FILE LANGUAGE,ctrl+k m
 INSERT CURSOR,alt
 INSERT CURSOR ABOVE,shift+alt+Up
@@ -129,7 +129,7 @@ STEP OVER,F10
 STOP,shift+F5
 SHOW HOVER,ctrl+k ctrl+i
 SHOW TERMINAL,ctrl+grave
-CREATE NEW TERMINAL,ctrl+shift+grave
+NEW TERMINAL,ctrl+shift+grave
 COPY SELECTION,ctrl+shift+c
 PASTE IN TERMINAL,ctrl+shift+v
 SCROLL UP IN TERMINAL,ctrl+shift+Up
