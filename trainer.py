@@ -6,8 +6,8 @@ parser = argparse.ArgumentParser(description="This script generates the fileids 
 parser.add_argument("--modelname",required=True,type=str, help="Takes name of model. It is not a path.")
 
 
-args = parser.parse_args()
-model_name = args.modelname
+# args = parser.parse_args()
+# model_name = args.modelname
 
 fileids = open(model_name+"/working/"+model_name+".fileids","w")
 transcription = open(model_name+"/working/"+model_name+".transcription","w")
