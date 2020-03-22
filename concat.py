@@ -75,9 +75,12 @@ for index, reverse_value in sort_spec[::-1]:
     weight_c_a.sort(key = lambda x: x[index], reverse=reverse_value)
 
 sorted_commands = open("./analytics/sorted_commands",write)
+sorted_commands_a = open("./analytics/sorted_commands_a",write)
 commands = list(csv.reader(open(commands_phrases)))
+commands_a = list(csv.reader(open(commands_applications_phrases)))
 for i in range(len(weight_c)):
     sorted_commands.write(commands[weight_c[i][0]][0]+"\n")
+    sorted_commands_a.write(commands_a[weight_c[i][0]][0]+"\n")
 
 sorted_commands_applications = open("./analytics/sorted_commands_applications",write)
 commands_a = list(csv.reader(open(commands_applications_phrases)))
