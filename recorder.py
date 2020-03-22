@@ -4,7 +4,8 @@ import csv
 import json
 import argparse
 import time
-
+import os
+import re
 ### The _GetchUnix function replicates the functionality of the getch() method.
 
 class _GetchUnix:
@@ -56,6 +57,20 @@ def printStatus():
     if n < len(corpus):
         print("Read "+str(i+1)+" of "+str(count)+":\n\t", corpus[n][0])
 
+def getMaxi(input_n):
+    files = os.listdir(model_dir_string+"recordings/")
+    files.sort()
+    result = 0
+    for f in files:
+        lis = re.findall(r'\d+', f)   
+        if len(lis) == 2:
+            n = int(lis[0])
+            i = int(lis[1])
+            if n == input_n:                
+                if i >= result:
+                    result = i
+    return result
+
 print(desc)
 print("___________________________________")
 print("Length of corpus:",len(corpus))
@@ -80,7 +95,7 @@ while n < len(corpus):
     elif ch == "l" and previous == "k":
         # save
         print("Saving...")
-        fname = model_dir_string+"recordings/recording"+str(n)+"_"+str(i)
+        fname = model_dir_string+"recordings/recording"+str(n)+"_"+str(getMaxi(n)+1)
         subprocess.run(['mv','/tmp/test.wav',fname+".wav"])
         
         i += 1
@@ -91,8 +106,8 @@ while n < len(corpus):
         if n == len(corpus) and i == 0:
             print("Hurray! You finished recording a complete set with "+str(count)+" repetitions.")
             print()
-            recording_data["i"] = i
-            recording_data["n"] = n
+            recording_data["i"] = 0
+            recording_data["n"] = 0
             with open(model_dir_string+"recording_progress.json",'w') as recording_data_file:
                 json.dump(recording_data,recording_data_file)
         
@@ -117,3 +132,4 @@ while n < len(corpus):
         corpus_file.close()
         recording_data_file.close()
         break     
+

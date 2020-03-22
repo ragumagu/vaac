@@ -1,23 +1,23 @@
 from collections import Counter
 import csv
 
-
-def get_words(f):
-    for line in f:
-        for word in line.split():
-            yield word
+#This script:
+#1. Extracts commands phrases from data/keys, and stores them in files #commands_phrases and commands_applications_phrases.
 
 
-def write_unique_words(phrases, words):
-    unique_words = sorted(set(get_words(phrases)))
-    for w in unique_words:
-        words.write(w+"\n")
-    return unique_words
+def write_unique_words(phrases, words_file):
+    s = set()    
+    for elem in phrases:
+        for e in elem.split():
+            s.add(e)    
+    unique_words_list = sorted(s)    
+    for w in unique_words_list:
+        words_file.write(w+"\n")
+    return unique_words_list
 
-
-def count_words(f, o):
+def count_words(l, o):
     c = Counter()
-    for line in f:
+    for line in l:        
         for word in line.split():
             c[word] += 1
     c_list = sorted(c.items(), key=lambda pair: pair[1], reverse=True)
@@ -26,29 +26,46 @@ def count_words(f, o):
     return c
 
 
-def sum_freq_c(line, counter):
+def sum_freq_c(phrase, counter):
     sum = 0
-    for word in line.split():
+    for word in phrase.split():
         sum += counter[word]
     return sum
 
-
-def weight(f, counter):
+def weight(l, counter):
     w = []
     i = 0
-    for line in f:
-        w.append((i, len(line.split()), sum_freq_c(line, counter)))
+    for phrase in l:
+        w.append((i, len(phrase.split()), sum_freq_c(phrase, counter)))
         i += 1
     return w
 
+def sort_weights(weights):
+    sort_spec = ((1, False), (2, True))
+    for index, reverse_value in sort_spec[::-1]:
+        weights.sort(key=lambda x: x[index], reverse=reverse_value)
 
+def write_partitions(counter,phrases,output):    
+    for word in counter.most_common():    
+        for phrase in phrases:            
+            p = phrase.split()
+            if word[0] in p:                                
+                output.write(word[0]+","+phrase+"\n")
+        output.write("__________________________________________________\n")    
+
+read = "r"
+write = "w"
 files = ["./data/keys/code_keyboard_shortcuts.csv", "./data/keys/firefox_keyboard_shortcuts.csv", "./data/keys/gedit_keyboard_shortcuts.csv",
     "./data/keys/general_keyboard_shortcuts.csv", "./data/keys/nautilus_keyboard_shortcuts.csv", "./data/keys/terminal_keyboard_shortcuts.csv"]
 apps = ["CODE", "FIREFOX", "GEDIT", "", "NAUTILUS", "TERMINAL"]
 
-commands_phrases = open("./analytics/commands_phrases.txt", "w")
-commands_applications_phrases = open(
-    "./analytics/commands_applications_phrases.txt", "w")
+commands_phrases_string = "./analytics/commands_phrases.txt"
+commands_applications_phrases_string = "./analytics/commands_applications_phrases.txt"
+
+
+# Writing commands_phrases and commands_applications_phrases files.
+commands_phrases = open(commands_phrases_string, write)
+commands_applications_phrases = open(commands_applications_phrases_string,write)
 
 i = 0
 for filename in files:
@@ -59,74 +76,88 @@ for filename in files:
         commands_applications_phrases.write(l[0]+" "+apps[i]+"\n")
     i += 1
 
-read = "r"
-write = "w"
-commands_phrases = "./analytics/commands_phrases.txt"
-commands_applications_phrases = "./analytics/commands_applications_phrases.txt"
+commands_phrases.close()
+commands_applications_phrases.close()
 
+commands_phrases_list = [item[0] for item in list(csv.reader(open(commands_phrases_string, read)))]
+commands_applications_phrases_list = [item[0] for item in list(csv.reader(open(commands_applications_phrases_string,read)))]
+
+# Writing unique words files.
 commands_words = "./analytics/commands_words"
 commands_applications_words = "./analytics/commands_applications_words"
-commands_counts = open("./analytics/commands_counts.csv", "w")
-commands_applications_counts = open(
-    "./analytics/commands_applications_counts.csv", "w")
 
 unique_c_words = write_unique_words(
-    open(commands_phrases, read), open(commands_words, write))
-unique_c_a_words = write_unique_words(open(
-    commands_applications_phrases, read), open(commands_applications_words, write))
+    commands_phrases_list, open(commands_words, write))
+unique_c_a_words = write_unique_words(commands_applications_phrases_list, open(commands_applications_words, write))
 
-c_count = count_words(open(commands_phrases, read), commands_counts)
-c_a_count = count_words(
-    open(commands_applications_phrases, read), commands_applications_counts)
+# Writing commands_counts and commands_application_counts files.
+commands_counts = open("./analytics/commands_counts.csv", write)
+commands_applications_counts = open(
+    "./analytics/commands_applications_counts.csv", write)
+
+c_count = count_words(commands_phrases_list, commands_counts)
+c_a_count = count_words(commands_applications_phrases_list, commands_applications_counts)
 commands_counts.close()
 commands_applications_counts.close()
 
-weight_c = weight(open(commands_phrases, read), c_count)
-weight_c_a = weight(open(commands_applications_phrases, read), c_a_count)
+# Sorting commands by weight.
+weight_c = weight(commands_phrases_list, c_count)
+weight_c_a = weight(commands_applications_phrases_list, c_a_count)
 
-sort_spec = ((1, False), (2, True))
-for index, reverse_value in sort_spec[::-1]:
-    weight_c.sort(key=lambda x: x[index], reverse=reverse_value)
-    weight_c_a.sort(key=lambda x: x[index], reverse=reverse_value)
+sort_weights(weight_c)
+sort_weights(weight_c_a)
 
 sorted_commands = open("./analytics/sorted_commands", write)
 sorted_commands_a = open("./analytics/sorted_commands_a", write)
-commands = list(csv.reader(open(commands_phrases)))
-commands_a = list(csv.reader(open(commands_applications_phrases)))
-for i in range(len(weight_c)):
-    sorted_commands.write(commands[weight_c[i][0]][0]+"\n")
-    sorted_commands_a.write(commands_a[weight_c[i][0]][0]+"\n")
 
-sorted_commands_applications = open(
-    "./analytics/sorted_commands_applications", write)
-commands_a = list(csv.reader(open(commands_applications_phrases)))
 for i in range(len(weight_c)):
-    sorted_commands_applications.write(commands_a[weight_c_a[i][0]][0]+"\n")
+    sorted_commands.write(commands_phrases_list[weight_c[i][0]]+"\n")
+    sorted_commands_a.write(commands_applications_phrases_list[weight_c[i][0]]+"\n")
 
-# The following generates partitions.
-commands_counts = list(csv.reader(
-    open("./analytics/commands_counts.csv", "r")))
-phrases_file = open("./analytics/commands_phrases.txt", read)
-phrases = list(csv.reader(phrases_file))
+sorted_commands.close()
+sorted_commands_a.close()
+
+sorted_commands_applications = open("./analytics/sorted_commands_applications", write)
+for i in range(len(weight_c)):
+    sorted_commands_applications.write(commands_applications_phrases_list[weight_c_a[i][0]]+"\n")
+sorted_commands_applications.close()
+# The following generates partitions commands_partitions and commands_applications_partitions.
+
 partitions = open("./analytics/commands_partitions", write)
-for line in commands_counts:
-	for phrase in phrases:
-		p = phrase[0].split()
-		if line[0] in p:
-			partitions.write(line[0]+","+phrase[0]+"\n")
-	partitions.write("__________________________________________________\n")
-
-
-commands_applications_counts = list(csv.reader(
-    open("./analytics/commands_applications_counts.csv", "r")))
-phrases_file = open("./analytics/commands_applications_phrases.txt", read)
-phrases = list(csv.reader(phrases_file))
 partitions_a = open("./analytics/commands_applications_partitions", write)
-for line in commands_applications_counts:
-	for phrase in phrases:
-		p = phrase[0].split()
-		if line[0] in p:
-			partitions_a.write(line[0]+","+phrase[0]+"\n")
-	partitions_a.write("__________________________________________________\n")
+write_partitions(c_count,commands_phrases_list,partitions)
+write_partitions(c_a_count,commands_applications_phrases_list,partitions_a)
+partitions.close()
+partitions_a.close()
+
+# The following will generate the corpus file.
+sorted_commands = list(csv.reader(open("./analytics/sorted_commands", read)))
+
+list_of_commands = [item for item in apps if item != ""]
+
+for item in sorted_commands:    
+    if item[0] not in list_of_commands:
+        list_of_commands.append(item[0])
+
+text_corpus_file = open("./analytics/vaac_corpus",write)
+for item in list_of_commands:
+    text_corpus_file.write(item+"\n")
+text_corpus_file.close()
+
+# Verify that every word in commands_applications_phrases is in corpus file.
+text_corpus_list = list(csv.reader(open("./analytics/vaac_corpus",read)))
+
+s1 = set()    
+for elem in commands_applications_phrases_list:
+    for e in elem.split():
+        s1.add(e)
+
+s2 = set()    
+for elem in text_corpus_list:    
+    for e in elem[0].split():
+        s2.add(e)
+
+if s1 != s2:
+    print("The phrases list and corpus are not same. Please check the data.")
 
 
