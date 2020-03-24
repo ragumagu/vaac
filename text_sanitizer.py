@@ -15,6 +15,7 @@ def get_repr(string):
                 s2 += key.lower()+"+"                
                 break
     s2 = s2[:-1]
+    s2 = s2.strip()
     return s2
 
 
@@ -32,6 +33,7 @@ for file_string in files:
 	for sentence in csv_file:
 		s1 = re.sub('[\W_]+', ' ', sentence[0])
 		s1 = s1.upper()
+		s1 = s1.strip()
 		strings = sentence[1].split(" ")
 		s2 = ""
 		for string in strings:

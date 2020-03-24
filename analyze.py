@@ -139,13 +139,14 @@ for item in sorted_commands:
     if item[0] not in list_of_commands:
         list_of_commands.append(item[0])
 
-text_corpus_file = open("./analytics/vaac_corpus",write)
+text_corpus_string = "./analytics/vaac_model_corpus"
+text_corpus_file = open(text_corpus_string,write)
 for item in list_of_commands:
     text_corpus_file.write(item+"\n")
 text_corpus_file.close()
 
 # Verify that every word in commands_applications_phrases is in corpus file.
-text_corpus_list = list(csv.reader(open("./analytics/vaac_corpus",read)))
+text_corpus_list = list(csv.reader(open(text_corpus_string,read)))
 
 s1 = set()    
 for elem in commands_applications_phrases_list:
