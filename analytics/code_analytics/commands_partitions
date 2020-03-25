@@ -1,0 +1,531 @@
+LINE,MOVE LINE DOWN
+LINE,MOVE LINE UP
+LINE,DELETE LINE
+LINE,INSERT LINE BELOW
+LINE,INSERT LINE ABOVE
+LINE,INDENT LINE
+LINE,OUTDENT LINE
+LINE,GO TO BEGINNING OF LINE
+LINE,GO TO END OF LINE
+LINE,SCROLL LINE UP
+LINE,SCROLL LINE DOWN
+LINE,ADD LINE COMMENT
+LINE,REMOVE LINE COMMENT
+LINE,TOGGLE LINE COMMENT
+LINE,TRIM LINE
+LINE,SELECT CURRENT LINE
+LINE,GO TO LINE
+__________________________________________________
+TO,JUMP TO MATCHING BRACKET
+TO,GO TO BEGINNING OF LINE
+TO,GO TO END OF LINE
+TO,GO TO BEGINNING OF FILE
+TO,GO TO END OF FILE
+TO,GO TO DEFINITION
+TO,OPEN DEFINITION TO SIDE
+TO,OPEN MARKDOWN PREVIEW TO SIDE
+TO,GO TO LINE
+TO,GO TO FILE
+TO,GO TO SYMBOL
+TO,GO TO NEXT ERROR
+TO,GO TO NEXT WARNING
+TO,GO TO PREVIOUS ERROR
+TO,GO TO PREVIOUS WARNING
+TO,SCROLL TO TOP IN TERMINAL
+TO,SCROLL TO BOTTOM IN TERMINAL
+__________________________________________________
+EDITOR,TOGGLE EDITOR LAYOUT
+EDITOR,CLOSE EDITOR
+EDITOR,SPLIT EDITOR
+EDITOR,FOCUS FIRST EDITOR GROUP
+EDITOR,FOCUS SECOND EDITOR GROUP
+EDITOR,FOCUS THIRD EDITOR GROUP
+EDITOR,FOCUS PREVIOUS EDITOR GROUP
+EDITOR,FOCUS NEXT EDITOR GROUP
+EDITOR,MOVE EDITOR LEFT
+EDITOR,MOVE EDITOR RIGHT
+EDITOR,MOVE EDITOR GROUP LEFT
+EDITOR,MOVE EDITOR GROUP UP
+EDITOR,MOVE EDITOR GROUP RIGHT
+EDITOR,MOVE EDITOR GROUP DOWN
+EDITOR,UNDO CLOSE EDITOR
+EDITOR,KEEP PREVIEW MODE EDITOR OPEN
+__________________________________________________
+GO,GO TO BEGINNING OF LINE
+GO,GO TO END OF LINE
+GO,GO TO BEGINNING OF FILE
+GO,GO TO END OF FILE
+GO,GO TO DEFINITION
+GO,GO TO LINE
+GO,GO TO FILE
+GO,GO TO SYMBOL
+GO,GO TO NEXT ERROR
+GO,GO TO NEXT WARNING
+GO,GO TO PREVIOUS ERROR
+GO,GO TO PREVIOUS WARNING
+GO,GO BACK
+GO,GO FORWARD
+__________________________________________________
+SHOW,SHOW COMMAND PALETTE
+SHOW,SHOW REFERENCES
+SHOW,SHOW EXPLORER
+SHOW,SHOW SEARCH
+SHOW,SHOW SOURCE CONTROL
+SHOW,SHOW DEBUG
+SHOW,SHOW EXTENSIONS
+SHOW,SHOW OUTPUT PANEL
+SHOW,SHOW ALL SYMBOLS
+SHOW,SHOW PROBLEMS PANEL
+SHOW,SHOW HOVER
+SHOW,SHOW TERMINAL
+__________________________________________________
+OPEN,QUICK OPEN
+OPEN,OPEN DEFINITION TO SIDE
+OPEN,OPEN MARKDOWN PREVIEW
+OPEN,OPEN MARKDOWN PREVIEW TO SIDE
+OPEN,OPEN FILE
+OPEN,KEEP PREVIEW MODE EDITOR OPEN
+OPEN,OPEN NEXT
+OPEN,OPEN PREVIOUS
+OPEN,OPEN FILE LOCATION
+OPEN,OPEN FILE IN NEW WINDOW
+__________________________________________________
+ALL,SELECT ALL
+ALL,FOLD ALL SUBREGIONS
+ALL,UNFOLD ALL SUBREGIONS
+ALL,FOLD ALL REGIONS
+ALL,UNFOLD ALL REGIONS
+ALL,SELECT ALL OF CURRENT SELECTION
+ALL,SELECT ALL OF CURRENT WORD
+ALL,SELECT ALL OF FIND MATCH
+ALL,SHOW ALL SYMBOLS
+ALL,CLOSE ALL
+__________________________________________________
+SCROLL,SCROLL LINE UP
+SCROLL,SCROLL LINE DOWN
+SCROLL,SCROLL PAGE UP
+SCROLL,SCROLL PAGE DOWN
+SCROLL,SCROLL UP IN TERMINAL
+SCROLL,SCROLL DOWN IN TERMINAL
+SCROLL,SCROLL PAGE UP IN TERMINAL
+SCROLL,SCROLL PAGE DOWN IN TERMINAL
+SCROLL,SCROLL TO TOP IN TERMINAL
+SCROLL,SCROLL TO BOTTOM IN TERMINAL
+__________________________________________________
+TOGGLE,TOGGLE LINE COMMENT
+TOGGLE,TOGGLE BLOCK COMMENT
+TOGGLE,TOGGLE WORD WRAP
+TOGGLE,TOGGLE FULL SCREEN
+TOGGLE,TOGGLE EDITOR LAYOUT
+TOGGLE,TOGGLE SIDEBAR VISIBILITY
+TOGGLE,TOGGLE FOCUS
+TOGGLE,TOGGLE SEARCH DETAILS
+TOGGLE,TOGGLE TAB MOVES FOCUS
+TOGGLE,TOGGLE BREAKPOINT
+__________________________________________________
+IN,ZOOM IN
+IN,REPLACE IN FILES
+IN,OPEN FILE IN NEW WINDOW
+IN,PASTE IN TERMINAL
+IN,SCROLL UP IN TERMINAL
+IN,SCROLL DOWN IN TERMINAL
+IN,SCROLL PAGE UP IN TERMINAL
+IN,SCROLL PAGE DOWN IN TERMINAL
+IN,SCROLL TO TOP IN TERMINAL
+IN,SCROLL TO BOTTOM IN TERMINAL
+__________________________________________________
+GROUP,FOCUS FIRST EDITOR GROUP
+GROUP,FOCUS SECOND EDITOR GROUP
+GROUP,FOCUS THIRD EDITOR GROUP
+GROUP,FOCUS PREVIOUS EDITOR GROUP
+GROUP,FOCUS NEXT EDITOR GROUP
+GROUP,MOVE EDITOR GROUP LEFT
+GROUP,MOVE EDITOR GROUP UP
+GROUP,MOVE EDITOR GROUP RIGHT
+GROUP,MOVE EDITOR GROUP DOWN
+__________________________________________________
+TERMINAL,SHOW TERMINAL
+TERMINAL,NEW TERMINAL
+TERMINAL,PASTE IN TERMINAL
+TERMINAL,SCROLL UP IN TERMINAL
+TERMINAL,SCROLL DOWN IN TERMINAL
+TERMINAL,SCROLL PAGE UP IN TERMINAL
+TERMINAL,SCROLL PAGE DOWN IN TERMINAL
+TERMINAL,SCROLL TO TOP IN TERMINAL
+TERMINAL,SCROLL TO BOTTOM IN TERMINAL
+__________________________________________________
+MOVE,MOVE LINE DOWN
+MOVE,MOVE LINE UP
+MOVE,MOVE EDITOR LEFT
+MOVE,MOVE EDITOR RIGHT
+MOVE,MOVE EDITOR GROUP LEFT
+MOVE,MOVE EDITOR GROUP UP
+MOVE,MOVE EDITOR GROUP RIGHT
+MOVE,MOVE EDITOR GROUP DOWN
+__________________________________________________
+OF,GO TO BEGINNING OF LINE
+OF,GO TO END OF LINE
+OF,GO TO BEGINNING OF FILE
+OF,GO TO END OF FILE
+OF,INSERT AT END OF SELECTED LINES
+OF,SELECT ALL OF CURRENT SELECTION
+OF,SELECT ALL OF CURRENT WORD
+OF,SELECT ALL OF FIND MATCH
+__________________________________________________
+FILE,GO TO BEGINNING OF FILE
+FILE,GO TO END OF FILE
+FILE,CHANGE FILE LANGUAGE
+FILE,GO TO FILE
+FILE,NEW FILE
+FILE,OPEN FILE
+FILE,OPEN FILE LOCATION
+FILE,OPEN FILE IN NEW WINDOW
+__________________________________________________
+FOCUS,TOGGLE FOCUS
+FOCUS,TOGGLE TAB MOVES FOCUS
+FOCUS,FOCUS FIRST EDITOR GROUP
+FOCUS,FOCUS SECOND EDITOR GROUP
+FOCUS,FOCUS THIRD EDITOR GROUP
+FOCUS,FOCUS PREVIOUS EDITOR GROUP
+FOCUS,FOCUS NEXT EDITOR GROUP
+__________________________________________________
+CLOSE,CLOSE WINDOW
+CLOSE,CLOSE EDITOR
+CLOSE,CLOSE FOLDER
+CLOSE,CLOSE
+CLOSE,CLOSE ALL
+CLOSE,UNDO CLOSE EDITOR
+__________________________________________________
+DOWN,MOVE LINE DOWN
+DOWN,SCROLL LINE DOWN
+DOWN,SCROLL PAGE DOWN
+DOWN,MOVE EDITOR GROUP DOWN
+DOWN,SCROLL DOWN IN TERMINAL
+DOWN,SCROLL PAGE DOWN IN TERMINAL
+__________________________________________________
+UP,MOVE LINE UP
+UP,SCROLL LINE UP
+UP,SCROLL PAGE UP
+UP,MOVE EDITOR GROUP UP
+UP,SCROLL UP IN TERMINAL
+UP,SCROLL PAGE UP IN TERMINAL
+__________________________________________________
+INSERT,INSERT LINE BELOW
+INSERT,INSERT LINE ABOVE
+INSERT,INSERT CURSOR
+INSERT,INSERT CURSOR ABOVE
+INSERT,INSERT CURSOR BELOW
+INSERT,INSERT AT END OF SELECTED LINES
+__________________________________________________
+SELECT,SELECT ALL
+SELECT,SELECT CURRENT LINE
+SELECT,SELECT ALL OF CURRENT SELECTION
+SELECT,SELECT ALL OF CURRENT WORD
+SELECT,SELECT ALL OF FIND MATCH
+__________________________________________________
+SELECTION,FORMAT SELECTION
+SELECTION,SELECT ALL OF CURRENT SELECTION
+SELECTION,EXPAND SELECTION
+SELECTION,SHRINK SELECTION
+SELECTION,COPY SELECTION
+__________________________________________________
+NEXT,FIND NEXT
+NEXT,GO TO NEXT ERROR
+NEXT,GO TO NEXT WARNING
+NEXT,FOCUS NEXT EDITOR GROUP
+NEXT,OPEN NEXT
+__________________________________________________
+PREVIOUS,FIND PREVIOUS
+PREVIOUS,GO TO PREVIOUS ERROR
+PREVIOUS,GO TO PREVIOUS WARNING
+PREVIOUS,FOCUS PREVIOUS EDITOR GROUP
+PREVIOUS,OPEN PREVIOUS
+__________________________________________________
+NEW,NEW WINDOW
+NEW,NEW FILE
+NEW,OPEN FILE IN NEW WINDOW
+NEW,NEW TERMINAL
+__________________________________________________
+PAGE,SCROLL PAGE UP
+PAGE,SCROLL PAGE DOWN
+PAGE,SCROLL PAGE UP IN TERMINAL
+PAGE,SCROLL PAGE DOWN IN TERMINAL
+__________________________________________________
+COMMENT,ADD LINE COMMENT
+COMMENT,REMOVE LINE COMMENT
+COMMENT,TOGGLE LINE COMMENT
+COMMENT,TOGGLE BLOCK COMMENT
+__________________________________________________
+FIND,FIND
+FIND,FIND NEXT
+FIND,FIND PREVIOUS
+FIND,SELECT ALL OF FIND MATCH
+__________________________________________________
+WINDOW,NEW WINDOW
+WINDOW,CLOSE WINDOW
+WINDOW,OPEN FILE IN NEW WINDOW
+__________________________________________________
+COPY,COPY
+COPY,COPY PATH
+COPY,COPY SELECTION
+__________________________________________________
+END,GO TO END OF LINE
+END,GO TO END OF FILE
+END,INSERT AT END OF SELECTED LINES
+__________________________________________________
+FOLD,FOLD REGION
+FOLD,FOLD ALL SUBREGIONS
+FOLD,FOLD ALL REGIONS
+__________________________________________________
+UNFOLD,UNFOLD REGION
+UNFOLD,UNFOLD ALL SUBREGIONS
+UNFOLD,UNFOLD ALL REGIONS
+__________________________________________________
+DEFINITION,GO TO DEFINITION
+DEFINITION,PEEK DEFINITION
+DEFINITION,OPEN DEFINITION TO SIDE
+__________________________________________________
+CURSOR,INSERT CURSOR
+CURSOR,INSERT CURSOR ABOVE
+CURSOR,INSERT CURSOR BELOW
+__________________________________________________
+CURRENT,SELECT CURRENT LINE
+CURRENT,SELECT ALL OF CURRENT SELECTION
+CURRENT,SELECT ALL OF CURRENT WORD
+__________________________________________________
+PREVIEW,OPEN MARKDOWN PREVIEW
+PREVIEW,OPEN MARKDOWN PREVIEW TO SIDE
+PREVIEW,KEEP PREVIEW MODE EDITOR OPEN
+__________________________________________________
+MODE,ZEN MODE
+MODE,EXIT ZEN MODE
+MODE,KEEP PREVIEW MODE EDITOR OPEN
+__________________________________________________
+STEP,STEP INTO
+STEP,STEP OUT
+STEP,STEP OVER
+__________________________________________________
+QUICK,QUICK OPEN
+QUICK,QUICK FIX
+__________________________________________________
+PASTE,PASTE
+PASTE,PASTE IN TERMINAL
+__________________________________________________
+BELOW,INSERT LINE BELOW
+BELOW,INSERT CURSOR BELOW
+__________________________________________________
+ABOVE,INSERT LINE ABOVE
+ABOVE,INSERT CURSOR ABOVE
+__________________________________________________
+BEGINNING,GO TO BEGINNING OF LINE
+BEGINNING,GO TO BEGINNING OF FILE
+__________________________________________________
+REGION,FOLD REGION
+REGION,UNFOLD REGION
+__________________________________________________
+SUBREGIONS,FOLD ALL SUBREGIONS
+SUBREGIONS,UNFOLD ALL SUBREGIONS
+__________________________________________________
+REGIONS,FOLD ALL REGIONS
+REGIONS,UNFOLD ALL REGIONS
+__________________________________________________
+WORD,TOGGLE WORD WRAP
+WORD,SELECT ALL OF CURRENT WORD
+__________________________________________________
+TRIGGER,TRIGGER SUGGESTION
+TRIGGER,TRIGGER PARAMETER HINTS
+__________________________________________________
+FORMAT,FORMAT DOCUMENT
+FORMAT,FORMAT SELECTION
+__________________________________________________
+SIDE,OPEN DEFINITION TO SIDE
+SIDE,OPEN MARKDOWN PREVIEW TO SIDE
+__________________________________________________
+SYMBOL,RENAME SYMBOL
+SYMBOL,GO TO SYMBOL
+__________________________________________________
+UNDO,UNDO
+UNDO,UNDO CLOSE EDITOR
+__________________________________________________
+ZOOM,ZOOM IN
+ZOOM,ZOOM OUT
+__________________________________________________
+OUT,ZOOM OUT
+OUT,STEP OUT
+__________________________________________________
+SEARCH,SHOW SEARCH
+SEARCH,TOGGLE SEARCH DETAILS
+__________________________________________________
+REPLACE,REPLACE IN FILES
+REPLACE,REPLACE
+__________________________________________________
+PANEL,SHOW OUTPUT PANEL
+PANEL,SHOW PROBLEMS PANEL
+__________________________________________________
+MARKDOWN,OPEN MARKDOWN PREVIEW
+MARKDOWN,OPEN MARKDOWN PREVIEW TO SIDE
+__________________________________________________
+ZEN,ZEN MODE
+ZEN,EXIT ZEN MODE
+__________________________________________________
+ERROR,GO TO NEXT ERROR
+ERROR,GO TO PREVIOUS ERROR
+__________________________________________________
+WARNING,GO TO NEXT WARNING
+WARNING,GO TO PREVIOUS WARNING
+__________________________________________________
+LEFT,MOVE EDITOR LEFT
+LEFT,MOVE EDITOR GROUP LEFT
+__________________________________________________
+RIGHT,MOVE EDITOR RIGHT
+RIGHT,MOVE EDITOR GROUP RIGHT
+__________________________________________________
+SAVE,SAVE
+SAVE,SAVE AS
+__________________________________________________
+COMMAND,SHOW COMMAND PALETTE
+__________________________________________________
+PALETTE,SHOW COMMAND PALETTE
+__________________________________________________
+USER,USER SETTINGS
+__________________________________________________
+SETTINGS,USER SETTINGS
+__________________________________________________
+KEYBOARD,KEYBOARD SHORTCUTS
+__________________________________________________
+SHORTCUTS,KEYBOARD SHORTCUTS
+__________________________________________________
+CUT,CUT
+__________________________________________________
+DELETE,DELETE LINE
+__________________________________________________
+JUMP,JUMP TO MATCHING BRACKET
+__________________________________________________
+MATCHING,JUMP TO MATCHING BRACKET
+__________________________________________________
+BRACKET,JUMP TO MATCHING BRACKET
+__________________________________________________
+INDENT,INDENT LINE
+__________________________________________________
+OUTDENT,OUTDENT LINE
+__________________________________________________
+ADD,ADD LINE COMMENT
+__________________________________________________
+REMOVE,REMOVE LINE COMMENT
+__________________________________________________
+BLOCK,TOGGLE BLOCK COMMENT
+__________________________________________________
+WRAP,TOGGLE WORD WRAP
+__________________________________________________
+SUGGESTION,TRIGGER SUGGESTION
+__________________________________________________
+PARAMETER,TRIGGER PARAMETER HINTS
+__________________________________________________
+HINTS,TRIGGER PARAMETER HINTS
+__________________________________________________
+DOCUMENT,FORMAT DOCUMENT
+__________________________________________________
+PEEK,PEEK DEFINITION
+__________________________________________________
+FIX,QUICK FIX
+__________________________________________________
+REFERENCES,SHOW REFERENCES
+__________________________________________________
+RENAME,RENAME SYMBOL
+__________________________________________________
+TRIM,TRIM LINE
+__________________________________________________
+CHANGE,CHANGE FILE LANGUAGE
+__________________________________________________
+LANGUAGE,CHANGE FILE LANGUAGE
+__________________________________________________
+AT,INSERT AT END OF SELECTED LINES
+__________________________________________________
+SELECTED,INSERT AT END OF SELECTED LINES
+__________________________________________________
+LINES,INSERT AT END OF SELECTED LINES
+__________________________________________________
+EXPAND,EXPAND SELECTION
+__________________________________________________
+SHRINK,SHRINK SELECTION
+__________________________________________________
+FULL,TOGGLE FULL SCREEN
+__________________________________________________
+SCREEN,TOGGLE FULL SCREEN
+__________________________________________________
+LAYOUT,TOGGLE EDITOR LAYOUT
+__________________________________________________
+SIDEBAR,TOGGLE SIDEBAR VISIBILITY
+__________________________________________________
+VISIBILITY,TOGGLE SIDEBAR VISIBILITY
+__________________________________________________
+EXPLORER,SHOW EXPLORER
+__________________________________________________
+SOURCE,SHOW SOURCE CONTROL
+__________________________________________________
+CONTROL,SHOW SOURCE CONTROL
+__________________________________________________
+DEBUG,SHOW DEBUG
+__________________________________________________
+EXTENSIONS,SHOW EXTENSIONS
+__________________________________________________
+FILES,REPLACE IN FILES
+__________________________________________________
+DETAILS,TOGGLE SEARCH DETAILS
+__________________________________________________
+OUTPUT,SHOW OUTPUT PANEL
+__________________________________________________
+EXIT,EXIT ZEN MODE
+__________________________________________________
+MATCH,SELECT ALL OF FIND MATCH
+__________________________________________________
+SYMBOLS,SHOW ALL SYMBOLS
+__________________________________________________
+PROBLEMS,SHOW PROBLEMS PANEL
+__________________________________________________
+RESTORE,RESTORE
+__________________________________________________
+BACK,GO BACK
+__________________________________________________
+FORWARD,GO FORWARD
+__________________________________________________
+TAB,TOGGLE TAB MOVES FOCUS
+__________________________________________________
+MOVES,TOGGLE TAB MOVES FOCUS
+__________________________________________________
+FOLDER,CLOSE FOLDER
+__________________________________________________
+SPLIT,SPLIT EDITOR
+__________________________________________________
+FIRST,FOCUS FIRST EDITOR GROUP
+__________________________________________________
+SECOND,FOCUS SECOND EDITOR GROUP
+__________________________________________________
+THIRD,FOCUS THIRD EDITOR GROUP
+__________________________________________________
+AS,SAVE AS
+__________________________________________________
+KEEP,KEEP PREVIEW MODE EDITOR OPEN
+__________________________________________________
+PATH,COPY PATH
+__________________________________________________
+LOCATION,OPEN FILE LOCATION
+__________________________________________________
+BREAKPOINT,TOGGLE BREAKPOINT
+__________________________________________________
+START,START
+__________________________________________________
+CONTINUE,CONTINUE
+__________________________________________________
+INTO,STEP INTO
+__________________________________________________
+OVER,STEP OVER
+__________________________________________________
+STOP,STOP
+__________________________________________________
+HOVER,SHOW HOVER
+__________________________________________________
+TOP,SCROLL TO TOP IN TERMINAL
+__________________________________________________
+BOTTOM,SCROLL TO BOTTOM IN TERMINAL
+__________________________________________________

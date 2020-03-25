@@ -1,0 +1,234 @@
+TAB,SWITCH TO PREVIOUS TAB
+TAB,SWITCH TO NEXT TAB
+TAB,CLOSE TAB
+TAB,UNDO CLOSE TAB
+TAB,SWITCH TO TAB ONE
+TAB,SWITCH TO TAB TWO
+TAB,SWITCH TO TAB THREE
+TAB,SWITCH TO TAB FOUR
+TAB,SWITCH TO TAB FIVE
+TAB,SWITCH TO TAB SIX
+TAB,SWITCH TO TAB SEVEN
+TAB,SWITCH TO TAB EIGHT
+TAB,SWITCH TO TAB NINE
+TAB,NEW TAB GROUP
+TAB,PREVIOUS TAB GROUP
+TAB,NEXT TAB GROUP
+TAB,NEW TAB
+TAB,ADD TAB STOP
+TAB,REMOVE TAB STOP
+__________________________________________________
+TO,SWITCH TO PREVIOUS TAB
+TO,SWITCH TO NEXT TAB
+TO,SWITCH TO TAB ONE
+TO,SWITCH TO TAB TWO
+TO,SWITCH TO TAB THREE
+TO,SWITCH TO TAB FOUR
+TO,SWITCH TO TAB FIVE
+TO,SWITCH TO TAB SIX
+TO,SWITCH TO TAB SEVEN
+TO,SWITCH TO TAB EIGHT
+TO,SWITCH TO TAB NINE
+TO,GO TO BEGINNING OF LINE
+TO,GO TO END OF LINE
+TO,GO TO BEGINNING OF DOCUMENT
+TO,GO TO END OF DOCUMENT
+TO,CHANGE TO UPPER CASE
+TO,CHANGE TO LOWER CASE
+TO,GO TO LINE
+__________________________________________________
+SWITCH,SWITCH TO PREVIOUS TAB
+SWITCH,SWITCH TO NEXT TAB
+SWITCH,SWITCH TO TAB ONE
+SWITCH,SWITCH TO TAB TWO
+SWITCH,SWITCH TO TAB THREE
+SWITCH,SWITCH TO TAB FOUR
+SWITCH,SWITCH TO TAB FIVE
+SWITCH,SWITCH TO TAB SIX
+SWITCH,SWITCH TO TAB SEVEN
+SWITCH,SWITCH TO TAB EIGHT
+SWITCH,SWITCH TO TAB NINE
+__________________________________________________
+LINE,GO TO BEGINNING OF LINE
+LINE,GO TO END OF LINE
+LINE,DELETE CURRENT LINE
+LINE,MOVE LINE UP
+LINE,MOVE LINE DOWN
+LINE,GO TO LINE
+__________________________________________________
+GO,GO TO BEGINNING OF LINE
+GO,GO TO END OF LINE
+GO,GO TO BEGINNING OF DOCUMENT
+GO,GO TO END OF DOCUMENT
+GO,GO TO LINE
+__________________________________________________
+OPEN,OPEN DOCUMENT
+OPEN,QUICK OPEN
+OPEN,OPEN FILE MENU
+OPEN,OPEN USER GUIDE
+__________________________________________________
+OF,GO TO BEGINNING OF LINE
+OF,GO TO END OF LINE
+OF,GO TO BEGINNING OF DOCUMENT
+OF,GO TO END OF DOCUMENT
+__________________________________________________
+MOVE,MOVE WORD RIGHT
+MOVE,MOVE WORD LEFT
+MOVE,MOVE LINE UP
+MOVE,MOVE LINE DOWN
+__________________________________________________
+FIND,FIND
+FIND,FIND NEXT
+FIND,FIND PREVIOUS
+FIND,FIND AND REPLACE
+__________________________________________________
+PREVIOUS,SWITCH TO PREVIOUS TAB
+PREVIOUS,PREVIOUS TAB GROUP
+PREVIOUS,FIND PREVIOUS
+__________________________________________________
+NEXT,SWITCH TO NEXT TAB
+NEXT,NEXT TAB GROUP
+NEXT,FIND NEXT
+__________________________________________________
+CLOSE,CLOSE TAB
+CLOSE,CLOSE ALL TABS
+CLOSE,UNDO CLOSE TAB
+__________________________________________________
+SAVE,SAVE ALL TABS
+SAVE,SAVE
+SAVE,SAVE AS
+__________________________________________________
+ALL,SAVE ALL TABS
+ALL,CLOSE ALL TABS
+ALL,SELECT ALL
+__________________________________________________
+NEW,NEW TAB GROUP
+NEW,NEW WINDOW
+NEW,NEW TAB
+__________________________________________________
+GROUP,NEW TAB GROUP
+GROUP,PREVIOUS TAB GROUP
+GROUP,NEXT TAB GROUP
+__________________________________________________
+DOCUMENT,OPEN DOCUMENT
+DOCUMENT,GO TO BEGINNING OF DOCUMENT
+DOCUMENT,GO TO END OF DOCUMENT
+__________________________________________________
+CASE,CHANGE TO UPPER CASE
+CASE,CHANGE TO LOWER CASE
+CASE,TOGGLE CASE
+__________________________________________________
+TABS,SAVE ALL TABS
+TABS,CLOSE ALL TABS
+__________________________________________________
+UNDO,UNDO CLOSE TAB
+UNDO,UNDO
+__________________________________________________
+PRINT,PRINT
+PRINT,PRINT PREVIEW
+__________________________________________________
+BEGINNING,GO TO BEGINNING OF LINE
+BEGINNING,GO TO BEGINNING OF DOCUMENT
+__________________________________________________
+END,GO TO END OF LINE
+END,GO TO END OF DOCUMENT
+__________________________________________________
+WORD,MOVE WORD RIGHT
+WORD,MOVE WORD LEFT
+__________________________________________________
+STOP,ADD TAB STOP
+STOP,REMOVE TAB STOP
+__________________________________________________
+CHANGE,CHANGE TO UPPER CASE
+CHANGE,CHANGE TO LOWER CASE
+__________________________________________________
+SIDE,SHOW SIDE PANEL
+SIDE,HIDE SIDE PANEL
+__________________________________________________
+PANEL,SHOW SIDE PANEL
+PANEL,HIDE SIDE PANEL
+__________________________________________________
+ONE,SWITCH TO TAB ONE
+__________________________________________________
+TWO,SWITCH TO TAB TWO
+__________________________________________________
+THREE,SWITCH TO TAB THREE
+__________________________________________________
+FOUR,SWITCH TO TAB FOUR
+__________________________________________________
+FIVE,SWITCH TO TAB FIVE
+__________________________________________________
+SIX,SWITCH TO TAB SIX
+__________________________________________________
+SEVEN,SWITCH TO TAB SEVEN
+__________________________________________________
+EIGHT,SWITCH TO TAB EIGHT
+__________________________________________________
+NINE,SWITCH TO TAB NINE
+__________________________________________________
+WINDOW,NEW WINDOW
+__________________________________________________
+QUICK,QUICK OPEN
+__________________________________________________
+AS,SAVE AS
+__________________________________________________
+PREVIEW,PRINT PREVIEW
+__________________________________________________
+QUIT,QUIT
+__________________________________________________
+RIGHT,MOVE WORD RIGHT
+__________________________________________________
+LEFT,MOVE WORD LEFT
+__________________________________________________
+REDO,REDO
+__________________________________________________
+CUT,CUT
+__________________________________________________
+COPY,COPY
+__________________________________________________
+PASTE,PASTE
+__________________________________________________
+SELECT,SELECT ALL
+__________________________________________________
+DELETE,DELETE CURRENT LINE
+__________________________________________________
+CURRENT,DELETE CURRENT LINE
+__________________________________________________
+UP,MOVE LINE UP
+__________________________________________________
+DOWN,MOVE LINE DOWN
+__________________________________________________
+ADD,ADD TAB STOP
+__________________________________________________
+REMOVE,REMOVE TAB STOP
+__________________________________________________
+UPPER,CHANGE TO UPPER CASE
+__________________________________________________
+LOWER,CHANGE TO LOWER CASE
+__________________________________________________
+TOGGLE,TOGGLE CASE
+__________________________________________________
+SHOW,SHOW SIDE PANEL
+__________________________________________________
+HIDE,HIDE SIDE PANEL
+__________________________________________________
+FILE,OPEN FILE MENU
+__________________________________________________
+MENU,OPEN FILE MENU
+__________________________________________________
+AND,FIND AND REPLACE
+__________________________________________________
+REPLACE,FIND AND REPLACE
+__________________________________________________
+CLEAR,CLEAR HIGHLIGHT
+__________________________________________________
+HIGHLIGHT,CLEAR HIGHLIGHT
+__________________________________________________
+CHECK,CHECK SPELLING
+__________________________________________________
+SPELLING,CHECK SPELLING
+__________________________________________________
+USER,OPEN USER GUIDE
+__________________________________________________
+GUIDE,OPEN USER GUIDE
+__________________________________________________

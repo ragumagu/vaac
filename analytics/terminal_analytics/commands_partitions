@@ -1,0 +1,201 @@
+TO,SWITCH TO PREVIOUS TAB
+TO,SWITCH TO NEXT TAB
+TO,MOVE TAB TO LEFT
+TO,MOVE TAB TO RIGHT
+TO,SWITCH TO TAB ONE
+TO,SWITCH TO TAB TWO
+TO,SWITCH TO TAB THREE
+TO,SWITCH TO TAB FOUR
+TO,SWITCH TO TAB FIVE
+TO,SWITCH TO TAB SIX
+TO,SWITCH TO TAB SEVEN
+TO,SWITCH TO TAB EIGHT
+TO,SWITCH TO TAB NINE
+TO,SWITCH TO TAB TEN
+TO,SCROLL TO TOP
+TO,SCROLL TO BOTTOM
+TO,MOVE TO START OF LINE
+TO,MOVE TO END OF LINE
+TO,DELETE TO START OF LINE
+TO,DELETE TO END OF LINE
+TO,DELETE TO START OF WORD
+__________________________________________________
+TAB,NEW TAB
+TAB,CLOSE TAB
+TAB,SWITCH TO PREVIOUS TAB
+TAB,SWITCH TO NEXT TAB
+TAB,MOVE TAB TO LEFT
+TAB,MOVE TAB TO RIGHT
+TAB,SWITCH TO TAB ONE
+TAB,SWITCH TO TAB TWO
+TAB,SWITCH TO TAB THREE
+TAB,SWITCH TO TAB FOUR
+TAB,SWITCH TO TAB FIVE
+TAB,SWITCH TO TAB SIX
+TAB,SWITCH TO TAB SEVEN
+TAB,SWITCH TO TAB EIGHT
+TAB,SWITCH TO TAB NINE
+TAB,SWITCH TO TAB TEN
+__________________________________________________
+SWITCH,SWITCH TO PREVIOUS TAB
+SWITCH,SWITCH TO NEXT TAB
+SWITCH,SWITCH TO TAB ONE
+SWITCH,SWITCH TO TAB TWO
+SWITCH,SWITCH TO TAB THREE
+SWITCH,SWITCH TO TAB FOUR
+SWITCH,SWITCH TO TAB FIVE
+SWITCH,SWITCH TO TAB SIX
+SWITCH,SWITCH TO TAB SEVEN
+SWITCH,SWITCH TO TAB EIGHT
+SWITCH,SWITCH TO TAB NINE
+SWITCH,SWITCH TO TAB TEN
+__________________________________________________
+ONE,SWITCH TO TAB ONE
+ONE,SCROLL UP ONE LINE
+ONE,SCROLL DOWN ONE LINE
+ONE,SCROLL UP ONE PAGE
+ONE,SCROLL DOWN ONE PAGE
+ONE,MOVE BACK ONE CHARACTER
+ONE,MOVE BACK ONE WORD
+ONE,MOVE FORWARD ONE CHARACTER
+ONE,MOVE FORWARD ONE WORD
+__________________________________________________
+MOVE,MOVE TAB TO LEFT
+MOVE,MOVE TAB TO RIGHT
+MOVE,MOVE TO START OF LINE
+MOVE,MOVE TO END OF LINE
+MOVE,MOVE BACK ONE CHARACTER
+MOVE,MOVE BACK ONE WORD
+MOVE,MOVE FORWARD ONE CHARACTER
+MOVE,MOVE FORWARD ONE WORD
+__________________________________________________
+LINE,SCROLL UP ONE LINE
+LINE,SCROLL DOWN ONE LINE
+LINE,ERASE LINE
+LINE,MOVE TO START OF LINE
+LINE,MOVE TO END OF LINE
+LINE,DELETE TO START OF LINE
+LINE,DELETE TO END OF LINE
+__________________________________________________
+SCROLL,SCROLL UP ONE LINE
+SCROLL,SCROLL DOWN ONE LINE
+SCROLL,SCROLL UP ONE PAGE
+SCROLL,SCROLL DOWN ONE PAGE
+SCROLL,SCROLL TO TOP
+SCROLL,SCROLL TO BOTTOM
+__________________________________________________
+WORD,ERASE WORD
+WORD,MOVE BACK ONE WORD
+WORD,MOVE FORWARD ONE WORD
+WORD,DELETE TO START OF WORD
+WORD,DELETE PREVIOUS WORD
+__________________________________________________
+OF,MOVE TO START OF LINE
+OF,MOVE TO END OF LINE
+OF,DELETE TO START OF LINE
+OF,DELETE TO END OF LINE
+OF,DELETE TO START OF WORD
+__________________________________________________
+DELETE,DELETE TO START OF LINE
+DELETE,DELETE TO END OF LINE
+DELETE,DELETE TO START OF WORD
+DELETE,DELETE PREVIOUS WORD
+__________________________________________________
+ZOOM,ZOOM IN
+ZOOM,ZOOM OUT
+ZOOM,RESET ZOOM
+__________________________________________________
+FIND,FIND
+FIND,FIND NEXT
+FIND,FIND PREVIOUS
+__________________________________________________
+PREVIOUS,FIND PREVIOUS
+PREVIOUS,SWITCH TO PREVIOUS TAB
+PREVIOUS,DELETE PREVIOUS WORD
+__________________________________________________
+START,MOVE TO START OF LINE
+START,DELETE TO START OF LINE
+START,DELETE TO START OF WORD
+__________________________________________________
+NEW,NEW TAB
+NEW,NEW WINDOW
+__________________________________________________
+WINDOW,NEW WINDOW
+WINDOW,CLOSE WINDOW
+__________________________________________________
+CLOSE,CLOSE TAB
+CLOSE,CLOSE WINDOW
+__________________________________________________
+SCREEN,FULL SCREEN
+SCREEN,CLEAR SCREEN
+__________________________________________________
+NEXT,FIND NEXT
+NEXT,SWITCH TO NEXT TAB
+__________________________________________________
+CLEAR,CLEAR HIGHLIGHT
+CLEAR,CLEAR SCREEN
+__________________________________________________
+UP,SCROLL UP ONE LINE
+UP,SCROLL UP ONE PAGE
+__________________________________________________
+DOWN,SCROLL DOWN ONE LINE
+DOWN,SCROLL DOWN ONE PAGE
+__________________________________________________
+PAGE,SCROLL UP ONE PAGE
+PAGE,SCROLL DOWN ONE PAGE
+__________________________________________________
+ERASE,ERASE WORD
+ERASE,ERASE LINE
+__________________________________________________
+END,MOVE TO END OF LINE
+END,DELETE TO END OF LINE
+__________________________________________________
+BACK,MOVE BACK ONE CHARACTER
+BACK,MOVE BACK ONE WORD
+__________________________________________________
+CHARACTER,MOVE BACK ONE CHARACTER
+CHARACTER,MOVE FORWARD ONE CHARACTER
+__________________________________________________
+FORWARD,MOVE FORWARD ONE CHARACTER
+FORWARD,MOVE FORWARD ONE WORD
+__________________________________________________
+COPY,COPY
+__________________________________________________
+PASTE,PASTE
+__________________________________________________
+FULL,FULL SCREEN
+__________________________________________________
+IN,ZOOM IN
+__________________________________________________
+OUT,ZOOM OUT
+__________________________________________________
+RESET,RESET ZOOM
+__________________________________________________
+HIGHLIGHT,CLEAR HIGHLIGHT
+__________________________________________________
+LEFT,MOVE TAB TO LEFT
+__________________________________________________
+RIGHT,MOVE TAB TO RIGHT
+__________________________________________________
+TWO,SWITCH TO TAB TWO
+__________________________________________________
+THREE,SWITCH TO TAB THREE
+__________________________________________________
+FOUR,SWITCH TO TAB FOUR
+__________________________________________________
+FIVE,SWITCH TO TAB FIVE
+__________________________________________________
+SIX,SWITCH TO TAB SIX
+__________________________________________________
+SEVEN,SWITCH TO TAB SEVEN
+__________________________________________________
+EIGHT,SWITCH TO TAB EIGHT
+__________________________________________________
+NINE,SWITCH TO TAB NINE
+__________________________________________________
+TEN,SWITCH TO TAB TEN
+__________________________________________________
+TOP,SCROLL TO TOP
+__________________________________________________
+BOTTOM,SCROLL TO BOTTOM
+__________________________________________________

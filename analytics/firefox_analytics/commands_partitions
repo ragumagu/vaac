@@ -1,0 +1,410 @@
+TO,GO TO BOTTOM OF PAGE
+TO,GO TO TOP OF PAGE
+TO,MOVE TO NEXT FRAME
+TO,MOVE TO PREVIOUS FRAME
+TO,DELETE WORD TO LEFT
+TO,DELETE WORD TO RIGHT
+TO,GO ONE WORD TO LEFT
+TO,GO ONE WORD TO RIGHT
+TO,GO TO BEGINNING OF LINE
+TO,GO TO END OF LINE
+TO,GO TO BEGINNING
+TO,GO TO END
+TO,MOVE TAB TO START
+TO,MOVE TAB TO END
+TO,SWITCH TO TAB ONE
+TO,SWITCH TO TAB TWO
+TO,SWITCH TO TAB THREE
+TO,SWITCH TO TAB FOUR
+TO,SWITCH TO TAB FIVE
+TO,SWITCH TO TAB SIX
+TO,SWITCH TO TAB SEVEN
+TO,SWITCH TO TAB EIGHT
+TO,SWITCH TO LAST TAB
+TO,SWITCH TO PRESENTATION MODE
+TO,SEEK TO BEGINNING
+TO,SEEK TO END
+__________________________________________________
+TAB,CLOSE TAB
+TAB,NEXT TAB
+TAB,PREVIOUS TAB
+TAB,MOVE TAB LEFT
+TAB,MOVE TAB RIGHT
+TAB,MOVE TAB TO START
+TAB,MOVE TAB TO END
+TAB,NEW TAB
+TAB,UNDO CLOSE TAB
+TAB,SWITCH TO TAB ONE
+TAB,SWITCH TO TAB TWO
+TAB,SWITCH TO TAB THREE
+TAB,SWITCH TO TAB FOUR
+TAB,SWITCH TO TAB FIVE
+TAB,SWITCH TO TAB SIX
+TAB,SWITCH TO TAB SEVEN
+TAB,SWITCH TO TAB EIGHT
+TAB,SWITCH TO LAST TAB
+__________________________________________________
+GO,GO DOWN
+GO,GO UP
+GO,GO TO BOTTOM OF PAGE
+GO,GO TO TOP OF PAGE
+GO,GO ONE WORD TO LEFT
+GO,GO ONE WORD TO RIGHT
+GO,GO TO BEGINNING OF LINE
+GO,GO TO END OF LINE
+GO,GO TO BEGINNING
+GO,GO TO END
+GO,GO
+__________________________________________________
+SWITCH,SWITCH TO TAB ONE
+SWITCH,SWITCH TO TAB TWO
+SWITCH,SWITCH TO TAB THREE
+SWITCH,SWITCH TO TAB FOUR
+SWITCH,SWITCH TO TAB FIVE
+SWITCH,SWITCH TO TAB SIX
+SWITCH,SWITCH TO TAB SEVEN
+SWITCH,SWITCH TO TAB EIGHT
+SWITCH,SWITCH TO LAST TAB
+SWITCH,SWITCH TO PRESENTATION MODE
+__________________________________________________
+PAGE,GO TO BOTTOM OF PAGE
+PAGE,GO TO TOP OF PAGE
+PAGE,BOOKMARK THIS PAGE
+PAGE,PAGE SOURCE
+PAGE,PAGE INFO
+PAGE,NEXT PAGE
+PAGE,PREVIOUS PAGE
+PAGE,FOCUS PAGE NUMBER BOX
+__________________________________________________
+MOVE,MOVE TO NEXT FRAME
+MOVE,MOVE TO PREVIOUS FRAME
+MOVE,MOVE TAB LEFT
+MOVE,MOVE TAB RIGHT
+MOVE,MOVE TAB TO START
+MOVE,MOVE TAB TO END
+__________________________________________________
+FIND,FIND
+FIND,FIND NEXT
+FIND,FIND PREVIOUS
+FIND,QUICK FIND LINKS
+FIND,QUICK FIND
+FIND,CLOSE QUICK FIND
+__________________________________________________
+WINDOW,CLOSE WINDOW
+WINDOW,NEW WINDOW
+WINDOW,NEW PRIVATE WINDOW
+WINDOW,UNDO CLOSE WINDOW
+WINDOW,LIBRARY WINDOW HISTORY
+WINDOW,LIBRARY WINDOW BOOKMARKS
+__________________________________________________
+SEEK,SEEK BACK FIFTEEN SECONDS
+SEEK,SEEK BACK TEN PERCENT
+SEEK,SEEK FORWARD FIFTEEN SECONDS
+SEEK,SEEK FORWARD TEN PERCENT
+SEEK,SEEK TO BEGINNING
+SEEK,SEEK TO END
+__________________________________________________
+NEXT,FOCUS NEXT
+NEXT,MOVE TO NEXT FRAME
+NEXT,FIND NEXT
+NEXT,NEXT TAB
+NEXT,NEXT PAGE
+__________________________________________________
+PREVIOUS,FOCUS PREVIOUS
+PREVIOUS,MOVE TO PREVIOUS FRAME
+PREVIOUS,FIND PREVIOUS
+PREVIOUS,PREVIOUS TAB
+PREVIOUS,PREVIOUS PAGE
+__________________________________________________
+CLOSE,CLOSE QUICK FIND
+CLOSE,CLOSE TAB
+CLOSE,CLOSE WINDOW
+CLOSE,UNDO CLOSE TAB
+CLOSE,UNDO CLOSE WINDOW
+__________________________________________________
+FOCUS,FOCUS NEXT
+FOCUS,FOCUS PREVIOUS
+FOCUS,FOCUS SEARCH BAR
+FOCUS,FOCUS PAGE NUMBER BOX
+__________________________________________________
+OF,GO TO BOTTOM OF PAGE
+OF,GO TO TOP OF PAGE
+OF,GO TO BEGINNING OF LINE
+OF,GO TO END OF LINE
+__________________________________________________
+WORD,DELETE WORD TO LEFT
+WORD,DELETE WORD TO RIGHT
+WORD,GO ONE WORD TO LEFT
+WORD,GO ONE WORD TO RIGHT
+__________________________________________________
+END,GO TO END OF LINE
+END,GO TO END
+END,MOVE TAB TO END
+END,SEEK TO END
+__________________________________________________
+BACK,BACK
+BACK,SEEK BACK FIFTEEN SECONDS
+BACK,SEEK BACK TEN PERCENT
+__________________________________________________
+FORWARD,FORWARD
+FORWARD,SEEK FORWARD FIFTEEN SECONDS
+FORWARD,SEEK FORWARD TEN PERCENT
+__________________________________________________
+ZOOM,ZOOM IN
+ZOOM,ZOOM OUT
+ZOOM,RESET ZOOM
+__________________________________________________
+DELETE,DELETE
+DELETE,DELETE WORD TO LEFT
+DELETE,DELETE WORD TO RIGHT
+__________________________________________________
+LEFT,DELETE WORD TO LEFT
+LEFT,GO ONE WORD TO LEFT
+LEFT,MOVE TAB LEFT
+__________________________________________________
+RIGHT,DELETE WORD TO RIGHT
+RIGHT,GO ONE WORD TO RIGHT
+RIGHT,MOVE TAB RIGHT
+__________________________________________________
+ONE,GO ONE WORD TO LEFT
+ONE,GO ONE WORD TO RIGHT
+ONE,SWITCH TO TAB ONE
+__________________________________________________
+BEGINNING,GO TO BEGINNING OF LINE
+BEGINNING,GO TO BEGINNING
+BEGINNING,SEEK TO BEGINNING
+__________________________________________________
+UNDO,UNDO
+UNDO,UNDO CLOSE TAB
+UNDO,UNDO CLOSE WINDOW
+__________________________________________________
+QUICK,QUICK FIND LINKS
+QUICK,QUICK FIND
+QUICK,CLOSE QUICK FIND
+__________________________________________________
+BAR,FOCUS SEARCH BAR
+BAR,MENU BAR
+BAR,SELECT LOCATION BAR
+__________________________________________________
+NEW,NEW TAB
+NEW,NEW WINDOW
+NEW,NEW PRIVATE WINDOW
+__________________________________________________
+HISTORY,HISTORY SIDEBAR
+HISTORY,LIBRARY WINDOW HISTORY
+HISTORY,CLEAR HISTORY
+__________________________________________________
+TOGGLE,TOGGLE DEVELOPER TOOLS
+TOGGLE,TOGGLE READER MODE
+TOGGLE,TOGGLE CONTEXT MENU
+__________________________________________________
+RELOAD,RELOAD
+RELOAD,FORCE RELOAD
+__________________________________________________
+FRAME,MOVE TO NEXT FRAME
+FRAME,MOVE TO PREVIOUS FRAME
+__________________________________________________
+LINE,GO TO BEGINNING OF LINE
+LINE,GO TO END OF LINE
+__________________________________________________
+PASTE,PASTE
+PASTE,PASTE AS PLAIN TEXT
+__________________________________________________
+TEXT,PASTE AS PLAIN TEXT
+TEXT,TEXT SELECTION TOOL
+__________________________________________________
+SELECT,SELECT ALL
+SELECT,SELECT LOCATION BAR
+__________________________________________________
+SIDEBAR,HISTORY SIDEBAR
+SIDEBAR,BOOKMARKS SIDEBAR
+__________________________________________________
+LIBRARY,LIBRARY WINDOW HISTORY
+LIBRARY,LIBRARY WINDOW BOOKMARKS
+__________________________________________________
+BOOKMARKS,BOOKMARKS SIDEBAR
+BOOKMARKS,LIBRARY WINDOW BOOKMARKS
+__________________________________________________
+DEVELOPER,TOGGLE DEVELOPER TOOLS
+DEVELOPER,DEVELOPER TOOLBAR
+__________________________________________________
+CONSOLE,WEB CONSOLE
+CONSOLE,BROWSER CONSOLE
+__________________________________________________
+ROTATE,ROTATE
+ROTATE,ROTATE COUNTERCLOCKWISE
+__________________________________________________
+MODE,SWITCH TO PRESENTATION MODE
+MODE,TOGGLE READER MODE
+__________________________________________________
+TOOL,TEXT SELECTION TOOL
+TOOL,HAND TOOL
+__________________________________________________
+FULL,FULL SCREEN
+FULL,EXIT FULL SCREEN
+__________________________________________________
+SCREEN,FULL SCREEN
+SCREEN,EXIT FULL SCREEN
+__________________________________________________
+MENU,MENU BAR
+MENU,TOGGLE CONTEXT MENU
+__________________________________________________
+VOLUME,DECREASE VOLUME
+VOLUME,INCREASE VOLUME
+__________________________________________________
+FIFTEEN,SEEK BACK FIFTEEN SECONDS
+FIFTEEN,SEEK FORWARD FIFTEEN SECONDS
+__________________________________________________
+SECONDS,SEEK BACK FIFTEEN SECONDS
+SECONDS,SEEK FORWARD FIFTEEN SECONDS
+__________________________________________________
+TEN,SEEK BACK TEN PERCENT
+TEN,SEEK FORWARD TEN PERCENT
+__________________________________________________
+PERCENT,SEEK BACK TEN PERCENT
+PERCENT,SEEK FORWARD TEN PERCENT
+__________________________________________________
+HOME,HOME
+__________________________________________________
+OPEN,OPEN FILE
+__________________________________________________
+FILE,OPEN FILE
+__________________________________________________
+FORCE,FORCE RELOAD
+__________________________________________________
+STOP,STOP
+__________________________________________________
+DOWN,GO DOWN
+__________________________________________________
+UP,GO UP
+__________________________________________________
+BOTTOM,GO TO BOTTOM OF PAGE
+__________________________________________________
+TOP,GO TO TOP OF PAGE
+__________________________________________________
+PRINT,PRINT
+__________________________________________________
+SAVE,SAVE
+__________________________________________________
+IN,ZOOM IN
+__________________________________________________
+OUT,ZOOM OUT
+__________________________________________________
+RESET,RESET ZOOM
+__________________________________________________
+COPY,COPY
+__________________________________________________
+CUT,CUT
+__________________________________________________
+AS,PASTE AS PLAIN TEXT
+__________________________________________________
+PLAIN,PASTE AS PLAIN TEXT
+__________________________________________________
+REDO,REDO
+__________________________________________________
+ALL,SELECT ALL
+__________________________________________________
+LINKS,QUICK FIND LINKS
+__________________________________________________
+SEARCH,FOCUS SEARCH BAR
+__________________________________________________
+QUIT,QUIT
+__________________________________________________
+START,MOVE TAB TO START
+__________________________________________________
+MUTE,MUTE
+__________________________________________________
+UNMUTE,UNMUTE
+__________________________________________________
+PRIVATE,NEW PRIVATE WINDOW
+__________________________________________________
+TWO,SWITCH TO TAB TWO
+__________________________________________________
+THREE,SWITCH TO TAB THREE
+__________________________________________________
+FOUR,SWITCH TO TAB FOUR
+__________________________________________________
+FIVE,SWITCH TO TAB FIVE
+__________________________________________________
+SIX,SWITCH TO TAB SIX
+__________________________________________________
+SEVEN,SWITCH TO TAB SEVEN
+__________________________________________________
+EIGHT,SWITCH TO TAB EIGHT
+__________________________________________________
+LAST,SWITCH TO LAST TAB
+__________________________________________________
+CLEAR,CLEAR HISTORY
+__________________________________________________
+BOOKMARK,BOOKMARK THIS PAGE
+__________________________________________________
+THIS,BOOKMARK THIS PAGE
+__________________________________________________
+DOWNLOADS,DOWNLOADS
+__________________________________________________
+ADD,ADD ONS
+__________________________________________________
+ONS,ADD ONS
+__________________________________________________
+TOOLS,TOGGLE DEVELOPER TOOLS
+__________________________________________________
+WEB,WEB CONSOLE
+__________________________________________________
+INSPECTOR,INSPECTOR
+__________________________________________________
+DEBUGGER,DEBUGGER
+__________________________________________________
+STYLE,STYLE EDITOR
+__________________________________________________
+EDITOR,STYLE EDITOR
+__________________________________________________
+PROFILER,PROFILER
+__________________________________________________
+NETWORK,NETWORK
+__________________________________________________
+TOOLBAR,DEVELOPER TOOLBAR
+__________________________________________________
+RESPONSIVE,RESPONSIVE DESIGN VIEW
+__________________________________________________
+DESIGN,RESPONSIVE DESIGN VIEW
+__________________________________________________
+VIEW,RESPONSIVE DESIGN VIEW
+__________________________________________________
+SOURCE,PAGE SOURCE
+__________________________________________________
+BROWSER,BROWSER CONSOLE
+__________________________________________________
+INFO,PAGE INFO
+__________________________________________________
+COUNTERCLOCKWISE,ROTATE COUNTERCLOCKWISE
+__________________________________________________
+PRESENTATION,SWITCH TO PRESENTATION MODE
+__________________________________________________
+SELECTION,TEXT SELECTION TOOL
+__________________________________________________
+HAND,HAND TOOL
+__________________________________________________
+NUMBER,FOCUS PAGE NUMBER BOX
+__________________________________________________
+BOX,FOCUS PAGE NUMBER BOX
+__________________________________________________
+EXIT,EXIT FULL SCREEN
+__________________________________________________
+READER,TOGGLE READER MODE
+__________________________________________________
+CARET,CARET BROWSING
+__________________________________________________
+BROWSING,CARET BROWSING
+__________________________________________________
+LOCATION,SELECT LOCATION BAR
+__________________________________________________
+CONTEXT,TOGGLE CONTEXT MENU
+__________________________________________________
+PLAY,PLAY
+__________________________________________________
+PAUSE,PAUSE
+__________________________________________________
+DECREASE,DECREASE VOLUME
+__________________________________________________
+INCREASE,INCREASE VOLUME
+__________________________________________________

@@ -1,0 +1,185 @@
+WINDOW,MOVE WINDOW ONE WORKSPACE DOWN
+WINDOW,MOVE WINDOW ONE WORKSPACE UP
+WINDOW,MOVE WINDOW TO LAST WORKSPACE
+WINDOW,COPY WINDOW SCREENSHOT
+WINDOW,SAVE WINDOW SCREENSHOT
+WINDOW,ACTIVATE WINDOW MENU
+WINDOW,CLOSE WINDOW
+WINDOW,HIDE WINDOW
+WINDOW,MAXIMIZE WINDOW
+WINDOW,MOVE WINDOW
+WINDOW,RESIZE WINDOW
+WINDOW,RESTORE WINDOW
+__________________________________________________
+MOVE,MOVE TO WORKSPACE ABOVE
+MOVE,MOVE TO WORKSPACE BELOW
+MOVE,MOVE WINDOW ONE WORKSPACE DOWN
+MOVE,MOVE WINDOW ONE WORKSPACE UP
+MOVE,MOVE WINDOW TO LAST WORKSPACE
+MOVE,MOVE WINDOW
+__________________________________________________
+SCREENSHOT,COPY WINDOW SCREENSHOT
+SCREENSHOT,COPY PARTIAL SCREENSHOT
+SCREENSHOT,COPY SCREENSHOT
+SCREENSHOT,SAVE WINDOW SCREENSHOT
+SCREENSHOT,SAVE PARTIAL SCREENSHOT
+SCREENSHOT,SAVE SCREENSHOT
+__________________________________________________
+TO,MOVE TO WORKSPACE ABOVE
+TO,MOVE TO WORKSPACE BELOW
+TO,MOVE WINDOW TO LAST WORKSPACE
+TO,SWITCH TO NEXT INPUT SOURCE
+TO,SWITCH TO PREVIOUS INPUT SOURCE
+__________________________________________________
+WORKSPACE,MOVE TO WORKSPACE ABOVE
+WORKSPACE,MOVE TO WORKSPACE BELOW
+WORKSPACE,MOVE WINDOW ONE WORKSPACE DOWN
+WORKSPACE,MOVE WINDOW ONE WORKSPACE UP
+WORKSPACE,MOVE WINDOW TO LAST WORKSPACE
+__________________________________________________
+SWITCH,SWITCH WINDOWS
+SWITCH,SWITCH WINDOWS DIRECTLY
+SWITCH,SWITCH WINDOWS OF
+SWITCH,SWITCH TO NEXT INPUT SOURCE
+SWITCH,SWITCH TO PREVIOUS INPUT SOURCE
+__________________________________________________
+SHOW,SHOW ALL APPLICATIONS
+SHOW,SHOW ACTIVITIES OVERVIEW
+SHOW,SHOW NOTIFICATION LIST
+SHOW,SHOW OVERVIEW
+SHOW,SHOW COMMAND PROMPT
+__________________________________________________
+WINDOWS,HIDE ALL WINDOWS
+WINDOWS,SWITCH WINDOWS
+WINDOWS,SWITCH WINDOWS DIRECTLY
+WINDOWS,SWITCH WINDOWS OF
+__________________________________________________
+TURN,TURN SCREEN READER ON
+TURN,TURN SCREEN READER OFF
+TURN,TURN ZOOM ON
+TURN,TURN ZOOM OFF
+__________________________________________________
+ON,TURN SCREEN READER ON
+ON,TURN ZOOM ON
+ON,VIEW SPLIT ON LEFT
+ON,VIEW SPLIT ON RIGHT
+__________________________________________________
+ZOOM,TURN ZOOM ON
+ZOOM,TURN ZOOM OFF
+ZOOM,ZOOM IN
+ZOOM,ZOOM OUT
+__________________________________________________
+COPY,COPY WINDOW SCREENSHOT
+COPY,COPY PARTIAL SCREENSHOT
+COPY,COPY SCREENSHOT
+__________________________________________________
+SAVE,SAVE WINDOW SCREENSHOT
+SAVE,SAVE PARTIAL SCREENSHOT
+SAVE,SAVE SCREENSHOT
+__________________________________________________
+SCREEN,LOCK SCREEN
+SCREEN,TURN SCREEN READER ON
+SCREEN,TURN SCREEN READER OFF
+__________________________________________________
+HIDE,HIDE ALL WINDOWS
+HIDE,HIDE WINDOW
+__________________________________________________
+ALL,HIDE ALL WINDOWS
+ALL,SHOW ALL APPLICATIONS
+__________________________________________________
+ONE,MOVE WINDOW ONE WORKSPACE DOWN
+ONE,MOVE WINDOW ONE WORKSPACE UP
+__________________________________________________
+PARTIAL,COPY PARTIAL SCREENSHOT
+PARTIAL,SAVE PARTIAL SCREENSHOT
+__________________________________________________
+NOTIFICATION,FOCUS ACTIVE NOTIFICATION
+NOTIFICATION,SHOW NOTIFICATION LIST
+__________________________________________________
+OUT,LOG OUT
+OUT,ZOOM OUT
+__________________________________________________
+MENU,OPEN APPLICATION MENU
+MENU,ACTIVATE WINDOW MENU
+__________________________________________________
+OVERVIEW,SHOW ACTIVITIES OVERVIEW
+OVERVIEW,SHOW OVERVIEW
+__________________________________________________
+INPUT,SWITCH TO NEXT INPUT SOURCE
+INPUT,SWITCH TO PREVIOUS INPUT SOURCE
+__________________________________________________
+SOURCE,SWITCH TO NEXT INPUT SOURCE
+SOURCE,SWITCH TO PREVIOUS INPUT SOURCE
+__________________________________________________
+READER,TURN SCREEN READER ON
+READER,TURN SCREEN READER OFF
+__________________________________________________
+OFF,TURN SCREEN READER OFF
+OFF,TURN ZOOM OFF
+__________________________________________________
+VIEW,VIEW SPLIT ON LEFT
+VIEW,VIEW SPLIT ON RIGHT
+__________________________________________________
+SPLIT,VIEW SPLIT ON LEFT
+SPLIT,VIEW SPLIT ON RIGHT
+__________________________________________________
+ABOVE,MOVE TO WORKSPACE ABOVE
+__________________________________________________
+BELOW,MOVE TO WORKSPACE BELOW
+__________________________________________________
+DOWN,MOVE WINDOW ONE WORKSPACE DOWN
+__________________________________________________
+UP,MOVE WINDOW ONE WORKSPACE UP
+__________________________________________________
+LAST,MOVE WINDOW TO LAST WORKSPACE
+__________________________________________________
+DIRECTLY,SWITCH WINDOWS DIRECTLY
+__________________________________________________
+OF,SWITCH WINDOWS OF
+__________________________________________________
+RECORD,RECORD SCREENCAST
+__________________________________________________
+SCREENCAST,RECORD SCREENCAST
+__________________________________________________
+FOCUS,FOCUS ACTIVE NOTIFICATION
+__________________________________________________
+ACTIVE,FOCUS ACTIVE NOTIFICATION
+__________________________________________________
+LOCK,LOCK SCREEN
+__________________________________________________
+LOG,LOG OUT
+__________________________________________________
+OPEN,OPEN APPLICATION MENU
+__________________________________________________
+APPLICATION,OPEN APPLICATION MENU
+__________________________________________________
+APPLICATIONS,SHOW ALL APPLICATIONS
+__________________________________________________
+ACTIVITIES,SHOW ACTIVITIES OVERVIEW
+__________________________________________________
+LIST,SHOW NOTIFICATION LIST
+__________________________________________________
+COMMAND,SHOW COMMAND PROMPT
+__________________________________________________
+PROMPT,SHOW COMMAND PROMPT
+__________________________________________________
+NEXT,SWITCH TO NEXT INPUT SOURCE
+__________________________________________________
+PREVIOUS,SWITCH TO PREVIOUS INPUT SOURCE
+__________________________________________________
+IN,ZOOM IN
+__________________________________________________
+ACTIVATE,ACTIVATE WINDOW MENU
+__________________________________________________
+CLOSE,CLOSE WINDOW
+__________________________________________________
+MAXIMIZE,MAXIMIZE WINDOW
+__________________________________________________
+RESIZE,RESIZE WINDOW
+__________________________________________________
+RESTORE,RESTORE WINDOW
+__________________________________________________
+LEFT,VIEW SPLIT ON LEFT
+__________________________________________________
+RIGHT,VIEW SPLIT ON RIGHT
+__________________________________________________

@@ -1,0 +1,194 @@
+TAB,CLOSE TAB
+TAB,OPEN IN NEW TAB
+TAB,NEW TAB
+TAB,GO TO PREVIOUS TAB
+TAB,GO TO NEXT TAB
+TAB,SWITCH TO TAB ONE
+TAB,SWITCH TO TAB TWO
+TAB,SWITCH TO TAB THREE
+TAB,SWITCH TO TAB FOUR
+TAB,SWITCH TO TAB FIVE
+TAB,SWITCH TO TAB SIX
+TAB,SWITCH TO TAB SEVEN
+TAB,SWITCH TO TAB EIGHT
+TAB,SWITCH TO TAB NINE
+TAB,MOVE TAB LEFT
+TAB,MOVE TAB RIGHT
+TAB,RESTORE TAB
+__________________________________________________
+TO,GO TO PREVIOUS TAB
+TO,GO TO NEXT TAB
+TO,SWITCH TO TAB ONE
+TO,SWITCH TO TAB TWO
+TO,SWITCH TO TAB THREE
+TO,SWITCH TO TAB FOUR
+TO,SWITCH TO TAB FIVE
+TO,SWITCH TO TAB SIX
+TO,SWITCH TO TAB SEVEN
+TO,SWITCH TO TAB EIGHT
+TO,SWITCH TO TAB NINE
+TO,GO TO HOME FOLDER
+TO,MOVE TO TRASH
+__________________________________________________
+SWITCH,SWITCH TO TAB ONE
+SWITCH,SWITCH TO TAB TWO
+SWITCH,SWITCH TO TAB THREE
+SWITCH,SWITCH TO TAB FOUR
+SWITCH,SWITCH TO TAB FIVE
+SWITCH,SWITCH TO TAB SIX
+SWITCH,SWITCH TO TAB SEVEN
+SWITCH,SWITCH TO TAB EIGHT
+SWITCH,SWITCH TO TAB NINE
+__________________________________________________
+NEW,NEW WINDOW
+NEW,OPEN IN NEW TAB
+NEW,OPEN IN NEW WINDOW
+NEW,NEW TAB
+NEW,NEW FOLDER
+__________________________________________________
+SHOW,SHOW HELP
+SHOW,SHOW HIDDEN FILES
+SHOW,SHOW ACTION MENU
+SHOW,SHOW SIDEBAR
+SHOW,SHOW ITEM PROPERTIES
+__________________________________________________
+OPEN,OPEN
+OPEN,OPEN IN NEW TAB
+OPEN,OPEN IN NEW WINDOW
+OPEN,OPEN ITEM LOCATION
+OPEN,OPEN FILE AND CLOSE WINDOW
+__________________________________________________
+WINDOW,NEW WINDOW
+WINDOW,CLOSE WINDOW
+WINDOW,OPEN IN NEW WINDOW
+WINDOW,OPEN FILE AND CLOSE WINDOW
+__________________________________________________
+CLOSE,CLOSE WINDOW
+CLOSE,CLOSE TAB
+CLOSE,OPEN FILE AND CLOSE WINDOW
+__________________________________________________
+IN,OPEN IN NEW TAB
+IN,OPEN IN NEW WINDOW
+IN,ZOOM IN
+__________________________________________________
+GO,GO TO PREVIOUS TAB
+GO,GO TO NEXT TAB
+GO,GO TO HOME FOLDER
+__________________________________________________
+MOVE,MOVE TAB LEFT
+MOVE,MOVE TAB RIGHT
+MOVE,MOVE TO TRASH
+__________________________________________________
+ZOOM,ZOOM IN
+ZOOM,ZOOM OUT
+ZOOM,RESET ZOOM
+__________________________________________________
+HIDE,HIDE HIDDEN FILES
+HIDE,HIDE ACTION MENU
+HIDE,HIDE SIDEBAR
+__________________________________________________
+ITEM,OPEN ITEM LOCATION
+ITEM,SHOW ITEM PROPERTIES
+__________________________________________________
+LOCATION,OPEN ITEM LOCATION
+LOCATION,ENTER LOCATION
+__________________________________________________
+FOLDER,GO TO HOME FOLDER
+FOLDER,NEW FOLDER
+__________________________________________________
+HIDDEN,SHOW HIDDEN FILES
+HIDDEN,HIDE HIDDEN FILES
+__________________________________________________
+FILES,SHOW HIDDEN FILES
+FILES,HIDE HIDDEN FILES
+__________________________________________________
+ACTION,SHOW ACTION MENU
+ACTION,HIDE ACTION MENU
+__________________________________________________
+MENU,SHOW ACTION MENU
+MENU,HIDE ACTION MENU
+__________________________________________________
+SIDEBAR,SHOW SIDEBAR
+SIDEBAR,HIDE SIDEBAR
+__________________________________________________
+SELECT,SELECT ALL
+SELECT,SELECT MATCHING ITEMS
+__________________________________________________
+SEARCH,SEARCH
+__________________________________________________
+HELP,SHOW HELP
+__________________________________________________
+SHORTCUTS,SHORTCUTS
+__________________________________________________
+FILE,OPEN FILE AND CLOSE WINDOW
+__________________________________________________
+AND,OPEN FILE AND CLOSE WINDOW
+__________________________________________________
+PREVIOUS,GO TO PREVIOUS TAB
+__________________________________________________
+NEXT,GO TO NEXT TAB
+__________________________________________________
+ONE,SWITCH TO TAB ONE
+__________________________________________________
+TWO,SWITCH TO TAB TWO
+__________________________________________________
+THREE,SWITCH TO TAB THREE
+__________________________________________________
+FOUR,SWITCH TO TAB FOUR
+__________________________________________________
+FIVE,SWITCH TO TAB FIVE
+__________________________________________________
+SIX,SWITCH TO TAB SIX
+__________________________________________________
+SEVEN,SWITCH TO TAB SEVEN
+__________________________________________________
+EIGHT,SWITCH TO TAB EIGHT
+__________________________________________________
+NINE,SWITCH TO TAB NINE
+__________________________________________________
+LEFT,MOVE TAB LEFT
+__________________________________________________
+RIGHT,MOVE TAB RIGHT
+__________________________________________________
+RESTORE,RESTORE TAB
+__________________________________________________
+HOME,GO TO HOME FOLDER
+__________________________________________________
+ENTER,ENTER LOCATION
+__________________________________________________
+OUT,ZOOM OUT
+__________________________________________________
+RESET,RESET ZOOM
+__________________________________________________
+REFRESH,REFRESH
+__________________________________________________
+RENAME,RENAME
+__________________________________________________
+TRASH,MOVE TO TRASH
+__________________________________________________
+DELETE,DELETE PERMANENTLY
+__________________________________________________
+PERMANENTLY,DELETE PERMANENTLY
+__________________________________________________
+CUT,CUT
+__________________________________________________
+COPY,COPY
+__________________________________________________
+PASTE,PASTE
+__________________________________________________
+ALL,SELECT ALL
+__________________________________________________
+INVERT,INVERT SELECTION
+__________________________________________________
+SELECTION,INVERT SELECTION
+__________________________________________________
+MATCHING,SELECT MATCHING ITEMS
+__________________________________________________
+ITEMS,SELECT MATCHING ITEMS
+__________________________________________________
+UNDO,UNDO
+__________________________________________________
+REDO,REDO
+__________________________________________________
+PROPERTIES,SHOW ITEM PROPERTIES
+__________________________________________________
