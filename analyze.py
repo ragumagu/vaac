@@ -59,8 +59,8 @@ files = ["./data/keys/code_keyboard_shortcuts.csv", "./data/keys/firefox_keyboar
     "./data/keys/general_keyboard_shortcuts.csv", "./data/keys/nautilus_keyboard_shortcuts.csv", "./data/keys/terminal_keyboard_shortcuts.csv"]
 apps = ["CODE", "FIREFOX", "GEDIT", "", "NAUTILUS", "TERMINAL"]
 
-files = files[1:4]
-apps = apps[1:4]
+files = files[:]
+apps = apps[:]
 print(files)
 print(apps)
 
