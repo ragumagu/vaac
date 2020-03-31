@@ -2,7 +2,7 @@
 echo "In Executor.sh"
 if [ "$3" ]; then
 	echo "Executor.sh: Focusing" $3
-	wmctrl -R $3
+	wmctrl -a $3
 fi
 
 key="key"

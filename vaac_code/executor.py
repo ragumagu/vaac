@@ -29,17 +29,23 @@ class executor():
                 
         '''
         print("Executor run received",input_commands_list)
-        if self.platform == 'Linux':
-            for command in input_commands_list:
-                if command[0] == "open":
-                    Popen(command[1])
-                    time.sleep(1) #REMOVE THIS  
-                    subprocess.run(["wmctrl","-R",self.s])
+        #if self.platform == 'Linux':
+        
+        for command in input_commands_list:
+            if command is None:
+                return
+            if command[0] == "open":
+                Popen(command[1])
+                time.sleep(1) #REMOVE THIS  
+                subprocess.run(["wmctrl","-a",self.s])
 
-                elif command[0] == "focus":
-                    subprocess.run(["wmctrl", "-R", command[1]])                
+            elif command[0] == "focus":
+                if command[1] == "gnome-terminal":
+                    subprocess.run(["wmctrl","-a",self.s])
                 else:
-                    c = command[:]
-                    c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
-                    subprocess.run(c)
-                    subprocess.run(["wmctrl","-R",self.s])
+                    subprocess.run(["wmctrl", "-a", command[1]])                
+            else:
+                c = command[:]
+                c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
+                subprocess.run(c)
+                #subprocess.run(["wmctrl","-a",self.s])

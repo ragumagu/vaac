@@ -44,8 +44,8 @@ FOCUS SEARCH BAR,ctrl+k
 CLOSE TAB,ctrl+w
 CLOSE WINDOW,ctrl+shift+w
 QUIT,ctrl+q
-NEXT TAB,ctrl+Page_Up
-PREVIOUS TAB,ctrl+Page_Down
+NEXT TAB,ctrl+Page_Down
+PREVIOUS TAB,ctrl+Page_Up
 MOVE TAB LEFT,ctrl+shift+Page_Up
 MOVE TAB RIGHT,ctrl+shift+Page_Down
 MOVE TAB TO START,ctrl+shift+Home
