@@ -3,7 +3,8 @@ from vaac_code.executor import executor
 import subprocess
 
 s = subprocess.getoutput("xdotool getwindowfocus getwindowname")
-
+subprocess.run(['wmctrl', '-r', s, '-b', 'remove,maximized_vert,maximized_horz'])
+subprocess.run(["wmctrl", "-r",s, "-e", "0,0,594,1366,174"])
 extractorObj = extractor()
 executorObj = executor(s)
 
@@ -24,13 +25,15 @@ speech = LiveSpeech(
 )
 
 for phrase in speech:
-	phrase = str(phrase)
-	print(">",phrase)	
+	phrase = str(phrase)	
+	print("> ",phrase)
 	if phrase != "EXIT":		
 		command = extractorObj.find_commands(phrase)
 		executorObj.run(command)		
+
 	else:
 		break
+	
 	
 
 '''

@@ -36,16 +36,15 @@ class executor():
                 return
             if command[0] == "open":
                 Popen(command[1])
-                time.sleep(1) #REMOVE THIS  
-                subprocess.run(["wmctrl","-a",self.s])
-
+                time.sleep(2) #REMOVE THIS                               
+                if command[1] not in ["gedit","nautilus"]:                   
+                    subprocess.run(['xdotool', 'search', '--onlyvisible', '-desktop', '0', '--class', command[1], 'windowsize', '--sync','1366', '511', 'windowmove','0','0'])
+                else:                    
+                    subprocess.run(['xdotool', 'search', '--onlyvisible', '-desktop', '0', '--class', command[1], 'windowsize','--sync', '1450', '610','windowmove','0','0'])
+                
             elif command[0] == "focus":
-                if command[1] == "gnome-terminal":
-                    subprocess.run(["wmctrl","-a",self.s])
-                else:
-                    subprocess.run(["wmctrl", "-a", command[1]])                
+                subprocess.run(['xdotool', 'search', '--onlyvisible', '--class', command[1], 'windowactivate'])                
             else:
                 c = command[:]
                 c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
-                subprocess.run(c)
-                #subprocess.run(["wmctrl","-a",self.s])
+                subprocess.run(c)                

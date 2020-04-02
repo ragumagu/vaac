@@ -104,7 +104,7 @@ class extractor():
         return result
 
     def extract(self, string):
-        print("Extractor.extract():Processing string:", string)
+        #print("Extractor.extract():Processing string:", string)
         string = self.find_target_application(string)
         cmd_type = self.find_command_type(string)
         open_applications = self.find_open_applications()
