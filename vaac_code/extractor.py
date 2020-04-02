@@ -17,51 +17,20 @@ def __docs__():
 
     '''
 
-
-class extractor():
+class Extractor():
     '''This is the extractor class.'''
 
-    def __init__(self):
+    def __init__(self,wm):
+        self.wm = wm
         self.applications = [['mozilla-firefox', 'mozilla', 'browser', 'firefox'], ['text-editor', 'gedit'], [
             'visual-studio-code', 'vs-code', 'code'], ['terminal', 'gnome-terminal'], ['files', 'nautilus']]
-        code_shortcuts_file = open(
-            "./data/keys/code_keyboard_shortcuts.csv")  # Hardcoded string
-        self.code_keyboard_shortcuts = list(csv.reader(code_shortcuts_file))
-        firefox_shortcuts_file = open(
-            "./data/keys/firefox_keyboard_shortcuts.csv")  # Hardcoded string
-        self.firefox_keyboard_shortcuts = list(
-            csv.reader(firefox_shortcuts_file))
-        gedit_shortcuts_file = open(
-            "./data/keys/gedit_keyboard_shortcuts.csv")  # Hardcoded string
-        self.gedit_keyboard_shortcuts = list(csv.reader(gedit_shortcuts_file))
-        terminal_shortcuts_file = open(
-            "./data/keys/terminal_keyboard_shortcuts.csv")  # Hardcoded string
-        self.terminal_keyboard_shortcuts = list(
-            csv.reader(terminal_shortcuts_file))
-
-        general_shortcuts_file = open(
-            "./data/keys/general_keyboard_shortcuts.csv")  # Hardcoded string
-        self.general_keyboard_shortcuts = list(
-            csv.reader(general_shortcuts_file))
-        nautilus_shortcuts_file = open(
-            "./data/keys/nautilus_keyboard_shortcuts.csv")  # Hardcoded string
-        self.nautilus_keyboard_shortcuts = list(
-            csv.reader(nautilus_shortcuts_file))
-
-        # vaac_commands_file = open("./data/vaac_commands.csv") #Hardcoded string
-        #self.vaac_commands = list(csv.reader(vaac_commands_file))
-
-        self.map = {"code": self.code_keyboard_shortcuts, "firefox": self.firefox_keyboard_shortcuts,
-                    "gedit": self.gedit_keyboard_shortcuts, "gnome-terminal": self.terminal_keyboard_shortcuts, "nautilus": self.nautilus_keyboard_shortcuts, "general": self.general_keyboard_shortcuts}
-
+        self.app_names = ['code','firefox','gedit','general','nautilus','gnome-terminal']
+        paths = ["./data/keys/code_keyboard_shortcuts.csv","./data/keys/firefox_keyboard_shortcuts.csv","./data/keys/gedit_keyboard_shortcuts.csv","./data/keys/general_keyboard_shortcuts.csv","./data/keys/nautilus_keyboard_shortcuts.csv","./data/keys/terminal_keyboard_shortcuts.csv"]
+        self.files_map = {}        
+        for i in range(len(paths)):
+            dfile = open(paths[i],"r")
+            self.files_map[self.app_names[i]] = list(csv.reader(dfile))        
         self.current_app = ""
-
-    def find_open_applications(self):
-        string = subprocess.getoutput("./vaac_code/running_apps.sh").lower()
-        open_applications = string.split("\n")
-
-        # print("Executor.find_open_applications():",open_applications)
-        return open_applications
 
     def find_target_application(self, string):
         '''Stores target application in self.current_app and returns the input string after removing the target application from it, for further processing.'''
@@ -98,16 +67,14 @@ class extractor():
         result = []
         for command in commands:
             command = command.strip()
-            result.append(self.extract(command))
-        #print("Extractor.find_commands(): ",commands)
-        #print("Extractor returning:",result)
+            result.append(self.extract(command))        
         return result
 
     def extract(self, string):
         #print("Extractor.extract():Processing string:", string)
         string = self.find_target_application(string)
-        cmd_type = self.find_command_type(string)
-        open_applications = self.find_open_applications()
+        cmd_type = self.find_command_type(string)        
+        open_applications = self.wm.get_open_apps()
         if cmd_type == "open":
             if self.current_app in open_applications:
                 return ['focus', self.current_app]
@@ -126,7 +93,7 @@ class extractor():
         max_ratio = 0
         i = 0
         n = 0
-        for line in self.map[self.current_app]:
+        for line in self.files_map[self.current_app]:
             tsr = fuzz.token_sort_ratio(string, line[0])
             # print("string:",string,"line",line,"tsr",tsr)
             if tsr > max_ratio:
@@ -136,10 +103,10 @@ class extractor():
             i += 1
 
         print("Extractor: max_ratio:", max_ratio)
-        print("Extractor: command is", self.map[self.current_app][n])
+        print("Extractor: command is", self.files_map[self.current_app][n])
 
-        if max_ratio > 95:
-            command = self.map[self.current_app][n][1:]
+        if max_ratio == 100:
+            command = self.files_map[self.current_app][n][1:]
             command.append(self.current_app)
             command.insert(0, cmd_type)
             #print("Extractor, sending command:", command)

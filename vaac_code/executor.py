@@ -9,11 +9,12 @@ import time
 		# Add support for Windows.
 '''
 
-class executor():
+class Executor():
     '''This is the Executor class.'''    
-    def __init__(self,s):
-        self.platform = platform.system()
-        self.s = s        
+    def __init__(self,wm):
+        self.platform = platform.system()        
+        self.wm = wm
+        
     def run(self,input_commands_list):
         '''This takes in, a list argument with:
                 command[0] = 'key' or 'type' or 'open' or 'focus'
@@ -36,15 +37,13 @@ class executor():
                 return
             if command[0] == "open":
                 Popen(command[1])
-                time.sleep(2) #REMOVE THIS                               
-                if command[1] not in ["gedit","nautilus"]:                   
-                    subprocess.run(['xdotool', 'search', '--onlyvisible', '-desktop', '0', '--class', command[1], 'windowsize', '--sync','1366', '511', 'windowmove','0','0'])
-                else:                    
-                    subprocess.run(['xdotool', 'search', '--onlyvisible', '-desktop', '0', '--class', command[1], 'windowsize','--sync', '1450', '610','windowmove','0','0'])
-                
+                time.sleep(1) #REMOVE THIS                
+                self.wm.resize_all()
             elif command[0] == "focus":
-                subprocess.run(['xdotool', 'search', '--onlyvisible', '--class', command[1], 'windowactivate'])                
+                self.wm.focus(command[1])
             else:
                 c = command[:]
+                self.wm.focus(command[2])
                 c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
-                subprocess.run(c)                
+                subprocess.run(c)
+                #self.wm.resize_all()

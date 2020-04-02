@@ -1,3 +1,4 @@
+CLOSE WINDOW,alt+F4
 SHOW COMMAND PALETTE,ctrl+shift+p
 QUICK OPEN,ctrl+p
 NEW WINDOW,ctrl+shift+n

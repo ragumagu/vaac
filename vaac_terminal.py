@@ -1,12 +1,13 @@
-from vaac_code.extractor import extractor
-from vaac_code.executor import executor
+from vaac_code.extractor import Extractor
+from vaac_code.executor import Executor
+from vaac_code.window_manager import WindowManager
 import subprocess
 
 s = subprocess.getoutput("xdotool getwindowfocus getwindowname")
-subprocess.run(['wmctrl', '-r', s, '-b', 'remove,maximized_vert,maximized_horz'])
-subprocess.run(["wmctrl", "-r",s, "-e", "0,0,594,1366,174"])
-extractorObj = extractor()
-executorObj = executor(s)
+wm = WindowManager(s)
+wm.resize_all()
+extractorObj = Extractor(wm)
+executorObj = Executor(wm)
 
 import os
 from pocketsphinx import LiveSpeech, get_model_path
@@ -29,7 +30,8 @@ for phrase in speech:
 	print("> ",phrase)
 	if phrase != "EXIT":		
 		command = extractorObj.find_commands(phrase)
-		executorObj.run(command)		
+		executorObj.run(command)
+		print("Ready...")	
 
 	else:
 		break
