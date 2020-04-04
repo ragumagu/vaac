@@ -45,5 +45,5 @@ class Executor():
                 c = command[:]
                 self.wm.focus(command[2])
                 c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
-                subprocess.run(c)
-                #self.wm.resize_all()
+                subprocess.run(c)                
+                self.wm.resize_if_windows_changed()
