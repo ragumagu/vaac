@@ -36,14 +36,14 @@ class Executor():
             if command is None:
                 return
             if command[0] == "open":
-                Popen(command[1])
-                time.sleep(1) #REMOVE THIS                
-                self.wm.resize_all()
+                pid = Popen(command[1]).pid                
+                #print("In executor, pid:",pid,type(pid))                
+                self.wm.resize_window(pid,command[1])
             elif command[0] == "focus":
                 self.wm.focus(command[1])
             else:
                 c = command[:]
                 self.wm.focus(command[2])
                 c.insert(0,'./vaac_code/executor.sh') # Hardcoded string.
-                subprocess.run(c)                
-                self.wm.resize_if_windows_changed()
+                subprocess.run(c)
+                self.wm.resize_if_windows_changed()                

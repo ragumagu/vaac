@@ -74,6 +74,9 @@ class Extractor():
         #print("Extractor.extract():Processing string:", string)
         string = self.find_target_application(string)
         cmd_type = self.find_command_type(string)        
+        self.wm.update_apps_windows()
+        self.wm.window_dims = self.wm.get_window_dims_dict()
+        print("wm.window_dims_dict",self.wm.window_dims) # Remove this
         open_applications = self.wm.get_open_apps()
         if cmd_type == "open":
             if self.current_app in open_applications:
