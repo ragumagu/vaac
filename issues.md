@@ -14,7 +14,7 @@
 15. "switch to tab two"
 16. "open new tab" "new tab" | "exit full screen" "toggle full screen" -> "full screen"
 17. "close nautilus" vs "close tab"
-
+18. "open firefox" "firefox" "focus firefox" "switch to firefox" "go to firefox"
 18. ~~xdotool does not activate the correct window. And might give: XGetWindowProperty[_NET_WM_DESKTOP] failed (code=1)
     Try the following solution: focus all the windows one by one, with ids in 
     xdotool search -class "app-name"
@@ -30,3 +30,13 @@
 22. Try to implement extractor - executor relations, so that the extractor can send multiple commands one after the other, or bundle them in one list. See if a generator concept helps. See if this feature is absolutely necessary.
 It will be needed when command chaining has to be supported.
 23. Vaac has no history feature. Store all valid commands with a time stamp, in a log. You might also need previous commands being accessible to extractor to enhance its deduction abilities (advanced).
+24. There is only so many synonyms you'll have to support before they are exhausted. Write them all out, by need and experience.
+25. Intelligent commands.
+26. Ability to import key events from bashrc/vimrc/xresources and application_resources files.
+27. Enable verbose logging.
+28. Enable wm manager controls.
+29. Store all hardcoded strings in one config file.
+30. Implement reduced libraries, having words only from essential commands. Then additional libraries(lm) which can be then recorded and trained as sets.
+Vaac must be able use the specified lm.
+31. Implement functional programming like features, and find a way to share the wm class object between extractor and executor.
+32. Write extractor class, as filters which are applied one after the other.
