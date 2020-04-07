@@ -1,0 +1,1480 @@
+In windowhandler.initscreen():Screen Initialized.
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=51
+In  InputDto.processArgs: currentcommand 3
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,2
+In InputDto.updateyx:New y,x1,3
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,3
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=51
+In  InputDto.processArgs: currentcommand 33
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,3
+In InputDto.updateyx:New y,x1,4
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,4
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=46
+In  InputDto.processArgs: currentcommand 33.
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,4
+In InputDto.updateyx:New y,x1,5
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,5
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,5
+In InputDto.updateyx:New y,x1,6
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,6
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. t
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,6
+In InputDto.updateyx:New y,x1,7
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,7
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. te
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,7
+In InputDto.updateyx:New y,x1,8
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,8
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. ter
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,8
+In InputDto.updateyx:New y,x1,9
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,9
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=109
+In  InputDto.processArgs: currentcommand 33. term
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,9
+In InputDto.updateyx:New y,x1,10
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,10
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=46
+In  InputDto.processArgs: currentcommand 33. term.
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,10
+In InputDto.updateyx:New y,x1,11
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,11
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=112
+In  InputDto.processArgs: currentcommand 33. term.p
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,11
+In InputDto.updateyx:New y,x1,12
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,12
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=121
+In  InputDto.processArgs: currentcommand 33. term.py
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,12
+In InputDto.updateyx:New y,x1,13
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,13
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,13
+In InputDto.updateyx:New y,x1,14
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,14
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py n
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,14
+In InputDto.updateyx:New y,x1,15
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,15
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py ne
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,15
+In InputDto.updateyx:New y,x1,16
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,16
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py nee
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,16
+In InputDto.updateyx:New y,x1,17
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,17
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=100
+In  InputDto.processArgs: currentcommand 33. term.py need
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,17
+In InputDto.updateyx:New y,x1,18
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,18
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,18
+In InputDto.updateyx:New y,x1,19
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,19
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,19
+In InputDto.updateyx:New y,x1,20
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,20
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs s
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,20
+In InputDto.updateyx:New y,x1,21
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,21
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs so
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,21
+In InputDto.updateyx:New y,x1,22
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,22
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=109
+In  InputDto.processArgs: currentcommand 33. term.py needs som
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,22
+In InputDto.updateyx:New y,x1,23
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,23
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,23
+In InputDto.updateyx:New y,x1,24
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,24
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,24
+In InputDto.updateyx:New y,x1,25
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,25
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=119
+In  InputDto.processArgs: currentcommand 33. term.py needs some w
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,25
+In InputDto.updateyx:New y,x1,26
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,26
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some wo
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,26
+In InputDto.updateyx:New y,x1,27
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,27
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some wor
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,27
+In InputDto.updateyx:New y,x1,28
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,28
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=107
+In  InputDto.processArgs: currentcommand 33. term.py needs some work
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,28
+In InputDto.updateyx:New y,x1,29
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,29
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,29
+In InputDto.updateyx:New y,x1,30
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,30
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=119
+In  InputDto.processArgs: currentcommand 33. term.py needs some work w
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,30
+In InputDto.updateyx:New y,x1,31
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,31
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work wi
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,31
+In InputDto.updateyx:New y,x1,32
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,32
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work wit
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,32
+In InputDto.updateyx:New y,x1,33
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,33
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=104
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,33
+In InputDto.updateyx:New y,x1,34
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,34
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,34
+In InputDto.updateyx:New y,x1,35
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,35
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with r
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,35
+In InputDto.updateyx:New y,x1,36
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,36
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with re
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,36
+In InputDto.updateyx:New y,x1,37
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,37
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=103
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with reg
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,37
+In InputDto.updateyx:New y,x1,38
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,38
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=97
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with rega
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,38
+In InputDto.updateyx:New y,x1,39
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,39
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regar
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,39
+In InputDto.updateyx:New y,x1,40
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,40
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=100
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,40
+In InputDto.updateyx:New y,x1,41
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,41
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,41
+In InputDto.updateyx:New y,x1,42
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,42
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard t
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,42
+In InputDto.updateyx:New y,x1,43
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,43
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,43
+In InputDto.updateyx:New y,x1,44
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,44
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,44
+In InputDto.updateyx:New y,x1,45
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,45
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to t
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,45
+In InputDto.updateyx:New y,x1,46
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,46
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to te
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,46
+In InputDto.updateyx:New y,x1,47
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,47
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to tes
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,47
+In InputDto.updateyx:New y,x1,48
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,48
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to test
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,48
+In InputDto.updateyx:New y,x1,49
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,49
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testi
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,49
+In InputDto.updateyx:New y,x1,50
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,50
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testin
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,50
+In InputDto.updateyx:New y,x1,51
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,51
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=103
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,51
+In InputDto.updateyx:New y,x1,52
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,52
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,52
+In InputDto.updateyx:New y,x1,53
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,53
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=102
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing f
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,53
+In InputDto.updateyx:New y,x1,54
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,54
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing fo
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,54
+In InputDto.updateyx:New y,x1,55
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,55
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,55
+In InputDto.updateyx:New y,x1,56
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,56
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,56
+In InputDto.updateyx:New y,x1,57
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,57
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=98
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for b
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,57
+In InputDto.updateyx:New y,x1,58
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,58
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=117
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bu
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,58
+In InputDto.updateyx:New y,x1,59
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,59
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=103
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bug
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,59
+In InputDto.updateyx:New y,x1,60
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,60
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,60
+In InputDto.updateyx:New y,x1,61
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,61
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=58
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs:
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,61
+In InputDto.updateyx:New y,x1,62
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,62
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,62
+In InputDto.updateyx:New y,x1,63
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,63
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: n
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,63
+In InputDto.updateyx:New y,x1,64
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,64
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: ne
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,64
+In InputDto.updateyx:New y,x1,65
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,65
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: nee
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,65
+In InputDto.updateyx:New y,x1,66
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,66
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=100
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: need
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,66
+In InputDto.updateyx:New y,x1,67
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,67
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,67
+In InputDto.updateyx:New y,x1,68
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,68
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,68
+In InputDto.updateyx:New y,x1,69
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,69
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=118
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs v
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,69
+In InputDto.updateyx:New y,x1,70
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,70
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs ve
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,70
+In InputDto.updateyx:New y,x1,71
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,71
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs ver
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,71
+In InputDto.updateyx:New y,x1,72
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,72
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vert
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,72
+In InputDto.updateyx:New y,x1,73
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,73
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs verti
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,73
+In InputDto.updateyx:New y,x1,74
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,74
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=99
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertic
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,74
+In InputDto.updateyx:New y,x1,75
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,75
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=97
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertica
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,75
+In InputDto.updateyx:New y,x1,76
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,76
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=108
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,76
+In InputDto.updateyx:New y,x1,77
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,77
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,77
+In InputDto.updateyx:New y,x1,78
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,78
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical s
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,78
+In InputDto.updateyx:New y,x1,79
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,79
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=99
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical sc
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,79
+In InputDto.updateyx:New y,x1,80
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,80
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scr
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,80
+In InputDto.updateyx:New y,x1,81
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,81
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scro
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,81
+In InputDto.updateyx:New y,x1,82
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,82
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=108
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrol
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,82
+In InputDto.updateyx:New y,x1,83
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,83
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=108
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scroll
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,83
+In InputDto.updateyx:New y,x1,84
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,84
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolli
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,84
+In InputDto.updateyx:New y,x1,85
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,85
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrollin
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,85
+In InputDto.updateyx:New y,x1,86
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,86
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=103
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,86
+In InputDto.updateyx:New y,x1,87
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,87
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=46
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling.
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,87
+In InputDto.updateyx:New y,x1,88
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,88
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,88
+In InputDto.updateyx:New y,x1,89
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,89
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=97
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. a
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,89
+In InputDto.updateyx:New y,x1,90
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,90
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. an
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,90
+In InputDto.updateyx:New y,x1,91
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,91
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=100
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,91
+In InputDto.updateyx:New y,x1,92
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,92
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,92
+In InputDto.updateyx:New y,x1,93
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,93
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=108
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and l
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,93
+In InputDto.updateyx:New y,x1,94
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,94
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and li
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,94
+In InputDto.updateyx:New y,x1,95
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,95
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and lin
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,95
+In InputDto.updateyx:New y,x1,96
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,96
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,96
+In InputDto.updateyx:New y,x1,97
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,97
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=47
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,97
+In InputDto.updateyx:New y,x1,98
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,98
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=119
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/w
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,98
+In InputDto.updateyx:New y,x1,99
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,99
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/wo
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,99
+In InputDto.updateyx:New y,x1,100
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,100
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/wor
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,100
+In InputDto.updateyx:New y,x1,101
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,101
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=100
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,101
+In InputDto.updateyx:New y,x1,102
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,102
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,102
+In InputDto.updateyx:New y,x1,103
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,103
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=119
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word w
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,103
+In InputDto.updateyx:New y,x1,104
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,104
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wr
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,104
+In InputDto.updateyx:New y,x1,105
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,105
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=97
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wra
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,105
+In InputDto.updateyx:New y,x1,106
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,106
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=112
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrap
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,106
+In InputDto.updateyx:New y,x1,107
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,107
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=112
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapp
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,107
+In InputDto.updateyx:New y,x1,108
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,108
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrappi
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,108
+In InputDto.updateyx:New y,x1,109
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,109
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrappin
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,109
+In InputDto.updateyx:New y,x1,110
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,110
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=103
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,110
+In InputDto.updateyx:New y,x1,111
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,111
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=46
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,111
+In InputDto.updateyx:New y,x1,112
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,112
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=51
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.3
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,112
+In InputDto.updateyx:New y,x1,113
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,113
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=51
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,113
+In InputDto.updateyx:New y,x1,114
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,114
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=46
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33.
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,114
+In InputDto.updateyx:New y,x1,115
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,115
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,115
+In InputDto.updateyx:New y,x1,116
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,116
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. t
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,116
+In InputDto.updateyx:New y,x1,117
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,117
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. te
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,117
+In InputDto.updateyx:New y,x1,118
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,118
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. ter
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,118
+In InputDto.updateyx:New y,x1,119
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,119
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=109
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,119
+In InputDto.updateyx:New y,x1,120
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,120
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=46
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,120
+In InputDto.updateyx:New y,x1,121
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,121
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=112
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.p
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,121
+In InputDto.updateyx:New y,x1,122
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,122
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=121
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,122
+In InputDto.updateyx:New y,x1,123
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,123
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,123
+In InputDto.updateyx:New y,x1,124
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,124
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=110
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py n
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,124
+In InputDto.updateyx:New y,x1,125
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,125
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py ne
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,125
+In InputDto.updateyx:New y,x1,126
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,126
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py nee
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,126
+In InputDto.updateyx:New y,x1,127
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,127
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=100
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py need
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,127
+In InputDto.updateyx:New y,x1,128
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,128
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,128
+In InputDto.updateyx:New y,x1,129
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,129
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,129
+In InputDto.updateyx:New y,x1,130
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,130
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=115
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs s
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,130
+In InputDto.updateyx:New y,x1,131
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,131
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs so
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,131
+In InputDto.updateyx:New y,x1,132
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,132
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=109
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs som
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,132
+In InputDto.updateyx:New y,x1,133
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,133
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,133
+In InputDto.updateyx:New y,x1,134
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,134
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,134
+In InputDto.updateyx:New y,x1,135
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,135
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=119
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some w
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,135
+In InputDto.updateyx:New y,x1,136
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,136
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=111
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some wo
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,136
+In InputDto.updateyx:New y,x1,137
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,137
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some wor
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,137
+In InputDto.updateyx:New y,x1,138
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,138
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=107
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,138
+In InputDto.updateyx:New y,x1,139
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,139
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,139
+In InputDto.updateyx:New y,x1,140
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,140
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=119
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work w
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,140
+In InputDto.updateyx:New y,x1,141
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,141
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=105
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work wi
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,141
+In InputDto.updateyx:New y,x1,142
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,142
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=116
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work wit
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,142
+In InputDto.updateyx:New y,x1,143
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,143
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=104
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,143
+In InputDto.updateyx:New y,x1,144
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,144
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=32
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with 
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,144
+In InputDto.updateyx:New y,x1,145
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,145
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with r
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,145
+In InputDto.updateyx:New y,x1,146
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,146
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=101
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with re
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,146
+In InputDto.updateyx:New y,x1,147
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,147
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=103
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with reg
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,147
+In InputDto.updateyx:New y,x1,148
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,148
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=97
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with rega
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,148
+In InputDto.updateyx:New y,x1,149
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:1,149
+----------------------
+In InputDto.takeInput(): taking input...
+In  InputDto.takeInput(): got char=114
+In  InputDto.processArgs: currentcommand 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping.33. term.py needs some work with regar
+In  InputDto.processArgs: commands_list: []
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,149
+In InputDto.updateyx:New y,x2,0
+In InputDto.updateyx:Same x,y(autoincrement)
+In windowHandler.move_cursor,moving to y,x:2,150

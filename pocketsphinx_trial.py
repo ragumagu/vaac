@@ -1,22 +1,8 @@
-from multiprocessing import Process, Value, Manager
 import os
+from multiprocessing import Process, Value, Manager
 from pocketsphinx import LiveSpeech, get_model_path
 
-model_path = "vaac_model"
-
-'''
-class RecognizedCommands:
-    def __init__(self):
-        self.commands = []
-        self.index = -1
-
-    def __iadd__(self, string):
-        self.commands.append(string)
-        self.index += 1
-        print("In iadd", string)
-        print('In iadd', self.commands,self.index)
-        return self
-'''
+model_path = "/home/shrinidhi/project/vaac/vaac_model"
 
 class VaacSpeech(LiveSpeech):
     def __init__(self, **kwargs):
@@ -30,39 +16,17 @@ class VaacSpeech(LiveSpeech):
                     self.process_raw(self.buf, self.no_search, self.full_utt)
                     if self.keyphrase and self.hyp():
                         with self.end_utterance():
-                            # yield self                            
                             self.recognized_commands.append(str(self))
                             yield self
-                            # print(self,self.recognized_commands)
-                            #print("In while (1)")
 
                     elif self.in_speech != self.get_in_speech():
                         self.in_speech = self.get_in_speech()
                         if not self.in_speech and self.hyp():
                             with self.end_utterance():
-                                # yield self                                
                                 self.recognized_commands.append(str(self))
                                 yield self
-                                # print(self,self.recognized_commands)
-                                #print("In while (2)")
 
 
-'''
-print("> ",end="",flush=True)
-for phrase in speech:
-    print(str(phrase),end=" ")    
-    x = input()
-    print("Got x:",str(phrase),x)
-    print("> ",end="",flush=True)
-'''
-'''
-vs = vaac_speech()
-while 1:
-    print("> ",end="",flush=True)    
-    x = input()    
-    phrase = vs.get_one_command()
-    print("Got x:",str(phrase),x)    
-    '''
 
 ### The _GetchUnix function replicates the functionality of the getch() method.
 
@@ -75,7 +39,7 @@ class _GetchUnix:
         fd = sys.stdin.fileno()
         old_settings = termios.tcgetattr(fd)
         try:
-            tty.setraw(sys.stdin.fileno())
+            tty.setraw(sys.stdin.fileno())            
             ch = sys.stdin.read(1)
         finally:
             termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
@@ -83,9 +47,10 @@ class _GetchUnix:
 
 getch = _GetchUnix()
 
-ch = getch()
+#ch = getch()
 
 def run_pocketsphinx(rc,inputchars):
+    #print("in run_ps")
     speech = VaacSpeech(
         verbose=False,
         sampling_rate=16000,
@@ -98,41 +63,46 @@ def run_pocketsphinx(rc,inputchars):
         rcobj=rc
     )
     rclen = 0
+    
     for phrase in speech: 
-        for char in str(phrase):
+        for char in str(phrase).lower():
             inputchars.append(char)
         newlen = len(rc)
-        if newlen > rclen:            
+        inp = (" " + "".join(inputchars)).strip()
+        if newlen > rclen:                        
             rclen = newlen
-            print("\r"+"".join(inputchars),end="")
-        inp = "".join(inputchars)
-        if "EXIT" in inp:
+            print("\r> "+inp,end="")        
+        if "exit" in inp:
+            print()
             break
 
-
 def run_cmdline(rc,inputchars):
-    #print("THREAD2")    
-    rclen = len(rc)
-    while 1:
-        #print("THREAD2> ", end="", flush=True)        
-        #x = input("Thread2> ")
-        
-        #print("x:",x,type(x),repr(x),x.isalnum())
-        #print("string",string,repr(string))
-        
+    #print("in run_cmdline")
+    rclen = len(rc)    
+    while 1:         
+        inp = "".join(inputchars)
+        print("\r> "+inp+"\033[K",end="")
         x = getch()
-        if x.isalnum():
-            #print("in if")
-            inputchars.append(x)
-            print("\r"+"".join(inputchars),end="")
+        print("ord(x)",ord(x))
+
+        if ord(x) >= 32 and ord(x) <= 126:            
+            inputchars.append(x)            
+            print("\r> "+inp+"\033[K",end="")
+        elif ord(x) == 127: #Backspace
+            try:
+                inputchars[-1] = ""
+                del inputchars[-1]
+            except:
+                pass
+            print("\r> "+inp+"\033[K",end="")
+        elif repr(x) == '\x1b'
         else:
-            #print("in else")
-            #print(string)
             print()
             if "exit" in "".join(inputchars):
                 break
             for i in range(len(inputchars)):
                 inputchars.pop()
+            print("> ",end="")
         
 
 if __name__ == '__main__':
@@ -140,9 +110,7 @@ if __name__ == '__main__':
     rc = manager.list()
     inputchars = manager.list()
     p1 = Process(target=run_pocketsphinx, args=(rc,inputchars,))
-    p1.start()
-    #p2 = Process(target=run_cmdline,args=(rc,))
-    run_cmdline(rc,inputchars,)
-    #p2.start()
+    p1.start()    
+    run_cmdline(rc,inputchars,)    
     p1.join()
-    #p2.join()
+    
