@@ -1,0 +1,774 @@
+In windowhandler.initscreen():Screen Initialized:15,66
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,2
+In InputDto.updateyx:New y,x1,3
+In windowHandler.move_cursor,moving to y,x:1,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,3
+In InputDto.updateyx:New y,x1,4
+In windowHandler.move_cursor,moving to y,x:1,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,4
+In InputDto.updateyx:New y,x1,5
+In windowHandler.move_cursor,moving to y,x:1,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,5
+In InputDto.updateyx:New y,x1,6
+In windowHandler.move_cursor,moving to y,x:1,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,6
+In InputDto.updateyx:New y,x1,7
+In windowHandler.move_cursor,moving to y,x:1,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,7
+In InputDto.updateyx:New y,x1,8
+In windowHandler.move_cursor,moving to y,x:1,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,8
+In InputDto.updateyx:New y,x1,9
+In windowHandler.move_cursor,moving to y,x:1,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: []
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,9
+In InputDto.updateyx:New y,x1,10
+In windowHandler.move_cursor,moving to y,x:1,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x1,10
+In InputDto.updateyx:New y,x7,2
+In windowHandler.move_cursor,moving to y,x:7,2
+----------------------
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,2
+In InputDto.updateyx:New y,x7,3
+In windowHandler.move_cursor,moving to y,x:7,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,3
+In InputDto.updateyx:New y,x7,4
+In windowHandler.move_cursor,moving to y,x:7,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,4
+In InputDto.updateyx:New y,x7,5
+In windowHandler.move_cursor,moving to y,x:7,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,5
+In InputDto.updateyx:New y,x7,6
+In windowHandler.move_cursor,moving to y,x:7,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,6
+In InputDto.updateyx:New y,x7,7
+In windowHandler.move_cursor,moving to y,x:7,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,7
+In InputDto.updateyx:New y,x7,8
+In windowHandler.move_cursor,moving to y,x:7,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,8
+In InputDto.updateyx:New y,x7,9
+In windowHandler.move_cursor,moving to y,x:7,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: ['cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,9
+In InputDto.updateyx:New y,x7,10
+In windowHandler.move_cursor,moving to y,x:7,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x7,10
+In InputDto.updateyx:New y,x13,2
+In windowHandler.move_cursor,moving to y,x:13,2
+----------------------
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,2
+In InputDto.updateyx:New y,x13,3
+In windowHandler.move_cursor,moving to y,x:13,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,3
+In InputDto.updateyx:New y,x13,4
+In windowHandler.move_cursor,moving to y,x:13,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,4
+In InputDto.updateyx:New y,x13,5
+In windowHandler.move_cursor,moving to y,x:13,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,5
+In InputDto.updateyx:New y,x13,6
+In windowHandler.move_cursor,moving to y,x:13,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,6
+In InputDto.updateyx:New y,x13,7
+In windowHandler.move_cursor,moving to y,x:13,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,7
+In InputDto.updateyx:New y,x13,8
+In windowHandler.move_cursor,moving to y,x:13,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,8
+In InputDto.updateyx:New y,x13,9
+In windowHandler.move_cursor,moving to y,x:13,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,9
+In InputDto.updateyx:New y,x13,10
+In windowHandler.move_cursor,moving to y,x:13,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x13,10
+In InputDto.updateyx:New y,x19,2
+In windowHandler.move_cursor,moving to y,x:19,2
+----------------------
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,2
+In InputDto.updateyx:New y,x19,3
+In windowHandler.move_cursor,moving to y,x:19,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,3
+In InputDto.updateyx:New y,x19,4
+In windowHandler.move_cursor,moving to y,x:19,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,4
+In InputDto.updateyx:New y,x19,5
+In windowHandler.move_cursor,moving to y,x:19,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,5
+In InputDto.updateyx:New y,x19,6
+In windowHandler.move_cursor,moving to y,x:19,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,6
+In InputDto.updateyx:New y,x19,7
+In windowHandler.move_cursor,moving to y,x:19,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,7
+In InputDto.updateyx:New y,x19,8
+In windowHandler.move_cursor,moving to y,x:19,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,8
+In InputDto.updateyx:New y,x19,9
+In windowHandler.move_cursor,moving to y,x:19,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,9
+In InputDto.updateyx:New y,x19,10
+In windowHandler.move_cursor,moving to y,x:19,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x19,10
+In InputDto.updateyx:New y,x25,2
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:25,2
+----------------------
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,2
+In InputDto.updateyx:New y,x25,3
+In windowHandler.move_cursor,moving to y,x:25,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,3
+In InputDto.updateyx:New y,x25,4
+In windowHandler.move_cursor,moving to y,x:25,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,4
+In InputDto.updateyx:New y,x25,5
+In windowHandler.move_cursor,moving to y,x:25,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,5
+In InputDto.updateyx:New y,x25,6
+In windowHandler.move_cursor,moving to y,x:25,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,6
+In InputDto.updateyx:New y,x25,7
+In windowHandler.move_cursor,moving to y,x:25,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,7
+In InputDto.updateyx:New y,x25,8
+In windowHandler.move_cursor,moving to y,x:25,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,8
+In InputDto.updateyx:New y,x25,9
+In windowHandler.move_cursor,moving to y,x:25,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,9
+In InputDto.updateyx:New y,x25,10
+In windowHandler.move_cursor,moving to y,x:25,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x25,10
+In InputDto.updateyx:New y,x31,2
+In windowHandler.move_cursor,moving to y,x:31,2
+----------------------
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,2
+In InputDto.updateyx:New y,x31,3
+In windowHandler.move_cursor,moving to y,x:31,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,3
+In InputDto.updateyx:New y,x31,4
+In windowHandler.move_cursor,moving to y,x:31,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,4
+In InputDto.updateyx:New y,x31,5
+In windowHandler.move_cursor,moving to y,x:31,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,5
+In InputDto.updateyx:New y,x31,6
+In windowHandler.move_cursor,moving to y,x:31,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,6
+In InputDto.updateyx:New y,x31,7
+In windowHandler.move_cursor,moving to y,x:31,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,7
+In InputDto.updateyx:New y,x31,8
+In windowHandler.move_cursor,moving to y,x:31,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,8
+In InputDto.updateyx:New y,x31,9
+In windowHandler.move_cursor,moving to y,x:31,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,9
+In InputDto.updateyx:New y,x31,10
+In windowHandler.move_cursor,moving to y,x:31,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x31,10
+In InputDto.updateyx:New y,x38,2
+In windowHandler.move_cursor,moving to y,x:38,2
+----------------------
+In  InputDto.takeInput(): Got char:99
+In  InputDto.processArgs: currentcommand c
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,2
+In InputDto.updateyx:New y,x38,3
+In windowHandler.move_cursor,moving to y,x:38,3
+----------------------
+In  InputDto.takeInput(): Got char:97
+In  InputDto.processArgs: currentcommand ca
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,3
+In InputDto.updateyx:New y,x38,4
+In windowHandler.move_cursor,moving to y,x:38,4
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand cat
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,4
+In InputDto.updateyx:New y,x38,5
+In windowHandler.move_cursor,moving to y,x:38,5
+----------------------
+In  InputDto.takeInput(): Got char:32
+In  InputDto.processArgs: currentcommand cat 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,5
+In InputDto.updateyx:New y,x38,6
+In windowHandler.move_cursor,moving to y,x:38,6
+----------------------
+In  InputDto.takeInput(): Got char:112
+In  InputDto.processArgs: currentcommand cat p
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 5
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,6
+In InputDto.updateyx:New y,x38,7
+In windowHandler.move_cursor,moving to y,x:38,7
+----------------------
+In  InputDto.takeInput(): Got char:111
+In  InputDto.processArgs: currentcommand cat po
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 6
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,7
+In InputDto.updateyx:New y,x38,8
+In windowHandler.move_cursor,moving to y,x:38,8
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand cat poe
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 7
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,8
+In InputDto.updateyx:New y,x38,9
+In windowHandler.move_cursor,moving to y,x:38,9
+----------------------
+In  InputDto.takeInput(): Got char:109
+In  InputDto.processArgs: currentcommand cat poem
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 8
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,9
+In InputDto.updateyx:New y,x38,10
+In windowHandler.move_cursor,moving to y,x:38,10
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x38,10
+In InputDto.updateyx:New y,x44,2
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:339
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pageup
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:338
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,2
+Got pagedown
+In windowHandler.move_cursor,moving to y,x:44,2
+----------------------
+In  InputDto.takeInput(): Got char:101
+In  InputDto.processArgs: currentcommand e
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 1
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,2
+In InputDto.updateyx:New y,x44,3
+In windowHandler.move_cursor,moving to y,x:44,3
+----------------------
+In  InputDto.takeInput(): Got char:120
+In  InputDto.processArgs: currentcommand ex
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 2
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,3
+In InputDto.updateyx:New y,x44,4
+In windowHandler.move_cursor,moving to y,x:44,4
+----------------------
+In  InputDto.takeInput(): Got char:105
+In  InputDto.processArgs: currentcommand exi
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 3
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,4
+In InputDto.updateyx:New y,x44,5
+In windowHandler.move_cursor,moving to y,x:44,5
+----------------------
+In  InputDto.takeInput(): Got char:116
+In  InputDto.processArgs: currentcommand exit
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', '']
+In  InputDto.processArgs: cmd_char_idx: 4
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,5
+In InputDto.updateyx:New y,x44,6
+In windowHandler.move_cursor,moving to y,x:44,6
+----------------------
+In  InputDto.takeInput(): Got char:10
+In  InputDto.processArgs: currentcommand 
+In  InputDto.processArgs: commands_list: ['cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'cat poem', 'exit', '']
+In  InputDto.processArgs: cmd_char_idx: 0
+In windowhandler.writeInput()
+In InputDto.updateyx:Self y,x44,6
+In InputDto.updateyx:New y,x46,2
+In windowHandler.move_cursor,moving to y,x:46,2
+----------------------
+In  main: Exiting...

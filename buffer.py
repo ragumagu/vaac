@@ -1,119 +1,197 @@
-from subprocess import Popen, PIPE
-import subprocess
-import csv
-import json
-import argparse
-import time
+from curses import wrapper,ascii
+import curses
 
-### The _GetchUnix function replicates the functionality of the getch() method.
+class WindowHandler():
+    def __init__(self,screen,logfile):        
+        self.screen = screen
+        self.logfile = logfile
+    def initscreen(self):
+        self.screen.erase()
+        self.screen.addstr("[]\n> ")
+        self.screen.refresh(0, 0, 0, 0, curses.LINES-1, curses.COLS)
+        self.logfile.write("In windowhandler.initscreen():Screen Initialized.\n")
 
-class _GetchUnix:
-    def __init__(self):
-        import tty, sys
+    def writeInput(self,inputDtoObj):
+        self.logfile.write("In windowhandler.writeInput()\n")
+        self.screen.erase()    
+        self.screen.addstr(str(inputDtoObj.commands_list))
+        #for cmd in inputDtoObj.commands_list:
+            #self.screen.addstr(inputDtoObj.prompt+cmd+"\n")
+        self.screen.addstr(inputDtoObj.termOutput+"\n")
+        if inputDtoObj.buffer ==[]:
+            #print the following also, when debugging
+            #screen.addstr("current_command"+str(cursor)+"> "+current_command)
+            self.screen.addstr("> "+"".join(inputDtoObj.current_command))
+        else:
+            #print the following also, when debugging            
+            #screen.addstr("buffer,"+str(cursor)+"> "+buffer)            
+            self.screen.addstr("> "+"".join(inputDtoObj.buffer))
+    def move_cursor(self,inputDtoObj):
+        self.logfile.write("In windowHandler.move_cursor,moving to y,x:"+str(inputDtoObj.y)+","+str(inputDtoObj.x)+"\n")
+        self.screen.move(inputDtoObj.y,inputDtoObj.x)
+    def refresh(self):
+        self.screen.refresh(0, 0, 0, 0, curses.LINES-1, curses.COLS)
+        self.logfile.write("----------------------\n")
 
-    def __call__(self):
-        import sys, tty, termios
-        fd = sys.stdin.fileno()
-        old_settings = termios.tcgetattr(fd)
+class InputDto:
+    def __init__(self,screen,logfile):
+        self.buffer = [] # list of chars
+        self.current_command = [] # list of chars
+        self.commands_list = []
+        self.cursor = len(self.commands_list)
+        self.char = ""
+        self.exitstring = "exit"
+        self.prompt = "> "
+        self.y = 1
+        self.x = len(self.prompt)        
+        self.screen = screen
+        self.logfile = logfile
+        self.updateBool = False
+        self.termOutput = ""
+    def takeyx(self):
+        self.y,self.x = self.screen.getyx()
+    def takeInput(self):
+        self.logfile.write("In InputDto.takeInput(): taking input...\n")
+        self.char = self.screen.getch()
+        self.logfile.write("In  InputDto.takeInput(): got char="+str(self.char)+"\n")
+    def processArgs(self):        
+        if self.char >= 32 and self.char <= 126:
+            self.cursor = len(self.commands_list)
+            if self.buffer != []:
+                self.current_command += self.buffer 
+                self.buffer = []
+            self.takeyx() #probable spaghetti
+            self.current_command.insert(self.x-len(self.prompt),chr(self.char))
+            self.updateBool = True
+        elif self.char == curses.KEY_UP and self.cursor > 0:
+            self.cursor -=1
+            self.buffer = self.commands_list[self.cursor]
+        elif self.char == curses.KEY_DOWN:            
+            self.cursor += 1
+            if self.cursor < len(self.commands_list):
+                self.buffer = list(self.commands_list[self.cursor])
+            elif self.cursor == len(self.commands_list):
+                self.buffer = []
+            elif self.cursor > len(self.commands_list):
+                self.cursor = len(self.commands_list)
+        elif self.char == curses.KEY_BACKSPACE:
+            if self.buffer != []:                
+                self.current_command = list(self.buffer)[:-1]
+                self.logfile.write("In InputDto.processArgs(): Backspace...Copying buffer[:-1] to current_command.\n")
+                self.buffer = []                
+            elif self.current_command != []:                
+                if self.x == len(self.current_command)+len(self.prompt):
+                    self.logfile.write("In InputDto.processArgs(): Backspace...pop\n")
+                    self.current_command.pop()                    
+                elif self.x < len(self.current_command)+len(self.prompt):
+                    self.logfile.write("In InputDto.processArgs(): Backspace...removing:"+str(self.current_command[self.x-len(self.prompt)-1])+"\n")
+                    del self.current_command[self.x-len(self.prompt)-1]
+            self.updateBool = True
+        elif self.char == ord('\n') and self.current_command != []:
+            self.cursor += 1
+            current_command_string = "".join(self.current_command)
+            self.commands_list.append(current_command_string)
+            self.getOutput() # Probable spaghetti
+            self.current_command = []
+            self.buffer = []
+        elif self.char == ord('\n') and self.buffer != []:
+            self.cursor += 1
+            current_command_string = "".join(self.buffer)
+            self.commands_list.append(current_command_string)            
+            self.current_command = []
+            self.buffer = []            
+        elif self.char == curses.KEY_LEFT:            
+            self.updateBool = True
+        elif self.char == curses.KEY_RIGHT:            
+            self.updateBool = True
+        elif self.char == curses.KEY_HOME:
+            self.updateBool = True
+        elif self.char == curses.KEY_END:
+            self.updateBool = True
+        else:
+            self.updateBool = False
+        self.logfile.write("In  InputDto.processArgs: currentcommand "+"".join(self.current_command)+"\n")
+        self.logfile.write("In  InputDto.processArgs: buffer: "+str(self.buffer)+"\n")
+        self.logfile.write("In  InputDto.processArgs: commands_list: "+str(self.commands_list)+"\n")
+        
+    def updateyx(self):
+        y,x = self.screen.getyx()
+        if not self.updateBool:
+            return
+        self.logfile.write("In InputDto.updateyx:Self y,x"+str(self.y)+","+str(self.x)+"\n")
+        self.logfile.write("In InputDto.updateyx:New y,x"+str(y)+","+str(x)+"\n")
+        if self.char >= 32 and self.char <= 126:
+            self.logfile.write("In InputDto.updateyx:Same x,y(autoincrement)"+"\n")
+            self.x = self.x +1
+            self.y = y
+        elif self.char == curses.KEY_UP or self.char == curses.KEY_DOWN:
+            if self.buffer != []:
+                self.x = len(self.buffer) + len(self.prompt)                
+            else:
+                self.x = len(self.current_command) + len(self.prompt)
+            self.y = y
+        elif self.char == curses.KEY_BACKSPACE:            
+            #if self.x < len(self.current_command)+len(self.prompt):
+            if self.x > len(self.prompt):
+                self.logfile.write("In InputDto.updateyx:AutoDecrement x"+"\n")
+                self.x = self.x -1
+                self.y = y
+        elif self.char == curses.KEY_LEFT:
+            if self.x > len(self.prompt):
+                self.logfile.write("In InputDto.updateyx:Decrement x"+"\n")
+                self.x = self.x -1
+                self.y = y
+        elif self.char == curses.KEY_RIGHT:
+            if self.buffer != []:
+                if self.x < len(self.buffer) + len(self.prompt):
+                    self.logfile.write("In InputDto.updateyx:Increment x"+"\n")
+                    self.x = self.x + 1
+                    self.y = y
+            elif self.x < len(self.current_command) + len(self.prompt):
+                self.logfile.write("In InputDto.updateyx:Increment x"+"\n")
+                self.x = self.x + 1
+                self.y = y
+        elif self.char == ord('\n') and self.current_command == []:
+            self.x = len(self.prompt)
+            self.y = y
+        elif self.char == curses.KEY_HOME:
+            self.x = len(self.prompt)
+        elif self.char == curses.KEY_END:
+            if self.buffer != []:
+                self.x = len(self.buffer) + len(self.prompt)
+            elif self.current_command != []:
+                self.x = len(self.current_command) + len(self.prompt)
+        self.logfile.write("In InputDto.updateyx:Final y,x"+str(self.y)+","+str(self.x)+"\n")
+    
+    def checkIfExit(self):
         try:
-            tty.setraw(sys.stdin.fileno())
-            ch = sys.stdin.read(1)
-        finally:
-            termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
-        return ch
+            if self.commands_list[-1] == self.exitstring:                
+                return True
+        except:
+            return False
 
-getch = _GetchUnix()
-
-desc = '''
-This program prompts a command and records it in a file.
-Read the prompted command vocally into the microphone.
-Press j to start recording.
-Press k to stop recording.
-Press l to store recording.
-Press ; to re-record without storing.
-Press e or any other key to exit.
-INFO: Verify your recordings as often as possible.
-"WARNING: Before stopping recording, wait for a moment, in order to account for delay from the microphone.
-'''
-parser = argparse.ArgumentParser(description=desc)
-parser.add_argument("--count", default=10,type=int, help="Takes number of repetitions of each sentence in corpus to be prompted.")
-parser.add_argument("--corpus",required=True,type=str, help="Takes path to corpus file.")
-parser.add_argument("--modeldir",required=True,type=str, help="Takes path to model directory.")
-
-args = parser.parse_args()
-count = args.count
-corpus_file_string = args.corpus
-model_dir_string = args.modeldir
-corpus_file = open(corpus_file_string)
-corpus = list(csv.reader(corpus_file))
-
-with open(model_dir_string+"recording_progress.json",'r') as recording_data_file:
-    recording_data = json.load(recording_data_file)
-    i = recording_data["i"]
-    n = recording_data["n"]
-
-def printStatus():
-    if n < len(corpus):
-        print("Read "+str(i+1)+" of "+str(count)+":\n\t", corpus[n][0])
-
-print(desc)
-print("___________________________________")
-print("Length of corpus:",len(corpus))
-print("Progress:")
-print("Number of corpus words done:",n)
-printStatus()
-print("Press j to start recording.",end="",flush=True)
-
-while n < len(corpus):
-    ch = getch()
-    if ch == "j":
-        # Recording
-        print("\rRecording... Press k to stop recording.",end="")
-        
-        p = Popen(['exec arecord -f S16_LE -r 16000 /tmp/test.wav'],stdin=PIPE, stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,shell=True)
-        previous = ch
-    elif ch == "k" and previous == "j":        
-        # stop recording
-        print("\rRecorded. Press l to save, ; otherwise.",end="")                        
-        p.kill()            
-        previous = ch
-    elif ch == "l" and previous == "k":
-        # save
-        print("Saving...")
-        fname = model_dir_string+"recordings/recording"+str(n)+"_"+str(i)
-        subprocess.run(['mv','/tmp/test.wav',fname+".wav"])
-        
-        i += 1
-        if i == count:
-            i = 0
-            n += 1        
-                
-        if n == len(corpus) and i == 0:
-            print("Hurray! You finished recording a complete set with "+str(count)+" repetitions.")
-            print()
-            recording_data["i"] = i
-            recording_data["n"] = n
-            with open(model_dir_string+"recording_progress.json",'w') as recording_data_file:
-                json.dump(recording_data,recording_data_file)
-        
-            corpus_file.close()
-            recording_data_file.close()
+    def getOutput(self):
+        self.termOutput += "\n"+self.prompt+self.commands_list[-1]+"\n"
+        input_command = self.commands_list[-1]
+        import subprocess
+        self.termOutput += subprocess.getoutput(input_command)
+        self.logfile.write("In inputDto.getOutput,termOutput"+self.termOutput+"\n")
+    
+def main(stdscr):
+    logfile = open("log","w",buffering=1)
+    pad = curses.newpad(200, curses.COLS) #Change this to maxlinesize.
+    inputDto = InputDto(stdscr,pad,logfile)
+    windowHandler = WindowHandler(stdscr,pad,logfile)
+    windowHandler.initscreen()
+    while 1:        
+        inputDto.takeInput()
+        inputDto.processArgs()        
+        windowHandler.writeInput(inputDto)
+        inputDto.updateyx()
+        windowHandler.move_cursor(inputDto)
+        windowHandler.refresh()
+        if inputDto.checkIfExit():
+            logfile.write("In  main: Exiting"+"\n")
             break
-        printStatus()
-        print("\rPress j to start recording.",end="")
-        previous = ch
-
-    elif ch == ";" and previous == "k":        
-        print()
-        printStatus()
-        print("\rPress j to start recording.",end="")   
-    else:
-        print()
-        recording_data["i"] = i
-        recording_data["n"] = n
-        with open(model_dir_string+"recording_progress.json",'w') as recording_data_file:
-            json.dump(recording_data,recording_data_file)
-        
-        corpus_file.close()
-        recording_data_file.close()
-        break     
+    
+wrapper(main)

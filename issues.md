@@ -41,3 +41,4 @@ Vaac must be able use the specified lm.
 31. Implement functional programming like features, and find a way to share the wm class object between extractor and executor.
 32. Write extractor class, as filters which are applied one after the other. 
 33. term.py needs some work with regard to testing for bugs: needs vertical scrolling. and line/word wrapping. The code can be reorganized. Check for functions and keys not already handled. Check for terminal functions which can be implemented. Check if you can use subprocess to run input commands from this term.py. There are some bugs with switching between the buffer and current_command list. Find out the best way to resolve this.
+atleast, build the equivalent of a dumb terminal. 
