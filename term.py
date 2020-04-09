@@ -1,6 +1,8 @@
 from curses import wrapper,ascii
 import curses
 
+MAXLINES = 2000
+
 class WindowHandler():
     def __init__(self,stdscr,screen_pad,logfile):        
         self.stdscr = stdscr
@@ -15,17 +17,34 @@ class WindowHandler():
 
     def writeInput(self,inputDtoObj):
         self.logfile.write("In windowhandler.writeInput()\n")
+        
         self.pad.erase()    
         self.pad.addstr(str(inputDtoObj.commands_list)+"\n")
         self.pad.addstr(inputDtoObj.screen_log)
         self.pad.addstr("> "+"".join(inputDtoObj.command))
         
+        return inputDtoObj
     def move_cursor(self,inputDtoObj):
         self.logfile.write("In windowHandler.move_cursor,moving to y,x:"+str(inputDtoObj.cursor_y)+","+str(inputDtoObj.cursor_x)+"\n")
         self.pad.move(inputDtoObj.cursor_y,inputDtoObj.cursor_x)
     def refresh(self,inputDtoObj):
-        self.pad.refresh(inputDtoObj.y_offset,0, 0, 0, curses.LINES-1, curses.COLS)
+        #self.stdscr.refresh()
+        #self.logfile.write("In  whandler.refresh: new pad obj:"+str(id(inputDtoObj.pad))+"\n")
+        #inputDtoObj.pad.refresh(inputDtoObj.y_offset,0, 0, 0, curses.LINES-1, curses.COLS)
+        #inputDtoObj.pad.refresh(0,0, 0, 0, 5, 5)
+        try:
+            #self.pad.erase()
+            #self.pad.addstr(y-1,0, 'got '+str(inp))
+            self.pad.refresh(inputDtoObj.y_offset,0,0,0,curses.LINES-1,curses.COLS)
+        except curses.error:                
+            curses.update_lines_cols()
+            y,x = self.stdscr.getmaxyx()
+            inputDtoObj.pad = curses.newpad(MAXLINES, curses.COLS)
+            #self.writeInput(inputDtoObj)
+            #self.move_cursor(inputDtoObj)
+            #self.pad.refresh(0,0,0,0,y-1,curses.COLS)
         self.logfile.write("----------------------\n")
+        return inputDtoObj
 
 class InputHandler:
     def __init__(self,stdscr,screen_pad,logfile):
@@ -107,17 +126,22 @@ class InputHandler:
             self.updateBool = True
         elif self.char == curses.KEY_PPAGE:
             self.updateBool = True
+        elif self.char == curses.KEY_RESIZE:    
+            curses.update_lines_cols()        
+            self.updateBool = True
         else:
             self.updateBool = False
         self.logfile.write("In  InputDto.processArgs: currentcommand "+"".join(self.command)+"\n")        
         self.logfile.write("In  InputDto.processArgs: commands_list: "+str(self.commands_list)+"\n")
         self.logfile.write("In  InputDto.processArgs: cmd_char_idx: "+str(self.cmd_char_idx)+"\n")
+
     def updateyx(self):
         y,x = self.pad.getyx()
         if not self.updateBool:
             return
         self.logfile.write("In InputDto.updateyx:Self y,x"+str(self.cursor_y)+","+str(self.cursor_x)+"\n")
         self.logfile.write("In InputDto.updateyx:New y,x"+str(y)+","+str(x)+"\n")
+        
         self.cursor_x = (self.cmd_char_idx+len(self.prompt))%curses.COLS
         self.cursor_y = y
         
@@ -133,6 +157,7 @@ class InputHandler:
                 self.y_offset = y - curses.LINES + 1            
         elif y >= curses.LINES-1:
             self.y_offset = y - curses.LINES + 1
+
         if self.y_offset == y - curses.LINES + 1:
             curses.curs_set(2)
         else:
@@ -154,20 +179,21 @@ class InputHandler:
         
 def main(stdscr):
     logfile = open("log","w",buffering=1)
-    pad = curses.newpad(200, curses.COLS) #Change this to maxlinesize.
+    pad = curses.newpad(MAXLINES, curses.COLS)
     inputHandler = InputHandler(stdscr,pad,logfile)
     windowHandler = WindowHandler(stdscr,pad,logfile)
     windowHandler.initscreen()
     while 1:        
+        inputHandler = windowHandler.refresh(inputHandler)
         inputHandler.takeInput()
         inputHandler.processArgs()        
-        windowHandler.writeInput(inputHandler)
+        inputHandler = windowHandler.writeInput(inputHandler)
         inputHandler.updateyx()
         windowHandler.move_cursor(inputHandler)
-        windowHandler.refresh(inputHandler)
+        inputHandler = windowHandler.refresh(inputHandler)
         if inputHandler.checkIfExit():
             logfile.write("In  main: Exiting..."+"\n")
             logfile.close()
             break
-    
+
 wrapper(main)
