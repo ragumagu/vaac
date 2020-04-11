@@ -3,10 +3,10 @@ import subprocess
 import csv
 import json
 import argparse
-import time
 import os
 import re
 import sys
+
 ### The _GetchUnix function replicates the functionality of the getch() method.
 
 class _GetchUnix:

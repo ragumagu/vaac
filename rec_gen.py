@@ -7,8 +7,6 @@ corpus = list(csv.reader(open("./vaac_core/vaac_core_corpus","r")))
 files = os.listdir("./vaac_core/recordings/")
 files.sort()
 
-
-
 for f in files:
     lis = re.findall(r'\d+', f)     
     if len(lis) == 2:
@@ -19,6 +17,3 @@ for f in files:
         fname = "./vaac_core/recordings/word"+n+"_"+i+".wav"        
         os.system("mkdir"+" -p "+dirname)
         os.system("cp "+fname+" "+dirname )
-
-        
-        
