@@ -17,10 +17,9 @@ def main(stdscr):
                 pad.refresh(0,0,0,0,y-1,curses.COLS)    
             except curses.error:                
                 curses.update_lines_cols()
-                y,x = stdscr.getmaxyx()
+                #y,x = stdscr.getmaxyx()
                 pad = curses.newpad(200, curses.COLS)
                 pass
-                            
             inp = stdscr.getch()
             if inp == 27:
                 break            

@@ -60,11 +60,10 @@ class WindowManager():
 
     def update_apps_windows(self):
         print("WindowManager:Updating wm values.")
-        command = "./vaac_code/running_apps.sh"
-        #time.sleep(0.5) #Remove this
+        command = "./vaac_code/running_apps.sh"        
         output_string = subprocess.getoutput(command).lower()
-        print("wm.update_apps_windows got output_string",flush=True)
-        print(output_string)
+        #print("wm.update_apps_windows got output_string",flush=True)
+        #print(output_string)
         output_string = output_string.split("\n")[-1]
         try:
             output = ast.literal_eval(output_string)
@@ -162,9 +161,9 @@ class WindowManager():
     
     def check_if_window_sizes_has_changed(self):
         dic = self.get_window_dims_dict()
-        print("Checking if the following are same:")
-        print("Old:",self.window_dims)
-        print("New:",dic)
+        print("Checking if window sizes have changed:",end=" ")
+        #print("Old:",self.window_dims)
+        #print("New:",dic)
         if dic == self.window_dims:
             print("same")
             return False

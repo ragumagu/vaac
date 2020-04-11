@@ -27,9 +27,9 @@ class Extractor():
         self.app_names = ['code','firefox','gedit','general','nautilus','gnome-terminal']
         paths = ["./data/keys/code_keyboard_shortcuts.csv","./data/keys/firefox_keyboard_shortcuts.csv","./data/keys/gedit_keyboard_shortcuts.csv","./data/keys/general_keyboard_shortcuts.csv","./data/keys/nautilus_keyboard_shortcuts.csv","./data/keys/terminal_keyboard_shortcuts.csv"]
         self.files_map = {}        
-        for i in range(len(paths)):
-            dfile = open(paths[i],"r")
-            self.files_map[self.app_names[i]] = list(csv.reader(dfile))        
+        for index, path in enumerate(paths):
+            with open(path,"r") as dfile:
+                self.files_map[self.app_names[index]] = list(csv.reader(dfile))
         self.current_app = ""
 
     def find_target_application(self, string):
@@ -51,16 +51,6 @@ class Extractor():
         # else: ? this should throw an error.
         return string
 
-    def find_command_type(self, string):
-        '''Classifies commands into open, type or key types, which will be later used as arguments to xdotool.'''
-        if string == "open":
-            cmd_type = "open"
-        elif string == "type":
-            cmd_type = "type"
-        else:
-            cmd_type = "key"
-        return cmd_type
-
     def find_commands(self, string):
         string = string.lower()
         commands = string.split("and")
@@ -70,15 +60,13 @@ class Extractor():
             result.append(self.extract(command))        
         return result
 
-    def extract(self, string):
-        #print("Extractor.extract():Processing string:", string)
+    def extract(self, string):        
         string = self.find_target_application(string)
-        cmd_type = self.find_command_type(string)        
         self.wm.update_apps_windows()
-        self.wm.window_dims = self.wm.get_window_dims_dict()
-        print("wm.window_dims_dict",self.wm.window_dims) # Remove this
+        self.wm.window_dims = self.wm.get_window_dims_dict()        
         open_applications = self.wm.get_open_apps()
-        if cmd_type == "open":
+        
+        if string == "open":
             if self.current_app in open_applications:
                 return ['focus', self.current_app]
             else:
@@ -88,22 +76,16 @@ class Extractor():
             print("Extractor: Command not clear! Please try again.")
             return None
 
-        if string == "focus" or string == "switch to":
+        if string == "focus":
             return ['focus', self.current_app]
-        # if cmd_type == "type":
-        # if string == "key":
-
-        max_ratio = 0
-        i = 0
+        
+        max_ratio = 0        
         n = 0
-        for line in self.files_map[self.current_app]:
-            tsr = fuzz.token_sort_ratio(string, line[0])
-            # print("string:",string,"line",line,"tsr",tsr)
+        for index,line in enumerate(self.files_map[self.current_app]):
+            tsr = fuzz.token_sort_ratio(string, line[0])            
             if tsr > max_ratio:
                 max_ratio = tsr
-                n = i
-
-            i += 1
+                n = index
 
         print("Extractor: max_ratio:", max_ratio)
         print("Extractor: command is", self.files_map[self.current_app][n])
@@ -111,8 +93,7 @@ class Extractor():
         if max_ratio == 100:
             command = self.files_map[self.current_app][n][1:]
             command.append(self.current_app)
-            command.insert(0, cmd_type)
-            #print("Extractor, sending command:", command)
+            command.insert(0, "key")
             return command
         else:
             print("Extractor: Command not clear! Please try again.")

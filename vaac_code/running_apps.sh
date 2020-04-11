@@ -30,7 +30,7 @@
 #echo "x is",$x
 
 # loop through all open windows (ids)
-string="["
+string="(["
 for win_id in $( wmctrl -l | cut -d' ' -f1 ); do 
     echo "In running_apps.sh, win_id",$win_id
     # test if window is a normal window
@@ -38,13 +38,12 @@ for win_id in $( wmctrl -l | cut -d' ' -f1 ); do
         appname=$( xprop -id $win_id WM_CLASS | cut -d" " -f4- )
         appname=${appname#?}
         appname=${appname%?}
-        string+="{\"key\":\"$appname\",\"value\":\"$win_id\"},"
-
+        string+="{\"key\":\"$appname\",\"value\":\"$win_id\"},"        
     fi    
 done
 
 #root_id=$( xwininfo -root | grep "Window id" | cut -d" " -f4 )
 #string+="{\"key\":\"root_window\",\"value\":\"$root_id\"}"
 string=${string%?}
-string+=]
+string+='])'
 echo $string

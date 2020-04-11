@@ -1,18 +1,14 @@
 import subprocess
 from subprocess import Popen
-import platform
 import time
 '''This is the Executor module.
 	Usage:
-		This works on Linux systems with X. Requires wmctrl and xdotool to be installed.
-	TODO:
-		# Add support for Windows.
+		This works on Linux systems with X. Requires wmctrl and xdotool to be installed.	
 '''
 
 class Executor():
-    '''This is the Executor class.'''    
-    def __init__(self,wm):
-        self.platform = platform.system()        
+    '''The Executor class provides methods to send events to other applications.'''    
+    def __init__(self,wm):        
         self.wm = wm
         
     def run(self,input_commands_list):
@@ -29,15 +25,12 @@ class Executor():
                 >>> executor.run(['focus','app']) # Focus app
                 
         '''
-        print("Executor run received",input_commands_list)
-        #if self.platform == 'Linux':
-        
+        print("Executor run received",input_commands_list)        
         for command in input_commands_list:
             if command is None:
                 return
             if command[0] == "open":
                 pid = Popen(command[1]).pid                
-                #print("In executor, pid:",pid,type(pid))                
                 self.wm.resize_window(pid,command[1])
             elif command[0] == "focus":
                 self.wm.focus(command[1])
