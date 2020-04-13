@@ -1,0 +1,290 @@
+DEBUG:root:cmd_char_idxValue('i', 0) <class 'multiprocessing.managers.ValueProxy'>
+DEBUG:root:updateBoolValue(<class 'ctypes.c_bool'>, False) <class 'multiprocessing.managers.ValueProxy'>True
+INFO:root:windowhandler.initscreen():Screen Initialized:38,150
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): editor
+DEBUG:root:inputHandler.takeInput(): Got char:343
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs: currentcommand 'editor'
+DEBUG:root:inputHandler.processArgs: commands_list: []
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 6
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.move_cursor,moving to y,x:1,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.move_cursor,moving to y,x:1,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand 'a'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x4,3
+DEBUG:root:windowHandler.updateyx:New y,x4,3
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:4,3
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x5,2
+DEBUG:root:windowHandler.updateyx:New y,x5,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:5,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand 'a'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x5,3
+DEBUG:root:windowHandler.updateyx:New y,x5,3
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:5,3
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x6,2
+DEBUG:root:windowHandler.updateyx:New y,x6,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:6,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): editor
+DEBUG:root:inputHandler.takeInput(): Got char:343
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs: currentcommand 'editor'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 6
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.move_cursor,moving to y,x:6,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.move_cursor,moving to y,x:6,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand 'd'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x7,3
+DEBUG:root:windowHandler.updateyx:New y,x7,3
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:7,3
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+> d
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x8,2
+DEBUG:root:windowHandler.updateyx:New y,x8,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:8,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand 'd'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+> d
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x8,3
+DEBUG:root:windowHandler.updateyx:New y,x8,3
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:8,3
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand 'dd'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 2
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+> d
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x8,4
+DEBUG:root:windowHandler.updateyx:New y,x8,4
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:8,4
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', 'dd', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+> d
+> dd
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.updateyx:current y,x9,2
+DEBUG:root:windowHandler.updateyx:New y,x9,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:9,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): editor
+DEBUG:root:inputHandler.takeInput(): Got char:343
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs: currentcommand 'editor'
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', 'dd', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 6
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+> d
+> dd
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.move_cursor,moving to y,x:9,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', 'dd', 'editor', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+Type "help" for more information.
+> editor
+> a
+> a
+> editor
+> d
+> dd
+> editor
+
+INFO:root:windowHandler.updateyx(): Updating y,x.
+DEBUG:root:windowHandler.move_cursor,moving to y,x:9,2
+INFO:root:windowHandler.refresh():Refreshing...
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): exit
+INFO:root:output: exiting

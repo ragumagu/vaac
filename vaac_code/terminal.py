@@ -1,9 +1,10 @@
 '''This is the terminal module for Vaac'''
-from curses import wrapper, ascii
 import curses
 import logging
+from curses import ascii, wrapper
 
-class WindowHandler():
+
+class WindowHandler:
     def __init__(self, stdscr, screen_pad, inputHandler, maxlines):
         self.stdscr = stdscr
         self.pad = screen_pad
@@ -15,7 +16,8 @@ class WindowHandler():
     def initscreen(self, inputHandler):
         self.stdscr.refresh()
         self.pad.erase()
-        self.pad.addstr('[]'+"\n"+inputHandler.screen_log.value+inputHandler.prompt+" ")
+        self.pad.addstr('[]'+"\n"+inputHandler.screen_log.value +
+                        inputHandler.prompt+" ")
         self.pad.refresh(0, 0, 0, 0, curses.LINES-1, curses.COLS)
         logging.info("windowhandler.initscreen():Screen Initialized:" +
                      str(curses.LINES)+","+str(curses.COLS))
@@ -31,7 +33,8 @@ class WindowHandler():
         self.pad.addstr(str(inputHandler.commands_list)+"\n")
         self.pad.addstr(inputHandler.screen_log.value)
         self.pad.addstr(inputHandler.prompt+"".join(inputHandler.command))
-        logging.debug("windowhandler.writeInput():screen_log.value:"+inputHandler.screen_log.value)
+        logging.debug("windowhandler.writeInput():screen_log.value:" +
+                      inputHandler.screen_log.value)
 
     def move_cursor(self, inputHandler):
         logging.debug("windowHandler.move_cursor,moving to y,x:" +
@@ -46,7 +49,7 @@ class WindowHandler():
     def updateyx(self, inputHandler):
         logging.info("windowHandler.updateyx(): Updating y,x.")
         y, x = self.pad.getyx()
-        char = inputHandler.char
+        char = inputHandler.char.value
         if (not inputHandler.updateBool):
             return
 
@@ -81,88 +84,81 @@ class WindowHandler():
                       str(self.y_offset))
 
 
-class InputHandler():
-    def __init__(self, stdscr, screen_pad, input_command_chars, command_length,cmd_char_idx,updateBool,screen_log):
+class InputHandler:
+    def __init__(self, stdscr, screen_pad, char, input_command_chars, cmd_char_idx, cmd_list_pointer, updateBool, screen_log, commands_list):
         self.screen_log = screen_log
-        self.screen_log.value = '''This is the vaac terminal program.\nType "help" for more information.\n'''
+        self.screen_log.value = ('This is the vaac terminal program.\n' +
+            'Type "help" for more information.\n')
         self.stdscr = stdscr
         self.pad = screen_pad
         self.command = input_command_chars  # list of chars; list proxy object.
-        self.command_length = command_length
         self.cmd_char_idx = cmd_char_idx
         self.updateBool = updateBool
-
+        self.commands_list = commands_list
         self.resizeBool = False
-        self.process = None
-        self.commands_list = []
-        self.cmd_list_pointer = 0
-        self.char = 0
+        self.char = char
+        self.cmd_list_pointer = cmd_list_pointer
+        
         self.exitstring = "exit"
         self.prompt = "> "
 
-
-    def takeInput(self):
-        self.char = self.stdscr.getch()
+    def takeInput(self, **kwargs):
+        if len(kwargs) == 0:
+            self.char.value = self.stdscr.getch()
+        if len(kwargs) == 1:
+            self.char.value = int(kwargs.pop('char'))
         logging.debug("inputHandler.takeInput(): Got char:" +
-                      str(self.char))
-
-    def isUpdated(self):
-        logging.debug("inputHandler.isUpdated(): self.command:" +
-                      str(self.command))
-        if self.command_length.value != len(self.command) or self.updateBool:
-            self.command_length.value = len(self.command)            
-            self.updateBool = True
-            logging.debug("inputHandler.isUpdated(): returning True")
-            return True
-        logging.debug("inputHandler.isUpdated(): returning False")
-        return False
+                      str(self.char.value))
 
     def processArgs(self):
         self.resizeBool = False
-        
-        if self.char >= 32 and self.char <= 126:
-            self.command.insert(self.cmd_char_idx.value, chr(self.char))
+
+        if self.char.value >= 32 and self.char.value <= 126:
+            self.command.insert(self.cmd_char_idx.value, chr(self.char.value))
             self.cmd_char_idx.value += 1
             self.updateBool = True
-        
-        elif self.char == curses.KEY_UP:
-            self.cmd_list_pointer -= 1
-            if self.cmd_list_pointer < 0:
-                self.cmd_list_pointer = 0
-                
-            while len(self.command) > 0:
-                self.command.pop()
 
-            for ch in self.commands_list[self.cmd_list_pointer]:
-                self.command.append(ch)
-            
-            self.cmd_char_idx.value = len(self.command)
-        
-        elif self.char == curses.KEY_DOWN:
-            self.cmd_list_pointer += 1
-            if self.cmd_list_pointer >= len(self.commands_list):
-                self.cmd_list_pointer = len(self.commands_list)-1
+        elif self.char.value == curses.KEY_UP:
+            self.cmd_list_pointer.value -= 1
+            if self.cmd_list_pointer.value < 0:
+                self.cmd_list_pointer.value = 0
 
             while len(self.command) > 0:
                 self.command.pop()
 
-            for ch in self.commands_list[self.cmd_list_pointer]:
+            for ch in self.commands_list[self.cmd_list_pointer.value]:
                 self.command.append(ch)
 
             self.cmd_char_idx.value = len(self.command)
-        
-        elif self.char == curses.KEY_BACKSPACE:
-            logging.debug("inputHandler.processArgs(): self.command:"+str(self.command))
+
+        elif self.char.value == curses.KEY_DOWN:
+            self.cmd_list_pointer.value += 1
+            if self.cmd_list_pointer.value >= len(self.commands_list):
+                self.cmd_list_pointer.value = len(self.commands_list)-1
+
+            while len(self.command) > 0:
+                self.command.pop()
+
+            for ch in self.commands_list[self.cmd_list_pointer.value]:
+                self.command.append(ch)
+
+            self.cmd_char_idx.value = len(self.command)
+
+        elif self.char.value == curses.KEY_BACKSPACE:
+            logging.debug(
+                "inputHandler.processArgs(): self.command:"+str(self.command))
             if len(self.command) != 0:
-                logging.debug("inputHandler.processArgs(): Backspace...removing:" + str(self.command[self.cmd_char_idx.value-1]))
+                logging.debug("inputHandler.processArgs(): Backspace...removing:" +
+                              str(self.command[self.cmd_char_idx.value-1]))
                 del self.command[self.cmd_char_idx.value-1]
                 self.cmd_char_idx.value -= 1
             self.updateBool = True
-        
-        elif self.char == ord('\n') and self.command != []:
-            self.cmd_list_pointer += 1
 
-            if self.commands_list != [] and self.commands_list[-1] == "":
+        elif self.char.value == ord('\n') and len(self.command) != 0:
+            logging.debug("inputHandler.processArgs(): Got enter")
+            self.cmd_list_pointer.value += 1
+
+            if len(self.commands_list) != 0 and self.commands_list[-1] == "":
                 self.commands_list.pop()
 
             command_string = "".join(self.command)
@@ -175,37 +171,37 @@ class InputHandler():
 
             self.cmd_char_idx.value = 0
 
-        elif self.char == curses.KEY_LEFT:
+        elif self.char.value == curses.KEY_LEFT:
             if self.cmd_char_idx.value > 0:
                 self.cmd_char_idx.value -= 1
             self.updateBool = True
-        
-        elif self.char == curses.KEY_RIGHT:
+
+        elif self.char.value == curses.KEY_RIGHT:
             if self.cmd_char_idx.value < len(self.command):
                 self.cmd_char_idx.value += 1
             self.updateBool = True
-        
-        elif self.char == curses.KEY_HOME:
+
+        elif self.char.value == curses.KEY_HOME:
             self.cmd_char_idx.value = 0
             self.updateBool = True
-        
-        elif self.char == curses.KEY_END:
+
+        elif self.char.value == curses.KEY_END:
             self.cmd_char_idx.value = len(self.command)
             self.updateBool = True
-        
-        elif self.char == curses.KEY_NPAGE:
+
+        elif self.char.value == curses.KEY_NPAGE:
             self.updateBool = True
-        
-        elif self.char == curses.KEY_PPAGE:
+
+        elif self.char.value == curses.KEY_PPAGE:
             self.updateBool = True
-        
-        elif self.char == curses.KEY_RESIZE:
+
+        elif self.char.value == curses.KEY_RESIZE:
             self.updateBool = True
             self.resizeBool = True
-        
+
         else:
             self.updateBool = False
-        
+
         logging.debug("inputHandler.processArgs: currentcommand " +
                       repr("".join(self.command)))
         logging.debug("inputHandler.processArgs: commands_list: " +
@@ -228,7 +224,7 @@ class InputHandler():
         input_command = self.commands_list[-1].split()
         if input_command == ['exit']:
             return
-        
+
         if input_command == ['help']:
             help_str = '''This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.\nThis is a primitive terminal and might not support all key strokes.\nThis terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.\nFor help setting up Vaac, use the README.md file, or go to the Vaac github page.\n'''
             self.screen_log.value += help_str

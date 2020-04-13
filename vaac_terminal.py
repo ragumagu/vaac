@@ -1,20 +1,20 @@
 import curses
 import logging
-import subprocess
 import os
+import subprocess
+import time
+from ctypes import c_bool, c_wchar_p
 from curses import wrapper
 from multiprocessing import Manager, Process
 from multiprocessing.sharedctypes import Value
-from ctypes import c_bool, c_wchar_p
-from vaac_code.executor import Executor
-from vaac_code.extractor import Extractor
+
 from vaac_code.speech_recognizer import VaacSpeech
 from vaac_code.terminal import InputHandler, WindowHandler
-from vaac_code.window_manager import WindowManager
 
 model_path = "/home/shrinidhi/project/vaac/vaac_model"
 
-def run_pocketsphinx(inputchars,command_length,cmd_char_idx,updateBool):    
+
+def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
     speech = VaacSpeech(
         verbose=False,
         sampling_rate=16000,
@@ -23,81 +23,102 @@ def run_pocketsphinx(inputchars,command_length,cmd_char_idx,updateBool):
         full_utt=False,
         hmm=os.path.join(model_path, 'vaac_model.cd_cont_2000'),
         lm=os.path.join(model_path, 'vaac_model.lm.DMP'),
-        dic=os.path.join(model_path, 'vaac_model.dic'),        
+        dic=os.path.join(model_path, 'vaac_model.dic'),
     )
-    for phrase in speech: 
+    for phrase in speech:
         for char in str(phrase).lower().strip():
             inputchars.append(char)
         logging.debug("run_pocketsphinx(): "+"".join(inputchars))
-        command_length.value = len(inputchars)
         cmd_char_idx.value = len(inputchars)
-        updateBool.value = True
-        if "".join(inputchars) == "exit":
-            logging.debug("run_pocketsphinx: exiting")
-            break
+        submitBool.value = True
 
-def take_keyboard_input(stdscr, pad, inputchars,command_length,cmd_char_idx,updateBool,maxlines,screen_log):
-    inputHandler = InputHandler(stdscr, pad, inputchars,command_length,cmd_char_idx,updateBool,screen_log)
+
+def take_keyboard_input(stdscr, char, updateBool):
     while(1):
-        inputHandler.takeInput()
-        inputHandler.processArgs()        
+        char.value = stdscr.getch()
         logging.debug("take_keyboard_input:inputHandler took input.")
         updateBool.value = True
-        if inputHandler.checkIfExit():
-            logging.info("take_keyboard_input: exiting")
-            return
-        
 
-def output(stdscr, pad, inputchars,command_length,cmd_char_idx,updateBool,maxlines,screen_log):
-    inputHandler = InputHandler(stdscr, pad, inputchars,command_length,cmd_char_idx,updateBool,screen_log)
+def output(stdscr, pad, char, inputchars, cmd_char_idx, cmd_list_pointer, updateBool, maxlines, screen_log, submitBool, commands_list):
+    inputHandler = InputHandler(
+        stdscr, pad, char, 
+        inputchars, cmd_char_idx,
+        cmd_list_pointer, updateBool, 
+        screen_log, commands_list
+        )
     windowHandler = WindowHandler(stdscr, pad, inputHandler, maxlines)
     windowHandler.initscreen(inputHandler)
     windowHandler.refresh()
-    import time
     while(1):
         time.sleep(0.01)
+        if "".join(inputchars) == "exit":
+            logging.info("output: exiting")
+            return
+        if submitBool.value:
+            inputHandler.takeInput(char=curses.KEY_ENTER)            
+            logging.info("output thread: sent input key_enter")
+            updateBool.value = True
         if updateBool.value:
+            inputHandler.processArgs()
             windowHandler.writeInput(inputHandler)
             windowHandler.updateyx(inputHandler)
             windowHandler.move_cursor(inputHandler)
             windowHandler.refresh()
-            input_string= "".join(inputchars)
-            logging.info("output:input_string"+input_string)
-            if input_string == "exit":
-                logging.info("output: exiting")
-                return
             updateBool.value = False
+            submitBool.value = False
+
 
 def main(stdscr):
-    logging.basicConfig(filename='term.log',filemode="w", level=logging.DEBUG)
+    logging.basicConfig(filename='term.log', filemode="w", level=logging.DEBUG)
     logger = logging.getLogger("root")
-    #logger.setLevel(logging.CRITICAL)
-    
+    # logger.setLevel(logging.CRITICAL)
+
     manager = Manager()
     rc = manager.list()
     inputchars = manager.list()
-    command_length = manager.Value('i',0)
-    cmd_char_idx = manager.Value('i',0)
-    updateBool = manager.Value(c_bool,True)
-    screen_log = manager.Value(c_wchar_p,"")
+    commands_list = manager.list()
+    cmd_char_idx = manager.Value('i', 0)
+    char = manager.Value('i', 0)
+    cmd_list_pointer = manager.Value('i', 0)
+    updateBool = manager.Value(c_bool, False)
+    submitBool = manager.Value(c_bool, False)
+    screen_log = manager.Value(c_wchar_p, "")
     logger.debug("cmd_char_idx"+str(cmd_char_idx)+" "+str(type(cmd_char_idx)))
-    logger.debug("updateBool"+str(updateBool)+" "+str(type(updateBool))+str(bool(updateBool)))
+    logger.debug("updateBool"+str(updateBool)+" " +
+                 str(type(updateBool))+str(bool(updateBool)))
     maxlines = 2000
     pad = curses.newpad(maxlines, curses.COLS)
 
-    # Start running pocketsphinx in a process.
-    pocketsphinx_proc = Process(target=run_pocketsphinx, args=(inputchars,command_length,cmd_char_idx,updateBool,))
+    # Process for running pocketsphinx.
+    pocketsphinx_proc = Process(target=run_pocketsphinx, args=(
+        inputchars, cmd_char_idx, submitBool,))
+
+    # Process for taking input from keyboard.
+    keyboard_proc = Process(target=take_keyboard_input,
+                            args=(stdscr, char, updateBool))
+
+    # Process for putting input onto the screen.
+    output_proc = Process(
+        target=output, 
+        args=(
+            stdscr, pad, char, 
+            inputchars, cmd_char_idx, cmd_list_pointer, 
+            updateBool, maxlines, screen_log, 
+            submitBool, commands_list
+            )
+        )
+
+    
+    time.sleep(0.1)
+    keyboard_proc.start()
+    time.sleep(0.1)
     pocketsphinx_proc.start()
-
-    # Start taking input from keyboard.
-    keyboard_proc = Process(target=take_keyboard_input, args=(stdscr, pad, inputchars,command_length,cmd_char_idx,updateBool,maxlines,screen_log))
-    keyboard_proc.start()    
-
-    output_proc = Process(target=output, args=(stdscr, pad, inputchars,command_length,cmd_char_idx,updateBool,maxlines,screen_log))
-    output_proc.start()    
+    time.sleep(0.1)
+    output_proc.start()
 
     output_proc.join()
-    pocketsphinx_proc.join()
     keyboard_proc.terminate()
+    pocketsphinx_proc.terminate()
+
 
 wrapper(main)

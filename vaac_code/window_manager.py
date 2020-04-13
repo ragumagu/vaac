@@ -30,7 +30,7 @@ class WindowManager():
         self.set_root_window_dims()
         self.resize_vaac_window()
         self.find_target_dims()  # Probable spaghetti
-        self.window_dims = self.get_window_dims_dict()
+        self.update_all_window_dims()
         #print("wm.window_dims_dict", self.window_dims)
 
     def cycle_index(self, app):
@@ -129,12 +129,15 @@ class WindowManager():
         for cmd in commands:
             subprocess.run(cmd)
 
-    def get_window_dims_dict(self):        
-        window_dims_dict = dict()
+    def get_all_window_dims(self):        
+        window_dims = dict()
         for win_id_list in self.apps_windows_dict.values():
             for win_id in win_id_list:
-                window_dims_dict[win_id] = self.get_window_dims(win_id)        
-        return window_dims_dict
+                window_dims[win_id] = self.get_window_dims(win_id)        
+        return window_dims
+
+    def update_all_window_dims(self):
+        self.window_dims = self.get_all_window_dims()
 
     def focus(self, target_app):        
         if target_app in self.apps_windows_dict:
@@ -145,13 +148,9 @@ class WindowManager():
         else:
             print("WindowManager:", target_app, "is not open to be focused.")
 
-    def check_if_window_sizes_has_changed(self):
-        dic = self.get_window_dims_dict()
-        #print("Checking if window sizes have changed:", dic != self.window_dims)        
-        return (dic != self.window_dims)
-
     def resize_if_windows_changed(self):
-        if self.check_if_window_sizes_has_changed():  # Possible spaghetti
+        dic = self.get_all_window_dims()
+        if (dic != self.window_dims):
             self.resize_all()  # Possible spaghetti
 
     '''The following function resizes a window, given the pid of the process.'''
