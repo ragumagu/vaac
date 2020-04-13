@@ -83,7 +83,7 @@ def run_cmdline(rc,inputchars):
         inp = "".join(inputchars)
         print("\r> "+inp+"\033[K",end="")
         x = getch()
-        print("ord(x)",ord(x))
+        #print("ord(x)",ord(x))
 
         if ord(x) >= 32 and ord(x) <= 126:            
             inputchars.append(x)            
@@ -95,7 +95,8 @@ def run_cmdline(rc,inputchars):
             except:
                 pass
             print("\r> "+inp+"\033[K",end="")
-        elif repr(x) == '\x1b'
+        elif repr(x) == '\x1b':
+            pass
         else:
             print()
             if "exit" in "".join(inputchars):
@@ -109,6 +110,7 @@ if __name__ == '__main__':
     manager = Manager()
     rc = manager.list()
     inputchars = manager.list()
+    print(inputchars,type(inputchars),repr(inputchars))
     p1 = Process(target=run_pocketsphinx, args=(rc,inputchars,))
     p1.start()    
     run_cmdline(rc,inputchars,)    

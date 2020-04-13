@@ -6,7 +6,7 @@ import subprocess
 class WindowManager():
     def __init__(self, vaac_window_title):
         self.vaac_window_id = self.get_vaac_window_id(vaac_window_title)
-        print("Vaac window id", self.vaac_window_id)
+        #print("Vaac window id", self.vaac_window_id)
         self.vaac_terminal_width = '150'
         self.vaac_terminal_height = '8'
 
@@ -31,7 +31,7 @@ class WindowManager():
         self.resize_vaac_window()
         self.find_target_dims()  # Probable spaghetti
         self.window_dims = self.get_window_dims_dict()
-        print("wm.window_dims_dict", self.window_dims)
+        #print("wm.window_dims_dict", self.window_dims)
 
     def cycle_index(self, app):
         self.window_pointers[app] += 1
@@ -75,7 +75,7 @@ class WindowManager():
             self.window_pointers[item] = 0
         for item in remove:
             del self.window_pointers[item]
-        print("wm.update_window_pointers,", self.window_pointers)
+        #print("wm.update_window_pointers,", self.window_pointers)
 
     def get_window_dims(self, win_id):
         command = "xwininfo -id "+ win_id + \
@@ -129,13 +129,11 @@ class WindowManager():
         for cmd in commands:
             subprocess.run(cmd)
 
-    def get_window_dims_dict(self):
-        # self.update_apps_windows() #probable spaghetti
+    def get_window_dims_dict(self):        
         window_dims_dict = dict()
         for win_id_list in self.apps_windows_dict.values():
             for win_id in win_id_list:
-                window_dims_dict[win_id] = self.get_window_dims(win_id)
-        # print(window_dims_dict)
+                window_dims_dict[win_id] = self.get_window_dims(win_id)        
         return window_dims_dict
 
     def focus(self, target_app):        
@@ -143,15 +141,14 @@ class WindowManager():
             pointer = self.window_pointers[target_app]
             target_win_id = str(self.apps_windows_dict[target_app][pointer])
             command = ['xdotool', 'windowactivate', target_win_id]
-            subprocess.run(command)
-            # self.update_index(s)
+            subprocess.run(command)            
         else:
             print("WindowManager:", target_app, "is not open to be focused.")
 
     def check_if_window_sizes_has_changed(self):
         dic = self.get_window_dims_dict()
-        print("Checking if window sizes have changed:", dic != self.window_dims)        
-        return (dic != self.window_dims) # boolean
+        #print("Checking if window sizes have changed:", dic != self.window_dims)        
+        return (dic != self.window_dims)
 
     def resize_if_windows_changed(self):
         if self.check_if_window_sizes_has_changed():  # Possible spaghetti
@@ -198,12 +195,12 @@ class WindowManager():
         # print(commands)
 
     def resize_all(self):
-        window_currently_focused = (
-            subprocess.getoutput("xdotool getactivewindow"))
-        print("wm.resize_all: window_currently_focused",
-              window_currently_focused)        
+        command = "xdotool getactivewindow"
+        window_currently_focused = subprocess.getoutput(command)
+
         self.resize_vaac_window()  # Possible spaghetti
         self.find_target_dims()  # Possible spaghetti
+
         commands = []
         csd = [self.target_dims['csd_width'],
                self.target_dims['csd_height']]
@@ -213,10 +210,8 @@ class WindowManager():
             if item != "root_window":
                 for id in self.apps_windows_dict[item]:
                     if id != str(self.vaac_window_id):
-                        cmd0 = ['wmctrl', '-ir',
-                                id, '-b', 'remove,maximized_vert,maximized_horz']
-                        cmd1 = ['xdotool', 'windowmove', id,
-                                '0', '0', 'windowsize', id]
+                        cmd0 = ['wmctrl', '-ir', id, '-b', 'remove,maximized_vert,maximized_horz']
+                        cmd1 = ['xdotool', 'windowmove', id,'0', '0', 'windowsize', id]
                         commands.append(cmd0)
                         if item in self.csd_applications:
                             commands.append(cmd1+csd)
@@ -224,9 +219,9 @@ class WindowManager():
                             commands.append(cmd1+ssd)
 
         print("Resize running commands:")
-        for cmd in commands:
-            print(cmd)
-            subprocess.run(cmd)
+        for command in commands:
+            print(command)
+            subprocess.run(command)
 
-        subprocess.run(["xdotool", "windowactivate",
-                        window_currently_focused])
+        command = ["xdotool", "windowactivate", window_currently_focused]
+        subprocess.run(command)
