@@ -15,8 +15,7 @@ model_path = "/home/shrinidhi/project/vaac/vaac_model"
 MAXLINES = 2000
 
 
-def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
-    logging.debug("run_pocketsphinx(): started")
+def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):    
     speech = VaacSpeech(
         verbose=False,
         sampling_rate=16000,
@@ -30,21 +29,18 @@ def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
     for phrase in speech:
         for char in str(phrase).lower().strip():
             inputchars.append(char)
-        logging.debug("run_pocketsphinx(): "+"".join(inputchars))
+        logging.debug(''.join(inputchars))
         cmd_char_idx.value = len(inputchars)
         submitBool.value = True
 
 
-def take_keyboard_input(stdscr, char, updateBool):
-    logging.debug("take_keyboard_input(): started")
+def take_keyboard_input(stdscr, char, updateBool):    
     while(1):
-        char.value = stdscr.getch()
-        logging.debug("take_keyboard_input:inputHandler took input.")
+        char.value = stdscr.getch()        
         updateBool.value = True
 
 def output(inputchars, cmd_char_idx, submitBool,
-           stdscr, char, updateBool):
-    logging.debug("output(): started")
+           stdscr, char, updateBool):    
     pad = curses.newpad(MAXLINES, curses.COLS)
     inputHandler = InputHandler(
         inputchars, cmd_char_idx, char,
@@ -56,11 +52,10 @@ def output(inputchars, cmd_char_idx, submitBool,
     while(1):        
         time.sleep(0.01)
         if "".join(inputchars) == "exit":
-            logging.info("output: exiting")
+            logging.info("Exiting...")
             return
         if submitBool.value:
-            inputHandler.takeInput(char=ord('\n'))
-            logging.info("output thread: sent input key_enter")
+            inputHandler.takeInput(char=ord('\n'))            
             updateBool.value = True
         if updateBool.value:
             inputHandler.processArgs()
@@ -73,9 +68,9 @@ def output(inputchars, cmd_char_idx, submitBool,
 
 
 def main(stdscr):
-    logging.basicConfig(filename='term.log', filemode="w", level=logging.DEBUG)
-    logger = logging.getLogger("root")
-    # logger.setLevel(logging.CRITICAL)
+    logging.basicConfig(format='%(levelname)s:%(module)s:%(funcName)s:%(message)s',filename='term.log', filemode="w", level=logging.DEBUG)
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.CRITICAL)
 
     manager = Manager()
     rc = manager.list()
@@ -108,10 +103,7 @@ def main(stdscr):
     output_proc.start()
 
     output_proc.join()
-    keyboard_proc.terminate()
-    #keyboard_proc.join()
+    keyboard_proc.terminate()    
     pocketsphinx_proc.terminate()
-    #pocketsphinx_proc.join()
-
 
 wrapper(main)

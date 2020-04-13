@@ -19,14 +19,14 @@ class WindowHandler:
         self.pad.addstr('[]\n'+inputHandler.screen_log +
                         inputHandler.prompt)        
         self.pad.refresh(0, 0, 0, 0, curses.LINES-1, curses.COLS)        
-        logging.info('windowhandler.initscreen():Screen Initialized:' +
+        logging.info('Screen Initialized:' +
                      str(curses.LINES)+','+str(curses.COLS))
 
 
     def writeInput(self, inputHandler):
-        logging.info('windowhandler.writeInput(): Writing input.')
+        logging.info('Writing input.')
         #if inputHandler.resizeBool:
-        logging.debug('windowhandler.writeInput(): Resizing pad.')
+        logging.debug('Resizing pad.')
         curses.update_lines_cols()
         self.pad.resize(self.maxlines, curses.COLS)
 
@@ -34,17 +34,16 @@ class WindowHandler:
         self.pad.addstr(str(inputHandler.commands_list)+'\n')
         self.pad.addstr(inputHandler.screen_log)
         self.pad.addstr(inputHandler.prompt+''.join(inputHandler.command))
-        logging.debug('windowhandler.writeInput():screen_log:' +
-                      inputHandler.screen_log)
+        #logging.debug('screen_log:' + inputHandler.screen_log)
 
     def move_cursor(self, inputHandler):
-        logging.debug('windowHandler.move_cursor,moving to y,x:' +
+        logging.debug('moving cursor to y,x:' +
                       str(self.cursor_y)+','+str(self.cursor_x))
         self.pad.move(self.cursor_y, self.cursor_x)
 
     def refresh(self):
-        logging.info('windowHandler.refresh():Refreshing...')    
-        logging.debug('windowhandler.refresh(): Resizing pad.')
+        logging.info('Refreshing...')    
+        logging.debug('Resizing pad.')
         curses.update_lines_cols()
         self.pad.resize(self.maxlines, curses.COLS)
         try:
@@ -79,13 +78,10 @@ class WindowHandler:
         else:
             curses.curs_set(0)
 
-        logging.debug('windowHandler.updateyx:current y,x ' +
-                      str(self.cursor_y)+','+str(self.cursor_x))
-        logging.debug('windowHandler.updateyx:New y,x '+str(y)+','+str(x))
-        logging.debug('windowHandler.updateyx:Lines,cols ' +
-                      str(curses.LINES)+','+str(curses.COLS))
-        logging.debug('windowHandler.updateyx:y-offset ' +
-                      str(self.y_offset))
+        logging.debug('Current y,x '+str(self.cursor_y)+','+str(self.cursor_x))
+        logging.debug('New y,x '+str(y)+','+str(x))
+        logging.debug('Lines,cols '+str(curses.LINES)+','+str(curses.COLS))
+        logging.debug('y-offset '+str(self.y_offset))
 
 
 class InputHandler:
@@ -112,7 +108,7 @@ class InputHandler:
             self.char.value = self.stdscr.getch()
         if len(kwargs) == 1:
             self.char.value = int(kwargs.pop('char'))
-        logging.debug("inputHandler.takeInput(): Got char:" +
+        logging.debug("Got char:" +
                       str(self.char.value))
 
     def processArgs(self):
@@ -150,18 +146,16 @@ class InputHandler:
             self.cmd_char_idx.value = len(self.command)
 
         elif self.char.value == curses.KEY_BACKSPACE:
-            logging.debug(
-                "inputHandler.processArgs(): self.command:"+str(self.command))
+            logging.debug("self.command:"+str(self.command))
             if len(self.command) != 0:
-                logging.debug('inputHandler.processArgs():'
-                    + 'Backspace...removing:'
+                logging.debug('Backspace...removing:'
                     + str(self.command[self.cmd_char_idx.value-1]))
                 del self.command[self.cmd_char_idx.value-1]
                 self.cmd_char_idx.value -= 1
             self.updateBool = True
 
         elif self.char.value == ord('\n') and len(self.command) != 0:
-            logging.debug("inputHandler.processArgs(): Got enter")
+            logging.debug("Got enter")
             self.cmd_list_pointer += 1
 
             if len(self.commands_list) != 0 and self.commands_list[-1] == "":
@@ -208,11 +202,11 @@ class InputHandler:
         else:
             self.updateBool = False
 
-        logging.debug("inputHandler.processArgs: currentcommand " +
+        logging.debug("currentcommand " +
                       repr("".join(self.command)))
-        logging.debug("inputHandler.processArgs: commands_list: " +
+        logging.debug("commands_list: " +
                       str(self.commands_list))
-        logging.debug("inputHandler.processArgs: cmd_char_idx.value: " +
+        logging.debug("cmd_char_idx.value: " +
                       str(self.cmd_char_idx.value))
 
     def checkIfExit(self):
