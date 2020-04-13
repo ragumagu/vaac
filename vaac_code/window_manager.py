@@ -58,13 +58,15 @@ class WindowManager():
         # print(output_string)
         try:
             output = ast.literal_eval(output_string)
-            apps_windows_dict = defaultdict(list)
-            for item in output:
-                apps_windows_dict[item['key']].append(item['value'])
-            self.apps_windows_dict = apps_windows_dict
-            self.update_window_pointers()  # Possible spaghetti
         except:
             print("update_apps_windows: Got an invalid string.")
+            return
+        apps_windows_dict = defaultdict(list)
+        for item in output:
+            apps_windows_dict[item['key']].append(item['value'])
+        self.apps_windows_dict = apps_windows_dict
+        self.update_window_pointers()  # Possible spaghetti
+        
 
     def update_window_pointers(self):
         A = set(self.apps_windows_dict.keys())
@@ -162,10 +164,10 @@ class WindowManager():
         # This while loop is necessary because xdotool search will result in
         # BadWindow errors, because it takes time to update the XQueryTree.
         # The conversion to int will throw an error if the output is not a
-        # valid hex number.
+        # valid hex number. Thus, the 'pass' in the except is justified.
         while True:
-            try:
-                output = subprocess.getoutput(cmd)
+            output = subprocess.getoutput(cmd)
+            try:                
                 x = int(output, 16)
                 win_id = output
                 break

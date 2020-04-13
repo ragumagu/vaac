@@ -1,290 +1,426 @@
-DEBUG:root:cmd_char_idxValue('i', 0) <class 'multiprocessing.managers.ValueProxy'>
-DEBUG:root:updateBoolValue(<class 'ctypes.c_bool'>, False) <class 'multiprocessing.managers.ValueProxy'>True
-INFO:root:windowhandler.initscreen():Screen Initialized:38,150
+DEBUG:root:take_keyboard_input(): started
+DEBUG:root:run_pocketsphinx(): started
+DEBUG:root:output(): started
+INFO:root:windowhandler.initscreen():Screen Initialized:32,136
 INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
 INFO:root:----------------------
-DEBUG:root:run_pocketsphinx(): editor
-DEBUG:root:inputHandler.takeInput(): Got char:343
+DEBUG:root:run_pocketsphinx(): help
+DEBUG:root:inputHandler.takeInput(): Got char:10
 INFO:root:output thread: sent input key_enter
-DEBUG:root:inputHandler.processArgs: currentcommand 'editor'
-DEBUG:root:inputHandler.processArgs: commands_list: []
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 6
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.move_cursor,moving to y,x:1,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
 DEBUG:root:inputHandler.processArgs(): Got enter
 DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', '']
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', '']
 DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
 INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
 Type "help" for more information.
-> editor
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
 
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.move_cursor,moving to y,x:1,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs: currentcommand 'a'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x4,3
-DEBUG:root:windowHandler.updateyx:New y,x4,3
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:4,3
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs(): Got enter
-DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x5,2
-DEBUG:root:windowHandler.updateyx:New y,x5,2
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:5,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs: currentcommand 'a'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x5,3
-DEBUG:root:windowHandler.updateyx:New y,x5,3
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:5,3
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs(): Got enter
-DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x6,2
-DEBUG:root:windowHandler.updateyx:New y,x6,2
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:6,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:run_pocketsphinx(): editor
-DEBUG:root:inputHandler.takeInput(): Got char:343
-INFO:root:output thread: sent input key_enter
-DEBUG:root:inputHandler.processArgs: currentcommand 'editor'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 6
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.move_cursor,moving to y,x:6,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs(): Got enter
-DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.move_cursor,moving to y,x:6,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs: currentcommand 'd'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x7,3
-DEBUG:root:windowHandler.updateyx:New y,x7,3
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:7,3
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs(): Got enter
-DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-> d
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x8,2
-DEBUG:root:windowHandler.updateyx:New y,x8,2
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:8,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs: currentcommand 'd'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 1
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-> d
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x8,3
-DEBUG:root:windowHandler.updateyx:New y,x8,3
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:8,3
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs: currentcommand 'dd'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 2
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-> d
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x8,4
-DEBUG:root:windowHandler.updateyx:New y,x8,4
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
-DEBUG:root:windowHandler.updateyx:y-offset 0
-DEBUG:root:windowHandler.move_cursor,moving to y,x:8,4
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
-DEBUG:root:inputHandler.processArgs(): Got enter
-DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', 'dd', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-> d
-> dd
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.updateyx:current y,x9,2
-DEBUG:root:windowHandler.updateyx:New y,x9,2
-DEBUG:root:windowHandler.updateyx:Lines,cols 38,150
+DEBUG:root:windowHandler.updateyx:current y,x 9,2
+DEBUG:root:windowHandler.updateyx:New y,x 9,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
 DEBUG:root:windowHandler.updateyx:y-offset 0
 DEBUG:root:windowHandler.move_cursor,moving to y,x:9,2
 INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
 INFO:root:----------------------
-DEBUG:root:run_pocketsphinx(): editor
-DEBUG:root:inputHandler.takeInput(): Got char:343
+DEBUG:root:run_pocketsphinx(): help
+DEBUG:root:inputHandler.takeInput(): Got char:10
 INFO:root:output thread: sent input key_enter
-DEBUG:root:inputHandler.processArgs: currentcommand 'editor'
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', 'dd', '']
-DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 6
-INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
-Type "help" for more information.
-> editor
-> a
-> a
-> editor
-> d
-> dd
-
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.move_cursor,moving to y,x:9,2
-INFO:root:windowHandler.refresh():Refreshing...
-INFO:root:----------------------
-DEBUG:root:take_keyboard_input:inputHandler took input.
 DEBUG:root:inputHandler.processArgs(): Got enter
 DEBUG:root:inputHandler.processArgs: currentcommand ''
-DEBUG:root:inputHandler.processArgs: commands_list: ['editor', 'a', 'a', 'editor', 'd', 'dd', 'editor', '']
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', '']
 DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
 INFO:root:windowhandler.writeInput(): Writing input.
-DEBUG:root:windowhandler.writeInput():screen_log.value:This is the vaac terminal program.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
 Type "help" for more information.
-> editor
-> a
-> a
-> editor
-> d
-> dd
-> editor
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
 
-INFO:root:windowHandler.updateyx(): Updating y,x.
-DEBUG:root:windowHandler.move_cursor,moving to y,x:9,2
+DEBUG:root:windowHandler.updateyx:current y,x 15,2
+DEBUG:root:windowHandler.updateyx:New y,x 15,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:15,2
 INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): help
+DEBUG:root:inputHandler.takeInput(): Got char:10
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:windowHandler.updateyx:current y,x 21,2
+DEBUG:root:windowHandler.updateyx:New y,x 21,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:21,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): help
+DEBUG:root:inputHandler.takeInput(): Got char:10
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:windowHandler.updateyx:current y,x 27,2
+DEBUG:root:windowHandler.updateyx:New y,x 27,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:27,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): help
+DEBUG:root:inputHandler.takeInput(): Got char:10
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:windowHandler.updateyx:current y,x 33,2
+DEBUG:root:windowHandler.updateyx:New y,x 33,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 2
+DEBUG:root:windowHandler.move_cursor,moving to y,x:33,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:run_pocketsphinx(): help
+DEBUG:root:inputHandler.takeInput(): Got char:10
+INFO:root:output thread: sent input key_enter
+DEBUG:root:inputHandler.processArgs(): Got enter
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:windowHandler.updateyx:current y,x 39,2
+DEBUG:root:windowHandler.updateyx:New y,x 39,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 8
+DEBUG:root:windowHandler.move_cursor,moving to y,x:39,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:Got pageup.
+DEBUG:root:windowHandler.updateyx:current y,x 39,2
+DEBUG:root:windowHandler.updateyx:New y,x 39,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:39,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:Got pageup.
+DEBUG:root:windowHandler.updateyx:current y,x 39,2
+DEBUG:root:windowHandler.updateyx:New y,x 39,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 0
+DEBUG:root:windowHandler.move_cursor,moving to y,x:39,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:Got pagedown.
+DEBUG:root:windowHandler.updateyx:current y,x 39,2
+DEBUG:root:windowHandler.updateyx:New y,x 39,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 8
+DEBUG:root:windowHandler.move_cursor,moving to y,x:39,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
+INFO:root:----------------------
+DEBUG:root:take_keyboard_input:inputHandler took input.
+DEBUG:root:inputHandler.processArgs: currentcommand ''
+DEBUG:root:inputHandler.processArgs: commands_list: ['help', 'help', 'help', 'help', 'help', 'help', '']
+DEBUG:root:inputHandler.processArgs: cmd_char_idx.value: 0
+INFO:root:windowhandler.writeInput(): Writing input.
+DEBUG:root:windowhandler.writeInput(): Resizing pad.
+DEBUG:root:windowhandler.writeInput():screen_log:This is the vaac terminal program.
+Type "help" for more information.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+> help
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.
+This is a primitive terminal and might not support all key strokes.
+This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+
+DEBUG:root:Got pagedown.
+DEBUG:root:windowHandler.updateyx:current y,x 39,2
+DEBUG:root:windowHandler.updateyx:New y,x 39,2
+DEBUG:root:windowHandler.updateyx:Lines,cols 32,136
+DEBUG:root:windowHandler.updateyx:y-offset 8
+DEBUG:root:windowHandler.move_cursor,moving to y,x:39,2
+INFO:root:windowHandler.refresh():Refreshing...
+DEBUG:root:windowhandler.refresh(): Resizing pad.
 INFO:root:----------------------
 DEBUG:root:run_pocketsphinx(): exit
 INFO:root:output: exiting

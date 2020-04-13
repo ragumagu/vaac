@@ -12,9 +12,11 @@ from vaac_code.speech_recognizer import VaacSpeech
 from vaac_code.terminal import InputHandler, WindowHandler
 
 model_path = "/home/shrinidhi/project/vaac/vaac_model"
+MAXLINES = 2000
 
 
 def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
+    logging.debug("run_pocketsphinx(): started")
     speech = VaacSpeech(
         verbose=False,
         sampling_rate=16000,
@@ -34,28 +36,30 @@ def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
 
 
 def take_keyboard_input(stdscr, char, updateBool):
+    logging.debug("take_keyboard_input(): started")
     while(1):
         char.value = stdscr.getch()
         logging.debug("take_keyboard_input:inputHandler took input.")
         updateBool.value = True
 
-def output(stdscr, pad, char, inputchars, cmd_char_idx, cmd_list_pointer, updateBool, maxlines, screen_log, submitBool, commands_list):
+def output(inputchars, cmd_char_idx, submitBool,
+           stdscr, char, updateBool):
+    logging.debug("output(): started")
+    pad = curses.newpad(MAXLINES, curses.COLS)
     inputHandler = InputHandler(
-        stdscr, pad, char, 
-        inputchars, cmd_char_idx,
-        cmd_list_pointer, updateBool, 
-        screen_log, commands_list
-        )
-    windowHandler = WindowHandler(stdscr, pad, inputHandler, maxlines)
-    windowHandler.initscreen(inputHandler)
-    windowHandler.refresh()
-    while(1):
+        inputchars, cmd_char_idx, char,
+        updateBool, stdscr, pad
+    )    
+    windowHandler = WindowHandler(stdscr, pad, inputHandler, MAXLINES)    
+    windowHandler.initscreen(inputHandler)    
+    windowHandler.refresh()    
+    while(1):        
         time.sleep(0.01)
         if "".join(inputchars) == "exit":
             logging.info("output: exiting")
             return
         if submitBool.value:
-            inputHandler.takeInput(char=curses.KEY_ENTER)            
+            inputHandler.takeInput(char=ord('\n'))
             logging.info("output thread: sent input key_enter")
             updateBool.value = True
         if updateBool.value:
@@ -76,18 +80,10 @@ def main(stdscr):
     manager = Manager()
     rc = manager.list()
     inputchars = manager.list()
-    commands_list = manager.list()
     cmd_char_idx = manager.Value('i', 0)
     char = manager.Value('i', 0)
-    cmd_list_pointer = manager.Value('i', 0)
     updateBool = manager.Value(c_bool, False)
     submitBool = manager.Value(c_bool, False)
-    screen_log = manager.Value(c_wchar_p, "")
-    logger.debug("cmd_char_idx"+str(cmd_char_idx)+" "+str(type(cmd_char_idx)))
-    logger.debug("updateBool"+str(updateBool)+" " +
-                 str(type(updateBool))+str(bool(updateBool)))
-    maxlines = 2000
-    pad = curses.newpad(maxlines, curses.COLS)
 
     # Process for running pocketsphinx.
     pocketsphinx_proc = Process(target=run_pocketsphinx, args=(
@@ -99,26 +95,23 @@ def main(stdscr):
 
     # Process for putting input onto the screen.
     output_proc = Process(
-        target=output, 
+        target=output,
         args=(
-            stdscr, pad, char, 
-            inputchars, cmd_char_idx, cmd_list_pointer, 
-            updateBool, maxlines, screen_log, 
-            submitBool, commands_list
-            )
+            inputchars, cmd_char_idx, submitBool,
+            stdscr, char, updateBool,
         )
-
+    )
     
-    time.sleep(0.1)
-    keyboard_proc.start()
-    time.sleep(0.1)
+    keyboard_proc.start()    
     pocketsphinx_proc.start()
     time.sleep(0.1)
     output_proc.start()
 
     output_proc.join()
     keyboard_proc.terminate()
+    #keyboard_proc.join()
     pocketsphinx_proc.terminate()
+    #pocketsphinx_proc.join()
 
 
 wrapper(main)
