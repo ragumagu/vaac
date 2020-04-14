@@ -24,7 +24,7 @@ SAVE,ctrl+s
 SAVE AS,ctrl+shift+s
 PRINT,ctrl+p
 PRINT PREVIEW,ctrl+shift+p
-QUIT,ctrl+q
+CLOSE WINDOW,ctrl+q
 GO TO BEGINNING OF LINE,Home
 GO TO END OF LINE,End
 GO TO BEGINNING OF DOCUMENT,ctrl+Home

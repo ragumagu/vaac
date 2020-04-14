@@ -18,18 +18,15 @@ from subprocess import Popen
 '''
 
 def run(command, wm):    
-    print('Executor run received', command)
     executor_script_path = './vaac_code/executor.sh'    
     if command is None:
         return
     elif command[0] == 'open':
-        pid = Popen(command[1]).pid
-        wm.resize_window(pid, command[1])
+        Popen(command[1])        
     elif command[0] == 'focus':
         wm.focus(command[1])
     else:
         c = command[:]
         wm.focus(command[2])
         c.insert(0, executor_script_path)
-        subprocess.run(c)
-        wm.resize_if_windows_changed()
+        subprocess.run(c)        

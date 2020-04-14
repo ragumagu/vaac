@@ -19,12 +19,12 @@ INDENT LINE,ctrl+bracketright
 OUTDENT LINE,ctrl+bracketleft
 GO TO BEGINNING OF LINE,Home
 GO TO END OF LINE,End
-GO TO BEGINNING OF FILE,ctrl+Home
-GO TO END OF FILE,End
-SCROLL LINE UP,ctrl+Up
-SCROLL LINE DOWN,ctrl+Down
-SCROLL PAGE UP,alt+Page_Up
-SCROLL PAGE DOWN,alt+Page_Down
+TOP,ctrl+Home
+BOTTOM,ctrl+End
+LINE UP,ctrl+Up
+LINE DOWN,ctrl+Down
+PAGE UP,alt+Page_Up
+PAGE DOWN,alt+Page_Down
 FOLD REGION,ctrl+shift+bracketleft
 UNFOLD REGION,ctrl+shift+bracketright
 FOLD ALL SUBREGIONS,ctrl+k ctrl+bracketleft

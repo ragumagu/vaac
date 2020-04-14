@@ -8,7 +8,7 @@
 '''
 
 import csv
-
+import logging
 from fuzzywuzzy import fuzz
 
 import vaac_code.executor as executor
@@ -40,7 +40,7 @@ class Extractor:
             with open(path, 'r') as dfile:  # data file
                 self.files_map[app_name] = list(csv.reader(dfile))
 
-    def extract_and_run(self, command):
+    def extract_and_run(self, command):        
         executor.run(self.extract(command), self.wm)
 
     def filter_open(self, command):
@@ -73,9 +73,9 @@ class Extractor:
 
         max_ratio = fuzz.token_sort_ratio(command, matched_command[0])
 
-        print('Extractor: max_ratio:', max_ratio)
-        print('Extractor: target_app is', self.current_app)
-        print('Extractor: command is', matched_command)
+        logging.info('max_ratio: '+str(max_ratio))
+        logging.info('target_app is '+self.current_app)
+        logging.info('command is '+str(matched_command))
 
         if max_ratio == 100:
             result = matched_command[1:]
@@ -93,7 +93,6 @@ class Extractor:
         command = self.find_target_application(command)
 
         self.wm.update_apps_windows()
-        self.wm.update_all_window_dims()
         self.open_applications = self.wm.get_open_apps()
 
         filters = [
@@ -111,7 +110,7 @@ class Extractor:
                 break
 
         if result is None:
-            print('Extractor: Command not clear! Please try again.')
+            logging.warning('Extractor: Command not clear! Please try again.')
         return result
 
     def find_target_application(self, command):

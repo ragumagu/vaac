@@ -1,22 +1,23 @@
-INFO:terminal:initscreen:Screen Initialized:15,123
-INFO:terminal:refresh:Refreshing...
-DEBUG:terminal:refresh:Resizing pad.
-INFO:terminal:refresh:----------------------
-DEBUG:vaac_terminal:run_pocketsphinx:firefox
-DEBUG:terminal:takeInput:Got char:10
-DEBUG:terminal:processArgs:Got enter
-DEBUG:terminal:processArgs:currentcommand ''
-DEBUG:terminal:processArgs:commands_list: ['firefox', '']
-DEBUG:terminal:processArgs:cmd_char_idx.value: 0
+INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
 INFO:terminal:writeInput:Writing input.
-DEBUG:terminal:writeInput:Resizing pad.
-DEBUG:terminal:updateyx:Current y,x 4,2
-DEBUG:terminal:updateyx:New y,x 4,2
-DEBUG:terminal:updateyx:Lines,cols 15,123
-DEBUG:terminal:updateyx:y-offset0
-DEBUG:terminal:move_cursor:moving cursor to y,x:4,2
-INFO:terminal:refresh:Refreshing...
-DEBUG:terminal:refresh:Resizing pad.
 INFO:terminal:refresh:----------------------
-DEBUG:vaac_terminal:run_pocketsphinx:exit
-INFO:vaac_terminal:output:Exiting...
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:code
+INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:close editor
+INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
+INFO:extractor:filter_match:max_ratio: 100
+INFO:extractor:filter_match:target_app is code
+INFO:extractor:filter_match:command is ['CLOSE EDITOR', 'ctrl+w']
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:close editor
+INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
+INFO:extractor:filter_match:max_ratio: 100
+INFO:extractor:filter_match:target_app is code
+INFO:extractor:filter_match:command is ['CLOSE EDITOR', 'ctrl+w']
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
