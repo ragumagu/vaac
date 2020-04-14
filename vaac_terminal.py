@@ -15,7 +15,7 @@ model_path = "/home/shrinidhi/project/vaac/vaac_model"
 MAXLINES = 2000
 
 
-def run_pocketsphinx(inputchars, cmd_char_idx, submitBool,logger):    
+def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):    
     speech = VaacSpeech(
         verbose=False,
         sampling_rate=16000,
@@ -28,8 +28,7 @@ def run_pocketsphinx(inputchars, cmd_char_idx, submitBool,logger):
     )
     for phrase in speech:
         for char in str(phrase).lower().strip():
-            inputchars.append(char)
-        logger.debug(''.join(inputchars))
+            inputchars.append(char)        
         cmd_char_idx.value = len(inputchars)
         submitBool.value = True
 
@@ -80,7 +79,7 @@ def main(stdscr):
 
     # Process for running pocketsphinx.
     pocketsphinx_proc = Process(target=run_pocketsphinx, args=(
-        inputchars, cmd_char_idx, submitBool,logger))
+        inputchars, cmd_char_idx, submitBool))
 
     # Process for taking input from keyboard.
     keyboard_proc = Process(target=take_keyboard_input,

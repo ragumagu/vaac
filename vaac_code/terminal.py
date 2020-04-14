@@ -15,7 +15,6 @@ class WindowHandler:
         self.maxlines = maxlines
 
     def writeInput(self, inputHandler):
-        logging.info('Writing input.')        
         curses.update_lines_cols()
         self.pad.resize(self.maxlines, curses.COLS)
         self.pad.erase()
@@ -32,12 +31,10 @@ class WindowHandler:
         self.cursor_y = y
 
         if char == curses.KEY_PPAGE:
-            logging.debug('Got pageup.')
             self.y_offset -= curses.LINES - 1
             if self.y_offset < 0:
                 self.y_offset = 0
         elif char == curses.KEY_NPAGE:
-            logging.debug('Got pagedown.')
             self.y_offset += curses.LINES - 1
             if self.y_offset + curses.LINES >= self.cursor_y:
                 self.y_offset = y - curses.LINES + 1
@@ -56,8 +53,7 @@ class WindowHandler:
         try:
             self.pad.refresh(self.y_offset, 0, 0, 0, curses.LINES-1, curses.COLS)
         except Exception as ex:
-            logging.critical(str(ex))
-        logging.info('----------------------')       
+            logging.critical(str(ex))        
 
 class InputHandler:
     def __init__(self, command, cmd_char_idx, char, stdscr, pad):
@@ -173,8 +169,9 @@ class InputHandler:
     def getLastInput(self):
         return self.commands_list[-1]
 
-    def getOutput(self):
+    def getOutput(self):        
         input_command = self.commands_list[-1]
+        logging.debug("input: "+input_command)
         self.screen_log += self.prompt+input_command+"\n"        
 
         if input_command == 'exit':

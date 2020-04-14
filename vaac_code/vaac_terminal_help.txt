@@ -1,3 +1,10 @@
-This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.This is a primitive terminal and might not support all key strokes.
-This terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
-For help setting up Vaac, use the README.md file, or go to the Vaac github page.
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it. This is a primitive terminal and might not support all key strokes.
+
+This terminal accepts simple, natural language commands.
+
+You can provide one argument to help: 
+    > help [code|firefox|gedit|nautilus|terminal]
+to get a list of commands supported for each application.
+
+You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.
+For more information, use the README.md file, or go to the Vaac github page.

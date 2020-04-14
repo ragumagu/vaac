@@ -11,19 +11,16 @@ class WindowManager():
         self.update_apps_windows()        
 
     def get_active_window_class(self):
-        s = 'wmctrl -lx | grep "$(xdotool getwindowfocus getwindowname)"'
-        output = subprocess.getoutput(s)        
-        try:
-            output = output.split()[2]
-            if '.' in output:
-                output = output.split(".")[1].lower()
-        except IndexError:
-            logging.error("Could not find active window class.")
-
+        # wmctrl : lists open windows
+        # $(xdotool getwindowfocuse getwindowname) : title of current window
+        # grep : gets first title name match from wmctrl output
+        # cut : extracts the window class name from grep output
+        # tr : converts output to lower case
+        cmd = 'wmctrl -lx | grep -m1 "$(xdotool getwindowfocus getwindowname)" | cut -d" " -f4 | cut -d"." -f2 | tr "[:upper:]" "[:lower:]"'
+        output = subprocess.getoutput(cmd)
         return output
 
-    def update_apps_windows(self):
-        logging.info("Updating wm values.")
+    def update_apps_windows(self):        
         command = "./vaac_code/running_apps.sh"
         output_string = subprocess.getoutput(command).lower()        
         try:

@@ -45,7 +45,7 @@ class Extractor:
     def extract_and_run(self, command):
         self.command = command
         cmd = self.extract()
-        logging.info('reached')
+        
         if isinstance(cmd, list):
             executor.run(cmd, self.wm)
             return None
@@ -53,55 +53,60 @@ class Extractor:
             return cmd
 
     def filter_help(self):
-        if self.command == 'help' and self.target_app == '?':
-            self.found = True
-            with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
-                return helptxt.read()
-        elif self.command == 'help':
-            self.found = True
-            lst = [str(item[0]).lower()
-                   for item in self.files_map[self.target_app]]
-            return '\n'.join(lst)+'\n'
+        if self.command == 'help':
+            if self.target_app == '?':
+                self.found = True
+                with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
+                    return helptxt.read()
+            else:
+                self.found = True
+                lst = [str(item[0]).lower()
+                    for item in self.files_map[self.target_app]]
+                return '\n'.join(lst)+'\n'
         else:
             self.found = False
             return None
 
     def filter_open(self):
         if self.command == 'open':
-            if self.current_app in self.open_applications:
+            if self.target_app == '?':
+                self.found = False
+                return None
+            elif self.target_app in self.open_applications:
                 self.found = True
-                return ['focus', self.current_app]
+                self.current_app = self.target_app
+                return ['focus', self.target_app]
             else:
                 self.found = True
+                self.current_app = self.target_app
                 return ['open', self.current_app]
-
-        if self.current_app not in self.open_applications:
-            self.found = True
-            return None
         else:
             self.found = False
             return None
 
     def filter_focus(self):
-        if self.command in ['focus', 'go to', 'switch to', '']:
+        if self.command in ['focus', 'go to', 'switch to', ''] and self.target_app != '?':
             self.found = True
+            self.current_app = self.target_app
             return ['focus', self.current_app]
         else:
             self.found = False
             return None
 
     def filter_match(self):
+        if self.target_app != '?':
+            self.current_app = self.target_app
         matched_command = max(self.files_map[self.current_app],
                               key=lambda x: fuzz.token_sort_ratio(self.command, x[0]))
 
         max_ratio = fuzz.token_sort_ratio(self.command, matched_command[0])
 
-        logging.info('max_ratio: '+str(max_ratio))
-        logging.info('target_app is '+self.current_app)
-        logging.info('command is '+str(matched_command))
+        logging.debug('max_ratio: '+str(max_ratio))
+        logging.debug('target_app is '+self.current_app)
+        logging.debug('command is '+str(matched_command))
 
-        if max_ratio == 100:
-            result = matched_command[1:]
+        if max_ratio == 100:            
+            result = matched_command[1:]            
             result.append(self.current_app)
             result.insert(0, 'key')
             self.found = True
@@ -111,13 +116,10 @@ class Extractor:
             return None
 
     def extract(self):
-        '''Extracts application name from command, matches with various filters, and returns resulting command as a list.'''
+        '''Matches self.command with various filters, and returns resulting command as a list.'''
         self.command = self.command.lower().strip()
         self.find_target_application()
-
-        if self.target_app != '?' and self.command != 'help':
-            self.current_app = self.target_app
-
+        
         self.wm.update_apps_windows()
         self.open_applications = self.wm.get_open_apps()
 
