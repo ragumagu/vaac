@@ -12,8 +12,8 @@ FIND,shift+ctrl+f
 FIND NEXT,shift+ctrl+g
 FIND PREVIOUS,shift+ctrl+h
 CLEAR HIGHLIGHT,shift+ctrl+j
-SWITCH TO PREVIOUS TAB,ctrl+Page_Up
-SWITCH TO NEXT TAB,ctrl+Page_Down
+PREVIOUS TAB,ctrl+Page_Up
+NEXT TAB,ctrl+Page_Down
 MOVE TAB TO LEFT,shift+ctrl+Page_Up
 MOVE TAB TO RIGHT,shift+ctrl+Page_Down
 SWITCH TO TAB ONE,alt+1

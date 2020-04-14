@@ -1,4 +1,5 @@
 # TODO: needs rewrite: might have references to wm_class variables and methods.
+import subprocess
 class DisplayManager():
     def __init__(self, vaac_window_title):
         self.vaac_window_id = self.get_vaac_window_id(vaac_window_title)

@@ -178,11 +178,8 @@ class InputHandler:
         self.screen_log += self.prompt+input_command+"\n"        
 
         if input_command == 'exit':
-            return
-
-        if input_command == 'help':
-            help_str = '''This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it.\nThis is a primitive terminal and might not support all key strokes.\nThis terminal accepts simple, natural language commands. You can use up and down to navigate through commands history, and page up and page down to scroll. Use backspace to delete a typed character.\nFor help setting up Vaac, use the README.md file, or go to the Vaac github page.\n'''
-            self.screen_log += help_str
-        
+            return        
         else:            
-            self.extractor.extract_and_run(input_command)
+            output = self.extractor.extract_and_run(input_command)
+            if output is not None:
+                self.screen_log += output

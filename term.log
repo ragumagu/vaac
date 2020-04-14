@@ -1,23 +1,171 @@
-INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
+INFO:window_manager:update_apps_windows:Updating wm values.
 INFO:terminal:writeInput:Writing input.
 INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:editor
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:filter_match:max_ratio: 40
+INFO:extractor:filter_match:target_app is gnome-terminal
+INFO:extractor:filter_match:command is ['MOVE TO END OF LINE', 'ctrl+e']
+WARNING:extractor:extract:Extractor: Command not clear! Please try again.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:help
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:help code
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:help firefox
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pageup.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pageup.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pageup.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pageup.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+INFO:terminal:writeInput:Writing input.
+DEBUG:terminal:updateyx:Got pagedown.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:firefox
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:open reader
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:filter_match:max_ratio: 62
+INFO:extractor:filter_match:target_app is firefox
+INFO:extractor:filter_match:command is ['TOGGLE READER MODE', 'ctrl+alt+r']
+WARNING:extractor:extract:Extractor: Command not clear! Please try again.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:open gedit
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:quit
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:filter_match:max_ratio: 57
+INFO:extractor:filter_match:target_app is gedit
+INFO:extractor:filter_match:command is ['CUT', 'ctrl+x']
+WARNING:extractor:extract:Extractor: Command not clear! Please try again.
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:close window
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:filter_match:max_ratio: 100
+INFO:extractor:filter_match:target_app is gedit
+INFO:extractor:filter_match:command is ['CLOSE WINDOW', 'ctrl+q']
+INFO:extractor:extract_and_run:reached
+INFO:terminal:writeInput:Writing input.
+INFO:terminal:refresh:----------------------
+DEBUG:vaac_terminal:run_pocketsphinx:terminal
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
 INFO:terminal:writeInput:Writing input.
 INFO:terminal:refresh:----------------------
 DEBUG:vaac_terminal:run_pocketsphinx:code
-INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
 INFO:terminal:writeInput:Writing input.
 INFO:terminal:refresh:----------------------
-DEBUG:vaac_terminal:run_pocketsphinx:close editor
-INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
-INFO:extractor:filter_match:max_ratio: 100
-INFO:extractor:filter_match:target_app is code
-INFO:extractor:filter_match:command is ['CLOSE EDITOR', 'ctrl+w']
+DEBUG:vaac_terminal:run_pocketsphinx:firefox
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
 INFO:terminal:writeInput:Writing input.
 INFO:terminal:refresh:----------------------
-DEBUG:vaac_terminal:run_pocketsphinx:close editor
-INFO:window_manager:update_apps_windows:WindowManager:Updating wm values.
-INFO:extractor:filter_match:max_ratio: 100
-INFO:extractor:filter_match:target_app is code
-INFO:extractor:filter_match:command is ['CLOSE EDITOR', 'ctrl+w']
+DEBUG:vaac_terminal:run_pocketsphinx:code
+INFO:window_manager:update_apps_windows:Updating wm values.
+INFO:extractor:extract_and_run:reached
 INFO:terminal:writeInput:Writing input.
 INFO:terminal:refresh:----------------------

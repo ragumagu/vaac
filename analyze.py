@@ -56,7 +56,7 @@ def write_partitions(counter,phrases,output):
 read = "r"
 write = "w"
 files = ["./data/keys/code_keyboard_shortcuts.csv", "./data/keys/firefox_keyboard_shortcuts.csv", "./data/keys/gedit_keyboard_shortcuts.csv",
-    "./data/keys/general_keyboard_shortcuts.csv", "./data/keys/nautilus_keyboard_shortcuts.csv", "./data/keys/terminal_keyboard_shortcuts.csv"]
+    "./data/keys/general_keyboard_shortcuts.csv", "./data/keys/nautilus_keyboard_shortcuts.csv", "./data/keys/gnome-terminal_keyboard_shortcuts.csv"]
 apps = ["CODE", "FIREFOX", "GEDIT", "", "NAUTILUS", "TERMINAL"]
 
 files = files[:]

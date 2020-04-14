@@ -2,6 +2,7 @@
 from collections import defaultdict
 import ast
 import subprocess
+import shlex
 import logging
 class WindowManager():
     def __init__(self):
@@ -9,14 +10,26 @@ class WindowManager():
         self.window_pointers = dict()  
         self.update_apps_windows()        
 
+    def get_active_window_class(self):
+        s = 'wmctrl -lx | grep "$(xdotool getwindowfocus getwindowname)"'
+        output = subprocess.getoutput(s)        
+        try:
+            output = output.split()[2]
+            if '.' in output:
+                output = output.split(".")[1].lower()
+        except IndexError:
+            logging.error("Could not find active window class.")
+
+        return output
+
     def update_apps_windows(self):
-        logging.info("WindowManager:Updating wm values.")
+        logging.info("Updating wm values.")
         command = "./vaac_code/running_apps.sh"
         output_string = subprocess.getoutput(command).lower()        
         try:
             output = ast.literal_eval(output_string)
         except:
-            logging.warn("update_apps_windows: Got an invalid string.")
+            logging.warn("Got an invalid string.")
             return
         apps_windows_dict = defaultdict(list)
         for item in output:
@@ -47,7 +60,7 @@ class WindowManager():
             command = ['xdotool', 'windowactivate', target_win_id]
             subprocess.run(command)            
         else:
-            print("WindowManager:", target_app, "is not open to be focused.")
+            logging.warning("WindowManager:"+ target_app + "is not open to be focused.")
     
     def get_open_apps(self):
         return self.apps_windows_dict.keys()

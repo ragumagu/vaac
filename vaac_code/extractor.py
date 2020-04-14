@@ -22,7 +22,9 @@ class Extractor:
 
     def __init__(self, wm):
         self.wm = wm
-        self.current_app = ''
+        self.current_app = wm.get_active_window_class()
+        self.target_app = ''
+        self.command = ''
         self.applications = [
             ['visual studio code', 'vs code', 'code'],
             ['mozilla firefox', 'mozilla', 'browser', 'firefox'],
@@ -40,11 +42,32 @@ class Extractor:
             with open(path, 'r') as dfile:  # data file
                 self.files_map[app_name] = list(csv.reader(dfile))
 
-    def extract_and_run(self, command):        
-        executor.run(self.extract(command), self.wm)
+    def extract_and_run(self, command):
+        self.command = command
+        cmd = self.extract()
+        logging.info('reached')
+        if isinstance(cmd, list):
+            executor.run(cmd, self.wm)
+            return None
+        else:
+            return cmd
 
-    def filter_open(self, command):
-        if command == 'open':
+    def filter_help(self):
+        if self.command == 'help' and self.target_app == '?':
+            self.found = True
+            with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
+                return helptxt.read()
+        elif self.command == 'help':
+            self.found = True
+            lst = [str(item[0]).lower()
+                   for item in self.files_map[self.target_app]]
+            return '\n'.join(lst)+'\n'
+        else:
+            self.found = False
+            return None
+
+    def filter_open(self):
+        if self.command == 'open':
             if self.current_app in self.open_applications:
                 self.found = True
                 return ['focus', self.current_app]
@@ -59,19 +82,19 @@ class Extractor:
             self.found = False
             return None
 
-    def filter_focus(self, command):
-        if command in ['focus', 'go to', 'switch to', '']:
+    def filter_focus(self):
+        if self.command in ['focus', 'go to', 'switch to', '']:
             self.found = True
             return ['focus', self.current_app]
         else:
             self.found = False
             return None
 
-    def filter_match(self, command):
+    def filter_match(self):
         matched_command = max(self.files_map[self.current_app],
-                              key=lambda x: fuzz.token_sort_ratio(command, x[0]))
+                              key=lambda x: fuzz.token_sort_ratio(self.command, x[0]))
 
-        max_ratio = fuzz.token_sort_ratio(command, matched_command[0])
+        max_ratio = fuzz.token_sort_ratio(self.command, matched_command[0])
 
         logging.info('max_ratio: '+str(max_ratio))
         logging.info('target_app is '+self.current_app)
@@ -87,25 +110,29 @@ class Extractor:
             self.found = False
             return None
 
-    def extract(self, command):
+    def extract(self):
         '''Extracts application name from command, matches with various filters, and returns resulting command as a list.'''
-        command = command.lower().strip()
-        command = self.find_target_application(command)
+        self.command = self.command.lower().strip()
+        self.find_target_application()
+
+        if self.target_app != '?' and self.command != 'help':
+            self.current_app = self.target_app
 
         self.wm.update_apps_windows()
         self.open_applications = self.wm.get_open_apps()
 
         filters = [
+            self.filter_help,
             self.filter_open,
             self.filter_focus,
-            self.filter_match
+            self.filter_match,
         ]
 
         result = None
         self.found = False
 
         for filter in filters:
-            result = filter(command)
+            result = filter()
             if self.found:
                 break
 
@@ -113,15 +140,11 @@ class Extractor:
             logging.warning('Extractor: Command not clear! Please try again.')
         return result
 
-    def find_target_application(self, command):
-        new_app = '?'
+    def find_target_application(self):
+        self.target_app = '?'
         for applist in self.applications:
             for app in applist:
-                if app in command:
-                    new_app = applist[-1]
-                    command = command.replace(app, '').strip()
+                if app in self.command:
+                    self.target_app = applist[-1]
+                    self.command = self.command.replace(app, '').strip()
                     break
-        if new_app != '?' or self.current_app == '':
-            self.current_app = new_app
-        # TODO: else: assign current_app this to current window.
-        return command

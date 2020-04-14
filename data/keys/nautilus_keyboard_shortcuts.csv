@@ -4,7 +4,7 @@ CLOSE TAB,ctrl+w
 SEARCH,ctrl+f
 SHOW HELP,F1
 SHORTCUTS,ctrl+F1
-OPEN,ctrl+o
+OPEN ITEM,ctrl+o
 OPEN IN NEW TAB,ctrl+Return
 OPEN IN NEW WINDOW,shift+Return
 OPEN ITEM LOCATION,ctrl+alt+o
