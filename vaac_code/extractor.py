@@ -3,7 +3,7 @@
             Text editor: Gedit.
             IDE: Visual Studio Code.
             Terminal: Gnome-terminal.
-            Files: Nautilus.    
+            Files: Nautilus.
     'open','focus','switch to', 'go to' commands are also supported.
 '''
 
@@ -52,20 +52,20 @@ class Extractor:
             return None
         else:
             return cmd
-    
-    def repeat_filter(self):
-        if (self.command == 'repeat'            
+
+    def filter_repeat(self):
+        if (self.command == 'repeat'
             and self.extracted_commands != []):
             result = self.extracted_commands[-1]
             if ((len(result) == 3 and result[2] in self.open_applications)
                 or (len(result) == 2)
-                or (isinstance(result,str))):    
-                return result            
+                or (isinstance(result,str))):
+                return result
         return None
 
-    def filter(self):        
+    def filter_open(self):
         if self.command == 'help':
-            return self.help_string(self.target_app)
+            return self.get_help_string(self.target_app)
         elif (self.command in ['open', 'focus', 'go to', 'switch to', '']
               and self.target_app != '?'):
             self.current_app = self.target_app
@@ -75,8 +75,8 @@ class Extractor:
                 return ['open', self.current_app]
         else:
             return None
-    
-    def help_string(self, app_name):
+
+    def get_help_string(self, app_name):
         if app_name == '?':
             with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
                 return helptxt.read()
@@ -85,16 +85,16 @@ class Extractor:
                    for item in self.files_map[self.target_app]]
             return '\n'.join(lst)+'\n'
 
-    def search_filter(self):
+    def filter_search(self):
         if self.target_app != '?':
             self.current_app = self.target_app
         targets = [self.current_app,'general','keys']
         for target in targets:
             matched_command = self.match(target)
             if matched_command is not None:
-                break            
+                break
         return matched_command
-    
+
     def match(self,app_name):
         matched_command = max(self.files_map[app_name],
                               key=lambda x: fuzz.token_sort_ratio(self.command, x[0]))
@@ -108,7 +108,7 @@ class Extractor:
             return result
         else:
             return None
-    
+
     def extract(self):
         '''Matches self.command with various filters, and returns resulting command as a list.'''
         self.command = self.command.lower().strip()
@@ -118,23 +118,18 @@ class Extractor:
         self.open_applications = self.wm.get_open_apps()
 
         filters = [
-            self.repeat_filter,
-            self.filter,
-            self.search_filter,
+            self.filter_repeat, self.filter_open, self.filter_search,
         ]
-
-        result = None        
+        result = None
         for filter in filters:
             result = filter()
             if result is not None:
                 break
 
-        if result is not None: 
-            # save result
-            self.extracted_commands.append(result)            
+        if result is not None:
+            self.extracted_commands.append(result) # save result
         else:
-            logging.warning('Command not clear! Please try again.')
-            
+            logging.warning('Command not clear!')
         return result
 
     def find_target_application(self):

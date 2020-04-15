@@ -11,24 +11,21 @@ from subprocess import Popen
         The key_stroke string is not included, when using 'open' or 'focus'.
         Usage examples:
             # Send key stroke to app:
-            >>> executor.run(['key','ctrl+a', 'app']) 
+            >>> executor.run(['key','ctrl+a', 'app'])
             # Open app:
-            >>> executor.run(['open','app']) 
+            >>> executor.run(['open','app'])
             # Focus app window.
-            >>> executor.run(['focus','app']) 
+            >>> executor.run(['focus','app'])
 '''
 
-def run(command, wm):    
-    executor_script_path = './vaac_code/executor.sh'    
+def run(command, wm):
     if command is None:
         return
     elif command[0] == 'open':
-        Popen(command[1])        
+        Popen(command[1],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
     elif command[0] == 'focus':
         wm.focus(command[1])
     else:
-        c = command[:]
         if len(command) == 3:
             wm.focus(command[2])
-        c.insert(0, executor_script_path)        
-        subprocess.run(c)        
+        subprocess.run(['xdotool', command[0], command[1]])

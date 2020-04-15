@@ -21,11 +21,11 @@ class WindowHandler:
         self.pad.addstr(str(inputHandler.commands_list)+'\n')
         self.pad.addstr(inputHandler.screen_log)
         self.pad.addstr(inputHandler.prompt+''.join(inputHandler.command))
-    
-    def updateyx(self, inputHandler):        
+
+    def updateyx(self, inputHandler):
         y, x = self.pad.getyx()
         char = inputHandler.char.value
-        
+
         self.cursor_x = (inputHandler.cmd_char_idx.value +
                          len(inputHandler.prompt)) % curses.COLS
         self.cursor_y = y
@@ -46,53 +46,51 @@ class WindowHandler:
         else:
             curses.curs_set(0)
 
-    def move_cursor(self):  
+    def move_cursor(self):
         self.pad.move(self.cursor_y, self.cursor_x)
 
     def refresh(self):
         try:
             self.pad.refresh(self.y_offset, 0, 0, 0, curses.LINES-1, curses.COLS)
         except Exception as ex:
-            logging.critical(str(ex))        
+            logging.critical(str(ex))
 
 class InputHandler:
     def __init__(self, command, cmd_char_idx, char, stdscr, pad):
-        # command is a multiprocessing.manager.list proxy object; it is a list 
-        # of chars        
+        # command is a multiprocessing.manager.list proxy object; it is a list
+        # of chars
         self.command = command
         # command is a multiprocessing.manager.Value(int) proxy object; it is a # pointer to chars in command.
         self.cmd_char_idx = cmd_char_idx
         # command is a multiprocessing.manager.Value(int) proxy object; it holds
         # the input char from getch().
         self.char = char
-                
+
         self.stdscr = stdscr
         self.pad = pad
-        
+
         self.commands_list = []
         self.cmd_list_pointer = len(self.commands_list)
-        self.resizeBool = False        
+        self.resizeBool = False
         self.insertMode = False
         self.exitstring = "exit"
         self.prompt = "> "
         self.screen_log = ('This is the vaac terminal program.\n'
                            + 'Type "help" for more information.\n')
 
-        wm = WindowManager()	
+        wm = WindowManager()
         self.extractor = Extractor(wm)
 
     def takeInput(self, **kwargs):
         if len(kwargs) == 0:
             self.char.value = self.stdscr.getch()
         if len(kwargs) == 1:
-            self.char.value = int(kwargs.pop('char'))        
+            self.char.value = int(kwargs.pop('char'))
 
     def processArgs(self):
         self.resizeBool = False
 
-        if self.char.value >= 32 and self.char.value <= 126:
-            logging.debug("cmd_char_idx:"+str(self.cmd_char_idx.value))
-            logging.debug("len(self.command):"+str(len(self.command)))
+        if self.char.value >= 32 and self.char.value <= 126:            
             if self.insertMode:
                 if self.cmd_char_idx.value < len(self.command):
                     self.command[self.cmd_char_idx.value] = chr(self.char.value)
@@ -101,10 +99,10 @@ class InputHandler:
             else:
                 self.command.insert(self.cmd_char_idx.value, chr(self.char.value))
             self.cmd_char_idx.value += 1
-        
+
         if self.char.value == curses.KEY_IC:
             self.insertMode = not self.insertMode
-            
+
         elif self.char.value == curses.KEY_UP:
             self.cmd_list_pointer -= 1
             if self.cmd_list_pointer < 0:
@@ -131,12 +129,12 @@ class InputHandler:
 
             self.cmd_char_idx.value = len(self.command)
 
-        elif self.char.value == curses.KEY_BACKSPACE:            
-            if len(self.command) != 0:                
+        elif self.char.value == curses.KEY_BACKSPACE:
+            if len(self.command) != 0:
                 del self.command[self.cmd_char_idx.value-1]
                 self.cmd_char_idx.value -= 1
-        
-        elif self.char.value == curses.KEY_DC:            
+
+        elif self.char.value == curses.KEY_DC:
             try:
                 if self.cmd_char_idx.value < (len(self.command)):
                     del self.command[self.cmd_char_idx.value]
@@ -162,18 +160,18 @@ class InputHandler:
         elif self.char.value == curses.KEY_LEFT:
             if self.cmd_char_idx.value > 0:
                 self.cmd_char_idx.value -= 1
-            
+
         elif self.char.value == curses.KEY_RIGHT:
             if self.cmd_char_idx.value < len(self.command):
                 self.cmd_char_idx.value += 1
-            
+
         elif self.char.value == curses.KEY_HOME:
             self.cmd_char_idx.value = 0
-            
+
         elif self.char.value == curses.KEY_END:
             self.cmd_char_idx.value = len(self.command)
-            
-        elif self.char.value == curses.KEY_RESIZE:            
+
+        elif self.char.value == curses.KEY_RESIZE:
             self.resizeBool = True
 
     def checkIfExit(self):
@@ -187,14 +185,14 @@ class InputHandler:
     def getLastInput(self):
         return self.commands_list[-1]
 
-    def getOutput(self):        
+    def getOutput(self):
         input_command = self.commands_list[-1]
         logging.debug("input: "+input_command)
-        self.screen_log += self.prompt+input_command+"\n"        
+        self.screen_log += self.prompt+input_command+"\n"
 
         if input_command == 'exit':
-            return        
-        else:            
+            return
+        else:
             output = self.extractor.extract_and_run(input_command)
             if output is not None:
                 self.screen_log += output

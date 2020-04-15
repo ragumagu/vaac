@@ -17,7 +17,7 @@ MAXLINES = 2000
 
 def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):    
     speech = VaacSpeech(
-        verbose=False,
+        verbose=False,        
         sampling_rate=16000,
         buffer_size=2048,
         no_search=False,
@@ -31,7 +31,6 @@ def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
             inputchars.append(char)        
         cmd_char_idx.value = len(inputchars)
         submitBool.value = True
-
 
 def take_keyboard_input(stdscr, char, updateBool):    
     while(1):
@@ -48,14 +47,14 @@ def output(inputchars, cmd_char_idx, submitBool,
     windowHandler = WindowHandler(stdscr, pad, inputHandler, MAXLINES)
     stdscr.refresh()
     while(1):        
-        time.sleep(0.01)        
+        time.sleep(0.01)    
         if inputHandler.checkIfExit():
             logger.info("Exiting...")
             return
         if submitBool.value:
             inputHandler.takeInput(char=ord('\n'))            
             updateBool.value = True
-        if updateBool.value:
+        if updateBool.value:            
             inputHandler.processArgs()
             windowHandler.writeInput(inputHandler)
             windowHandler.updateyx(inputHandler)
@@ -66,7 +65,7 @@ def output(inputchars, cmd_char_idx, submitBool,
 
 
 def main(stdscr):
-    logging.basicConfig(format='%(levelname)s:%(module)s:%(funcName)s:%(message)s',filename='term.log', filemode="w", level=logging.DEBUG)
+    logging.basicConfig(format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s',filename='term.log', filemode="a", level=logging.DEBUG)
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 

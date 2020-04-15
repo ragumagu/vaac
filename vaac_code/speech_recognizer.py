@@ -5,7 +5,7 @@ from pocketsphinx import LiveSpeech, get_model_path
 model_path = "/home/shrinidhi/project/vaac/vaac_model"
 
 class VaacSpeech(LiveSpeech):
-    def __init__(self, **kwargs):        
+    def __init__(self, **kwargs):
         self.recognized_commands = []
         super(VaacSpeech, self).__init__(**kwargs)
 
