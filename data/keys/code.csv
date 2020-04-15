@@ -12,6 +12,7 @@ PASTE,ctrl+v
 MOVE LINE DOWN,alt+Down
 MOVE LINE UP,alt+Up
 DELETE LINE,ctrl+shift+k
+DUPLICATE LINE,ctrl+c ctrl+v
 INSERT LINE BELOW,ctrl+Return
 INSERT LINE ABOVE,ctrl+shift+Return
 JUMP TO MATCHING BRACKET,ctrl+shift+backslash

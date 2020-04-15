@@ -72,7 +72,7 @@ class InputHandler:
         self.commands_list = []
         self.cmd_list_pointer = len(self.commands_list)
         self.resizeBool = False        
-
+        self.insertMode = False
         self.exitstring = "exit"
         self.prompt = "> "
         self.screen_log = ('This is the vaac terminal program.\n'
@@ -91,8 +91,19 @@ class InputHandler:
         self.resizeBool = False
 
         if self.char.value >= 32 and self.char.value <= 126:
-            self.command.insert(self.cmd_char_idx.value, chr(self.char.value))
+            logging.debug("cmd_char_idx:"+str(self.cmd_char_idx.value))
+            logging.debug("len(self.command):"+str(len(self.command)))
+            if self.insertMode:
+                if self.cmd_char_idx.value < len(self.command):
+                    self.command[self.cmd_char_idx.value] = chr(self.char.value)
+                else:
+                    self.command.append(chr(self.char.value))
+            else:
+                self.command.insert(self.cmd_char_idx.value, chr(self.char.value))
             self.cmd_char_idx.value += 1
+        
+        if self.char.value == curses.KEY_IC:
+            self.insertMode = not self.insertMode
             
         elif self.char.value == curses.KEY_UP:
             self.cmd_list_pointer -= 1
@@ -124,7 +135,14 @@ class InputHandler:
             if len(self.command) != 0:                
                 del self.command[self.cmd_char_idx.value-1]
                 self.cmd_char_idx.value -= 1
-            
+        
+        elif self.char.value == curses.KEY_DC:            
+            try:
+                if self.cmd_char_idx.value < (len(self.command)):
+                    del self.command[self.cmd_char_idx.value]
+            except IndexError:
+                logging.exception("Could not delete.")
+
         elif self.char.value == ord('\n') and len(self.command) != 0:
             self.cmd_list_pointer += 1
 

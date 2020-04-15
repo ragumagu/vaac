@@ -57,7 +57,7 @@ class WindowManager():
             command = ['xdotool', 'windowactivate', target_win_id]
             subprocess.run(command)            
         else:
-            logging.warning("WindowManager:"+ target_app + "is not open to be focused.")
+            logging.warning(target_app + " is not open to be focused.")
     
     def get_open_apps(self):
         return self.apps_windows_dict.keys()

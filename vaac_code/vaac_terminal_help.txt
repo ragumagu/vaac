@@ -1,4 +1,4 @@
-This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it. This is a primitive terminal and might not support all key strokes.
+This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it. Because of inherent inaccuracies in speech recognition, the terminal will not prompt messages for commands that do not make 'sense'.
 
 This terminal accepts simple, natural language commands.
 

@@ -7,6 +7,7 @@ from subprocess import Popen
             command[0] = 'key' or 'open' or 'focus'
             command[1] = 'key_stroke_string'
             command[2] = 'target_application_name'
+        target_application_name is optional. If not mentioned, the key strokes are directed to current window.
         The key_stroke string is not included, when using 'open' or 'focus'.
         Usage examples:
             # Send key stroke to app:
@@ -27,6 +28,7 @@ def run(command, wm):
         wm.focus(command[1])
     else:
         c = command[:]
-        wm.focus(command[2])
-        c.insert(0, executor_script_path)
+        if len(command) == 3:
+            wm.focus(command[2])
+        c.insert(0, executor_script_path)        
         subprocess.run(c)        

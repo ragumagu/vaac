@@ -16,8 +16,7 @@ import vaac_code.executor as executor
 
 class Extractor:
     '''Extractor class provides methods to extract commands and run them.
-    The filter_* methods set self.found to True if a matching command is 
-    found, or False otherwise. Filter methods return the matched command.
+    Filter methods return the matched command.
     '''
 
     def __init__(self, wm):
@@ -25,121 +24,117 @@ class Extractor:
         self.current_app = wm.get_active_window_class()
         self.target_app = ''
         self.command = ''
+        self.extracted_commands = []
         self.applications = [
             ['visual studio code', 'vs code', 'code'],
             ['mozilla firefox', 'mozilla', 'browser', 'firefox'],
             ['text editor', 'gedit'],
+            ['general'],
             ['files', 'nautilus'],
             ['terminal', 'gnome-terminal'],
         ]
         self.app_names = [
             'code', 'firefox', 'gedit',
             'general', 'nautilus', 'gnome-terminal',
+            'keys',
         ]
         self.files_map = {}
         for app_name in self.app_names:
-            path = f'./data/keys/{app_name}_keyboard_shortcuts.csv'
+            path = f'./data/keys/{app_name}.csv'
             with open(path, 'r') as dfile:  # data file
                 self.files_map[app_name] = list(csv.reader(dfile))
 
     def extract_and_run(self, command):
         self.command = command
         cmd = self.extract()
-        
         if isinstance(cmd, list):
             executor.run(cmd, self.wm)
             return None
         else:
             return cmd
+    
+    def repeat_filter(self):
+        if (self.command == 'repeat'            
+            and self.extracted_commands != []):
+            result = self.extracted_commands[-1]
+            if ((len(result) == 3 and result[2] in self.open_applications)
+                or (len(result) == 2)
+                or (isinstance(result,str))):    
+                return result            
+        return None
 
-    def filter_help(self):
+    def filter(self):        
         if self.command == 'help':
-            if self.target_app == '?':
-                self.found = True
-                with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
-                    return helptxt.read()
-            else:
-                self.found = True
-                lst = [str(item[0]).lower()
-                    for item in self.files_map[self.target_app]]
-                return '\n'.join(lst)+'\n'
-        else:
-            self.found = False
-            return None
-
-    def filter_open(self):
-        if self.command == 'open':
-            if self.target_app == '?':
-                self.found = False
-                return None
-            elif self.target_app in self.open_applications:
-                self.found = True
-                self.current_app = self.target_app
+            return self.help_string(self.target_app)
+        elif (self.command in ['open', 'focus', 'go to', 'switch to', '']
+              and self.target_app != '?'):
+            self.current_app = self.target_app
+            if self.target_app in self.open_applications:
                 return ['focus', self.target_app]
             else:
-                self.found = True
-                self.current_app = self.target_app
                 return ['open', self.current_app]
         else:
-            self.found = False
             return None
-
-    def filter_focus(self):
-        if self.command in ['focus', 'go to', 'switch to', ''] and self.target_app != '?':
-            self.found = True
-            self.current_app = self.target_app
-            return ['focus', self.current_app]
+    
+    def help_string(self, app_name):
+        if app_name == '?':
+            with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
+                return helptxt.read()
         else:
-            self.found = False
-            return None
+            lst = [str(item[0]).lower()
+                   for item in self.files_map[self.target_app]]
+            return '\n'.join(lst)+'\n'
 
-    def filter_match(self):
+    def search_filter(self):
         if self.target_app != '?':
             self.current_app = self.target_app
-        matched_command = max(self.files_map[self.current_app],
+        targets = [self.current_app,'general','keys']
+        for target in targets:
+            matched_command = self.match(target)
+            if matched_command is not None:
+                break            
+        return matched_command
+    
+    def match(self,app_name):
+        matched_command = max(self.files_map[app_name],
                               key=lambda x: fuzz.token_sort_ratio(self.command, x[0]))
 
         max_ratio = fuzz.token_sort_ratio(self.command, matched_command[0])
-
-        logging.debug('max_ratio: '+str(max_ratio))
-        logging.debug('target_app is '+self.current_app)
-        logging.debug('command is '+str(matched_command))
-
-        if max_ratio == 100:            
-            result = matched_command[1:]            
-            result.append(self.current_app)
+        if max_ratio == 100:
+            result = matched_command[1:]
+            if app_name not in ['general',]:
+                result.append(self.current_app)
             result.insert(0, 'key')
-            self.found = True
             return result
         else:
-            self.found = False
             return None
-
+    
     def extract(self):
         '''Matches self.command with various filters, and returns resulting command as a list.'''
         self.command = self.command.lower().strip()
         self.find_target_application()
-        
+
         self.wm.update_apps_windows()
         self.open_applications = self.wm.get_open_apps()
 
         filters = [
-            self.filter_help,
-            self.filter_open,
-            self.filter_focus,
-            self.filter_match,
+            self.repeat_filter,
+            self.filter,
+            self.search_filter,
         ]
 
-        result = None
-        self.found = False
-
+        result = None        
         for filter in filters:
             result = filter()
-            if self.found:
+            if result is not None:
                 break
 
-        if result is None:
-            logging.warning('Extractor: Command not clear! Please try again.')
+        if result is not None: 
+            # save result
+            self.extracted_commands.append(result)            
+        else:
+            logging.warning('Command not clear! Please try again.')
+            
         return result
 
     def find_target_application(self):
