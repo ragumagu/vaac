@@ -1,0 +1,42 @@
+above move to workspace,super+Page_Up
+activate menu window,alt+space
+active focus notification,super+n
+activities overview show,alt+F1
+all applications show,super+a
+all hide windows,ctrl+super+d
+application menu open,super+F10
+below move to workspace,super+Page_Down
+close window,alt+F4
+command prompt show,alt+F2
+copy partial screenshot,ctrl+shift+Print
+copy screenshot,ctrl+Print
+copy screenshot window,ctrl+alt+Print
+directly switch windows,alt+Escape
+down move one window workspace,shift+super+Page_Down
+hide window,super+h
+in zoom,alt+super+equal
+input next source switch to,super+space
+input previous source switch to,shift+super+space
+last move to window workspace,shift+super+End
+left on split view,super+Left
+list notification show,super+v
+lock screen,super+l
+log out,ctrl+alt+Delete
+maximize window,super+Up
+move one up window workspace,shift+super+Page_Up
+move window,alt+F7
+of switch windows,alt+F6
+off reader screen turn,alt+super+s
+off turn zoom,alt+super+8
+on reader screen turn,alt+super+s
+on right split view,super+Right
+on turn zoom,alt+super+8
+out zoom,alt+super+minus
+overview show,super+s
+partial save screenshot,shift+Print
+record screencast,shift+ctrl+alt+r
+resize window,alt+F8
+restore window,super+Down
+save screenshot,Print
+save screenshot window,alt+Print
+switch windows,alt+Tab

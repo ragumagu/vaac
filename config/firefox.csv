@@ -1,0 +1,116 @@
+add ons,ctrl+shift+a
+all select,ctrl+a
+as paste plain text,ctrl+shift+v
+back,ctrl+bracketleft
+back fifteen seconds seek,Left
+back percent seek ten,ctrl+Left
+bar focus search,ctrl+k
+bar location select,ctrl+l
+bar menu,F10
+beginning go line of to,Home
+beginning go to,ctrl+Home
+beginning seek to,Home
+bookmark page this,ctrl+d
+bookmarks library window,ctrl+shift+o
+bookmarks sidebar,ctrl+b
+bottom,End
+box focus number page,ctrl+alt+g
+browser console,ctrl+shift+j
+browsing caret,F7
+clear history,ctrl+shift+Delete
+close find quick,Escape
+close tab,ctrl+w
+close tab undo,ctrl+shift+t
+close undo window,ctrl+shift+n
+close window,ctrl+shift+w
+console web,ctrl+shift+k
+context menu toggle,shift+F10
+copy,ctrl+c
+counterclockwise rotate,shift+r
+cut,ctrl+x
+debugger,ctrl+shift+s
+decrease volume,Down
+delete,Delete
+delete left to word,ctrl+BackSpace
+delete right to word,ctrl+Delete
+design responsive view,ctrl+shift+m
+developer toggle tools,ctrl+shift+i
+developer toolbar,shift+F2
+down,Down
+down page,Page_Down
+downloads,ctrl+shift+y
+editor style,shift+F7
+eight switch tab to,alt+8
+end go line of to,End
+end go to,ctrl+End
+end move tab to,ctrl+shift+End
+end seek to,End
+exit full screen,F11
+fifteen forward seconds seek,Right
+file open,ctrl+o
+find,ctrl+f
+find links quick,apostrophe
+find next,ctrl+g
+find previous,ctrl+shift+g
+find quick,slash
+five switch tab to,alt+5
+focus next,Tab
+focus previous,shift+Tab
+force reload,ctrl+shift+r
+forward,ctrl+bracketright
+forward percent seek ten,ctrl+Right
+four switch tab to,alt+4
+frame move next to,F6
+frame move previous to,shift+F6
+full screen,F11
+go,ctrl+Return
+go left one to word,ctrl+Left
+go one right to word,ctrl+Right
+hand tool,h
+history library window,ctrl+shift+h
+history sidebar,ctrl+h
+home,alt+Home
+in zoom,ctrl+plus
+increase volume,Up
+info page,ctrl+i
+inspector,ctrl+shift+c
+last switch tab to,alt+9
+left move tab,ctrl+shift+Page_Up
+mode presentation switch to,ctrl+alt+p
+mode reader toggle,ctrl+alt+r
+move right tab,ctrl+shift+Page_Down
+move start tab to,ctrl+shift+Home
+mute,ctrl+m
+network,ctrl+shift+e
+new private window,ctrl+shift+p
+new tab,ctrl+t
+new window,ctrl+n
+next page,n
+next tab,ctrl+Page_Down
+one switch tab to,alt+1
+out zoom,ctrl+minus
+page previous,p
+page source,ctrl+u
+page up,Page_Up
+paste,ctrl+v
+pause,space
+play,space
+previous tab,ctrl+Page_Up
+print,ctrl+p
+profiler,shift+F5
+quit,ctrl+q
+redo,ctrl+shift+z
+reload,ctrl+r
+reset zoom,ctrl+0
+rotate,r
+save,ctrl+s
+selection text tool,s
+seven switch tab to,alt+7
+six switch tab to,alt+6
+stop,Escape
+switch tab three to,alt+3
+switch tab to two,alt+2
+top,Home
+undo,ctrl+z
+unmute,ctrl+m
+up,Up

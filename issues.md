@@ -48,26 +48,28 @@ atleast, build the equivalent of a dumb terminal.
 
 
 User workflow should go like this:
+1. Install dependencies.
+xdotool wmctrl fuzzywuzzy ncurses pocketsphinx sphinxbase sphinxtrain python3.6
 1. Download zip.
 2. Run setup script.
 3. Record for a few minutes.
 4. Run train script.
 5. Start using vaac_terminal.
 
-Setup should check if necessary dependencies are present.
-    xdotool wmctrl fuzzywuzzy ncurses pocketsphinx sphinxbase sphinxtrain python3.6
+Setup should check if necessary dependencies are present.    
 Setup should create directories for storing recordings, logs. Files belonging to training should be put in one folder, and training must be done within that folder. After training, automatically copy the trained model into data/model.
 
 Users can use mic_test.sh to check if their mic is working.
 
-Provide sanitizer, analyser, preprocessor for accomodating changes to data/keys.
-Sanitizer must remove trailing whitespaces, and check if every key stroke is in xdotool keysym names. If not, notify user.
-Analyser must count words, phrases, append app names to phrases, account for additional words, generate partitions, sort commands.
+Provide analyser and preprocessor for accomodating changes to data/keys.
+Analyser must count words, phrases, account for additional words, repeated commands and generate dic file, command phrases-corpus file.
 Rewrite analyzer to generate only useful data. Also, write a summary file containing stats.
 
 A speech corpus must be generated such that word frequencies balance out, while still remaining within current lm and dic limits.
 
 Preprocessor is for when binary search is needed for searching. It should sort words in every command phrase, and then sort all lines in the file by the first field. If using a binary search, make sure that your implementation is correct.
+The preprocessor also removes extra spaces, and checks if the command_string has valid characters: alphabets and spaces, and if keystroke_string in the command contains only valid key stroke names.
+
 If user needs support for words not in dictionary, redirect user to lm tool.
 
 Recorder should automatically name and store files in a reusable format. It should also maintain fileids and transcriptions.

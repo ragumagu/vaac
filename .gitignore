@@ -1,0 +1,4 @@
+# Ignore everything in recordings
+recordings/
+# ... but do not ignore this file
+!.gitignore
