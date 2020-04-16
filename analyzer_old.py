@@ -1,9 +1,9 @@
 from collections import Counter
 import csv
 
-#This script:
-#1. Extracts commands phrases from data/keys, and stores them in files #commands_phrases and commands_applications_phrases.
-
+'''
+This script extracts commands phrases from config and analyzes them.
+'''
 
 def write_unique_words(phrases, words_file):
     s = set()    

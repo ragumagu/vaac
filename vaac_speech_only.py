@@ -1,3 +1,4 @@
+import configparser
 import os
 import subprocess
 
@@ -8,7 +9,9 @@ from vaac_code.window_manager import WindowManager
 
 if __name__ == "__main__":
 
-    model_path = "vaac_model"
+    config = configparser.ConfigParser()
+    config.read('./config/vaac_config')
+    model_path = config['PATHS']['model_path']
 
     speech = LiveSpeech(
         verbose=False,

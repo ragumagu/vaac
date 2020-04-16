@@ -1,0 +1,18 @@
+[PATHS]
+model_path = vaac_model
+csv_files = code
+    firefox
+    gedit
+    general
+    gnome-terminal    
+    nautilus
+    keys
+keysymfile = ./config/keys.csv
+
+[CORPUS]
+min_word_freq = 20
+max_word_freq = 30
+
+[VAAC_TERMINAL]
+maxlines = 2000
+

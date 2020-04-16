@@ -30,12 +30,12 @@ class Extractor:
             ['mozilla firefox', 'mozilla', 'browser', 'firefox'],
             ['text editor', 'gedit'],
             ['general'],
-            ['files', 'nautilus'],
             ['terminal', 'gnome-terminal'],
+            ['files', 'nautilus'],            
         ]
         self.app_names = [
             'code', 'firefox', 'gedit',
-            'general', 'nautilus', 'gnome-terminal',
+            'general', 'gnome-terminal', 'nautilus', 
             'keys',
         ]
         self.files_map = {}

@@ -1,3 +1,4 @@
+import configparser
 import curses
 import logging
 import os
@@ -11,11 +12,7 @@ from multiprocessing.sharedctypes import Value
 from vaac_code.speech_recognizer import VaacSpeech
 from vaac_code.terminal import InputHandler, WindowHandler
 
-model_path = "/home/shrinidhi/project/vaac"
-MAXLINES = 2000
-
-
-def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
+def run_pocketsphinx(inputchars, cmd_char_idx, submitBool,model_path):    
     speech = VaacSpeech(
         verbose=True,
         logfn='logs/pocketsphinx_log',
@@ -23,9 +20,9 @@ def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
         buffer_size=2048,
         no_search=False,
         full_utt=False,
-        hmm=os.path.join(model_path, 'vaac_model/vaac_model.cd_cont_2000'),
-        lm=os.path.join(model_path, 'vaac_model/vaac_model.lm.DMP'),
-        dic=os.path.join(model_path, 'vaac_model/vaac_model.dic'),
+        hmm=os.path.join(model_path, 'vaac_model.cd_cont_2000'),
+        lm=os.path.join(model_path, 'vaac_model.lm.DMP'),
+        dic=os.path.join(model_path, 'vaac_model.dic'),
     )
     for phrase in speech:
         for char in str(phrase).lower().strip():
@@ -41,13 +38,13 @@ def take_keyboard_input(stdscr, char, updateBool):
 
 
 def output(inputchars, cmd_char_idx, submitBool,
-           stdscr, char, updateBool, logger):
-    pad = curses.newpad(MAXLINES, curses.COLS)
+           stdscr, char, updateBool, logger,maxlines):
+    pad = curses.newpad(maxlines, curses.COLS)
     inputHandler = InputHandler(
         inputchars, cmd_char_idx, char,
         stdscr, pad
     )
-    windowHandler = WindowHandler(stdscr, pad, inputHandler, MAXLINES)
+    windowHandler = WindowHandler(stdscr, pad, inputHandler, maxlines)
     stdscr.refresh()
     while(1):
         time.sleep(0.01)
@@ -76,6 +73,11 @@ def main(stdscr):
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
+    config = configparser.ConfigParser()
+    config.read('./config/vaac_config')
+    model_path = config['PATHS']['model_path']
+    maxlines = config.getint('VAAC_TERMINAL','maxlines')    
+
     manager = Manager()
     inputchars = manager.list()
     cmd_char_idx = manager.Value('i', 0)
@@ -85,7 +87,7 @@ def main(stdscr):
 
     # Process for running pocketsphinx.
     pocketsphinx_proc = Process(target=run_pocketsphinx, args=(
-        inputchars, cmd_char_idx, submitBool))
+        inputchars, cmd_char_idx, submitBool,model_path))
 
     # Process for taking input from keyboard.
     keyboard_proc = Process(target=take_keyboard_input,
@@ -96,7 +98,7 @@ def main(stdscr):
         target=output,
         args=(
             inputchars, cmd_char_idx, submitBool,
-            stdscr, char, updateBool, logger
+            stdscr, char, updateBool, logger, maxlines
         )
     )
 
