@@ -2,7 +2,7 @@
 
 Vaac stands for Voice Assist and Control. It is a project in progress, and aims to provide vocal access to applications.
 
-Vaac will eventually consist of a speech recognizer module, which will convert user's vocal commands into text, a extractor module which will identify necessary entities and an exectutor module which will execute the commands.
+Vaac will eventually consist of a framework to ease creation of pocketsphinx voice models for an individual speaker to do command and control, and a simple interface to use the model to perform basic tasks in other applications.
 
 Vaac initially will support a small group of applications: Mozilla Firefox, Visual Studio Code, Gedit, Gnome-Terminal, Nautilus and will work on Ubuntu 18.04 with the Gnome3 shell.
 

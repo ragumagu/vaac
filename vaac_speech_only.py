@@ -28,7 +28,9 @@ if __name__ == "__main__":
         phrase = str(phrase)
         print("> ", phrase)
         if phrase != "EXIT":
-            extractor.extract_and_run(phrase)
+            output = extractor.extract_and_run(phrase)
+            if output is not None:
+                print(output)
             print("Ready...")
         else:
             break

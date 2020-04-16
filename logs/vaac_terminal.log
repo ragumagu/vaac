@@ -6,3 +6,96 @@
 2020-04-16 10:28:51,253:INFO:vaac_terminal:output:Exiting...
 2020-04-16 10:37:50,089:DEBUG:terminal:getOutput:input: firefox
 2020-04-16 10:37:53,601:DEBUG:terminal:getOutput:input: code
+2020-04-16 10:43:34,901:DEBUG:terminal:getOutput:input: code
+2020-04-16 10:44:03,752:DEBUG:terminal:getOutput:input: close editor
+2020-04-16 10:44:06,422:DEBUG:terminal:getOutput:input: close editor
+2020-04-16 10:44:30,962:DEBUG:terminal:getOutput:input: reader
+2020-04-16 10:44:31,009:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:44:32,269:DEBUG:terminal:getOutput:input: reader
+2020-04-16 10:44:32,346:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:45:17,258:DEBUG:terminal:getOutput:input: open preview
+2020-04-16 10:45:17,313:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:46:01,013:DEBUG:terminal:getOutput:input: open markdown preview
+2020-04-16 10:47:23,323:DEBUG:terminal:getOutput:input: terminal
+2020-04-16 10:47:26,323:DEBUG:terminal:getOutput:input: exit
+2020-04-16 10:47:26,338:INFO:vaac_terminal:output:Exiting...
+2020-04-16 10:47:30,969:DEBUG:terminal:getOutput:input: code
+2020-04-16 10:47:34,824:DEBUG:terminal:getOutput:input: close editor
+2020-04-16 10:52:22,131:DEBUG:terminal:getOutput:input: up up
+2020-04-16 10:52:22,252:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:52:28,126:DEBUG:terminal:getOutput:input: ten top
+2020-04-16 10:52:28,190:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:52:29,623:DEBUG:terminal:getOutput:input: up up
+2020-04-16 10:52:29,678:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:52:37,667:DEBUG:terminal:getOutput:input: up
+2020-04-16 10:52:45,166:DEBUG:terminal:getOutput:input: up
+2020-04-16 10:53:04,711:DEBUG:terminal:getOutput:input: up
+2020-04-16 10:53:07,144:DEBUG:terminal:getOutput:input: up
+2020-04-16 11:02:49,122:DEBUG:terminal:getOutput:input: reader
+2020-04-16 11:02:49,183:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:04:17,001:DEBUG:terminal:getOutput:input: reader
+2020-04-16 11:04:17,054:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:06:09,565:DEBUG:terminal:getOutput:input: wrap
+2020-04-16 11:06:09,618:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:07:41,417:DEBUG:terminal:getOutput:input: up
+2020-04-16 11:08:32,465:DEBUG:terminal:getOutput:input: wrap
+2020-04-16 11:08:32,519:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:09:44,167:DEBUG:terminal:getOutput:input: wrap
+2020-04-16 11:09:44,225:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:20:15,986:DEBUG:terminal:getOutput:input: home up region in
+2020-04-16 11:20:16,094:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:20:27,457:DEBUG:terminal:getOutput:input: end details home and
+2020-04-16 11:20:27,520:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:20:28,950:DEBUG:terminal:getOutput:input: reader in
+2020-04-16 11:20:29,006:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:20:31,315:DEBUG:terminal:getOutput:input: wrap tab
+2020-04-16 11:20:31,373:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:20:32,165:DEBUG:terminal:getOutput:input: bar
+2020-04-16 11:20:38,127:DEBUG:terminal:getOutput:input: exit
+2020-04-16 11:20:38,142:INFO:vaac_terminal:output:Exiting...
+2020-04-16 11:48:37,234:DEBUG:terminal:getOutput:input: third
+2020-04-16 11:48:37,275:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:48:48,506:DEBUG:terminal:getOutput:input: hide out up
+2020-04-16 11:48:48,552:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:48:50,027:DEBUG:terminal:getOutput:input: up at up
+2020-04-16 11:48:50,067:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:48:51,563:DEBUG:terminal:getOutput:input: out add up
+2020-04-16 11:48:51,602:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:48:53,032:DEBUG:terminal:getOutput:input: up
+2020-04-16 11:49:04,194:DEBUG:terminal:getOutput:input: up up up up three out up
+2020-04-16 11:49:04,231:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:49:05,771:DEBUG:terminal:getOutput:input: up
+2020-04-16 11:49:09,945:DEBUG:terminal:getOutput:input: add up text
+2020-04-16 11:49:09,982:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:49:30,753:DEBUG:terminal:getOutput:input: up up up up tab up up up three up out
+2020-04-16 11:49:30,792:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:49:37,844:DEBUG:terminal:getOutput:input: help up up
+2020-04-16 11:49:37,880:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:49:42,516:DEBUG:terminal:getOutput:input: up up
+2020-04-16 11:49:42,552:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:49:46,159:DEBUG:terminal:getOutput:input: up up
+2020-04-16 11:49:46,199:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:49:54,800:DEBUG:terminal:getOutput:input: up up
+2020-04-16 11:49:54,844:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:50:00,430:DEBUG:terminal:getOutput:input: up
+2020-04-16 11:50:06,512:DEBUG:terminal:getOutput:input: to up
+2020-04-16 11:50:06,550:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:50:17,962:DEBUG:terminal:getOutput:input: to
+2020-04-16 11:50:18,003:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:50:21,663:DEBUG:terminal:getOutput:input: to
+2020-04-16 11:50:21,702:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:50:23,531:DEBUG:terminal:getOutput:input: ten up
+2020-04-16 11:50:23,569:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:50:25,517:DEBUG:terminal:getOutput:input: print up
+2020-04-16 11:50:25,553:WARNING:extractor:extract:Command not clear!
+2020-04-16 11:55:31,237:DEBUG:terminal:getOutput:input: add
+2020-04-16 11:55:31,275:WARNING:extractor:extract:Command not clear!
+2020-04-16 12:03:20,584:DEBUG:terminal:getOutput:input: page
+2020-04-16 12:03:20,625:WARNING:extractor:extract:Command not clear!
+2020-04-16 12:06:06,908:DEBUG:terminal:getOutput:input: code
+2020-04-16 12:07:34,169:DEBUG:terminal:getOutput:input: enter
+2020-04-16 12:07:42,431:DEBUG:terminal:getOutput:input: terminal
+2020-04-16 12:07:44,847:DEBUG:terminal:getOutput:input: nautilus help
+2020-04-16 12:08:12,592:DEBUG:terminal:getOutput:input: nautilus
+2020-04-16 12:13:59,141:DEBUG:terminal:getOutput:input: ten
+2020-04-16 12:13:59,184:WARNING:extractor:extract:Command not clear!

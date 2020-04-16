@@ -7,7 +7,7 @@ import os
 import re
 import sys
 
-### The _GetchUnix function replicates the functionality of the getch() method.
+### The _GetchUnix class replicates the functionality of the getch() method.
 
 class _GetchUnix:
     def __init__(self):
@@ -27,7 +27,7 @@ class _GetchUnix:
 getch = _GetchUnix()
 
 desc = '''
-This program prompts a command and records it in a file.
+This program prompts a command and records it into a file.
 Read the prompted command vocally into the microphone.
 Press j to start recording.
 Press k to stop recording.

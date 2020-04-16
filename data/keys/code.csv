@@ -73,6 +73,7 @@ REPLACE IN FILES,ctrl+shift+h
 TOGGLE SEARCH DETAILS,ctrl+shift+j
 SHOW OUTPUT PANEL,ctrl+k ctrl+h
 OPEN MARKDOWN PREVIEW,ctrl+shift+v
+OPEN PREVIEW,ctrl+shift+v
 OPEN MARKDOWN PREVIEW TO SIDE,ctrl+k v
 ZEN MODE,ctrl+k z
 EXIT ZEN MODE,Escape Escape

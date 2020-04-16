@@ -33,13 +33,15 @@ def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
         cmd_char_idx.value = len(inputchars)
         submitBool.value = True
 
+
 def take_keyboard_input(stdscr, char, updateBool):
     while(1):
         char.value = stdscr.getch()
         updateBool.value = True
 
+
 def output(inputchars, cmd_char_idx, submitBool,
-           stdscr, char, updateBool,logger):
+           stdscr, char, updateBool, logger):
     pad = curses.newpad(MAXLINES, curses.COLS)
     inputHandler = InputHandler(
         inputchars, cmd_char_idx, char,
@@ -66,7 +68,11 @@ def output(inputchars, cmd_char_idx, submitBool,
 
 
 def main(stdscr):
-    logging.basicConfig(format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s',filename='logs/vaac_terminal.log', filemode="a", level=logging.DEBUG)
+    logging.basicConfig(
+        format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s', filename='logs/vaac_terminal.log',
+        filemode="a",
+        level=logging.DEBUG
+    )
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
@@ -102,5 +108,6 @@ def main(stdscr):
     output_proc.join()
     keyboard_proc.terminate()
     pocketsphinx_proc.terminate()
+
 
 wrapper(main)
