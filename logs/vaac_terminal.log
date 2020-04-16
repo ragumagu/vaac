@@ -1,0 +1,8 @@
+2020-04-16 10:27:57,491:DEBUG:terminal:getOutput:input: j
+2020-04-16 10:27:57,564:WARNING:extractor:extract:Command not clear!
+2020-04-16 10:28:24,500:DEBUG:terminal:getOutput:input: exit
+2020-04-16 10:28:24,514:INFO:vaac_terminal:output:Exiting...
+2020-04-16 10:28:51,240:DEBUG:terminal:getOutput:input: exit
+2020-04-16 10:28:51,253:INFO:vaac_terminal:output:Exiting...
+2020-04-16 10:37:50,089:DEBUG:terminal:getOutput:input: firefox
+2020-04-16 10:37:53,601:DEBUG:terminal:getOutput:input: code

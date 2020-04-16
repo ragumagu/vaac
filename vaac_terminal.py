@@ -11,50 +11,51 @@ from multiprocessing.sharedctypes import Value
 from vaac_code.speech_recognizer import VaacSpeech
 from vaac_code.terminal import InputHandler, WindowHandler
 
-model_path = "/home/shrinidhi/project/vaac/vaac_model"
+model_path = "/home/shrinidhi/project/vaac"
 MAXLINES = 2000
 
 
-def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):    
+def run_pocketsphinx(inputchars, cmd_char_idx, submitBool):
     speech = VaacSpeech(
-        verbose=False,        
+        verbose=True,
+        logfn='logs/pocketsphinx_log',
         sampling_rate=16000,
         buffer_size=2048,
         no_search=False,
         full_utt=False,
-        hmm=os.path.join(model_path, 'vaac_model.cd_cont_2000'),
-        lm=os.path.join(model_path, 'vaac_model.lm.DMP'),
-        dic=os.path.join(model_path, 'vaac_model.dic'),
+        hmm=os.path.join(model_path, 'vaac_model/vaac_model.cd_cont_2000'),
+        lm=os.path.join(model_path, 'vaac_model/vaac_model.lm.DMP'),
+        dic=os.path.join(model_path, 'vaac_model/vaac_model.dic'),
     )
     for phrase in speech:
         for char in str(phrase).lower().strip():
-            inputchars.append(char)        
+            inputchars.append(char)
         cmd_char_idx.value = len(inputchars)
         submitBool.value = True
 
-def take_keyboard_input(stdscr, char, updateBool):    
+def take_keyboard_input(stdscr, char, updateBool):
     while(1):
-        char.value = stdscr.getch()        
+        char.value = stdscr.getch()
         updateBool.value = True
 
 def output(inputchars, cmd_char_idx, submitBool,
-           stdscr, char, updateBool,logger):    
+           stdscr, char, updateBool,logger):
     pad = curses.newpad(MAXLINES, curses.COLS)
     inputHandler = InputHandler(
         inputchars, cmd_char_idx, char,
         stdscr, pad
-    )    
+    )
     windowHandler = WindowHandler(stdscr, pad, inputHandler, MAXLINES)
     stdscr.refresh()
-    while(1):        
-        time.sleep(0.01)    
+    while(1):
+        time.sleep(0.01)
         if inputHandler.checkIfExit():
             logger.info("Exiting...")
             return
         if submitBool.value:
-            inputHandler.takeInput(char=ord('\n'))            
+            inputHandler.takeInput(char=ord('\n'))
             updateBool.value = True
-        if updateBool.value:            
+        if updateBool.value:
             inputHandler.processArgs()
             windowHandler.writeInput(inputHandler)
             windowHandler.updateyx(inputHandler)
@@ -65,11 +66,11 @@ def output(inputchars, cmd_char_idx, submitBool,
 
 
 def main(stdscr):
-    logging.basicConfig(format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s',filename='term.log', filemode="a", level=logging.DEBUG)
+    logging.basicConfig(format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s',filename='logs/vaac_terminal.log', filemode="a", level=logging.DEBUG)
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
-    manager = Manager()    
+    manager = Manager()
     inputchars = manager.list()
     cmd_char_idx = manager.Value('i', 0)
     char = manager.Value('i', 0)
@@ -92,14 +93,14 @@ def main(stdscr):
             stdscr, char, updateBool, logger
         )
     )
-    
-    keyboard_proc.start()    
+
+    keyboard_proc.start()
     pocketsphinx_proc.start()
     time.sleep(0.1)
     output_proc.start()
 
     output_proc.join()
-    keyboard_proc.terminate()    
+    keyboard_proc.terminate()
     pocketsphinx_proc.terminate()
 
 wrapper(main)
