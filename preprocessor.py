@@ -21,9 +21,12 @@ for app_name in files:
         lst = list(csv.reader(sourcefile))
 
         for idx, line in enumerate(lst):
-            if not all(c.isalpha() or c.isspace() for c in line[0]):
+            if (not all(c.isalpha() or c.isspace() for c in line[0])
+            or not all(c.isalpha() or c.isspace() for c in line[1])
+            ):
                 print('Error: Found invalid character in command, line',
                       idx+1, 'of file:', sourcepath, "\n\t", line)
+
             key_string = line[1].split()  # to account for spaces
             for item in key_string:
                 shortcuts = item.split('+')

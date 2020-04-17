@@ -1,8 +1,8 @@
-This is the Vaac terminal. It provides an interface to communicate with your system. You can type into this terminal, or speak into it. Because of inherent inaccuracies in speech recognition, the terminal will not prompt messages for commands that do not make 'sense'.
+This is the Vaac terminal. It provides an interface to use Vaac. You can type into this terminal, or speak into it. Because of inherent inaccuracies in speech recognition, the terminal will not prompt messages for commands that do not make 'sense'.
 
 This terminal accepts simple, natural language commands.
 
-You can provide one argument to help: 
+You can provide one argument to help:
     > help [code|firefox|gedit|nautilus|terminal]
 to get a list of commands supported for each application.
 

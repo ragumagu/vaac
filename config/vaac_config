@@ -4,8 +4,13 @@ keysymfile = ./config/keys.csv
 
 [CORPUS]
 min_word_freq = 20
-max_word_freq = 30
+max_word_freq = 25
+
+[RECORDINGS]
+min_word_freq = 10
+min_command_freq = 1
 
 [VAAC_TERMINAL]
 maxlines = 2000
+
 
