@@ -1,52 +1,52 @@
-action hide menu,F10
-action menu show,F10
-all select,ctrl+a
-and close file open window,shift+ctrl+Down
-back,BackSpace
-close tab,ctrl+w
-close window,ctrl+w
-copy,ctrl+c
-cut,ctrl+x
-delete permanently,shift+Delete
-eight switch tab to,alt+8
-enter location,ctrl+l
-files hidden hide,ctrl+h
-files hidden show,ctrl+h
-five switch tab to,alt+5
-folder go home to,alt+Home
-folder new,shift+ctrl+Page_Down
-four switch tab to,alt+4
-go next tab to,ctrl+Page_Down
-go previous tab to,ctrl+Page_Up
-help show,F1
-hide sidebar,F9
-in new open tab,ctrl+Return
-in new open window,shift+Return
-in zoom,ctrl+plus
-invert selection,shift+ctrl+i
-item location open,ctrl+alt+o
-item properties show,ctrl+i
-items matching select,ctrl+s
-left move tab,shift+ctrl+Page_Up
-move right tab,shift+ctrl+Page_Down
-move to trash,Delete
-new tab,ctrl+t
-new window,ctrl+n
-nine switch tab to,alt+9
-one switch tab to,alt+1
-open,ctrl+o
-out zoom,ctrl+minus
-paste,ctrl+v
-redo,shift+ctrl+z
-refresh,F5
-rename,F2
-reset zoom,ctrl+0
-restore tab,ctrl+shift+t
-search,ctrl+f
-seven switch tab to,alt+7
-shortcuts,ctrl+F1
-show sidebar,F9
-six switch tab to,alt+6
-switch tab three to,alt+3
-switch tab to two,alt+2
-undo,ctrl+z
+NEW WINDOW,ctrl+n
+CLOSE WINDOW,ctrl+w
+CLOSE TAB,ctrl+w
+SEARCH,ctrl+f
+SHOW HELP,F1
+SHORTCUTS,ctrl+F1
+OPEN,ctrl+o
+BACK,BackSpace
+OPEN IN NEW TAB,ctrl+Return
+OPEN IN NEW WINDOW,shift+Return
+OPEN ITEM LOCATION,ctrl+alt+o
+OPEN FILE AND CLOSE WINDOW,shift+ctrl+Down
+NEW TAB,ctrl+t
+GO TO PREVIOUS TAB,ctrl+Page_Up
+GO TO NEXT TAB,ctrl+Page_Down
+SWITCH TO TAB ONE,alt+1
+SWITCH TO TAB TWO,alt+2
+SWITCH TO TAB THREE,alt+3
+SWITCH TO TAB FOUR,alt+4
+SWITCH TO TAB FIVE,alt+5
+SWITCH TO TAB SIX,alt+6
+SWITCH TO TAB SEVEN,alt+7
+SWITCH TO TAB EIGHT,alt+8
+SWITCH TO TAB NINE,alt+9
+MOVE TAB LEFT,shift+ctrl+Page_Up
+MOVE TAB RIGHT,shift+ctrl+Page_Down
+RESTORE TAB,ctrl+shift+t
+GO TO HOME FOLDER,alt+Home
+ENTER LOCATION,ctrl+l
+ZOOM IN,ctrl+plus
+ZOOM OUT,ctrl+minus
+RESET ZOOM,ctrl+0
+REFRESH,F5
+SHOW HIDDEN FILES,ctrl+h
+HIDE HIDDEN FILES,ctrl+h
+SHOW ACTION MENU,F10
+HIDE ACTION MENU,F10
+SHOW SIDEBAR,F9
+HIDE SIDEBAR,F9
+NEW FOLDER,shift+ctrl+Page_Down
+RENAME,F2
+MOVE TO TRASH,Delete
+DELETE PERMANENTLY,shift+Delete
+CUT,ctrl+x
+COPY,ctrl+c
+PASTE,ctrl+v
+SELECT ALL,ctrl+a
+INVERT SELECTION,shift+ctrl+i
+SELECT MATCHING ITEMS,ctrl+s
+UNDO,ctrl+z
+REDO,shift+ctrl+z
+SHOW ITEM PROPERTIES,ctrl+i

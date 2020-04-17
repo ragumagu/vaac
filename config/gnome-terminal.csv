@@ -1,47 +1,47 @@
-back character move one,ctrl+b
-back move one word,alt+b
-bottom scroll to,shift+End
-character forward move one,ctrl+f
-clear highlight,shift+ctrl+j
-clear screen,ctrl+l
-close tab,shift+ctrl+w
-close window,shift+ctrl+q
-copy,shift+ctrl+c
-delete end line of to,ctrl+k
-delete line of start to,ctrl+u
-delete of start to word,ctrl+w
-delete previous word,alt+BackSpace
-down line one scroll,shift+ctrl+Down
-down one page scroll,shift+Page_Down
-eight switch tab to,alt+8
-end line move of to,ctrl+e
-erase line,ctrl+u
-erase word,ctrl+w
-find,shift+ctrl+f
-find next,shift+ctrl+g
-find previous,shift+ctrl+h
-five switch tab to,alt+5
-forward move one word,alt+f
-four switch tab to,alt+4
-full screen,F11
-in zoom,ctrl+plus
-left move tab to,shift+ctrl+Page_Up
-line move of start to,ctrl+a
-line one scroll up,shift+ctrl+Up
-move right tab to,shift+ctrl+Page_Down
-new tab,shift+ctrl+t
-new window,shift+ctrl+n
-next tab,ctrl+Page_Down
-nine switch tab to,alt+9
-one page scroll up,shift+Page_Up
-one switch tab to,alt+1
-out zoom,ctrl+minus
-paste,shift+ctrl+v
-previous tab,ctrl+Page_Up
-reset zoom,ctrl+0
-scroll to top,shift+Home
-seven switch tab to,alt+7
-six switch tab to,alt+6
-switch tab ten to,alt+0
-switch tab three to,alt+3
-switch tab to two,alt+2
+NEW TAB,shift+ctrl+t
+NEW WINDOW,shift+ctrl+n
+CLOSE TAB,shift+ctrl+w
+CLOSE WINDOW,shift+ctrl+q
+COPY,shift+ctrl+c
+PASTE,shift+ctrl+v
+FULL SCREEN,F11
+ZOOM IN,ctrl+plus
+ZOOM OUT,ctrl+minus
+RESET ZOOM,ctrl+0
+FIND,shift+ctrl+f
+FIND NEXT,shift+ctrl+g
+FIND PREVIOUS,shift+ctrl+h
+CLEAR HIGHLIGHT,shift+ctrl+j
+PREVIOUS TAB,ctrl+Page_Up
+NEXT TAB,ctrl+Page_Down
+MOVE TAB TO LEFT,shift+ctrl+Page_Up
+MOVE TAB TO RIGHT,shift+ctrl+Page_Down
+SWITCH TO TAB ONE,alt+1
+SWITCH TO TAB TWO,alt+2
+SWITCH TO TAB THREE,alt+3
+SWITCH TO TAB FOUR,alt+4
+SWITCH TO TAB FIVE,alt+5
+SWITCH TO TAB SIX,alt+6
+SWITCH TO TAB SEVEN,alt+7
+SWITCH TO TAB EIGHT,alt+8
+SWITCH TO TAB NINE,alt+9
+SWITCH TO TAB TEN,alt+0
+SCROLL UP ONE LINE,shift+ctrl+Up
+SCROLL DOWN ONE LINE,shift+ctrl+Down
+SCROLL UP ONE PAGE,shift+Page_Up
+SCROLL DOWN ONE PAGE,shift+Page_Down
+SCROLL TO TOP,shift+Home
+SCROLL TO BOTTOM,shift+End
+ERASE WORD,ctrl+w
+ERASE LINE,ctrl+u
+MOVE TO START OF LINE,ctrl+a
+MOVE TO END OF LINE,ctrl+e
+MOVE BACK ONE CHARACTER,ctrl+b
+MOVE BACK ONE WORD,alt+b
+MOVE FORWARD ONE CHARACTER,ctrl+f
+MOVE FORWARD ONE WORD,alt+f
+DELETE TO START OF LINE,ctrl+u
+DELETE TO END OF LINE,ctrl+k
+DELETE TO START OF WORD,ctrl+w
+DELETE PREVIOUS WORD,alt+BackSpace
+CLEAR SCREEN,ctrl+l

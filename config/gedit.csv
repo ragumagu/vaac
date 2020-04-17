@@ -1,58 +1,58 @@
-add stop tab,Tab
-all close tabs,ctrl+shift+w
-all save tabs,ctrl+shift+l
-all select,ctrl+a
-and find replace,ctrl+h
-as save,ctrl+shift+s
-beginning document go of to,ctrl+Home
-beginning go line of to,Home
-case change lower to,ctrl+l
-case change to upper,ctrl+u
-case toggle,ctrl+asciitilde
-check spelling,shift+F7
-clear highlight,ctrl+shift+k
-close tab,ctrl+w
-close tab undo,ctrl+shift+t
-close window,ctrl+q
-copy,ctrl+c
-current delete line,ctrl+d
-cut,ctrl+x
-document end go of to,ctrl+End
-document open,ctrl+o
-down line move,alt+Down
-eight switch tab to,alt+8
-end go line of to,End
-file menu open,F10
-find,ctrl+f
-find next,ctrl+g
-find previous,ctrl+shift+g
-five switch tab to,alt+5
-four switch tab to,alt+4
-go line to,ctrl+i
-group new tab,ctrl+alt+n
-group next tab,shift+ctrl+alt+Page_Down
-group previous tab,shift+ctrl+alt+Page_Up
-guide open user,F1
-hide panel side,F9
-left move word,alt+Left
-line move up,alt+Up
-move right word,alt+Right
-new tab,ctrl+t
-new window,ctrl+n
-next switch tab to,ctrl+alt+Page_Down
-nine switch tab to,alt+9
-one switch tab to,alt+1
-open quick,alt+o
-panel show side,F9
-paste,ctrl+v
-preview print,ctrl+shift+p
-previous switch tab to,ctrl+alt+Page_Up
-print,ctrl+p
-redo,shift+z
-remove stop tab,shift+Tab
-save,ctrl+s
-seven switch tab to,alt+7
-six switch tab to,alt+6
-switch tab three to,alt+3
-switch tab to two,alt+2
-undo,ctrl+z
+SWITCH TO PREVIOUS TAB,ctrl+alt+Page_Up
+SWITCH TO NEXT TAB,ctrl+alt+Page_Down
+CLOSE TAB,ctrl+w
+SAVE ALL TABS,ctrl+shift+l
+CLOSE ALL TABS,ctrl+shift+w
+UNDO CLOSE TAB,ctrl+shift+t
+SWITCH TO TAB ONE,alt+1
+SWITCH TO TAB TWO,alt+2
+SWITCH TO TAB THREE,alt+3
+SWITCH TO TAB FOUR,alt+4
+SWITCH TO TAB FIVE,alt+5
+SWITCH TO TAB SIX,alt+6
+SWITCH TO TAB SEVEN,alt+7
+SWITCH TO TAB EIGHT,alt+8
+SWITCH TO TAB NINE,alt+9
+NEW TAB GROUP,ctrl+alt+n
+PREVIOUS TAB GROUP,shift+ctrl+alt+Page_Up
+NEXT TAB GROUP,shift+ctrl+alt+Page_Down
+NEW WINDOW,ctrl+n
+NEW TAB,ctrl+t
+OPEN DOCUMENT,ctrl+o
+QUICK OPEN,alt+o
+SAVE,ctrl+s
+SAVE AS,ctrl+shift+s
+PRINT,ctrl+p
+PRINT PREVIEW,ctrl+shift+p
+CLOSE WINDOW,ctrl+q
+GO TO BEGINNING OF LINE,Home
+GO TO END OF LINE,End
+GO TO BEGINNING OF DOCUMENT,ctrl+Home
+GO TO END OF DOCUMENT,ctrl+End
+MOVE WORD RIGHT,alt+Right
+MOVE WORD LEFT,alt+Left
+UNDO,ctrl+z
+REDO,shift+z
+CUT,ctrl+x
+COPY,ctrl+c
+PASTE,ctrl+v
+SELECT ALL,ctrl+a
+DELETE CURRENT LINE,ctrl+d
+MOVE LINE UP,alt+Up
+MOVE LINE DOWN,alt+Down
+ADD TAB STOP,Tab
+REMOVE TAB STOP,shift+Tab
+CHANGE TO UPPER CASE,ctrl+u
+CHANGE TO LOWER CASE,ctrl+l
+TOGGLE CASE,ctrl+asciitilde
+SHOW SIDE PANEL,F9
+HIDE SIDE PANEL,F9
+OPEN FILE MENU,F10
+FIND,ctrl+f
+FIND NEXT,ctrl+g
+FIND PREVIOUS,ctrl+shift+g
+FIND AND REPLACE,ctrl+h
+CLEAR HIGHLIGHT,ctrl+shift+k
+GO TO LINE,ctrl+i
+CHECK SPELLING,shift+F7
+OPEN USER GUIDE,F1
