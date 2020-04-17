@@ -1,15 +1,18 @@
 import csv
 import configparser
-
+import glob
+from pathlib import Path
 config = configparser.ConfigParser()
 config.read('./config/vaac_config')
-app_names = config['PATHS']['csv_files'].split('\n')
 keysymfilepath = config['PATHS']['keysymfile']
+
+files = [Path(item).stem for item in glob.glob('./config/*.csv')]
+print(files)
 
 with open(keysymfilepath, 'r') as keysymfile:
     keysym = [item[1] for item in list(csv.reader(keysymfile))]
 
-for app_name in app_names:
+for app_name in files:
     sourcepath = f'./config/{app_name}.csv'
     destpath = f'./data/keys/{app_name}.csv'
     lst = []
@@ -46,7 +49,6 @@ for app_name in app_names:
         for item in lst:
             item[0] = item[0].strip()
             item[1] = item[1].strip()
-            item[0] = ' '.join(sorted(item[0].split()))
             item[0] = item[0].lower()
         lst = sorted(lst, key=lambda x: x[0])
 

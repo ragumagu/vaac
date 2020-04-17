@@ -1,0 +1,404 @@
+to,beginning go line of to,
+to,beginning go to,
+to,beginning seek to,
+to,delete left to word,
+to,delete right to word,
+to,eight switch tab to,
+to,end go line of to,
+to,end go to,
+to,end move tab to,
+to,end seek to,
+to,five switch tab to,
+to,four switch tab to,
+to,frame move next to,
+to,frame move previous to,
+to,go left one to word,
+to,go one right to word,
+to,last switch tab to,
+to,mode presentation switch to,
+to,move start tab to,
+to,one switch tab to,
+to,seven switch tab to,
+to,six switch tab to,
+to,switch tab three to,
+to,switch tab to two,
+________________________________________________________________________________
+tab,close tab,
+tab,close tab undo,
+tab,eight switch tab to,
+tab,end move tab to,
+tab,five switch tab to,
+tab,four switch tab to,
+tab,last switch tab to,
+tab,left move tab,
+tab,move right tab,
+tab,move start tab to,
+tab,new tab,
+tab,next tab,
+tab,one switch tab to,
+tab,previous tab,
+tab,seven switch tab to,
+tab,six switch tab to,
+tab,switch tab three to,
+tab,switch tab to two,
+________________________________________________________________________________
+switch,eight switch tab to,
+switch,five switch tab to,
+switch,four switch tab to,
+switch,last switch tab to,
+switch,mode presentation switch to,
+switch,one switch tab to,
+switch,seven switch tab to,
+switch,six switch tab to,
+switch,switch tab three to,
+switch,switch tab to two,
+________________________________________________________________________________
+page,bookmark page this,
+page,box focus number page,
+page,down page,
+page,info page,
+page,next page,
+page,page previous,
+page,page source,
+page,page up,
+________________________________________________________________________________
+go,beginning go line of to,
+go,beginning go to,
+go,end go line of to,
+go,end go to,
+go,go,
+go,go left one to word,
+go,go one right to word,
+________________________________________________________________________________
+seek,back fifteen seconds seek,
+seek,back percent seek ten,
+seek,beginning seek to,
+seek,end seek to,
+seek,fifteen forward seconds seek,
+seek,forward percent seek ten,
+________________________________________________________________________________
+window,bookmarks library window,
+window,close undo window,
+window,close window,
+window,history library window,
+window,new private window,
+window,new window,
+________________________________________________________________________________
+find,close find quick,
+find,find,
+find,find links quick,
+find,find next,
+find,find previous,
+find,find quick,
+________________________________________________________________________________
+move,end move tab to,
+move,frame move next to,
+move,frame move previous to,
+move,left move tab,
+move,move right tab,
+move,move start tab to,
+________________________________________________________________________________
+close,close find quick,
+close,close tab,
+close,close tab undo,
+close,close undo window,
+close,close window,
+________________________________________________________________________________
+next,find next,
+next,focus next,
+next,frame move next to,
+next,next page,
+next,next tab,
+________________________________________________________________________________
+previous,find previous,
+previous,focus previous,
+previous,frame move previous to,
+previous,page previous,
+previous,previous tab,
+________________________________________________________________________________
+focus,bar focus search,
+focus,box focus number page,
+focus,focus next,
+focus,focus previous,
+________________________________________________________________________________
+word,delete left to word,
+word,delete right to word,
+word,go left one to word,
+word,go one right to word,
+________________________________________________________________________________
+end,end go line of to,
+end,end go to,
+end,end move tab to,
+end,end seek to,
+________________________________________________________________________________
+back,back,
+back,back fifteen seconds seek,
+back,back percent seek ten,
+________________________________________________________________________________
+bar,bar focus search,
+bar,bar location select,
+bar,bar menu,
+________________________________________________________________________________
+beginning,beginning go line of to,
+beginning,beginning go to,
+beginning,beginning seek to,
+________________________________________________________________________________
+history,clear history,
+history,history library window,
+history,history sidebar,
+________________________________________________________________________________
+quick,close find quick,
+quick,find links quick,
+quick,find quick,
+________________________________________________________________________________
+undo,close tab undo,
+undo,close undo window,
+undo,undo,
+________________________________________________________________________________
+toggle,context menu toggle,
+toggle,developer toggle tools,
+toggle,mode reader toggle,
+________________________________________________________________________________
+delete,delete,
+delete,delete left to word,
+delete,delete right to word,
+________________________________________________________________________________
+left,delete left to word,
+left,go left one to word,
+left,left move tab,
+________________________________________________________________________________
+right,delete right to word,
+right,go one right to word,
+right,move right tab,
+________________________________________________________________________________
+forward,fifteen forward seconds seek,
+forward,forward,
+forward,forward percent seek ten,
+________________________________________________________________________________
+one,go left one to word,
+one,go one right to word,
+one,one switch tab to,
+________________________________________________________________________________
+zoom,in zoom,
+zoom,out zoom,
+zoom,reset zoom,
+________________________________________________________________________________
+new,new private window,
+new,new tab,
+new,new window,
+________________________________________________________________________________
+select,all select,
+select,bar location select,
+________________________________________________________________________________
+paste,as paste plain text,
+paste,paste,
+________________________________________________________________________________
+text,as paste plain text,
+text,selection text tool,
+________________________________________________________________________________
+fifteen,back fifteen seconds seek,
+fifteen,fifteen forward seconds seek,
+________________________________________________________________________________
+seconds,back fifteen seconds seek,
+seconds,fifteen forward seconds seek,
+________________________________________________________________________________
+percent,back percent seek ten,
+percent,forward percent seek ten,
+________________________________________________________________________________
+ten,back percent seek ten,
+ten,forward percent seek ten,
+________________________________________________________________________________
+menu,bar menu,
+menu,context menu toggle,
+________________________________________________________________________________
+line,beginning go line of to,
+line,end go line of to,
+________________________________________________________________________________
+of,beginning go line of to,
+of,end go line of to,
+________________________________________________________________________________
+bookmarks,bookmarks library window,
+bookmarks,bookmarks sidebar,
+________________________________________________________________________________
+library,bookmarks library window,
+library,history library window,
+________________________________________________________________________________
+sidebar,bookmarks sidebar,
+sidebar,history sidebar,
+________________________________________________________________________________
+console,browser console,
+console,console web,
+________________________________________________________________________________
+rotate,counterclockwise rotate,
+rotate,rotate,
+________________________________________________________________________________
+volume,decrease volume,
+volume,increase volume,
+________________________________________________________________________________
+developer,developer toggle tools,
+developer,developer toolbar,
+________________________________________________________________________________
+down,down,
+down,down page,
+________________________________________________________________________________
+full,exit full screen,
+full,full screen,
+________________________________________________________________________________
+screen,exit full screen,
+screen,full screen,
+________________________________________________________________________________
+reload,force reload,
+reload,reload,
+________________________________________________________________________________
+frame,frame move next to,
+frame,frame move previous to,
+________________________________________________________________________________
+tool,hand tool,
+tool,selection text tool,
+________________________________________________________________________________
+mode,mode presentation switch to,
+mode,mode reader toggle,
+________________________________________________________________________________
+up,page up,
+up,up,
+________________________________________________________________________________
+add,add ons,
+________________________________________________________________________________
+ons,add ons,
+________________________________________________________________________________
+all,all select,
+________________________________________________________________________________
+as,as paste plain text,
+________________________________________________________________________________
+plain,as paste plain text,
+________________________________________________________________________________
+search,bar focus search,
+________________________________________________________________________________
+location,bar location select,
+________________________________________________________________________________
+bookmark,bookmark page this,
+________________________________________________________________________________
+this,bookmark page this,
+________________________________________________________________________________
+bottom,bottom,
+________________________________________________________________________________
+box,box focus number page,
+________________________________________________________________________________
+number,box focus number page,
+________________________________________________________________________________
+browser,browser console,
+________________________________________________________________________________
+browsing,browsing caret,
+________________________________________________________________________________
+caret,browsing caret,
+________________________________________________________________________________
+clear,clear history,
+________________________________________________________________________________
+web,console web,
+________________________________________________________________________________
+context,context menu toggle,
+________________________________________________________________________________
+copy,copy,
+________________________________________________________________________________
+counterclockwise,counterclockwise rotate,
+________________________________________________________________________________
+cut,cut,
+________________________________________________________________________________
+debugger,debugger,
+________________________________________________________________________________
+decrease,decrease volume,
+________________________________________________________________________________
+design,design responsive view,
+________________________________________________________________________________
+responsive,design responsive view,
+________________________________________________________________________________
+view,design responsive view,
+________________________________________________________________________________
+tools,developer toggle tools,
+________________________________________________________________________________
+toolbar,developer toolbar,
+________________________________________________________________________________
+downloads,downloads,
+________________________________________________________________________________
+editor,editor style,
+________________________________________________________________________________
+style,editor style,
+________________________________________________________________________________
+eight,eight switch tab to,
+________________________________________________________________________________
+exit,exit full screen,
+________________________________________________________________________________
+file,file open,
+________________________________________________________________________________
+open,file open,
+________________________________________________________________________________
+links,find links quick,
+________________________________________________________________________________
+five,five switch tab to,
+________________________________________________________________________________
+force,force reload,
+________________________________________________________________________________
+four,four switch tab to,
+________________________________________________________________________________
+hand,hand tool,
+________________________________________________________________________________
+home,home,
+________________________________________________________________________________
+in,in zoom,
+________________________________________________________________________________
+increase,increase volume,
+________________________________________________________________________________
+info,info page,
+________________________________________________________________________________
+inspector,inspector,
+________________________________________________________________________________
+last,last switch tab to,
+________________________________________________________________________________
+presentation,mode presentation switch to,
+________________________________________________________________________________
+reader,mode reader toggle,
+________________________________________________________________________________
+start,move start tab to,
+________________________________________________________________________________
+mute,mute,
+________________________________________________________________________________
+network,network,
+________________________________________________________________________________
+private,new private window,
+________________________________________________________________________________
+out,out zoom,
+________________________________________________________________________________
+source,page source,
+________________________________________________________________________________
+pause,pause,
+________________________________________________________________________________
+play,play,
+________________________________________________________________________________
+print,print,
+________________________________________________________________________________
+profiler,profiler,
+________________________________________________________________________________
+quit,quit,
+________________________________________________________________________________
+redo,redo,
+________________________________________________________________________________
+reset,reset zoom,
+________________________________________________________________________________
+save,save,
+________________________________________________________________________________
+selection,selection text tool,
+________________________________________________________________________________
+seven,seven switch tab to,
+________________________________________________________________________________
+six,six switch tab to,
+________________________________________________________________________________
+stop,stop,
+________________________________________________________________________________
+three,switch tab three to,
+________________________________________________________________________________
+two,switch tab to two,
+________________________________________________________________________________
+top,top,
+________________________________________________________________________________
+unmute,unmute,
+________________________________________________________________________________

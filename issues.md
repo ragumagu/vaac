@@ -69,6 +69,7 @@ A speech corpus must be generated such that word frequencies balance out, while 
 
 Preprocessor is for when binary search is needed for searching. It should sort words in every command phrase, and then sort all lines in the file by the first field. If using a binary search, make sure that your implementation is correct.
 The preprocessor also removes extra spaces, and checks if the command_string has valid characters: alphabets and spaces, and if keystroke_string in the command contains only valid key stroke names.
+TODO: remove duplicate phrases function in preprocessor.
 
 If user needs support for words not in dictionary, redirect user to lm tool.
 

@@ -1,0 +1,523 @@
+line,above insert line,
+line,add comment line,
+line,beginning go line of to,
+line,below insert line,
+line,comment line remove,
+line,comment line toggle,
+line,current line select,
+line,delete line,
+line,down line,
+line,down line move,
+line,duplicate line,
+line,end go line of to,
+line,go line to,
+line,indent line,
+line,line move up,
+line,line outdent,
+line,line trim,
+line,line up,
+________________________________________________________________________________
+editor,close editor,
+editor,close editor undo,
+editor,down editor group move,
+editor,editor first focus group,
+editor,editor focus group next,
+editor,editor focus group previous,
+editor,editor focus group second,
+editor,editor focus group third,
+editor,editor group left move,
+editor,editor group move right,
+editor,editor group move up,
+editor,editor keep mode open preview,
+editor,editor layout toggle,
+editor,editor left move,
+editor,editor move right,
+editor,editor split,
+________________________________________________________________________________
+to,beginning go line of to,
+to,bottom in scroll terminal to,
+to,bracket jump matching to,
+to,definition go to,
+to,definition open side to,
+to,end go line of to,
+to,error go next to,
+to,error go previous to,
+to,file go to,
+to,go line to,
+to,go next to warning,
+to,go previous to warning,
+to,go symbol to,
+to,in scroll terminal to top,
+to,markdown open preview side to,
+________________________________________________________________________________
+show,all show symbols,
+show,command palette show,
+show,control show source,
+show,debug show,
+show,explorer show,
+show,extensions show,
+show,hover show,
+show,output panel show,
+show,panel problems show,
+show,references show,
+show,search show,
+show,show terminal,
+________________________________________________________________________________
+go,back go,
+go,beginning go line of to,
+go,definition go to,
+go,end go line of to,
+go,error go next to,
+go,error go previous to,
+go,file go to,
+go,forward go,
+go,go line to,
+go,go next to warning,
+go,go previous to warning,
+go,go symbol to,
+________________________________________________________________________________
+all,all close,
+all,all current of select selection,
+all,all current of select word,
+all,all find match of select,
+all,all fold regions,
+all,all fold subregions,
+all,all regions unfold,
+all,all select,
+all,all show symbols,
+all,all subregions unfold,
+________________________________________________________________________________
+in,bottom in scroll terminal to,
+in,down in page scroll terminal,
+in,down in scroll terminal,
+in,file in new open window,
+in,files in replace,
+in,in page scroll terminal up,
+in,in paste terminal,
+in,in scroll terminal to top,
+in,in scroll terminal up,
+in,in zoom,
+________________________________________________________________________________
+toggle,block comment toggle,
+toggle,breakpoint toggle,
+toggle,comment line toggle,
+toggle,details search toggle,
+toggle,editor layout toggle,
+toggle,focus moves tab toggle,
+toggle,focus toggle,
+toggle,sidebar toggle visibility,
+toggle,toggle word wrap,
+________________________________________________________________________________
+terminal,bottom in scroll terminal to,
+terminal,down in page scroll terminal,
+terminal,down in scroll terminal,
+terminal,in page scroll terminal up,
+terminal,in paste terminal,
+terminal,in scroll terminal to top,
+terminal,in scroll terminal up,
+terminal,new terminal,
+terminal,show terminal,
+________________________________________________________________________________
+open,definition open side to,
+open,editor keep mode open preview,
+open,file in new open window,
+open,file location open,
+open,file open,
+open,markdown open preview,
+open,markdown open preview side to,
+open,open preview,
+open,open quick,
+________________________________________________________________________________
+group,down editor group move,
+group,editor first focus group,
+group,editor focus group next,
+group,editor focus group previous,
+group,editor focus group second,
+group,editor focus group third,
+group,editor group left move,
+group,editor group move right,
+group,editor group move up,
+________________________________________________________________________________
+move,down editor group move,
+move,down line move,
+move,editor group left move,
+move,editor group move right,
+move,editor group move up,
+move,editor left move,
+move,editor move right,
+move,line move up,
+________________________________________________________________________________
+close,all close,
+close,close,
+close,close editor,
+close,close editor undo,
+close,close folder,
+close,close window,
+close,close window,
+________________________________________________________________________________
+focus,editor first focus group,
+focus,editor focus group next,
+focus,editor focus group previous,
+focus,editor focus group second,
+focus,editor focus group third,
+focus,focus moves tab toggle,
+focus,focus toggle,
+________________________________________________________________________________
+of,all current of select selection,
+of,all current of select word,
+of,all find match of select,
+of,at end insert lines of selected,
+of,beginning go line of to,
+of,end go line of to,
+________________________________________________________________________________
+scroll,bottom in scroll terminal to,
+scroll,down in page scroll terminal,
+scroll,down in scroll terminal,
+scroll,in page scroll terminal up,
+scroll,in scroll terminal to top,
+scroll,in scroll terminal up,
+________________________________________________________________________________
+file,change file language,
+file,file go to,
+file,file in new open window,
+file,file location open,
+file,file new,
+file,file open,
+________________________________________________________________________________
+down,down editor group move,
+down,down in page scroll terminal,
+down,down in scroll terminal,
+down,down line,
+down,down line move,
+down,down page,
+________________________________________________________________________________
+up,editor group move up,
+up,in page scroll terminal up,
+up,in scroll terminal up,
+up,line move up,
+up,line up,
+up,page up,
+________________________________________________________________________________
+insert,above cursor insert,
+insert,above insert line,
+insert,at end insert lines of selected,
+insert,below cursor insert,
+insert,below insert line,
+________________________________________________________________________________
+select,all current of select selection,
+select,all current of select word,
+select,all find match of select,
+select,all select,
+select,current line select,
+________________________________________________________________________________
+selection,all current of select selection,
+selection,copy selection,
+selection,expand selection,
+selection,format selection,
+selection,selection shrink,
+________________________________________________________________________________
+next,editor focus group next,
+next,error go next to,
+next,find next,
+next,go next to warning,
+next,next tab,
+________________________________________________________________________________
+previous,editor focus group previous,
+previous,error go previous to,
+previous,find previous,
+previous,go previous to warning,
+previous,previous tab,
+________________________________________________________________________________
+comment,add comment line,
+comment,block comment toggle,
+comment,comment line remove,
+comment,comment line toggle,
+________________________________________________________________________________
+find,all find match of select,
+find,find,
+find,find next,
+find,find previous,
+________________________________________________________________________________
+window,close window,
+window,close window,
+window,file in new open window,
+window,new window,
+________________________________________________________________________________
+page,down in page scroll terminal,
+page,down page,
+page,in page scroll terminal up,
+page,page up,
+________________________________________________________________________________
+preview,editor keep mode open preview,
+preview,markdown open preview,
+preview,markdown open preview side to,
+preview,open preview,
+________________________________________________________________________________
+new,file in new open window,
+new,file new,
+new,new terminal,
+new,new window,
+________________________________________________________________________________
+current,all current of select selection,
+current,all current of select word,
+current,current line select,
+________________________________________________________________________________
+fold,all fold regions,
+fold,all fold subregions,
+fold,fold region,
+________________________________________________________________________________
+unfold,all regions unfold,
+unfold,all subregions unfold,
+unfold,region unfold,
+________________________________________________________________________________
+copy,copy,
+copy,copy path,
+copy,copy selection,
+________________________________________________________________________________
+definition,definition go to,
+definition,definition open side to,
+definition,definition peek,
+________________________________________________________________________________
+mode,editor keep mode open preview,
+mode,exit mode zen,
+mode,mode zen,
+________________________________________________________________________________
+tab,focus moves tab toggle,
+tab,next tab,
+tab,previous tab,
+________________________________________________________________________________
+step,into step,
+step,out step,
+step,over step,
+________________________________________________________________________________
+above,above cursor insert,
+above,above insert line,
+________________________________________________________________________________
+cursor,above cursor insert,
+cursor,below cursor insert,
+________________________________________________________________________________
+word,all current of select word,
+word,toggle word wrap,
+________________________________________________________________________________
+regions,all fold regions,
+regions,all regions unfold,
+________________________________________________________________________________
+subregions,all fold subregions,
+subregions,all subregions unfold,
+________________________________________________________________________________
+save,as save,
+save,save,
+________________________________________________________________________________
+end,at end insert lines of selected,
+end,end go line of to,
+________________________________________________________________________________
+below,below cursor insert,
+below,below insert line,
+________________________________________________________________________________
+bottom,bottom,
+bottom,bottom in scroll terminal to,
+________________________________________________________________________________
+undo,close editor undo,
+undo,undo,
+________________________________________________________________________________
+side,definition open side to,
+side,markdown open preview side to,
+________________________________________________________________________________
+search,details search toggle,
+search,search show,
+________________________________________________________________________________
+format,document format,
+format,format selection,
+________________________________________________________________________________
+left,editor group left move,
+left,editor left move,
+________________________________________________________________________________
+right,editor group move right,
+right,editor move right,
+________________________________________________________________________________
+error,error go next to,
+error,error go previous to,
+________________________________________________________________________________
+zen,exit mode zen,
+zen,mode zen,
+________________________________________________________________________________
+replace,files in replace,
+replace,replace,
+________________________________________________________________________________
+quick,fix quick,
+quick,open quick,
+________________________________________________________________________________
+region,fold region,
+region,region unfold,
+________________________________________________________________________________
+warning,go next to warning,
+warning,go previous to warning,
+________________________________________________________________________________
+symbol,go symbol to,
+symbol,rename symbol,
+________________________________________________________________________________
+trigger,hints parameter trigger,
+trigger,suggestion trigger,
+________________________________________________________________________________
+paste,in paste terminal,
+paste,paste,
+________________________________________________________________________________
+top,in scroll terminal to top,
+top,top,
+________________________________________________________________________________
+zoom,in zoom,
+zoom,out zoom,
+________________________________________________________________________________
+markdown,markdown open preview,
+markdown,markdown open preview side to,
+________________________________________________________________________________
+out,out step,
+out,out zoom,
+________________________________________________________________________________
+panel,output panel show,
+panel,panel problems show,
+________________________________________________________________________________
+add,add comment line,
+________________________________________________________________________________
+match,all find match of select,
+________________________________________________________________________________
+symbols,all show symbols,
+________________________________________________________________________________
+as,as save,
+________________________________________________________________________________
+at,at end insert lines of selected,
+________________________________________________________________________________
+lines,at end insert lines of selected,
+________________________________________________________________________________
+selected,at end insert lines of selected,
+________________________________________________________________________________
+back,back go,
+________________________________________________________________________________
+beginning,beginning go line of to,
+________________________________________________________________________________
+block,block comment toggle,
+________________________________________________________________________________
+bracket,bracket jump matching to,
+________________________________________________________________________________
+jump,bracket jump matching to,
+________________________________________________________________________________
+matching,bracket jump matching to,
+________________________________________________________________________________
+breakpoint,breakpoint toggle,
+________________________________________________________________________________
+change,change file language,
+________________________________________________________________________________
+language,change file language,
+________________________________________________________________________________
+folder,close folder,
+________________________________________________________________________________
+command,command palette show,
+________________________________________________________________________________
+palette,command palette show,
+________________________________________________________________________________
+remove,comment line remove,
+________________________________________________________________________________
+continue,continue,
+________________________________________________________________________________
+control,control show source,
+________________________________________________________________________________
+source,control show source,
+________________________________________________________________________________
+path,copy path,
+________________________________________________________________________________
+cut,cut,
+________________________________________________________________________________
+debug,debug show,
+________________________________________________________________________________
+peek,definition peek,
+________________________________________________________________________________
+delete,delete line,
+________________________________________________________________________________
+details,details search toggle,
+________________________________________________________________________________
+document,document format,
+________________________________________________________________________________
+duplicate,duplicate line,
+________________________________________________________________________________
+first,editor first focus group,
+________________________________________________________________________________
+second,editor focus group second,
+________________________________________________________________________________
+third,editor focus group third,
+________________________________________________________________________________
+keep,editor keep mode open preview,
+________________________________________________________________________________
+layout,editor layout toggle,
+________________________________________________________________________________
+split,editor split,
+________________________________________________________________________________
+exit,exit mode zen,
+________________________________________________________________________________
+expand,expand selection,
+________________________________________________________________________________
+explorer,explorer show,
+________________________________________________________________________________
+extensions,extensions show,
+________________________________________________________________________________
+location,file location open,
+________________________________________________________________________________
+files,files in replace,
+________________________________________________________________________________
+fix,fix quick,
+________________________________________________________________________________
+moves,focus moves tab toggle,
+________________________________________________________________________________
+forward,forward go,
+________________________________________________________________________________
+full,full screen,
+________________________________________________________________________________
+screen,full screen,
+________________________________________________________________________________
+hints,hints parameter trigger,
+________________________________________________________________________________
+parameter,hints parameter trigger,
+________________________________________________________________________________
+hover,hover show,
+________________________________________________________________________________
+indent,indent line,
+________________________________________________________________________________
+into,into step,
+________________________________________________________________________________
+keyboard,keyboard shortcuts,
+________________________________________________________________________________
+shortcuts,keyboard shortcuts,
+________________________________________________________________________________
+outdent,line outdent,
+________________________________________________________________________________
+trim,line trim,
+________________________________________________________________________________
+output,output panel show,
+________________________________________________________________________________
+over,over step,
+________________________________________________________________________________
+problems,panel problems show,
+________________________________________________________________________________
+references,references show,
+________________________________________________________________________________
+rename,rename symbol,
+________________________________________________________________________________
+restore,restore,
+________________________________________________________________________________
+shrink,selection shrink,
+________________________________________________________________________________
+settings,settings user,
+________________________________________________________________________________
+user,settings user,
+________________________________________________________________________________
+sidebar,sidebar toggle visibility,
+________________________________________________________________________________
+visibility,sidebar toggle visibility,
+________________________________________________________________________________
+start,start,
+________________________________________________________________________________
+stop,stop,
+________________________________________________________________________________
+suggestion,suggestion trigger,
+________________________________________________________________________________
+wrap,toggle word wrap,
+________________________________________________________________________________

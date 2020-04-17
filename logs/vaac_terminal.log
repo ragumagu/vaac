@@ -74,3 +74,6 @@
 2020-04-16 18:12:48,271:WARNING:extractor:extract:Command not clear!
 2020-04-16 18:12:51,543:DEBUG:terminal:getOutput:input: close editor
 2020-04-16 18:12:56,893:DEBUG:terminal:getOutput:input: paste
+2020-04-16 18:21:26,509:DEBUG:terminal:getOutput:input: five
+2020-04-16 18:21:39,632:DEBUG:terminal:getOutput:input: exit
+2020-04-16 18:21:39,647:INFO:vaac_terminal:output:Exiting...

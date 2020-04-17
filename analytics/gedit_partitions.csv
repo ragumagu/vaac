@@ -1,0 +1,234 @@
+tab,add stop tab,
+tab,close tab,
+tab,close tab undo,
+tab,eight switch tab to,
+tab,five switch tab to,
+tab,four switch tab to,
+tab,group new tab,
+tab,group next tab,
+tab,group previous tab,
+tab,new tab,
+tab,next switch tab to,
+tab,nine switch tab to,
+tab,one switch tab to,
+tab,previous switch tab to,
+tab,remove stop tab,
+tab,seven switch tab to,
+tab,six switch tab to,
+tab,switch tab three to,
+tab,switch tab to two,
+________________________________________________________________________________
+to,beginning document go of to,
+to,beginning go line of to,
+to,case change lower to,
+to,case change to upper,
+to,document end go of to,
+to,eight switch tab to,
+to,end go line of to,
+to,five switch tab to,
+to,four switch tab to,
+to,go line to,
+to,next switch tab to,
+to,nine switch tab to,
+to,one switch tab to,
+to,previous switch tab to,
+to,seven switch tab to,
+to,six switch tab to,
+to,switch tab three to,
+to,switch tab to two,
+________________________________________________________________________________
+switch,eight switch tab to,
+switch,five switch tab to,
+switch,four switch tab to,
+switch,next switch tab to,
+switch,nine switch tab to,
+switch,one switch tab to,
+switch,previous switch tab to,
+switch,seven switch tab to,
+switch,six switch tab to,
+switch,switch tab three to,
+switch,switch tab to two,
+________________________________________________________________________________
+line,beginning go line of to,
+line,current delete line,
+line,down line move,
+line,end go line of to,
+line,go line to,
+line,line move up,
+________________________________________________________________________________
+go,beginning document go of to,
+go,beginning go line of to,
+go,document end go of to,
+go,end go line of to,
+go,go line to,
+________________________________________________________________________________
+close,all close tabs,
+close,close tab,
+close,close tab undo,
+close,close window,
+________________________________________________________________________________
+find,and find replace,
+find,find,
+find,find next,
+find,find previous,
+________________________________________________________________________________
+of,beginning document go of to,
+of,beginning go line of to,
+of,document end go of to,
+of,end go line of to,
+________________________________________________________________________________
+open,document open,
+open,file menu open,
+open,guide open user,
+open,open quick,
+________________________________________________________________________________
+move,down line move,
+move,left move word,
+move,line move up,
+move,move right word,
+________________________________________________________________________________
+all,all close tabs,
+all,all save tabs,
+all,all select,
+________________________________________________________________________________
+save,all save tabs,
+save,as save,
+save,save,
+________________________________________________________________________________
+document,beginning document go of to,
+document,document end go of to,
+document,document open,
+________________________________________________________________________________
+case,case change lower to,
+case,case change to upper,
+case,case toggle,
+________________________________________________________________________________
+next,find next,
+next,group next tab,
+next,next switch tab to,
+________________________________________________________________________________
+previous,find previous,
+previous,group previous tab,
+previous,previous switch tab to,
+________________________________________________________________________________
+group,group new tab,
+group,group next tab,
+group,group previous tab,
+________________________________________________________________________________
+new,group new tab,
+new,new tab,
+new,new window,
+________________________________________________________________________________
+stop,add stop tab,
+stop,remove stop tab,
+________________________________________________________________________________
+tabs,all close tabs,
+tabs,all save tabs,
+________________________________________________________________________________
+beginning,beginning document go of to,
+beginning,beginning go line of to,
+________________________________________________________________________________
+change,case change lower to,
+change,case change to upper,
+________________________________________________________________________________
+undo,close tab undo,
+undo,undo,
+________________________________________________________________________________
+window,close window,
+window,new window,
+________________________________________________________________________________
+end,document end go of to,
+end,end go line of to,
+________________________________________________________________________________
+panel,hide panel side,
+panel,panel show side,
+________________________________________________________________________________
+side,hide panel side,
+side,panel show side,
+________________________________________________________________________________
+word,left move word,
+word,move right word,
+________________________________________________________________________________
+print,preview print,
+print,print,
+________________________________________________________________________________
+add,add stop tab,
+________________________________________________________________________________
+select,all select,
+________________________________________________________________________________
+and,and find replace,
+________________________________________________________________________________
+replace,and find replace,
+________________________________________________________________________________
+as,as save,
+________________________________________________________________________________
+lower,case change lower to,
+________________________________________________________________________________
+upper,case change to upper,
+________________________________________________________________________________
+toggle,case toggle,
+________________________________________________________________________________
+check,check spelling,
+________________________________________________________________________________
+spelling,check spelling,
+________________________________________________________________________________
+clear,clear highlight,
+________________________________________________________________________________
+highlight,clear highlight,
+________________________________________________________________________________
+copy,copy,
+________________________________________________________________________________
+current,current delete line,
+________________________________________________________________________________
+delete,current delete line,
+________________________________________________________________________________
+cut,cut,
+________________________________________________________________________________
+down,down line move,
+________________________________________________________________________________
+eight,eight switch tab to,
+________________________________________________________________________________
+file,file menu open,
+________________________________________________________________________________
+menu,file menu open,
+________________________________________________________________________________
+five,five switch tab to,
+________________________________________________________________________________
+four,four switch tab to,
+________________________________________________________________________________
+guide,guide open user,
+________________________________________________________________________________
+user,guide open user,
+________________________________________________________________________________
+hide,hide panel side,
+________________________________________________________________________________
+left,left move word,
+________________________________________________________________________________
+up,line move up,
+________________________________________________________________________________
+right,move right word,
+________________________________________________________________________________
+nine,nine switch tab to,
+________________________________________________________________________________
+one,one switch tab to,
+________________________________________________________________________________
+quick,open quick,
+________________________________________________________________________________
+show,panel show side,
+________________________________________________________________________________
+paste,paste,
+________________________________________________________________________________
+preview,preview print,
+________________________________________________________________________________
+redo,redo,
+________________________________________________________________________________
+remove,remove stop tab,
+________________________________________________________________________________
+seven,seven switch tab to,
+________________________________________________________________________________
+six,six switch tab to,
+________________________________________________________________________________
+three,switch tab three to,
+________________________________________________________________________________
+two,switch tab to two,
+________________________________________________________________________________

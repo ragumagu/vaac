@@ -1,0 +1,197 @@
+to,bottom scroll to,
+to,delete end line of to,
+to,delete line of start to,
+to,delete of start to word,
+to,eight switch tab to,
+to,end line move of to,
+to,five switch tab to,
+to,four switch tab to,
+to,left move tab to,
+to,line move of start to,
+to,move right tab to,
+to,nine switch tab to,
+to,one switch tab to,
+to,scroll to top,
+to,seven switch tab to,
+to,six switch tab to,
+to,switch tab ten to,
+to,switch tab three to,
+to,switch tab to two,
+________________________________________________________________________________
+tab,close tab,
+tab,eight switch tab to,
+tab,five switch tab to,
+tab,four switch tab to,
+tab,left move tab to,
+tab,move right tab to,
+tab,new tab,
+tab,next tab,
+tab,nine switch tab to,
+tab,one switch tab to,
+tab,previous tab,
+tab,seven switch tab to,
+tab,six switch tab to,
+tab,switch tab ten to,
+tab,switch tab three to,
+tab,switch tab to two,
+________________________________________________________________________________
+switch,eight switch tab to,
+switch,five switch tab to,
+switch,four switch tab to,
+switch,nine switch tab to,
+switch,one switch tab to,
+switch,seven switch tab to,
+switch,six switch tab to,
+switch,switch tab ten to,
+switch,switch tab three to,
+switch,switch tab to two,
+________________________________________________________________________________
+one,back character move one,
+one,back move one word,
+one,character forward move one,
+one,down line one scroll,
+one,down one page scroll,
+one,forward move one word,
+one,line one scroll up,
+one,one page scroll up,
+one,one switch tab to,
+________________________________________________________________________________
+move,back character move one,
+move,back move one word,
+move,character forward move one,
+move,end line move of to,
+move,forward move one word,
+move,left move tab to,
+move,line move of start to,
+move,move right tab to,
+________________________________________________________________________________
+line,delete end line of to,
+line,delete line of start to,
+line,down line one scroll,
+line,end line move of to,
+line,erase line,
+line,line move of start to,
+line,line one scroll up,
+________________________________________________________________________________
+scroll,bottom scroll to,
+scroll,down line one scroll,
+scroll,down one page scroll,
+scroll,line one scroll up,
+scroll,one page scroll up,
+scroll,scroll to top,
+________________________________________________________________________________
+word,back move one word,
+word,delete of start to word,
+word,delete previous word,
+word,erase word,
+word,forward move one word,
+________________________________________________________________________________
+of,delete end line of to,
+of,delete line of start to,
+of,delete of start to word,
+of,end line move of to,
+of,line move of start to,
+________________________________________________________________________________
+delete,delete end line of to,
+delete,delete line of start to,
+delete,delete of start to word,
+delete,delete previous word,
+________________________________________________________________________________
+start,delete line of start to,
+start,delete of start to word,
+start,line move of start to,
+________________________________________________________________________________
+previous,delete previous word,
+previous,find previous,
+previous,previous tab,
+________________________________________________________________________________
+find,find,
+find,find next,
+find,find previous,
+________________________________________________________________________________
+zoom,in zoom,
+zoom,out zoom,
+zoom,reset zoom,
+________________________________________________________________________________
+back,back character move one,
+back,back move one word,
+________________________________________________________________________________
+character,back character move one,
+character,character forward move one,
+________________________________________________________________________________
+forward,character forward move one,
+forward,forward move one word,
+________________________________________________________________________________
+clear,clear highlight,
+clear,clear screen,
+________________________________________________________________________________
+screen,clear screen,
+screen,full screen,
+________________________________________________________________________________
+close,close tab,
+close,close window,
+________________________________________________________________________________
+window,close window,
+window,new window,
+________________________________________________________________________________
+end,delete end line of to,
+end,end line move of to,
+________________________________________________________________________________
+down,down line one scroll,
+down,down one page scroll,
+________________________________________________________________________________
+page,down one page scroll,
+page,one page scroll up,
+________________________________________________________________________________
+erase,erase line,
+erase,erase word,
+________________________________________________________________________________
+next,find next,
+next,next tab,
+________________________________________________________________________________
+up,line one scroll up,
+up,one page scroll up,
+________________________________________________________________________________
+new,new tab,
+new,new window,
+________________________________________________________________________________
+bottom,bottom scroll to,
+________________________________________________________________________________
+highlight,clear highlight,
+________________________________________________________________________________
+copy,copy,
+________________________________________________________________________________
+eight,eight switch tab to,
+________________________________________________________________________________
+five,five switch tab to,
+________________________________________________________________________________
+four,four switch tab to,
+________________________________________________________________________________
+full,full screen,
+________________________________________________________________________________
+in,in zoom,
+________________________________________________________________________________
+left,left move tab to,
+________________________________________________________________________________
+right,move right tab to,
+________________________________________________________________________________
+nine,nine switch tab to,
+________________________________________________________________________________
+out,out zoom,
+________________________________________________________________________________
+paste,paste,
+________________________________________________________________________________
+reset,reset zoom,
+________________________________________________________________________________
+top,scroll to top,
+________________________________________________________________________________
+seven,seven switch tab to,
+________________________________________________________________________________
+six,six switch tab to,
+________________________________________________________________________________
+ten,switch tab ten to,
+________________________________________________________________________________
+three,switch tab three to,
+________________________________________________________________________________
+two,switch tab to two,
+________________________________________________________________________________

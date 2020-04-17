@@ -1,0 +1,185 @@
+window,activate menu window,
+window,close window,
+window,copy screenshot window,
+window,down move one window workspace,
+window,hide window,
+window,last move to window workspace,
+window,maximize window,
+window,move one up window workspace,
+window,move window,
+window,resize window,
+window,restore window,
+window,save screenshot window,
+________________________________________________________________________________
+move,above move to workspace,
+move,below move to workspace,
+move,down move one window workspace,
+move,last move to window workspace,
+move,move one up window workspace,
+move,move window,
+________________________________________________________________________________
+screenshot,copy partial screenshot,
+screenshot,copy screenshot,
+screenshot,copy screenshot window,
+screenshot,partial save screenshot,
+screenshot,save screenshot,
+screenshot,save screenshot window,
+________________________________________________________________________________
+to,above move to workspace,
+to,below move to workspace,
+to,input next source switch to,
+to,input previous source switch to,
+to,last move to window workspace,
+________________________________________________________________________________
+workspace,above move to workspace,
+workspace,below move to workspace,
+workspace,down move one window workspace,
+workspace,last move to window workspace,
+workspace,move one up window workspace,
+________________________________________________________________________________
+show,activities overview show,
+show,all applications show,
+show,command prompt show,
+show,list notification show,
+show,overview show,
+________________________________________________________________________________
+switch,directly switch windows,
+switch,input next source switch to,
+switch,input previous source switch to,
+switch,of switch windows,
+switch,switch windows,
+________________________________________________________________________________
+windows,all hide windows,
+windows,directly switch windows,
+windows,of switch windows,
+windows,switch windows,
+________________________________________________________________________________
+zoom,in zoom,
+zoom,off turn zoom,
+zoom,on turn zoom,
+zoom,out zoom,
+________________________________________________________________________________
+on,left on split view,
+on,on reader screen turn,
+on,on right split view,
+on,on turn zoom,
+________________________________________________________________________________
+turn,off reader screen turn,
+turn,off turn zoom,
+turn,on reader screen turn,
+turn,on turn zoom,
+________________________________________________________________________________
+copy,copy partial screenshot,
+copy,copy screenshot,
+copy,copy screenshot window,
+________________________________________________________________________________
+screen,lock screen,
+screen,off reader screen turn,
+screen,on reader screen turn,
+________________________________________________________________________________
+save,partial save screenshot,
+save,save screenshot,
+save,save screenshot window,
+________________________________________________________________________________
+menu,activate menu window,
+menu,application menu open,
+________________________________________________________________________________
+notification,active focus notification,
+notification,list notification show,
+________________________________________________________________________________
+overview,activities overview show,
+overview,overview show,
+________________________________________________________________________________
+all,all applications show,
+all,all hide windows,
+________________________________________________________________________________
+hide,all hide windows,
+hide,hide window,
+________________________________________________________________________________
+partial,copy partial screenshot,
+partial,partial save screenshot,
+________________________________________________________________________________
+one,down move one window workspace,
+one,move one up window workspace,
+________________________________________________________________________________
+input,input next source switch to,
+input,input previous source switch to,
+________________________________________________________________________________
+source,input next source switch to,
+source,input previous source switch to,
+________________________________________________________________________________
+split,left on split view,
+split,on right split view,
+________________________________________________________________________________
+view,left on split view,
+view,on right split view,
+________________________________________________________________________________
+out,log out,
+out,out zoom,
+________________________________________________________________________________
+off,off reader screen turn,
+off,off turn zoom,
+________________________________________________________________________________
+reader,off reader screen turn,
+reader,on reader screen turn,
+________________________________________________________________________________
+above,above move to workspace,
+________________________________________________________________________________
+activate,activate menu window,
+________________________________________________________________________________
+active,active focus notification,
+________________________________________________________________________________
+focus,active focus notification,
+________________________________________________________________________________
+activities,activities overview show,
+________________________________________________________________________________
+applications,all applications show,
+________________________________________________________________________________
+application,application menu open,
+________________________________________________________________________________
+open,application menu open,
+________________________________________________________________________________
+below,below move to workspace,
+________________________________________________________________________________
+close,close window,
+________________________________________________________________________________
+command,command prompt show,
+________________________________________________________________________________
+prompt,command prompt show,
+________________________________________________________________________________
+directly,directly switch windows,
+________________________________________________________________________________
+down,down move one window workspace,
+________________________________________________________________________________
+in,in zoom,
+________________________________________________________________________________
+next,input next source switch to,
+________________________________________________________________________________
+previous,input previous source switch to,
+________________________________________________________________________________
+last,last move to window workspace,
+________________________________________________________________________________
+left,left on split view,
+________________________________________________________________________________
+list,list notification show,
+________________________________________________________________________________
+lock,lock screen,
+________________________________________________________________________________
+log,log out,
+________________________________________________________________________________
+maximize,maximize window,
+________________________________________________________________________________
+up,move one up window workspace,
+________________________________________________________________________________
+of,of switch windows,
+________________________________________________________________________________
+right,on right split view,
+________________________________________________________________________________
+record,record screencast,
+________________________________________________________________________________
+screencast,record screencast,
+________________________________________________________________________________
+resize,resize window,
+________________________________________________________________________________
+restore,restore window,
+________________________________________________________________________________

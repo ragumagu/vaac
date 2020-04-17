@@ -6,18 +6,18 @@ This script extracts commands phrases from config and analyzes them.
 '''
 
 def write_unique_words(phrases, words_file):
-    s = set()    
+    s = set()
     for elem in phrases:
         for e in elem.split():
-            s.add(e)    
-    unique_words_list = sorted(s)    
+            s.add(e)
+    unique_words_list = sorted(s)
     for w in unique_words_list:
         words_file.write(w+"\n")
     return unique_words_list
 
 def count_words(l, o):
     c = Counter()
-    for line in l:        
+    for line in l:
         for word in line.split():
             c[word] += 1
     c_list = sorted(c.items(), key=lambda pair: pair[1], reverse=True)
@@ -45,13 +45,13 @@ def sort_weights(weights):
     for index, reverse_value in sort_spec[::-1]:
         weights.sort(key=lambda x: x[index], reverse=reverse_value)
 
-def write_partitions(counter,phrases,output):    
-    for word in counter.most_common():    
-        for phrase in phrases:            
+def write_partitions(counter,phrases,output):
+    for word in counter.most_common():
+        for phrase in phrases:
             p = phrase.split()
-            if word[0] in p:                                
+            if word[0] in p:
                 output.write(word[0]+","+phrase+"\n")
-        output.write("__________________________________________________\n")    
+        output.write("__________________________________________________\n")
 
 read = "r"
 write = "w"
@@ -140,7 +140,7 @@ sorted_commands = list(csv.reader(open("./analytics/sorted_commands", read)))
 
 list_of_commands = [item for item in apps if item != ""]
 
-for item in sorted_commands:    
+for item in sorted_commands:
     if item[0] not in list_of_commands:
         list_of_commands.append(item[0])
 
@@ -153,13 +153,13 @@ text_corpus_file.close()
 # Verify that every word in commands_applications_phrases is in corpus file.
 text_corpus_list = list(csv.reader(open(text_corpus_string,read)))
 
-s1 = set()    
+s1 = set()
 for elem in commands_applications_phrases_list:
     for e in elem.split():
         s1.add(e)
 
-s2 = set()    
-for elem in text_corpus_list:    
+s2 = set()
+for elem in text_corpus_list:
     for e in elem[0].split():
         s2.add(e)
 
