@@ -1,142 +1,142 @@
-CLOSE WINDOW,alt+F4
-SHOW COMMAND PALETTE,ctrl+shift+p
-QUICK OPEN,ctrl+p
-NEW WINDOW,ctrl+shift+n
-CLOSE WINDOW,ctrl+w
-USER SETTINGS,ctrl+comma
-KEYBOARD SHORTCUTS,ctrl+k ctrl+s
-SELECT ALL,ctrl+a
-CUT,ctrl+x
-COPY,ctrl+c
-PASTE,ctrl+v
-MOVE LINE DOWN,alt+Down
-MOVE LINE UP,alt+Up
-DELETE LINE,ctrl+shift+k
-DUPLICATE LINE,ctrl+c ctrl+v
-INSERT LINE BELOW,ctrl+Return
-INSERT LINE ABOVE,ctrl+shift+Return
-JUMP TO MATCHING BRACKET,ctrl+shift+backslash
-INDENT LINE,ctrl+bracketright
-OUTDENT LINE,ctrl+bracketleft
-GO TO BEGINNING OF LINE,Home
-GO TO END OF LINE,End
-TOP,ctrl+Home
-BOTTOM,ctrl+End
-LINE UP,ctrl+Up
-LINE DOWN,ctrl+Down
-PAGE UP,alt+Page_Up
-PAGE DOWN,alt+Page_Down
-FOLD REGION,ctrl+shift+bracketleft
-UNFOLD REGION,ctrl+shift+bracketright
-FOLD ALL SUBREGIONS,ctrl+k ctrl+bracketleft
-UNFOLD ALL SUBREGIONS,ctrl+k ctrl+bracketright
-FOLD ALL REGIONS,ctrl+k ctrl+0
-UNFOLD ALL REGIONS,ctrl+k ctrl+j
-ADD LINE COMMENT,ctrl+k ctrl+c
-REMOVE LINE COMMENT,ctrl+k ctrl+u
-TOGGLE LINE COMMENT,ctrl+slash
-TOGGLE BLOCK COMMENT,ctrl+shift+a
-TOGGLE WORD WRAP,alt+z
-TRIGGER SUGGESTION,ctrl+space
-TRIGGER PARAMETER HINTS,ctrl+shift+space
-FORMAT DOCUMENT,ctrl+shift+i
-FORMAT SELECTION,ctrl+k ctrl+f
-GO TO DEFINITION,F12
-PEEK DEFINITION,ctrl+shift+F10
-OPEN DEFINITION TO SIDE,ctrl+k F12
-QUICK FIX,ctrl+period
-SHOW REFERENCES,shift+F12
-RENAME SYMBOL,F2
-TRIM LINE,ctrl+k ctrl+x
-CHANGE FILE LANGUAGE,ctrl+k m
-INSERT CURSOR ABOVE,shift+alt+Up
-INSERT CURSOR BELOW,shift+alt+Down
-UNDO,ctrl+z
-INSERT AT END OF SELECTED LINES,shift+alt+i
-SELECT CURRENT LINE,ctrl+l
-SELECT ALL OF CURRENT SELECTION,ctrl+shift+l
-SELECT ALL OF CURRENT WORD,ctrl+F2
-EXPAND SELECTION,shift+alt+Right
-SHRINK SELECTION,shift+alt+Left
-FULL SCREEN,F11
-TOGGLE EDITOR LAYOUT,shift+alt+0
-ZOOM IN,ctrl+plus
-ZOOM OUT,ctrl+minus
-TOGGLE SIDEBAR VISIBILITY,ctrl+b
-SHOW EXPLORER,ctrl+shift+e
-TOGGLE FOCUS,ctrl+shift+e
-SHOW SEARCH,ctrl+shift+f
-SHOW SOURCE CONTROL,ctrl+shift+g
-SHOW DEBUG,ctrl+shift+d
-SHOW EXTENSIONS,ctrl+shift+x
-REPLACE IN FILES,ctrl+shift+h
-TOGGLE SEARCH DETAILS,ctrl+shift+j
-SHOW OUTPUT PANEL,ctrl+k ctrl+h
-OPEN MARKDOWN PREVIEW,ctrl+shift+v
-OPEN PREVIEW,ctrl+shift+v
-OPEN MARKDOWN PREVIEW TO SIDE,ctrl+k v
-ZEN MODE,ctrl+k z
-EXIT ZEN MODE,Escape Escape
-FIND,ctrl+f
-REPLACE,ctrl+h
-FIND NEXT,F3
-FIND PREVIOUS,shift+F3
-SELECT ALL OF FIND MATCH,alt+Return
-SHOW ALL SYMBOLS,ctrl+t
-GO TO LINE,ctrl+g
-GO TO FILE,ctrl+p
-GO TO SYMBOL,ctrl+shift+o
-SHOW PROBLEMS PANEL,ctrl+shift+m
-GO TO NEXT ERROR,F8
-GO TO NEXT WARNING,F8
-GO TO PREVIOUS ERROR,shift+F8
-GO TO PREVIOUS WARNING,shift+F8
-RESTORE,ctrl+shift+Tab
-GO BACK,ctrl+alt+minus
-GO FORWARD,ctrl+shift+minus
-TOGGLE TAB MOVES FOCUS,ctrl+m
-CLOSE EDITOR,ctrl+w
-CLOSE FOLDER,ctrl+k f
-SPLIT EDITOR,ctrl+backslash
-FOCUS FIRST EDITOR GROUP,ctrl+1
-FOCUS SECOND EDITOR GROUP,ctrl+2
-FOCUS THIRD EDITOR GROUP,ctrl+3
-FOCUS PREVIOUS EDITOR GROUP,ctrl+k ctrl+Left
-FOCUS NEXT EDITOR GROUP,ctrl+k ctrl+Right
-MOVE EDITOR LEFT,ctrl+shift+Page_Up
-MOVE EDITOR RIGHT,ctrl+shift+Page_Down
-MOVE EDITOR GROUP LEFT,ctrl+k Left
-MOVE EDITOR GROUP UP,ctrl+k Left
-MOVE EDITOR GROUP RIGHT,ctrl+k Right
-MOVE EDITOR GROUP DOWN,ctrl+k Right
-NEW FILE,ctrl+n
-OPEN FILE,ctrl+o
-SAVE,ctrl+s
-SAVE AS,ctrl+shift+s
-CLOSE,ctrl+w
-CLOSE ALL,ctrl+k ctrl+w
-UNDO CLOSE EDITOR,ctrl+shift+t
-KEEP PREVIEW MODE EDITOR OPEN,ctrl+k Return
-NEXT TAB,ctrl+Page_Down
-PREVIOUS TAB,ctrl+Page_Up
-COPY PATH,ctrl+k p
-OPEN FILE LOCATION,ctrl+k r
-OPEN FILE IN NEW WINDOW,ctrl+k o
-TOGGLE BREAKPOINT,F9
-START,F5
-CONTINUE,F5
-STEP INTO,F11
-STEP OUT,shift+F11
-STEP OVER,F10
-STOP,shift+F5
-SHOW HOVER,ctrl+k ctrl+i
-SHOW TERMINAL,ctrl+grave
-NEW TERMINAL,ctrl+shift+grave
-COPY SELECTION,ctrl+shift+c
-PASTE IN TERMINAL,ctrl+shift+v
-SCROLL UP IN TERMINAL,ctrl+shift+Up
-SCROLL DOWN IN TERMINAL,ctrl+shift+Down
-SCROLL PAGE UP IN TERMINAL,shift+Page_Up
-SCROLL PAGE DOWN IN TERMINAL,shift+Page_Down
-SCROLL TO TOP IN TERMINAL,shift+Home
-SCROLL TO BOTTOM IN TERMINAL,shift+End
+add line comment,ctrl+k ctrl+c
+bottom,ctrl+End
+change file language,ctrl+k m
+close,ctrl+w
+close all,ctrl+k ctrl+w
+close editor,ctrl+w
+close folder,ctrl+k f
+close window,alt+F4
+close window,ctrl+w
+continue,F5
+copy,ctrl+c
+copy path,ctrl+k p
+copy selection,ctrl+shift+c
+cut,ctrl+x
+delete line,ctrl+shift+k
+duplicate line,ctrl+c ctrl+v
+exit zen mode,Escape Escape
+expand selection,shift+alt+Right
+find,ctrl+f
+find next,F3
+find previous,shift+F3
+focus first editor group,ctrl+1
+focus next editor group,ctrl+k ctrl+Right
+focus previous editor group,ctrl+k ctrl+Left
+focus second editor group,ctrl+2
+focus third editor group,ctrl+3
+fold all regions,ctrl+k ctrl+0
+fold all subregions,ctrl+k ctrl+bracketleft
+fold region,ctrl+shift+bracketleft
+format document,ctrl+shift+i
+format selection,ctrl+k ctrl+f
+full screen,F11
+go back,ctrl+alt+minus
+go forward,ctrl+shift+minus
+go to beginning of line,Home
+go to definition,F12
+go to end of line,End
+go to file,ctrl+p
+go to line,ctrl+g
+go to next error,F8
+go to next warning,F8
+go to previous error,shift+F8
+go to previous warning,shift+F8
+go to symbol,ctrl+shift+o
+indent line,ctrl+bracketright
+insert at end of selected lines,shift+alt+i
+insert cursor above,shift+alt+Up
+insert cursor below,shift+alt+Down
+insert line above,ctrl+shift+Return
+insert line below,ctrl+Return
+jump to matching bracket,ctrl+shift+backslash
+keep preview mode editor open,ctrl+k Return
+keyboard shortcuts,ctrl+k ctrl+s
+line down,ctrl+Down
+line up,ctrl+Up
+move editor group down,ctrl+k Right
+move editor group left,ctrl+k Left
+move editor group right,ctrl+k Right
+move editor group up,ctrl+k Left
+move editor left,ctrl+shift+Page_Up
+move editor right,ctrl+shift+Page_Down
+move line down,alt+Down
+move line up,alt+Up
+new file,ctrl+n
+new terminal,ctrl+shift+grave
+new window,ctrl+shift+n
+next tab,ctrl+Page_Down
+open definition to side,ctrl+k F12
+open file,ctrl+o
+open file in new window,ctrl+k o
+open file location,ctrl+k r
+open markdown preview,ctrl+shift+v
+open markdown preview to side,ctrl+k v
+open preview,ctrl+shift+v
+outdent line,ctrl+bracketleft
+page down,alt+Page_Down
+page up,alt+Page_Up
+paste,ctrl+v
+paste in terminal,ctrl+shift+v
+peek definition,ctrl+shift+F10
+previous tab,ctrl+Page_Up
+quick fix,ctrl+period
+quick open,ctrl+p
+remove line comment,ctrl+k ctrl+u
+rename symbol,F2
+replace,ctrl+h
+replace in files,ctrl+shift+h
+restore,ctrl+shift+Tab
+save,ctrl+s
+save as,ctrl+shift+s
+scroll down in terminal,ctrl+shift+Down
+scroll page down in terminal,shift+Page_Down
+scroll page up in terminal,shift+Page_Up
+scroll to bottom in terminal,shift+End
+scroll to top in terminal,shift+Home
+scroll up in terminal,ctrl+shift+Up
+select all,ctrl+a
+select all of current selection,ctrl+shift+l
+select all of current word,ctrl+F2
+select all of find match,alt+Return
+select current line,ctrl+l
+show all symbols,ctrl+t
+show command palette,ctrl+shift+p
+show debug,ctrl+shift+d
+show explorer,ctrl+shift+e
+show extensions,ctrl+shift+x
+show hover,ctrl+k ctrl+i
+show output panel,ctrl+k ctrl+h
+show problems panel,ctrl+shift+m
+show references,shift+F12
+show search,ctrl+shift+f
+show source control,ctrl+shift+g
+show terminal,ctrl+grave
+shrink selection,shift+alt+Left
+split editor,ctrl+backslash
+start,F5
+step into,F11
+step out,shift+F11
+step over,F10
+stop,shift+F5
+toggle block comment,ctrl+shift+a
+toggle breakpoint,F9
+toggle editor layout,shift+alt+0
+toggle focus,ctrl+shift+e
+toggle line comment,ctrl+slash
+toggle search details,ctrl+shift+j
+toggle sidebar visibility,ctrl+b
+toggle tab moves focus,ctrl+m
+toggle word wrap,alt+z
+top,ctrl+Home
+trigger parameter hints,ctrl+shift+space
+trigger suggestion,ctrl+space
+trim line,ctrl+k ctrl+x
+undo,ctrl+z
+undo close editor,ctrl+shift+t
+unfold all regions,ctrl+k ctrl+j
+unfold all subregions,ctrl+k ctrl+bracketright
+unfold region,ctrl+shift+bracketright
+user settings,ctrl+comma
+zen mode,ctrl+k z
+zoom in,ctrl+plus
+zoom out,ctrl+minus

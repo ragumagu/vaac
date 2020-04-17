@@ -50,7 +50,6 @@ for app_name in files:
             item[0] = item[0].strip()
             item[1] = item[1].strip()
             item[0] = item[0].lower()
-        lst = sorted(lst, key=lambda x: x[0])
 
     with open(sourcepath, 'w') as destfile:
         for item in lst:

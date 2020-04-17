@@ -1,42 +1,42 @@
-HIDE ALL WINDOWS,ctrl+super+d
-MOVE TO WORKSPACE ABOVE,super+Page_Up
-MOVE TO WORKSPACE BELOW,super+Page_Down
-MOVE WINDOW ONE WORKSPACE DOWN,shift+super+Page_Down
-MOVE WINDOW ONE WORKSPACE UP,shift+super+Page_Up
-MOVE WINDOW TO LAST WORKSPACE,shift+super+End
-SWITCH WINDOWS,alt+Tab
-SWITCH WINDOWS DIRECTLY,alt+Escape
-SWITCH WINDOWS OF,alt+F6
-COPY WINDOW SCREENSHOT,ctrl+alt+Print
-COPY PARTIAL SCREENSHOT,ctrl+shift+Print
-COPY SCREENSHOT,ctrl+Print
-RECORD SCREENCAST,shift+ctrl+alt+r
-SAVE WINDOW SCREENSHOT,alt+Print
-SAVE PARTIAL SCREENSHOT,shift+Print
-SAVE SCREENSHOT,Print
-FOCUS ACTIVE NOTIFICATION,super+n
-LOCK SCREEN,super+l
-LOG OUT,ctrl+alt+Delete
-OPEN APPLICATION MENU,super+F10
-SHOW ALL APPLICATIONS,super+a
-SHOW ACTIVITIES OVERVIEW,alt+F1
-SHOW NOTIFICATION LIST,super+v
-SHOW OVERVIEW,super+s
-SHOW COMMAND PROMPT,alt+F2
-SWITCH TO NEXT INPUT SOURCE,super+space
-SWITCH TO PREVIOUS INPUT SOURCE,shift+super+space
-TURN SCREEN READER ON,alt+super+s
-TURN SCREEN READER OFF,alt+super+s
-TURN ZOOM ON,alt+super+8
-TURN ZOOM OFF,alt+super+8
-ZOOM IN,alt+super+equal
-ZOOM OUT,alt+super+minus
-ACTIVATE WINDOW MENU,alt+space
-CLOSE WINDOW,alt+F4
-HIDE WINDOW,super+h
-MAXIMIZE WINDOW,super+Up
-MOVE WINDOW,alt+F7
-RESIZE WINDOW,alt+F8
-RESTORE WINDOW,super+Down
-VIEW SPLIT ON LEFT,super+Left
-VIEW SPLIT ON RIGHT,super+Right
+activate window menu,alt+space
+close window,alt+F4
+copy partial screenshot,ctrl+shift+Print
+copy screenshot,ctrl+Print
+copy window screenshot,ctrl+alt+Print
+focus active notification,super+n
+hide all windows,ctrl+super+d
+hide window,super+h
+lock screen,super+l
+log out,ctrl+alt+Delete
+maximize window,super+Up
+move to workspace above,super+Page_Up
+move to workspace below,super+Page_Down
+move window,alt+F7
+move window one workspace down,shift+super+Page_Down
+move window one workspace up,shift+super+Page_Up
+move window to last workspace,shift+super+End
+open application menu,super+F10
+record screencast,shift+ctrl+alt+r
+resize window,alt+F8
+restore window,super+Down
+save partial screenshot,shift+Print
+save screenshot,Print
+save window screenshot,alt+Print
+show activities overview,alt+F1
+show all applications,super+a
+show command prompt,alt+F2
+show notification list,super+v
+show overview,super+s
+switch to next input source,super+space
+switch to previous input source,shift+super+space
+switch windows,alt+Tab
+switch windows directly,alt+Escape
+switch windows of,alt+F6
+turn screen reader off,alt+super+s
+turn screen reader on,alt+super+s
+turn zoom off,alt+super+8
+turn zoom on,alt+super+8
+view split on left,super+Left
+view split on right,super+Right
+zoom in,alt+super+equal
+zoom out,alt+super+minus

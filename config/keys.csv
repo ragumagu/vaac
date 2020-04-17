@@ -1,175 +1,176 @@
-LEFT,Left
-UP,Up
-RIGHT,Right
-DOWN,Down
-ESCAPE,Escape
-F ONE,F1
-F TWO,F2
-F THREE,F3
-F FOUR,F4
-F FIVE,F5
-F SIX,F6
-F SEVEN,F7
-F EIGHT,F8
-F NINE,F9
-F TEN,F10
-F ELEVEN,F11
-F TWELVE,F12
-FUNCTION ONE,F1
-FUNCTION TWO,F2
-FUNCTION THREE,F3
-FUNCTION FOUR,F4
-FUNCTION FIVE,F5
-FUNCTION SIX,F6
-FUNCTION SEVEN,F7
-FUNCTION EIGHT,F8
-FUNCTION NINE,F9
-FUNCTION TEN,F10
-FUNCTION ELEVEN,F11
-FUNCTION TWELVE,F12
-PRINT SCREEN,Print
-PRINT,Print
-SCROLL LOCK,Scroll_Lock
-PAUSE,Pause
-GRAVE,grave
-TILDE,asciitilde
-EXCLAMATION MARK,exclam
-AT,at
-NUMBER SIGN,numbersign
-HASH,numbersign
-DOLLAR SIGN,dollar
-DOLLAR,dollar
-PERCENT SIGN,percent
-PERCENT,percent
-CIRCUMFLEX ACCENT,asciicircum
-CARET,asciicircum
-AMPERSAND,ampersand
-AND,ampersand
-ASTERISK,asterisk
-LEFT PARENTHESIS,parenleft
-PAREN LEFT,parenleft
-PARENTHESIS LEFT,parenleft
-RIGHT PARENTHESIS,parenright
-PARENTHESIS RIGHT,parenright
-PAREN RIGHT,parenright
-MINUS,minus
-HYPHEN,minus
-LOW LINE,underscore
-UNDER SCORE,underscore
-EQUALS SIGN,equal
-EQUALS,equal
-PLUS SIGN,plus
-PLUS,plus
-REVERSE SOLIDUS,backslash
-BACK SLASH,backslash
-VERTICAL LINE,bar
-BAR,bar
-PIPE,bar
-BACKSPACE,BackSpace
-INSERT,Insert
-HOME,Home
-PAGE UP,Page_Up
-NUM LOCK,Num_Lock
-TAB,Tab
-LEFT SQUARE BRACKET,bracketleft
-BRACKET LEFT,bracketleft
-LEFT CURLY BRACKET,braceleft
-BRACE LEFT,braceleft
-BRACKET SQUARE RIGHT,bracketright
-BRACKET RIGHT,bracketright
-RIGHT CURLY BRACKET,braceright
-BRACE RIGHT,braceright
-ENTER,Return
-DELETE,Delete
-END,End
-PAGE DOWN,Page_Down
-CAPS LOCK,Caps_Lock
-COLON,colon
-SEMI COLON,semicolon
-APOSTROPHE,apostrophe
-QUOTATION MARK,quotedbl
-DOUBLE QUOTE,quotedbl
-Shift,Shift_L
-Shift LEFT,Shift_L
-LESS THAN,less
-COMMA,comma
-GREATER THAN,greater
-FULL STOP,period
-PERIOD,period
-QUESTION MARK,question
-SOLIDUS,slash
-SLASH,slash
-Shift RIGHT,Shift_R
-Control,Control_L
-Control LEFT,Control_L
-super,Super_L
-SUPER LEFT,Super_L
-ALT,Alt_L
-ALT LEFT,Alt_L
-SPACE,space
-ALT RIGHT,Alt_R
-SUPER RIGHT,Super_R
-MENU,Menu
-Control RIGHT,Control_R
-ZERO,0
-ONE,1
-TWO,2
-THREE,3
-FOUR,4
-FIVE,5
-SIX,6
-SEVEN,7
-EIGHT,8
-NINE,9
-CAPITAL A,A
-CAPITAL B,B
-CAPITAL C,C
-CAPITAL D,D
-CAPITAL E,E
-CAPITAL F,F
-CAPITAL G,G
-CAPITAL H,H
-CAPITAL I,I
-CAPITAL J,J
-CAPITAL K,K
-CAPITAL L,L
-CAPITAL M,M
-CAPITAL N,N
-CAPITAL O,O
-CAPITAL P,P
-CAPITAL Q,Q
-CAPITAL R,R
-CAPITAL S,S
-CAPITAL T,T
-CAPITAL U,U
-CAPITAL V,V
-CAPITAL W,W
-CAPITAL X,X
-CAPITAL Y,Y
-CAPITAL Z,Z
-SMALL A,a
-SMALL B,b
-SMALL C,c
-SMALL D,d
-SMALL E,e
-SMALL F,f
-SMALL G,g
-SMALL H,h
-SMALL I,i
-SMALL J,j
-SMALL K,k
-SMALL L,l
-SMALL M,m
-SMALL N,n
-SMALL O,o
-SMALL P,p
-SMALL Q,q
-SMALL R,r
-SMALL S,s
-SMALL T,t
-SMALL U,u
-SMALL V,v
-SMALL W,w
-SMALL X,x
-SMALL Y,y
-SMALL Z,z
+left,Left
+up,Up
+right,Right
+down,Down
+escape,Escape
+f one,F1
+f two,F2
+f three,F3
+f four,F4
+f five,F5
+f six,F6
+f seven,F7
+f eight,F8
+f nine,F9
+f ten,F10
+f eleven,F11
+f twelve,F12
+function one,F1
+function two,F2
+function three,F3
+function four,F4
+function five,F5
+function six,F6
+function seven,F7
+function eight,F8
+function nine,F9
+function ten,F10
+function eleven,F11
+function twelve,F12
+print screen,Print
+print,Print
+scroll lock,Scroll_Lock
+pause,Pause
+grave,grave
+tilde,asciitilde
+exclamation mark,exclam
+at,at
+number sign,numbersign
+hash,numbersign
+dollar sign,dollar
+dollar,dollar
+percent sign,percent
+percent,percent
+circumflex accent,asciicircum
+caret,asciicircum
+ampersand,ampersand
+and,ampersand
+asterisk,asterisk
+left parenthesis,parenleft
+paren left,parenleft
+parenthesis left,parenleft
+right parenthesis,parenright
+parenthesis right,parenright
+paren right,parenright
+minus,minus
+hyphen,minus
+low line,underscore
+under score,underscore
+equals sign,equal
+equals,equal
+plus sign,plus
+plus,plus
+reverse solidus,backslash
+back slash,backslash
+vertical line,bar
+bar,bar
+pipe,bar
+backspace,BackSpace
+insert,Insert
+home,Home
+page up,Page_Up
+num lock,Num_Lock
+tab,Tab
+left square bracket,bracketleft
+bracket left,bracketleft
+left curly bracket,braceleft
+brace left,braceleft
+bracket square right,bracketright
+bracket right,bracketright
+right curly bracket,braceright
+brace right,braceright
+enter,Return
+delete,Delete
+end,End
+page down,Page_Down
+caps lock,Caps_Lock
+colon,colon
+semi colon,semicolon
+apostrophe,apostrophe
+quotation mark,quotedbl
+double quote,quotedbl
+shift,shift
+shift left,Shift_L
+less than,less
+comma,comma
+greater than,greater
+full stop,period
+period,period
+question mark,question
+solidus,slash
+slash,slash
+shift right,Shift_R
+control,ctrl
+control left,Control_L
+super,super
+super left,Super_L
+alt,alt
+meta,meta
+alt left,Alt_L
+space,space
+alt right,Alt_R
+super right,Super_R
+menu,Menu
+control right,Control_R
+zero,0
+one,1
+two,2
+three,3
+four,4
+five,5
+six,6
+seven,7
+eight,8
+nine,9
+capital a,A
+capital b,B
+capital c,C
+capital d,D
+capital e,E
+capital f,F
+capital g,G
+capital h,H
+capital i,I
+capital j,J
+capital k,K
+capital l,L
+capital m,M
+capital n,N
+capital o,O
+capital p,P
+capital q,Q
+capital r,R
+capital s,S
+capital t,T
+capital u,U
+capital v,V
+capital w,W
+capital x,X
+capital y,Y
+capital z,Z
+small a,a
+small b,b
+small c,c
+small d,d
+small e,e
+small f,f
+small g,g
+small h,h
+small i,i
+small j,j
+small k,k
+small l,l
+small m,m
+small n,n
+small o,o
+small p,p
+small q,q
+small r,r
+small s,s
+small t,t
+small u,u
+small v,v
+small w,w
+small x,x
+small y,y
+small z,z

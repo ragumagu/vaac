@@ -1,52 +1,52 @@
-NEW WINDOW,ctrl+n
-CLOSE WINDOW,ctrl+w
-CLOSE TAB,ctrl+w
-SEARCH,ctrl+f
-SHOW HELP,F1
-SHORTCUTS,ctrl+F1
-OPEN,ctrl+o
-BACK,BackSpace
-OPEN IN NEW TAB,ctrl+Return
-OPEN IN NEW WINDOW,shift+Return
-OPEN ITEM LOCATION,ctrl+alt+o
-OPEN FILE AND CLOSE WINDOW,shift+ctrl+Down
-NEW TAB,ctrl+t
-GO TO PREVIOUS TAB,ctrl+Page_Up
-GO TO NEXT TAB,ctrl+Page_Down
-SWITCH TO TAB ONE,alt+1
-SWITCH TO TAB TWO,alt+2
-SWITCH TO TAB THREE,alt+3
-SWITCH TO TAB FOUR,alt+4
-SWITCH TO TAB FIVE,alt+5
-SWITCH TO TAB SIX,alt+6
-SWITCH TO TAB SEVEN,alt+7
-SWITCH TO TAB EIGHT,alt+8
-SWITCH TO TAB NINE,alt+9
-MOVE TAB LEFT,shift+ctrl+Page_Up
-MOVE TAB RIGHT,shift+ctrl+Page_Down
-RESTORE TAB,ctrl+shift+t
-GO TO HOME FOLDER,alt+Home
-ENTER LOCATION,ctrl+l
-ZOOM IN,ctrl+plus
-ZOOM OUT,ctrl+minus
-RESET ZOOM,ctrl+0
-REFRESH,F5
-SHOW HIDDEN FILES,ctrl+h
-HIDE HIDDEN FILES,ctrl+h
-SHOW ACTION MENU,F10
-HIDE ACTION MENU,F10
-SHOW SIDEBAR,F9
-HIDE SIDEBAR,F9
-NEW FOLDER,shift+ctrl+Page_Down
-RENAME,F2
-MOVE TO TRASH,Delete
-DELETE PERMANENTLY,shift+Delete
-CUT,ctrl+x
-COPY,ctrl+c
-PASTE,ctrl+v
-SELECT ALL,ctrl+a
-INVERT SELECTION,shift+ctrl+i
-SELECT MATCHING ITEMS,ctrl+s
-UNDO,ctrl+z
-REDO,shift+ctrl+z
-SHOW ITEM PROPERTIES,ctrl+i
+back,BackSpace
+close tab,ctrl+w
+close window,ctrl+w
+copy,ctrl+c
+cut,ctrl+x
+delete permanently,shift+Delete
+enter location,ctrl+l
+go to home folder,alt+Home
+go to next tab,ctrl+Page_Down
+go to previous tab,ctrl+Page_Up
+hide action menu,F10
+hide hidden files,ctrl+h
+hide sidebar,F9
+invert selection,shift+ctrl+i
+move tab left,shift+ctrl+Page_Up
+move tab right,shift+ctrl+Page_Down
+move to trash,Delete
+new folder,shift+ctrl+Page_Down
+new tab,ctrl+t
+new window,ctrl+n
+open,ctrl+o
+open file and close window,shift+ctrl+Down
+open in new tab,ctrl+Return
+open in new window,shift+Return
+open item location,ctrl+alt+o
+paste,ctrl+v
+redo,shift+ctrl+z
+refresh,F5
+rename,F2
+reset zoom,ctrl+0
+restore tab,ctrl+shift+t
+search,ctrl+f
+select all,ctrl+a
+select matching items,ctrl+s
+shortcuts,ctrl+F1
+show action menu,F10
+show help,F1
+show hidden files,ctrl+h
+show item properties,ctrl+i
+show sidebar,F9
+switch to tab eight,alt+8
+switch to tab five,alt+5
+switch to tab four,alt+4
+switch to tab nine,alt+9
+switch to tab one,alt+1
+switch to tab seven,alt+7
+switch to tab six,alt+6
+switch to tab three,alt+3
+switch to tab two,alt+2
+undo,ctrl+z
+zoom in,ctrl+plus
+zoom out,ctrl+minus
