@@ -1,404 +1,404 @@
-to,beginning go line of to,
-to,beginning go to,
-to,beginning seek to,
-to,delete left to word,
-to,delete right to word,
-to,eight switch tab to,
-to,end go line of to,
-to,end go to,
-to,end move tab to,
-to,end seek to,
-to,five switch tab to,
-to,four switch tab to,
-to,frame move next to,
-to,frame move previous to,
-to,go left one to word,
-to,go one right to word,
-to,last switch tab to,
-to,mode presentation switch to,
-to,move start tab to,
-to,one switch tab to,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab three to,
-to,switch tab to two,
-________________________________________________________________________________
-tab,close tab,
-tab,close tab undo,
-tab,eight switch tab to,
-tab,end move tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,last switch tab to,
-tab,left move tab,
-tab,move right tab,
-tab,move start tab to,
-tab,new tab,
-tab,next tab,
-tab,one switch tab to,
-tab,previous tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab three to,
-tab,switch tab to two,
-________________________________________________________________________________
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,last switch tab to,
-switch,mode presentation switch to,
-switch,one switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab three to,
-switch,switch tab to two,
-________________________________________________________________________________
-page,bookmark page this,
-page,box focus number page,
-page,down page,
-page,info page,
-page,next page,
-page,page previous,
-page,page source,
-page,page up,
-________________________________________________________________________________
-go,beginning go line of to,
-go,beginning go to,
-go,end go line of to,
-go,end go to,
-go,go,
-go,go left one to word,
-go,go one right to word,
-________________________________________________________________________________
-seek,back fifteen seconds seek,
-seek,back percent seek ten,
-seek,beginning seek to,
-seek,end seek to,
-seek,fifteen forward seconds seek,
-seek,forward percent seek ten,
-________________________________________________________________________________
-window,bookmarks library window,
-window,close undo window,
-window,close window,
-window,history library window,
-window,new private window,
-window,new window,
-________________________________________________________________________________
-find,close find quick,
-find,find,
-find,find links quick,
-find,find next,
-find,find previous,
-find,find quick,
-________________________________________________________________________________
-move,end move tab to,
-move,frame move next to,
-move,frame move previous to,
-move,left move tab,
-move,move right tab,
-move,move start tab to,
-________________________________________________________________________________
-close,close find quick,
-close,close tab,
-close,close tab undo,
-close,close undo window,
-close,close window,
-________________________________________________________________________________
-next,find next,
-next,focus next,
-next,frame move next to,
-next,next page,
-next,next tab,
-________________________________________________________________________________
-previous,find previous,
-previous,focus previous,
-previous,frame move previous to,
-previous,page previous,
-previous,previous tab,
-________________________________________________________________________________
-focus,bar focus search,
-focus,box focus number page,
-focus,focus next,
-focus,focus previous,
+to,delete word to left,firefox
+to,delete word to right,firefox
+to,go one word to left,firefox
+to,go one word to right,firefox
+to,go to beginning,firefox
+to,go to beginning of line,firefox
+to,go to end,firefox
+to,go to end of line,firefox
+to,move tab to end,firefox
+to,move tab to start,firefox
+to,move to next frame,firefox
+to,move to previous frame,firefox
+to,seek to beginning,firefox
+to,seek to end,firefox
+to,switch to last tab,firefox
+to,switch to presentation mode,firefox
+to,switch to tab eight,firefox
+to,switch to tab five,firefox
+to,switch to tab four,firefox
+to,switch to tab one,firefox
+to,switch to tab seven,firefox
+to,switch to tab six,firefox
+to,switch to tab three,firefox
+to,switch to tab two,firefox
+________________________________________________________________________________
+tab,close tab,firefox
+tab,move tab left,firefox
+tab,move tab right,firefox
+tab,move tab to end,firefox
+tab,move tab to start,firefox
+tab,new tab,firefox
+tab,next tab,firefox
+tab,previous tab,firefox
+tab,switch to last tab,firefox
+tab,switch to tab eight,firefox
+tab,switch to tab five,firefox
+tab,switch to tab four,firefox
+tab,switch to tab one,firefox
+tab,switch to tab seven,firefox
+tab,switch to tab six,firefox
+tab,switch to tab three,firefox
+tab,switch to tab two,firefox
+tab,undo close tab,firefox
+________________________________________________________________________________
+switch,switch to last tab,firefox
+switch,switch to presentation mode,firefox
+switch,switch to tab eight,firefox
+switch,switch to tab five,firefox
+switch,switch to tab four,firefox
+switch,switch to tab one,firefox
+switch,switch to tab seven,firefox
+switch,switch to tab six,firefox
+switch,switch to tab three,firefox
+switch,switch to tab two,firefox
+________________________________________________________________________________
+page,bookmark this page,firefox
+page,focus page number box,firefox
+page,next page,firefox
+page,page down,firefox
+page,page info,firefox
+page,page source,firefox
+page,page up,firefox
+page,previous page,firefox
+________________________________________________________________________________
+go,go,firefox
+go,go one word to left,firefox
+go,go one word to right,firefox
+go,go to beginning,firefox
+go,go to beginning of line,firefox
+go,go to end,firefox
+go,go to end of line,firefox
+________________________________________________________________________________
+find,close quick find,firefox
+find,find,firefox
+find,find next,firefox
+find,find previous,firefox
+find,quick find,firefox
+find,quick find links,firefox
+________________________________________________________________________________
+window,close window,firefox
+window,library window bookmarks,firefox
+window,library window history,firefox
+window,new private window,firefox
+window,new window,firefox
+window,undo close window,firefox
+________________________________________________________________________________
+move,move tab left,firefox
+move,move tab right,firefox
+move,move tab to end,firefox
+move,move tab to start,firefox
+move,move to next frame,firefox
+move,move to previous frame,firefox
+________________________________________________________________________________
+seek,seek back fifteen seconds,firefox
+seek,seek back ten percent,firefox
+seek,seek forward fifteen seconds,firefox
+seek,seek forward ten percent,firefox
+seek,seek to beginning,firefox
+seek,seek to end,firefox
+________________________________________________________________________________
+close,close quick find,firefox
+close,close tab,firefox
+close,close window,firefox
+close,undo close tab,firefox
+close,undo close window,firefox
+________________________________________________________________________________
+next,find next,firefox
+next,focus next,firefox
+next,move to next frame,firefox
+next,next page,firefox
+next,next tab,firefox
+________________________________________________________________________________
+previous,find previous,firefox
+previous,focus previous,firefox
+previous,move to previous frame,firefox
+previous,previous page,firefox
+previous,previous tab,firefox
+________________________________________________________________________________
+word,delete word to left,firefox
+word,delete word to right,firefox
+word,go one word to left,firefox
+word,go one word to right,firefox
 ________________________________________________________________________________
-word,delete left to word,
-word,delete right to word,
-word,go left one to word,
-word,go one right to word,
+focus,focus next,firefox
+focus,focus page number box,firefox
+focus,focus previous,firefox
+focus,focus search bar,firefox
 ________________________________________________________________________________
-end,end go line of to,
-end,end go to,
-end,end move tab to,
-end,end seek to,
+end,go to end,firefox
+end,go to end of line,firefox
+end,move tab to end,firefox
+end,seek to end,firefox
 ________________________________________________________________________________
-back,back,
-back,back fifteen seconds seek,
-back,back percent seek ten,
+back,back,firefox
+back,seek back fifteen seconds,firefox
+back,seek back ten percent,firefox
 ________________________________________________________________________________
-bar,bar focus search,
-bar,bar location select,
-bar,bar menu,
+history,clear history,firefox
+history,history sidebar,firefox
+history,library window history,firefox
 ________________________________________________________________________________
-beginning,beginning go line of to,
-beginning,beginning go to,
-beginning,beginning seek to,
+quick,close quick find,firefox
+quick,quick find,firefox
+quick,quick find links,firefox
 ________________________________________________________________________________
-history,clear history,
-history,history library window,
-history,history sidebar,
+delete,delete,firefox
+delete,delete word to left,firefox
+delete,delete word to right,firefox
 ________________________________________________________________________________
-quick,close find quick,
-quick,find links quick,
-quick,find quick,
+left,delete word to left,firefox
+left,go one word to left,firefox
+left,move tab left,firefox
 ________________________________________________________________________________
-undo,close tab undo,
-undo,close undo window,
-undo,undo,
+right,delete word to right,firefox
+right,go one word to right,firefox
+right,move tab right,firefox
 ________________________________________________________________________________
-toggle,context menu toggle,
-toggle,developer toggle tools,
-toggle,mode reader toggle,
+bar,focus search bar,firefox
+bar,menu bar,firefox
+bar,select location bar,firefox
 ________________________________________________________________________________
-delete,delete,
-delete,delete left to word,
-delete,delete right to word,
+forward,forward,firefox
+forward,seek forward fifteen seconds,firefox
+forward,seek forward ten percent,firefox
 ________________________________________________________________________________
-left,delete left to word,
-left,go left one to word,
-left,left move tab,
+one,go one word to left,firefox
+one,go one word to right,firefox
+one,switch to tab one,firefox
 ________________________________________________________________________________
-right,delete right to word,
-right,go one right to word,
-right,move right tab,
+beginning,go to beginning,firefox
+beginning,go to beginning of line,firefox
+beginning,seek to beginning,firefox
 ________________________________________________________________________________
-forward,fifteen forward seconds seek,
-forward,forward,
-forward,forward percent seek ten,
+new,new private window,firefox
+new,new tab,firefox
+new,new window,firefox
 ________________________________________________________________________________
-one,go left one to word,
-one,go one right to word,
-one,one switch tab to,
+zoom,reset zoom,firefox
+zoom,zoom in,firefox
+zoom,zoom out,firefox
 ________________________________________________________________________________
-zoom,in zoom,
-zoom,out zoom,
-zoom,reset zoom,
+toggle,toggle context menu,firefox
+toggle,toggle developer tools,firefox
+toggle,toggle reader mode,firefox
 ________________________________________________________________________________
-new,new private window,
-new,new tab,
-new,new window,
+undo,undo,firefox
+undo,undo close tab,firefox
+undo,undo close window,firefox
 ________________________________________________________________________________
-select,all select,
-select,bar location select,
+bookmarks,bookmarks sidebar,firefox
+bookmarks,library window bookmarks,firefox
 ________________________________________________________________________________
-paste,as paste plain text,
-paste,paste,
+sidebar,bookmarks sidebar,firefox
+sidebar,history sidebar,firefox
 ________________________________________________________________________________
-text,as paste plain text,
-text,selection text tool,
+console,browser console,firefox
+console,web console,firefox
 ________________________________________________________________________________
-fifteen,back fifteen seconds seek,
-fifteen,fifteen forward seconds seek,
+volume,decrease volume,firefox
+volume,increase volume,firefox
 ________________________________________________________________________________
-seconds,back fifteen seconds seek,
-seconds,fifteen forward seconds seek,
+developer,developer toolbar,firefox
+developer,toggle developer tools,firefox
 ________________________________________________________________________________
-percent,back percent seek ten,
-percent,forward percent seek ten,
+down,down,firefox
+down,page down,firefox
 ________________________________________________________________________________
-ten,back percent seek ten,
-ten,forward percent seek ten,
+full,exit full screen,firefox
+full,full screen,firefox
 ________________________________________________________________________________
-menu,bar menu,
-menu,context menu toggle,
+screen,exit full screen,firefox
+screen,full screen,firefox
 ________________________________________________________________________________
-line,beginning go line of to,
-line,end go line of to,
+reload,force reload,firefox
+reload,reload,firefox
 ________________________________________________________________________________
-of,beginning go line of to,
-of,end go line of to,
+of,go to beginning of line,firefox
+of,go to end of line,firefox
 ________________________________________________________________________________
-bookmarks,bookmarks library window,
-bookmarks,bookmarks sidebar,
+line,go to beginning of line,firefox
+line,go to end of line,firefox
 ________________________________________________________________________________
-library,bookmarks library window,
-library,history library window,
+tool,hand tool,firefox
+tool,text selection tool,firefox
 ________________________________________________________________________________
-sidebar,bookmarks sidebar,
-sidebar,history sidebar,
+library,library window bookmarks,firefox
+library,library window history,firefox
 ________________________________________________________________________________
-console,browser console,
-console,console web,
+menu,menu bar,firefox
+menu,toggle context menu,firefox
 ________________________________________________________________________________
-rotate,counterclockwise rotate,
-rotate,rotate,
+frame,move to next frame,firefox
+frame,move to previous frame,firefox
 ________________________________________________________________________________
-volume,decrease volume,
-volume,increase volume,
+up,page up,firefox
+up,up,firefox
 ________________________________________________________________________________
-developer,developer toggle tools,
-developer,developer toolbar,
+paste,paste,firefox
+paste,paste as plain text,firefox
 ________________________________________________________________________________
-down,down,
-down,down page,
+text,paste as plain text,firefox
+text,text selection tool,firefox
 ________________________________________________________________________________
-full,exit full screen,
-full,full screen,
+rotate,rotate,firefox
+rotate,rotate counterclockwise,firefox
 ________________________________________________________________________________
-screen,exit full screen,
-screen,full screen,
+fifteen,seek back fifteen seconds,firefox
+fifteen,seek forward fifteen seconds,firefox
 ________________________________________________________________________________
-reload,force reload,
-reload,reload,
+seconds,seek back fifteen seconds,firefox
+seconds,seek forward fifteen seconds,firefox
 ________________________________________________________________________________
-frame,frame move next to,
-frame,frame move previous to,
+ten,seek back ten percent,firefox
+ten,seek forward ten percent,firefox
 ________________________________________________________________________________
-tool,hand tool,
-tool,selection text tool,
+percent,seek back ten percent,firefox
+percent,seek forward ten percent,firefox
 ________________________________________________________________________________
-mode,mode presentation switch to,
-mode,mode reader toggle,
+select,select all,firefox
+select,select location bar,firefox
 ________________________________________________________________________________
-up,page up,
-up,up,
+mode,switch to presentation mode,firefox
+mode,toggle reader mode,firefox
 ________________________________________________________________________________
-add,add ons,
+add,add ons,firefox
 ________________________________________________________________________________
-ons,add ons,
+ons,add ons,firefox
 ________________________________________________________________________________
-all,all select,
+bookmark,bookmark this page,firefox
 ________________________________________________________________________________
-as,as paste plain text,
+this,bookmark this page,firefox
 ________________________________________________________________________________
-plain,as paste plain text,
+bottom,bottom,firefox
 ________________________________________________________________________________
-search,bar focus search,
+browser,browser console,firefox
 ________________________________________________________________________________
-location,bar location select,
+caret,caret browsing,firefox
 ________________________________________________________________________________
-bookmark,bookmark page this,
+browsing,caret browsing,firefox
 ________________________________________________________________________________
-this,bookmark page this,
+clear,clear history,firefox
 ________________________________________________________________________________
-bottom,bottom,
+copy,copy,firefox
 ________________________________________________________________________________
-box,box focus number page,
+cut,cut,firefox
 ________________________________________________________________________________
-number,box focus number page,
+debugger,debugger,firefox
 ________________________________________________________________________________
-browser,browser console,
+decrease,decrease volume,firefox
 ________________________________________________________________________________
-browsing,browsing caret,
+toolbar,developer toolbar,firefox
 ________________________________________________________________________________
-caret,browsing caret,
+downloads,downloads,firefox
 ________________________________________________________________________________
-clear,clear history,
+exit,exit full screen,firefox
 ________________________________________________________________________________
-web,console web,
+number,focus page number box,firefox
 ________________________________________________________________________________
-context,context menu toggle,
+box,focus page number box,firefox
 ________________________________________________________________________________
-copy,copy,
+search,focus search bar,firefox
 ________________________________________________________________________________
-counterclockwise,counterclockwise rotate,
+force,force reload,firefox
 ________________________________________________________________________________
-cut,cut,
+hand,hand tool,firefox
 ________________________________________________________________________________
-debugger,debugger,
+home,home,firefox
 ________________________________________________________________________________
-decrease,decrease volume,
+increase,increase volume,firefox
 ________________________________________________________________________________
-design,design responsive view,
+inspector,inspector,firefox
 ________________________________________________________________________________
-responsive,design responsive view,
+start,move tab to start,firefox
 ________________________________________________________________________________
-view,design responsive view,
+mute,mute,firefox
 ________________________________________________________________________________
-tools,developer toggle tools,
+network,network,firefox
 ________________________________________________________________________________
-toolbar,developer toolbar,
+private,new private window,firefox
 ________________________________________________________________________________
-downloads,downloads,
+open,open file,firefox
 ________________________________________________________________________________
-editor,editor style,
+file,open file,firefox
 ________________________________________________________________________________
-style,editor style,
+info,page info,firefox
 ________________________________________________________________________________
-eight,eight switch tab to,
+source,page source,firefox
 ________________________________________________________________________________
-exit,exit full screen,
+as,paste as plain text,firefox
 ________________________________________________________________________________
-file,file open,
+plain,paste as plain text,firefox
 ________________________________________________________________________________
-open,file open,
+pause,pause,firefox
 ________________________________________________________________________________
-links,find links quick,
+play,play,firefox
 ________________________________________________________________________________
-five,five switch tab to,
+print,print,firefox
 ________________________________________________________________________________
-force,force reload,
+profiler,profiler,firefox
 ________________________________________________________________________________
-four,four switch tab to,
+links,quick find links,firefox
 ________________________________________________________________________________
-hand,hand tool,
+quit,quit,firefox
 ________________________________________________________________________________
-home,home,
+redo,redo,firefox
 ________________________________________________________________________________
-in,in zoom,
+reset,reset zoom,firefox
 ________________________________________________________________________________
-increase,increase volume,
+responsive,responsive design view,firefox
 ________________________________________________________________________________
-info,info page,
+design,responsive design view,firefox
 ________________________________________________________________________________
-inspector,inspector,
+view,responsive design view,firefox
 ________________________________________________________________________________
-last,last switch tab to,
+counterclockwise,rotate counterclockwise,firefox
 ________________________________________________________________________________
-presentation,mode presentation switch to,
+save,save,firefox
 ________________________________________________________________________________
-reader,mode reader toggle,
+all,select all,firefox
 ________________________________________________________________________________
-start,move start tab to,
+location,select location bar,firefox
 ________________________________________________________________________________
-mute,mute,
+stop,stop,firefox
 ________________________________________________________________________________
-network,network,
+style,style editor,firefox
 ________________________________________________________________________________
-private,new private window,
+editor,style editor,firefox
 ________________________________________________________________________________
-out,out zoom,
+last,switch to last tab,firefox
 ________________________________________________________________________________
-source,page source,
+presentation,switch to presentation mode,firefox
 ________________________________________________________________________________
-pause,pause,
+eight,switch to tab eight,firefox
 ________________________________________________________________________________
-play,play,
+five,switch to tab five,firefox
 ________________________________________________________________________________
-print,print,
+four,switch to tab four,firefox
 ________________________________________________________________________________
-profiler,profiler,
+seven,switch to tab seven,firefox
 ________________________________________________________________________________
-quit,quit,
+six,switch to tab six,firefox
 ________________________________________________________________________________
-redo,redo,
+three,switch to tab three,firefox
 ________________________________________________________________________________
-reset,reset zoom,
+two,switch to tab two,firefox
 ________________________________________________________________________________
-save,save,
+selection,text selection tool,firefox
 ________________________________________________________________________________
-selection,selection text tool,
+context,toggle context menu,firefox
 ________________________________________________________________________________
-seven,seven switch tab to,
+tools,toggle developer tools,firefox
 ________________________________________________________________________________
-six,six switch tab to,
+reader,toggle reader mode,firefox
 ________________________________________________________________________________
-stop,stop,
+top,top,firefox
 ________________________________________________________________________________
-three,switch tab three to,
+unmute,unmute,firefox
 ________________________________________________________________________________
-two,switch tab to two,
+web,web console,firefox
 ________________________________________________________________________________
-top,top,
+in,zoom in,firefox
 ________________________________________________________________________________
-unmute,unmute,
+out,zoom out,firefox
 ________________________________________________________________________________

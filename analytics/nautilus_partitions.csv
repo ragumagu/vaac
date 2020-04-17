@@ -1,196 +1,196 @@
-tab,close tab,
-tab,eight switch tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,go next tab to,
-tab,go previous tab to,
-tab,in new open tab,
-tab,left move tab,
-tab,move right tab,
-tab,new tab,
-tab,nine switch tab to,
-tab,one switch tab to,
-tab,restore tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab three to,
-tab,switch tab to two,
+tab,close tab,nautilus
+tab,go to next tab,nautilus
+tab,go to previous tab,nautilus
+tab,move tab left,nautilus
+tab,move tab right,nautilus
+tab,new tab,nautilus
+tab,open in new tab,nautilus
+tab,restore tab,nautilus
+tab,switch to tab eight,nautilus
+tab,switch to tab five,nautilus
+tab,switch to tab four,nautilus
+tab,switch to tab nine,nautilus
+tab,switch to tab one,nautilus
+tab,switch to tab seven,nautilus
+tab,switch to tab six,nautilus
+tab,switch to tab three,nautilus
+tab,switch to tab two,nautilus
 ________________________________________________________________________________
-to,eight switch tab to,
-to,five switch tab to,
-to,folder go home to,
-to,four switch tab to,
-to,go next tab to,
-to,go previous tab to,
-to,move to trash,
-to,nine switch tab to,
-to,one switch tab to,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab three to,
-to,switch tab to two,
+to,go to home folder,nautilus
+to,go to next tab,nautilus
+to,go to previous tab,nautilus
+to,move to trash,nautilus
+to,switch to tab eight,nautilus
+to,switch to tab five,nautilus
+to,switch to tab four,nautilus
+to,switch to tab nine,nautilus
+to,switch to tab one,nautilus
+to,switch to tab seven,nautilus
+to,switch to tab six,nautilus
+to,switch to tab three,nautilus
+to,switch to tab two,nautilus
 ________________________________________________________________________________
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,nine switch tab to,
-switch,one switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab three to,
-switch,switch tab to two,
+switch,switch to tab eight,nautilus
+switch,switch to tab five,nautilus
+switch,switch to tab four,nautilus
+switch,switch to tab nine,nautilus
+switch,switch to tab one,nautilus
+switch,switch to tab seven,nautilus
+switch,switch to tab six,nautilus
+switch,switch to tab three,nautilus
+switch,switch to tab two,nautilus
 ________________________________________________________________________________
-show,action menu show,
-show,files hidden show,
-show,help show,
-show,item properties show,
-show,show sidebar,
+new,new folder,nautilus
+new,new tab,nautilus
+new,new window,nautilus
+new,open in new tab,nautilus
+new,open in new window,nautilus
 ________________________________________________________________________________
-open,and close file open window,
-open,in new open tab,
-open,in new open window,
-open,item location open,
-open,open,
+open,open,nautilus
+open,open file and close window,nautilus
+open,open in new tab,nautilus
+open,open in new window,nautilus
+open,open item location,nautilus
 ________________________________________________________________________________
-new,folder new,
-new,in new open tab,
-new,in new open window,
-new,new tab,
-new,new window,
+show,show action menu,nautilus
+show,show help,nautilus
+show,show hidden files,nautilus
+show,show item properties,nautilus
+show,show sidebar,nautilus
 ________________________________________________________________________________
-window,and close file open window,
-window,close window,
-window,in new open window,
-window,new window,
+window,close window,nautilus
+window,new window,nautilus
+window,open file and close window,nautilus
+window,open in new window,nautilus
 ________________________________________________________________________________
-hide,action hide menu,
-hide,files hidden hide,
-hide,hide sidebar,
+close,close tab,nautilus
+close,close window,nautilus
+close,open file and close window,nautilus
 ________________________________________________________________________________
-close,and close file open window,
-close,close tab,
-close,close window,
+go,go to home folder,nautilus
+go,go to next tab,nautilus
+go,go to previous tab,nautilus
 ________________________________________________________________________________
-go,folder go home to,
-go,go next tab to,
-go,go previous tab to,
+hide,hide action menu,nautilus
+hide,hide hidden files,nautilus
+hide,hide sidebar,nautilus
 ________________________________________________________________________________
-in,in new open tab,
-in,in new open window,
-in,in zoom,
+move,move tab left,nautilus
+move,move tab right,nautilus
+move,move to trash,nautilus
 ________________________________________________________________________________
-zoom,in zoom,
-zoom,out zoom,
-zoom,reset zoom,
+in,open in new tab,nautilus
+in,open in new window,nautilus
+in,zoom in,nautilus
 ________________________________________________________________________________
-move,left move tab,
-move,move right tab,
-move,move to trash,
+zoom,reset zoom,nautilus
+zoom,zoom in,nautilus
+zoom,zoom out,nautilus
 ________________________________________________________________________________
-action,action hide menu,
-action,action menu show,
+location,enter location,nautilus
+location,open item location,nautilus
 ________________________________________________________________________________
-menu,action hide menu,
-menu,action menu show,
+folder,go to home folder,nautilus
+folder,new folder,nautilus
 ________________________________________________________________________________
-select,all select,
-select,items matching select,
+action,hide action menu,nautilus
+action,show action menu,nautilus
 ________________________________________________________________________________
-location,enter location,
-location,item location open,
+menu,hide action menu,nautilus
+menu,show action menu,nautilus
 ________________________________________________________________________________
-files,files hidden hide,
-files,files hidden show,
+hidden,hide hidden files,nautilus
+hidden,show hidden files,nautilus
 ________________________________________________________________________________
-hidden,files hidden hide,
-hidden,files hidden show,
+files,hide hidden files,nautilus
+files,show hidden files,nautilus
 ________________________________________________________________________________
-folder,folder go home to,
-folder,folder new,
+sidebar,hide sidebar,nautilus
+sidebar,show sidebar,nautilus
 ________________________________________________________________________________
-sidebar,hide sidebar,
-sidebar,show sidebar,
+item,open item location,nautilus
+item,show item properties,nautilus
 ________________________________________________________________________________
-item,item location open,
-item,item properties show,
+select,select all,nautilus
+select,select matching items,nautilus
 ________________________________________________________________________________
-all,all select,
+back,back,nautilus
 ________________________________________________________________________________
-and,and close file open window,
+copy,copy,nautilus
 ________________________________________________________________________________
-file,and close file open window,
+cut,cut,nautilus
 ________________________________________________________________________________
-back,back,
+delete,delete permanently,nautilus
 ________________________________________________________________________________
-copy,copy,
+permanently,delete permanently,nautilus
 ________________________________________________________________________________
-cut,cut,
+enter,enter location,nautilus
 ________________________________________________________________________________
-delete,delete permanently,
+home,go to home folder,nautilus
 ________________________________________________________________________________
-permanently,delete permanently,
+next,go to next tab,nautilus
 ________________________________________________________________________________
-eight,eight switch tab to,
+previous,go to previous tab,nautilus
 ________________________________________________________________________________
-enter,enter location,
+invert,invert selection,nautilus
 ________________________________________________________________________________
-five,five switch tab to,
+selection,invert selection,nautilus
 ________________________________________________________________________________
-home,folder go home to,
+left,move tab left,nautilus
 ________________________________________________________________________________
-four,four switch tab to,
+right,move tab right,nautilus
 ________________________________________________________________________________
-next,go next tab to,
+trash,move to trash,nautilus
 ________________________________________________________________________________
-previous,go previous tab to,
+file,open file and close window,nautilus
 ________________________________________________________________________________
-help,help show,
+and,open file and close window,nautilus
 ________________________________________________________________________________
-invert,invert selection,
+paste,paste,nautilus
 ________________________________________________________________________________
-selection,invert selection,
+redo,redo,nautilus
 ________________________________________________________________________________
-properties,item properties show,
+refresh,refresh,nautilus
 ________________________________________________________________________________
-items,items matching select,
+rename,rename,nautilus
 ________________________________________________________________________________
-matching,items matching select,
+reset,reset zoom,nautilus
 ________________________________________________________________________________
-left,left move tab,
+restore,restore tab,nautilus
 ________________________________________________________________________________
-right,move right tab,
+search,search,nautilus
 ________________________________________________________________________________
-trash,move to trash,
+all,select all,nautilus
 ________________________________________________________________________________
-nine,nine switch tab to,
+matching,select matching items,nautilus
 ________________________________________________________________________________
-one,one switch tab to,
+items,select matching items,nautilus
 ________________________________________________________________________________
-out,out zoom,
+shortcuts,shortcuts,nautilus
 ________________________________________________________________________________
-paste,paste,
+help,show help,nautilus
 ________________________________________________________________________________
-redo,redo,
+properties,show item properties,nautilus
 ________________________________________________________________________________
-refresh,refresh,
+eight,switch to tab eight,nautilus
 ________________________________________________________________________________
-rename,rename,
+five,switch to tab five,nautilus
 ________________________________________________________________________________
-reset,reset zoom,
+four,switch to tab four,nautilus
 ________________________________________________________________________________
-restore,restore tab,
+nine,switch to tab nine,nautilus
 ________________________________________________________________________________
-search,search,
+one,switch to tab one,nautilus
 ________________________________________________________________________________
-seven,seven switch tab to,
+seven,switch to tab seven,nautilus
 ________________________________________________________________________________
-shortcuts,shortcuts,
+six,switch to tab six,nautilus
 ________________________________________________________________________________
-six,six switch tab to,
+three,switch to tab three,nautilus
 ________________________________________________________________________________
-three,switch tab three to,
+two,switch to tab two,nautilus
 ________________________________________________________________________________
-two,switch tab to two,
+undo,undo,nautilus
 ________________________________________________________________________________
-undo,undo,
+out,zoom out,nautilus
 ________________________________________________________________________________

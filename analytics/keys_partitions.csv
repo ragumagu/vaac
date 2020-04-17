@@ -1,421 +1,423 @@
-capital,a capital,
-capital,b capital,
-capital,c capital,
-capital,capital d,
-capital,capital e,
-capital,capital f,
-capital,capital g,
-capital,capital h,
-capital,capital i,
-capital,capital j,
-capital,capital k,
-capital,capital l,
-capital,capital m,
-capital,capital n,
-capital,capital o,
-capital,capital p,
-capital,capital q,
-capital,capital r,
-capital,capital s,
-capital,capital t,
-capital,capital u,
-capital,capital v,
-capital,capital w,
-capital,capital x,
-capital,capital y,
-capital,capital z,
-________________________________________________________________________________
-small,a small,
-small,b small,
-small,c small,
-small,d small,
-small,e small,
-small,f small,
-small,g small,
-small,h small,
-small,i small,
-small,j small,
-small,k small,
-small,l small,
-small,m small,
-small,n small,
-small,o small,
-small,p small,
-small,q small,
-small,r small,
-small,s small,
-small,small t,
-small,small u,
-small,small v,
-small,small w,
-small,small x,
-small,small y,
-small,small z,
-________________________________________________________________________________
-f,capital f,
-f,eight f,
-f,eleven f,
-f,f five,
-f,f four,
-f,f nine,
-f,f one,
-f,f seven,
-f,f six,
-f,f small,
-f,f ten,
-f,f three,
-f,f twelve,
-f,f two,
-________________________________________________________________________________
-left,alt left,
-left,brace left,
-left,bracket curly left,
-left,bracket left,
-left,bracket left square,
-left,control left,
-left,left,
-left,left paren,
-left,left parenthesis,
-left,left parenthesis,
-left,left shift,
-left,left super,
-________________________________________________________________________________
-right,alt right,
-right,brace right,
-right,bracket curly right,
-right,bracket right,
-right,bracket right square,
-right,control right,
-right,paren right,
-right,parenthesis right,
-right,parenthesis right,
-right,right,
-right,right shift,
-right,right super,
-________________________________________________________________________________
-function,eight function,
-function,eleven function,
-function,five function,
-function,four function,
-function,function nine,
-function,function one,
-function,function seven,
-function,function six,
-function,function ten,
-function,function three,
-function,function twelve,
-function,function two,
-________________________________________________________________________________
-bracket,bracket curly left,
-bracket,bracket curly right,
-bracket,bracket left,
-bracket,bracket left square,
-bracket,bracket right,
-bracket,bracket right square,
-________________________________________________________________________________
-sign,dollar sign,
-sign,equals sign,
-sign,number sign,
-sign,percent sign,
-sign,plus sign,
+capital,capital a,keys
+capital,capital b,keys
+capital,capital c,keys
+capital,capital d,keys
+capital,capital e,keys
+capital,capital f,keys
+capital,capital g,keys
+capital,capital h,keys
+capital,capital i,keys
+capital,capital j,keys
+capital,capital k,keys
+capital,capital l,keys
+capital,capital m,keys
+capital,capital n,keys
+capital,capital o,keys
+capital,capital p,keys
+capital,capital q,keys
+capital,capital r,keys
+capital,capital s,keys
+capital,capital t,keys
+capital,capital u,keys
+capital,capital v,keys
+capital,capital w,keys
+capital,capital x,keys
+capital,capital y,keys
+capital,capital z,keys
+________________________________________________________________________________
+small,small a,keys
+small,small b,keys
+small,small c,keys
+small,small d,keys
+small,small e,keys
+small,small f,keys
+small,small g,keys
+small,small h,keys
+small,small i,keys
+small,small j,keys
+small,small k,keys
+small,small l,keys
+small,small m,keys
+small,small n,keys
+small,small o,keys
+small,small p,keys
+small,small q,keys
+small,small r,keys
+small,small s,keys
+small,small t,keys
+small,small u,keys
+small,small v,keys
+small,small w,keys
+small,small x,keys
+small,small y,keys
+small,small z,keys
+________________________________________________________________________________
+f,capital f,keys
+f,f eight,keys
+f,f eleven,keys
+f,f five,keys
+f,f four,keys
+f,f nine,keys
+f,f one,keys
+f,f seven,keys
+f,f six,keys
+f,f ten,keys
+f,f three,keys
+f,f twelve,keys
+f,f two,keys
+f,small f,keys
+________________________________________________________________________________
+left,alt left,keys
+left,brace left,keys
+left,bracket left,keys
+left,control left,keys
+left,left,keys
+left,left curly bracket,keys
+left,left parenthesis,keys
+left,left square bracket,keys
+left,paren left,keys
+left,parenthesis left,keys
+left,shift left,keys
+left,super left,keys
+________________________________________________________________________________
+right,alt right,keys
+right,brace right,keys
+right,bracket right,keys
+right,bracket square right,keys
+right,control right,keys
+right,paren right,keys
+right,parenthesis right,keys
+right,right,keys
+right,right curly bracket,keys
+right,right parenthesis,keys
+right,shift right,keys
+right,super right,keys
+________________________________________________________________________________
+function,function eight,keys
+function,function eleven,keys
+function,function five,keys
+function,function four,keys
+function,function nine,keys
+function,function one,keys
+function,function seven,keys
+function,function six,keys
+function,function ten,keys
+function,function three,keys
+function,function twelve,keys
+function,function two,keys
+________________________________________________________________________________
+bracket,bracket left,keys
+bracket,bracket right,keys
+bracket,bracket square right,keys
+bracket,left curly bracket,keys
+bracket,left square bracket,keys
+bracket,right curly bracket,keys
+________________________________________________________________________________
+sign,dollar sign,keys
+sign,equals sign,keys
+sign,number sign,keys
+sign,percent sign,keys
+sign,plus sign,keys
 ________________________________________________________________________________
-parenthesis,left parenthesis,
-parenthesis,left parenthesis,
-parenthesis,parenthesis right,
-parenthesis,parenthesis right,
+parenthesis,left parenthesis,keys
+parenthesis,parenthesis left,keys
+parenthesis,parenthesis right,keys
+parenthesis,right parenthesis,keys
 ________________________________________________________________________________
-alt,alt,
-alt,alt left,
-alt,alt right,
+one,f one,keys
+one,function one,keys
+one,one,keys
 ________________________________________________________________________________
-lock,caps lock,
-lock,lock num,
-lock,lock scroll,
+two,f two,keys
+two,function two,keys
+two,two,keys
 ________________________________________________________________________________
-control,control,
-control,control left,
-control,control right,
+three,f three,keys
+three,function three,keys
+three,three,keys
 ________________________________________________________________________________
-eight,eight,
-eight,eight f,
-eight,eight function,
+four,f four,keys
+four,four,keys
+four,function four,keys
 ________________________________________________________________________________
-mark,exclamation mark,
-mark,mark question,
-mark,mark quotation,
+five,f five,keys
+five,five,keys
+five,function five,keys
 ________________________________________________________________________________
-five,f five,
-five,five,
-five,five function,
+six,f six,keys
+six,function six,keys
+six,six,keys
 ________________________________________________________________________________
-four,f four,
-four,four,
-four,four function,
+seven,f seven,keys
+seven,function seven,keys
+seven,seven,keys
 ________________________________________________________________________________
-nine,f nine,
-nine,function nine,
-nine,nine,
+eight,eight,keys
+eight,f eight,keys
+eight,function eight,keys
 ________________________________________________________________________________
-one,f one,
-one,function one,
-one,one,
+nine,f nine,keys
+nine,function nine,keys
+nine,nine,keys
 ________________________________________________________________________________
-seven,f seven,
-seven,function seven,
-seven,seven,
+lock,caps lock,keys
+lock,num lock,keys
+lock,scroll lock,keys
 ________________________________________________________________________________
-six,f six,
-six,function six,
-six,six,
+mark,exclamation mark,keys
+mark,question mark,keys
+mark,quotation mark,keys
 ________________________________________________________________________________
-three,f three,
-three,function three,
-three,three,
+shift,shift,keys
+shift,shift left,keys
+shift,shift right,keys
 ________________________________________________________________________________
-two,f two,
-two,function two,
-two,two,
+control,control,keys
+control,control left,keys
+control,control right,keys
 ________________________________________________________________________________
-shift,left shift,
-shift,right shift,
-shift,shift,
+super,super,keys
+super,super left,keys
+super,super right,keys
 ________________________________________________________________________________
-super,left super,
-super,right super,
-super,super,
+alt,alt,keys
+alt,alt left,keys
+alt,alt right,keys
 ________________________________________________________________________________
-a,a capital,
-a,a small,
+up,page up,keys
+up,up,keys
 ________________________________________________________________________________
-b,b capital,
-b,b small,
+down,down,keys
+down,page down,keys
 ________________________________________________________________________________
-slash,back slash,
-slash,slash,
+ten,f ten,keys
+ten,function ten,keys
 ________________________________________________________________________________
-brace,brace left,
-brace,brace right,
+eleven,f eleven,keys
+eleven,function eleven,keys
 ________________________________________________________________________________
-curly,bracket curly left,
-curly,bracket curly right,
+twelve,f twelve,keys
+twelve,function twelve,keys
 ________________________________________________________________________________
-square,bracket left square,
-square,bracket right square,
+print,print,keys
+print,print screen,keys
 ________________________________________________________________________________
-c,c capital,
-c,c small,
+dollar,dollar,keys
+dollar,dollar sign,keys
 ________________________________________________________________________________
-d,capital d,
-d,d small,
+percent,percent,keys
+percent,percent sign,keys
 ________________________________________________________________________________
-e,capital e,
-e,e small,
+paren,paren left,keys
+paren,paren right,keys
 ________________________________________________________________________________
-g,capital g,
-g,g small,
+line,low line,keys
+line,vertical line,keys
 ________________________________________________________________________________
-h,capital h,
-h,h small,
+equals,equals,keys
+equals,equals sign,keys
 ________________________________________________________________________________
-i,capital i,
-i,i small,
+plus,plus,keys
+plus,plus sign,keys
 ________________________________________________________________________________
-j,capital j,
-j,j small,
+solidus,reverse solidus,keys
+solidus,solidus,keys
 ________________________________________________________________________________
-k,capital k,
-k,k small,
+slash,back slash,keys
+slash,slash,keys
 ________________________________________________________________________________
-l,capital l,
-l,l small,
+page,page down,keys
+page,page up,keys
 ________________________________________________________________________________
-m,capital m,
-m,m small,
+square,bracket square right,keys
+square,left square bracket,keys
 ________________________________________________________________________________
-n,capital n,
-n,n small,
+curly,left curly bracket,keys
+curly,right curly bracket,keys
 ________________________________________________________________________________
-o,capital o,
-o,o small,
+brace,brace left,keys
+brace,brace right,keys
 ________________________________________________________________________________
-p,capital p,
-p,p small,
+colon,colon,keys
+colon,semi colon,keys
 ________________________________________________________________________________
-q,capital q,
-q,q small,
+than,greater than,keys
+than,less than,keys
 ________________________________________________________________________________
-r,capital r,
-r,r small,
+a,capital a,keys
+a,small a,keys
 ________________________________________________________________________________
-s,capital s,
-s,s small,
+b,capital b,keys
+b,small b,keys
 ________________________________________________________________________________
-t,capital t,
-t,small t,
+c,capital c,keys
+c,small c,keys
 ________________________________________________________________________________
-u,capital u,
-u,small u,
+d,capital d,keys
+d,small d,keys
 ________________________________________________________________________________
-v,capital v,
-v,small v,
+e,capital e,keys
+e,small e,keys
 ________________________________________________________________________________
-w,capital w,
-w,small w,
+g,capital g,keys
+g,small g,keys
 ________________________________________________________________________________
-x,capital x,
-x,small x,
+h,capital h,keys
+h,small h,keys
 ________________________________________________________________________________
-y,capital y,
-y,small y,
+i,capital i,keys
+i,small i,keys
 ________________________________________________________________________________
-z,capital z,
-z,small z,
+j,capital j,keys
+j,small j,keys
 ________________________________________________________________________________
-colon,colon,
-colon,colon semi,
+k,capital k,keys
+k,small k,keys
 ________________________________________________________________________________
-dollar,dollar,
-dollar,dollar sign,
+l,capital l,keys
+l,small l,keys
 ________________________________________________________________________________
-down,down,
-down,down page,
+m,capital m,keys
+m,small m,keys
 ________________________________________________________________________________
-page,down page,
-page,page up,
+n,capital n,keys
+n,small n,keys
 ________________________________________________________________________________
-eleven,eleven f,
-eleven,eleven function,
+o,capital o,keys
+o,small o,keys
 ________________________________________________________________________________
-equals,equals,
-equals,equals sign,
+p,capital p,keys
+p,small p,keys
 ________________________________________________________________________________
-ten,f ten,
-ten,function ten,
+q,capital q,keys
+q,small q,keys
 ________________________________________________________________________________
-twelve,f twelve,
-twelve,function twelve,
+r,capital r,keys
+r,small r,keys
 ________________________________________________________________________________
-than,greater than,
-than,less than,
+s,capital s,keys
+s,small s,keys
 ________________________________________________________________________________
-paren,left paren,
-paren,paren right,
+t,capital t,keys
+t,small t,keys
 ________________________________________________________________________________
-line,line low,
-line,line vertical,
+u,capital u,keys
+u,small u,keys
 ________________________________________________________________________________
-up,page up,
-up,up,
+v,capital v,keys
+v,small v,keys
 ________________________________________________________________________________
-percent,percent,
-percent,percent sign,
+w,capital w,keys
+w,small w,keys
 ________________________________________________________________________________
-plus,plus,
-plus,plus sign,
+x,capital x,keys
+x,small x,keys
 ________________________________________________________________________________
-print,print,
-print,print screen,
+y,capital y,keys
+y,small y,keys
 ________________________________________________________________________________
-solidus,reverse solidus,
-solidus,solidus,
+z,capital z,keys
+z,small z,keys
 ________________________________________________________________________________
-accent,accent circumflex,
+escape,escape,keys
 ________________________________________________________________________________
-circumflex,accent circumflex,
+screen,print screen,keys
 ________________________________________________________________________________
-ampersand,ampersand,
+scroll,scroll lock,keys
 ________________________________________________________________________________
-and,and,
+pause,pause,keys
 ________________________________________________________________________________
-apostrophe,apostrophe,
+grave,grave,keys
 ________________________________________________________________________________
-asterisk,asterisk,
+tilde,tilde,keys
 ________________________________________________________________________________
-at,at,
+exclamation,exclamation mark,keys
 ________________________________________________________________________________
-back,back slash,
+at,at,keys
 ________________________________________________________________________________
-backspace,backspace,
+number,number sign,keys
 ________________________________________________________________________________
-bar,bar,
+hash,hash,keys
 ________________________________________________________________________________
-caps,caps lock,
+circumflex,circumflex accent,keys
 ________________________________________________________________________________
-caret,caret,
+accent,circumflex accent,keys
 ________________________________________________________________________________
-semi,colon semi,
+caret,caret,keys
 ________________________________________________________________________________
-comma,comma,
+ampersand,ampersand,keys
 ________________________________________________________________________________
-delete,delete,
+and,and,keys
 ________________________________________________________________________________
-double,double quote,
+asterisk,asterisk,keys
 ________________________________________________________________________________
-quote,double quote,
+minus,minus,keys
 ________________________________________________________________________________
-end,end,
+hyphen,hyphen,keys
 ________________________________________________________________________________
-enter,enter,
+low,low line,keys
 ________________________________________________________________________________
-escape,escape,
+under,under score,keys
 ________________________________________________________________________________
-exclamation,exclamation mark,
+score,under score,keys
 ________________________________________________________________________________
-full,full stop,
+reverse,reverse solidus,keys
 ________________________________________________________________________________
-stop,full stop,
+back,back slash,keys
 ________________________________________________________________________________
-grave,grave,
+vertical,vertical line,keys
 ________________________________________________________________________________
-greater,greater than,
+bar,bar,keys
 ________________________________________________________________________________
-hash,hash,
+pipe,pipe,keys
 ________________________________________________________________________________
-home,home,
+backspace,backspace,keys
 ________________________________________________________________________________
-hyphen,hyphen,
+insert,insert,keys
 ________________________________________________________________________________
-insert,insert,
+home,home,keys
 ________________________________________________________________________________
-less,less than,
+num,num lock,keys
 ________________________________________________________________________________
-low,line low,
+tab,tab,keys
 ________________________________________________________________________________
-vertical,line vertical,
+enter,enter,keys
 ________________________________________________________________________________
-num,lock num,
+delete,delete,keys
 ________________________________________________________________________________
-scroll,lock scroll,
+end,end,keys
 ________________________________________________________________________________
-question,mark question,
+caps,caps lock,keys
 ________________________________________________________________________________
-quotation,mark quotation,
+semi,semi colon,keys
 ________________________________________________________________________________
-menu,menu,
+apostrophe,apostrophe,keys
 ________________________________________________________________________________
-minus,minus,
+quotation,quotation mark,keys
 ________________________________________________________________________________
-number,number sign,
+double,double quote,keys
 ________________________________________________________________________________
-pause,pause,
+quote,double quote,keys
 ________________________________________________________________________________
-period,period,
+less,less than,keys
 ________________________________________________________________________________
-pipe,pipe,
+comma,comma,keys
 ________________________________________________________________________________
-screen,print screen,
+greater,greater than,keys
 ________________________________________________________________________________
-reverse,reverse solidus,
+full,full stop,keys
 ________________________________________________________________________________
-score,score under,
+stop,full stop,keys
 ________________________________________________________________________________
-under,score under,
+period,period,keys
 ________________________________________________________________________________
-space,space,
+question,question mark,keys
 ________________________________________________________________________________
-tab,tab,
+meta,meta,keys
 ________________________________________________________________________________
-tilde,tilde,
+space,space,keys
 ________________________________________________________________________________
-zero,zero,
+menu,menu,keys
+________________________________________________________________________________
+zero,zero,keys
 ________________________________________________________________________________

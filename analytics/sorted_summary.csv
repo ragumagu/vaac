@@ -1,0 +1,633 @@
+tab,keys
+go,firefox
+close,code
+left,keys
+right,keys
+open,nautilus
+one,keys
+find,code
+find,gnome-terminal
+find,gedit
+find,firefox
+down,keys
+down,firefox
+up,keys
+up,firefox
+delete,keys
+delete,firefox
+end,keys
+copy,code
+copy,gnome-terminal
+copy,gedit
+copy,firefox
+copy,nautilus
+save,code
+save,gedit
+save,firefox
+back,firefox
+back,nautilus
+menu,keys
+undo,code
+undo,gedit
+undo,firefox
+undo,nautilus
+eight,keys
+five,keys
+four,keys
+paste,code
+paste,gnome-terminal
+paste,gedit
+paste,firefox
+paste,nautilus
+seven,keys
+six,keys
+three,keys
+two,keys
+forward,firefox
+insert,keys
+nine,keys
+print,keys
+print,gedit
+print,firefox
+start,code
+stop,code
+stop,firefox
+bar,keys
+bottom,code
+bottom,firefox
+control,keys
+cut,code
+cut,gedit
+cut,firefox
+cut,nautilus
+percent,keys
+search,nautilus
+top,code
+top,firefox
+alt,keys
+and,keys
+home,keys
+home,firefox
+redo,gedit
+redo,firefox
+redo,nautilus
+replace,code
+restore,code
+shift,keys
+super,keys
+at,keys
+caret,keys
+colon,keys
+dollar,keys
+enter,keys
+equals,keys
+pause,keys
+pause,firefox
+plus,keys
+reload,firefox
+rename,nautilus
+rotate,firefox
+shortcuts,nautilus
+slash,keys
+solidus,keys
+ampersand,keys
+apostrophe,keys
+asterisk,keys
+backspace,keys
+comma,keys
+continue,code
+debugger,firefox
+downloads,firefox
+escape,keys
+grave,keys
+hash,keys
+hyphen,keys
+inspector,firefox
+meta,keys
+minus,keys
+mute,firefox
+network,firefox
+period,keys
+pipe,keys
+play,firefox
+profiler,firefox
+quit,firefox
+refresh,nautilus
+space,keys
+tilde,keys
+unmute,firefox
+zero,keys
+close tab,gnome-terminal
+close tab,gedit
+close tab,firefox
+close tab,nautilus
+previous tab,code
+previous tab,gnome-terminal
+previous tab,firefox
+new tab,gnome-terminal
+new tab,gedit
+new tab,firefox
+new tab,nautilus
+next tab,code
+next tab,gnome-terminal
+next tab,firefox
+restore tab,nautilus
+move window,general
+close window,code
+close window,code
+close window,general
+close window,gnome-terminal
+close window,gedit
+close window,firefox
+close window,nautilus
+line down,code
+line up,code
+switch windows,general
+new window,code
+new window,gnome-terminal
+new window,gedit
+new window,firefox
+new window,nautilus
+delete line,code
+capital f,keys
+small f,keys
+close all,code
+close editor,code
+erase line,gnome-terminal
+duplicate line,code
+hide window,general
+indent line,code
+low line,keys
+outdent line,code
+trim line,code
+vertical line,keys
+find previous,code
+find previous,gnome-terminal
+find previous,gedit
+find previous,firefox
+go back,code
+find next,code
+find next,gnome-terminal
+find next,gedit
+find next,firefox
+previous page,firefox
+f one,keys
+go forward,code
+next page,firefox
+restore window,general
+show terminal,code
+function one,keys
+maximize window,general
+resize window,general
+zoom in,code
+zoom in,general
+zoom in,gnome-terminal
+zoom in,firefox
+zoom in,nautilus
+focus previous,firefox
+page down,code
+page down,keys
+page down,firefox
+page up,code
+page up,keys
+page up,firefox
+focus next,firefox
+open file,code
+open file,firefox
+bracket left,keys
+bracket right,keys
+capital a,keys
+capital b,keys
+capital c,keys
+capital d,keys
+capital e,keys
+capital g,keys
+capital h,keys
+capital i,keys
+capital j,keys
+capital k,keys
+capital l,keys
+capital m,keys
+capital n,keys
+capital o,keys
+capital p,keys
+capital q,keys
+capital r,keys
+capital s,keys
+capital t,keys
+capital u,keys
+capital v,keys
+capital w,keys
+capital x,keys
+capital y,keys
+capital z,keys
+show sidebar,nautilus
+small a,keys
+small b,keys
+small c,keys
+small d,keys
+small e,keys
+small g,keys
+small h,keys
+small i,keys
+small j,keys
+small k,keys
+small l,keys
+small m,keys
+small n,keys
+small o,keys
+small p,keys
+small q,keys
+small r,keys
+small s,keys
+small t,keys
+small u,keys
+small v,keys
+small w,keys
+small x,keys
+small y,keys
+small z,keys
+select all,code
+select all,gedit
+select all,firefox
+select all,nautilus
+show search,code
+new file,code
+new terminal,code
+quick open,code
+quick open,gedit
+close folder,code
+control left,keys
+control right,keys
+left parenthesis,keys
+open preview,code
+parenthesis left,keys
+parenthesis right,keys
+right parenthesis,keys
+show overview,general
+toggle focus,code
+alt left,keys
+alt right,keys
+open document,gedit
+shift left,keys
+shift right,keys
+show debug,code
+show explorer,code
+show extensions,code
+show help,nautilus
+show hover,code
+show references,code
+super left,keys
+super right,keys
+brace left,keys
+brace right,keys
+paren left,keys
+paren right,keys
+quick find,firefox
+zoom out,code
+zoom out,general
+zoom out,gnome-terminal
+zoom out,firefox
+zoom out,nautilus
+f eight,keys
+f five,keys
+f four,keys
+f seven,keys
+f six,keys
+f three,keys
+f two,keys
+f nine,keys
+new folder,nautilus
+page source,firefox
+split editor,code
+f ten,keys
+function eight,keys
+function five,keys
+function four,keys
+function seven,keys
+function six,keys
+function three,keys
+function two,keys
+function nine,keys
+reset zoom,gnome-terminal
+reset zoom,firefox
+reset zoom,nautilus
+style editor,firefox
+copy selection,code
+function ten,keys
+page info,firefox
+scroll lock,keys
+copy screenshot,general
+f eleven,keys
+f twelve,keys
+toggle case,gedit
+erase word,gnome-terminal
+save screenshot,general
+full screen,code
+full screen,gnome-terminal
+full screen,firefox
+function eleven,keys
+function twelve,keys
+print screen,keys
+toggle breakpoint,code
+clear screen,gnome-terminal
+lock screen,general
+delete permanently,nautilus
+menu bar,firefox
+save as,code
+save as,gedit
+copy path,code
+hide sidebar,nautilus
+back slash,keys
+full stop,keys
+print preview,gedit
+step out,code
+format selection,code
+percent sign,keys
+expand selection,code
+history sidebar,firefox
+invert selection,nautilus
+log out,general
+shrink selection,code
+bookmarks sidebar,firefox
+clear history,firefox
+dollar sign,keys
+equals sign,keys
+number sign,keys
+plus sign,keys
+quick fix,code
+zen mode,code
+clear highlight,gnome-terminal
+clear highlight,gedit
+enter location,nautilus
+format document,code
+caps lock,keys
+fold region,code
+num lock,keys
+unfold region,code
+add ons,firefox
+exclamation mark,keys
+peek definition,code
+question mark,keys
+quotation mark,keys
+rename symbol,code
+step into,code
+step over,code
+browser console,firefox
+caret browsing,firefox
+decrease volume,firefox
+developer toolbar,firefox
+force reload,firefox
+greater than,keys
+hand tool,firefox
+increase volume,firefox
+keyboard shortcuts,code
+less than,keys
+reverse solidus,keys
+rotate counterclockwise,firefox
+semi colon,keys
+trigger suggestion,code
+user settings,code
+web console,firefox
+check spelling,gedit
+circumflex accent,keys
+double quote,keys
+record screencast,general
+under score,keys
+go to line,code
+go to line,gedit
+go to end,firefox
+go to file,code
+move tab left,firefox
+move tab left,nautilus
+move tab right,firefox
+move tab right,nautilus
+move to trash,nautilus
+go to beginning,firefox
+go to definition,code
+go to symbol,code
+scroll to bottom,gnome-terminal
+scroll to top,gnome-terminal
+seek to end,firefox
+seek to beginning,firefox
+previous tab group,gedit
+undo close tab,gedit
+undo close tab,firefox
+new tab group,gedit
+next tab group,gedit
+move line down,code
+move line down,gedit
+move line up,code
+move line up,gedit
+add tab stop,gedit
+remove tab stop,gedit
+move editor left,code
+move editor right,code
+move word left,gedit
+move word right,gedit
+switch windows of,general
+undo close window,firefox
+toggle line comment,code
+delete current line,gedit
+switch windows directly,general
+select current line,code
+new private window,firefox
+undo close editor,code
+copy window screenshot,general
+close quick find,firefox
+save window screenshot,general
+insert line above,code
+insert line below,code
+add line comment,code
+delete previous word,gnome-terminal
+close all tabs,gedit
+remove line comment,code
+show all applications,general
+show all symbols,code
+activate window menu,general
+open file menu,gedit
+library window history,firefox
+library window bookmarks,firefox
+open file location,code
+show action menu,nautilus
+paste in terminal,code
+show side panel,gedit
+show source control,code
+toggle editor layout,code
+bracket square right,keys
+left curly bracket,keys
+left square bracket,keys
+right curly bracket,keys
+open application menu,general
+save all tabs,gedit
+show hidden files,nautilus
+show output panel,code
+show problems panel,code
+hide all windows,general
+open markdown preview,code
+toggle word wrap,code
+open item location,nautilus
+show activities overview,general
+show command palette,code
+show command prompt,general
+show item properties,nautilus
+show notification list,general
+quick find links,firefox
+find and replace,gedit
+open user guide,gedit
+turn zoom on,general
+fold all regions,code
+fold all subregions,code
+replace in files,code
+toggle context menu,firefox
+unfold all regions,code
+unfold all subregions,code
+toggle reader mode,firefox
+turn zoom off,general
+focus search bar,firefox
+toggle sidebar visibility,code
+bookmark this page,firefox
+copy partial screenshot,general
+select location bar,firefox
+toggle block comment,code
+toggle search details,code
+save partial screenshot,general
+exit full screen,firefox
+hide action menu,nautilus
+toggle developer tools,firefox
+focus active notification,general
+hide side panel,gedit
+change file language,code
+select matching items,nautilus
+hide hidden files,nautilus
+insert cursor above,code
+insert cursor below,code
+text selection tool,firefox
+exit zen mode,code
+responsive design view,firefox
+trigger parameter hints,code
+switch to tab one,gnome-terminal
+switch to tab one,gedit
+switch to tab one,firefox
+switch to tab one,nautilus
+switch to previous tab,gedit
+switch to next tab,gedit
+move tab to left,gnome-terminal
+move tab to right,gnome-terminal
+switch to tab eight,gnome-terminal
+switch to tab eight,gedit
+switch to tab eight,firefox
+switch to tab eight,nautilus
+switch to tab five,gnome-terminal
+switch to tab five,gedit
+switch to tab five,firefox
+switch to tab five,nautilus
+switch to tab four,gnome-terminal
+switch to tab four,gedit
+switch to tab four,firefox
+switch to tab four,nautilus
+switch to tab seven,gnome-terminal
+switch to tab seven,gedit
+switch to tab seven,firefox
+switch to tab seven,nautilus
+switch to tab six,gnome-terminal
+switch to tab six,gedit
+switch to tab six,firefox
+switch to tab six,nautilus
+switch to tab three,gnome-terminal
+switch to tab three,gedit
+switch to tab three,firefox
+switch to tab three,nautilus
+switch to tab two,gnome-terminal
+switch to tab two,gedit
+switch to tab two,firefox
+switch to tab two,nautilus
+switch to tab nine,gnome-terminal
+switch to tab nine,gedit
+switch to tab nine,nautilus
+switch to tab ten,gnome-terminal
+switch to last tab,firefox
+move tab to end,firefox
+go to previous tab,nautilus
+go to next tab,nautilus
+move tab to start,firefox
+move to previous frame,firefox
+move to next frame,firefox
+switch to presentation mode,firefox
+go to previous error,code
+go to previous warning,code
+go to next error,code
+go to next warning,code
+delete word to left,firefox
+delete word to right,firefox
+move to workspace above,general
+move to workspace below,general
+go to home folder,nautilus
+open in new tab,nautilus
+open definition to side,code
+jump to matching bracket,code
+change to lower case,gedit
+change to upper case,gedit
+toggle tab moves focus,code
+move editor group left,code
+move editor group right,code
+open in new window,nautilus
+scroll down one line,gnome-terminal
+scroll up one line,gnome-terminal
+move editor group down,code
+move editor group up,code
+move back one word,gnome-terminal
+move forward one word,gnome-terminal
+move back one character,gnome-terminal
+move forward one character,gnome-terminal
+scroll down one page,gnome-terminal
+scroll up one page,gnome-terminal
+focus previous editor group,code
+focus next editor group,code
+scroll down in terminal,code
+scroll up in terminal,code
+focus first editor group,code
+focus second editor group,code
+focus third editor group,code
+focus page number box,firefox
+view split on left,general
+view split on right,general
+seek back ten percent,firefox
+seek forward ten percent,firefox
+turn screen reader on,general
+seek back fifteen seconds,firefox
+turn screen reader off,general
+seek forward fifteen seconds,firefox
+paste as plain text,firefox
+move to end of line,gnome-terminal
+move to start of line,gnome-terminal
+go to end of line,code
+go to end of line,gedit
+go to end of line,firefox
+go to beginning of line,code
+go to beginning of line,gedit
+go to beginning of line,firefox
+go one word to left,firefox
+go one word to right,firefox
+delete to end of line,gnome-terminal
+move window to last workspace,general
+delete to start of line,gnome-terminal
+switch to previous input source,general
+switch to next input source,general
+go to end of document,gedit
+go to beginning of document,gedit
+delete to start of word,gnome-terminal
+scroll to bottom in terminal,code
+scroll to top in terminal,code
+open markdown preview to side,code
+move window one workspace down,general
+move window one workspace up,general
+open file in new window,code
+open file and close window,nautilus
+scroll page down in terminal,code
+scroll page up in terminal,code
+select all of find match,code
+select all of current word,code
+select all of current selection,code
+keep preview mode editor open,code
+insert at end of selected lines,code

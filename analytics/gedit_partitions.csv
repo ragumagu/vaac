@@ -1,234 +1,234 @@
-tab,add stop tab,
-tab,close tab,
-tab,close tab undo,
-tab,eight switch tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,group new tab,
-tab,group next tab,
-tab,group previous tab,
-tab,new tab,
-tab,next switch tab to,
-tab,nine switch tab to,
-tab,one switch tab to,
-tab,previous switch tab to,
-tab,remove stop tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab three to,
-tab,switch tab to two,
-________________________________________________________________________________
-to,beginning document go of to,
-to,beginning go line of to,
-to,case change lower to,
-to,case change to upper,
-to,document end go of to,
-to,eight switch tab to,
-to,end go line of to,
-to,five switch tab to,
-to,four switch tab to,
-to,go line to,
-to,next switch tab to,
-to,nine switch tab to,
-to,one switch tab to,
-to,previous switch tab to,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab three to,
-to,switch tab to two,
-________________________________________________________________________________
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,next switch tab to,
-switch,nine switch tab to,
-switch,one switch tab to,
-switch,previous switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab three to,
-switch,switch tab to two,
-________________________________________________________________________________
-line,beginning go line of to,
-line,current delete line,
-line,down line move,
-line,end go line of to,
-line,go line to,
-line,line move up,
-________________________________________________________________________________
-go,beginning document go of to,
-go,beginning go line of to,
-go,document end go of to,
-go,end go line of to,
-go,go line to,
-________________________________________________________________________________
-close,all close tabs,
-close,close tab,
-close,close tab undo,
-close,close window,
-________________________________________________________________________________
-find,and find replace,
-find,find,
-find,find next,
-find,find previous,
-________________________________________________________________________________
-of,beginning document go of to,
-of,beginning go line of to,
-of,document end go of to,
-of,end go line of to,
-________________________________________________________________________________
-open,document open,
-open,file menu open,
-open,guide open user,
-open,open quick,
-________________________________________________________________________________
-move,down line move,
-move,left move word,
-move,line move up,
-move,move right word,
-________________________________________________________________________________
-all,all close tabs,
-all,all save tabs,
-all,all select,
+tab,add tab stop,gedit
+tab,close tab,gedit
+tab,new tab,gedit
+tab,new tab group,gedit
+tab,next tab group,gedit
+tab,previous tab group,gedit
+tab,remove tab stop,gedit
+tab,switch to next tab,gedit
+tab,switch to previous tab,gedit
+tab,switch to tab eight,gedit
+tab,switch to tab five,gedit
+tab,switch to tab four,gedit
+tab,switch to tab nine,gedit
+tab,switch to tab one,gedit
+tab,switch to tab seven,gedit
+tab,switch to tab six,gedit
+tab,switch to tab three,gedit
+tab,switch to tab two,gedit
+tab,undo close tab,gedit
+________________________________________________________________________________
+to,change to lower case,gedit
+to,change to upper case,gedit
+to,go to beginning of document,gedit
+to,go to beginning of line,gedit
+to,go to end of document,gedit
+to,go to end of line,gedit
+to,go to line,gedit
+to,switch to next tab,gedit
+to,switch to previous tab,gedit
+to,switch to tab eight,gedit
+to,switch to tab five,gedit
+to,switch to tab four,gedit
+to,switch to tab nine,gedit
+to,switch to tab one,gedit
+to,switch to tab seven,gedit
+to,switch to tab six,gedit
+to,switch to tab three,gedit
+to,switch to tab two,gedit
+________________________________________________________________________________
+switch,switch to next tab,gedit
+switch,switch to previous tab,gedit
+switch,switch to tab eight,gedit
+switch,switch to tab five,gedit
+switch,switch to tab four,gedit
+switch,switch to tab nine,gedit
+switch,switch to tab one,gedit
+switch,switch to tab seven,gedit
+switch,switch to tab six,gedit
+switch,switch to tab three,gedit
+switch,switch to tab two,gedit
+________________________________________________________________________________
+line,delete current line,gedit
+line,go to beginning of line,gedit
+line,go to end of line,gedit
+line,go to line,gedit
+line,move line down,gedit
+line,move line up,gedit
+________________________________________________________________________________
+go,go to beginning of document,gedit
+go,go to beginning of line,gedit
+go,go to end of document,gedit
+go,go to end of line,gedit
+go,go to line,gedit
+________________________________________________________________________________
+close,close all tabs,gedit
+close,close tab,gedit
+close,close window,gedit
+close,undo close tab,gedit
+________________________________________________________________________________
+find,find,gedit
+find,find and replace,gedit
+find,find next,gedit
+find,find previous,gedit
+________________________________________________________________________________
+of,go to beginning of document,gedit
+of,go to beginning of line,gedit
+of,go to end of document,gedit
+of,go to end of line,gedit
+________________________________________________________________________________
+move,move line down,gedit
+move,move line up,gedit
+move,move word left,gedit
+move,move word right,gedit
+________________________________________________________________________________
+open,open document,gedit
+open,open file menu,gedit
+open,open user guide,gedit
+open,quick open,gedit
+________________________________________________________________________________
+case,change to lower case,gedit
+case,change to upper case,gedit
+case,toggle case,gedit
 ________________________________________________________________________________
-save,all save tabs,
-save,as save,
-save,save,
+all,close all tabs,gedit
+all,save all tabs,gedit
+all,select all,gedit
 ________________________________________________________________________________
-document,beginning document go of to,
-document,document end go of to,
-document,document open,
+next,find next,gedit
+next,next tab group,gedit
+next,switch to next tab,gedit
 ________________________________________________________________________________
-case,case change lower to,
-case,case change to upper,
-case,case toggle,
+previous,find previous,gedit
+previous,previous tab group,gedit
+previous,switch to previous tab,gedit
 ________________________________________________________________________________
-next,find next,
-next,group next tab,
-next,next switch tab to,
+document,go to beginning of document,gedit
+document,go to end of document,gedit
+document,open document,gedit
 ________________________________________________________________________________
-previous,find previous,
-previous,group previous tab,
-previous,previous switch tab to,
+new,new tab,gedit
+new,new tab group,gedit
+new,new window,gedit
 ________________________________________________________________________________
-group,group new tab,
-group,group next tab,
-group,group previous tab,
+group,new tab group,gedit
+group,next tab group,gedit
+group,previous tab group,gedit
 ________________________________________________________________________________
-new,group new tab,
-new,new tab,
-new,new window,
+save,save,gedit
+save,save all tabs,gedit
+save,save as,gedit
 ________________________________________________________________________________
-stop,add stop tab,
-stop,remove stop tab,
+stop,add tab stop,gedit
+stop,remove tab stop,gedit
 ________________________________________________________________________________
-tabs,all close tabs,
-tabs,all save tabs,
+change,change to lower case,gedit
+change,change to upper case,gedit
 ________________________________________________________________________________
-beginning,beginning document go of to,
-beginning,beginning go line of to,
+tabs,close all tabs,gedit
+tabs,save all tabs,gedit
 ________________________________________________________________________________
-change,case change lower to,
-change,case change to upper,
+window,close window,gedit
+window,new window,gedit
 ________________________________________________________________________________
-undo,close tab undo,
-undo,undo,
+beginning,go to beginning of document,gedit
+beginning,go to beginning of line,gedit
 ________________________________________________________________________________
-window,close window,
-window,new window,
+end,go to end of document,gedit
+end,go to end of line,gedit
 ________________________________________________________________________________
-end,document end go of to,
-end,end go line of to,
+side,hide side panel,gedit
+side,show side panel,gedit
 ________________________________________________________________________________
-panel,hide panel side,
-panel,panel show side,
+panel,hide side panel,gedit
+panel,show side panel,gedit
 ________________________________________________________________________________
-side,hide panel side,
-side,panel show side,
+word,move word left,gedit
+word,move word right,gedit
 ________________________________________________________________________________
-word,left move word,
-word,move right word,
+print,print,gedit
+print,print preview,gedit
 ________________________________________________________________________________
-print,preview print,
-print,print,
+undo,undo,gedit
+undo,undo close tab,gedit
 ________________________________________________________________________________
-add,add stop tab,
+add,add tab stop,gedit
 ________________________________________________________________________________
-select,all select,
+lower,change to lower case,gedit
 ________________________________________________________________________________
-and,and find replace,
+upper,change to upper case,gedit
 ________________________________________________________________________________
-replace,and find replace,
+check,check spelling,gedit
 ________________________________________________________________________________
-as,as save,
+spelling,check spelling,gedit
 ________________________________________________________________________________
-lower,case change lower to,
+clear,clear highlight,gedit
 ________________________________________________________________________________
-upper,case change to upper,
+highlight,clear highlight,gedit
 ________________________________________________________________________________
-toggle,case toggle,
+copy,copy,gedit
 ________________________________________________________________________________
-check,check spelling,
+cut,cut,gedit
 ________________________________________________________________________________
-spelling,check spelling,
+delete,delete current line,gedit
 ________________________________________________________________________________
-clear,clear highlight,
+current,delete current line,gedit
 ________________________________________________________________________________
-highlight,clear highlight,
+and,find and replace,gedit
 ________________________________________________________________________________
-copy,copy,
+replace,find and replace,gedit
 ________________________________________________________________________________
-current,current delete line,
+hide,hide side panel,gedit
 ________________________________________________________________________________
-delete,current delete line,
+down,move line down,gedit
 ________________________________________________________________________________
-cut,cut,
+up,move line up,gedit
 ________________________________________________________________________________
-down,down line move,
+left,move word left,gedit
 ________________________________________________________________________________
-eight,eight switch tab to,
+right,move word right,gedit
 ________________________________________________________________________________
-file,file menu open,
+file,open file menu,gedit
 ________________________________________________________________________________
-menu,file menu open,
+menu,open file menu,gedit
 ________________________________________________________________________________
-five,five switch tab to,
+user,open user guide,gedit
 ________________________________________________________________________________
-four,four switch tab to,
+guide,open user guide,gedit
 ________________________________________________________________________________
-guide,guide open user,
+paste,paste,gedit
 ________________________________________________________________________________
-user,guide open user,
+preview,print preview,gedit
 ________________________________________________________________________________
-hide,hide panel side,
+quick,quick open,gedit
 ________________________________________________________________________________
-left,left move word,
+redo,redo,gedit
 ________________________________________________________________________________
-up,line move up,
+remove,remove tab stop,gedit
 ________________________________________________________________________________
-right,move right word,
+as,save as,gedit
 ________________________________________________________________________________
-nine,nine switch tab to,
+select,select all,gedit
 ________________________________________________________________________________
-one,one switch tab to,
+show,show side panel,gedit
 ________________________________________________________________________________
-quick,open quick,
+eight,switch to tab eight,gedit
 ________________________________________________________________________________
-show,panel show side,
+five,switch to tab five,gedit
 ________________________________________________________________________________
-paste,paste,
+four,switch to tab four,gedit
 ________________________________________________________________________________
-preview,preview print,
+nine,switch to tab nine,gedit
 ________________________________________________________________________________
-redo,redo,
+one,switch to tab one,gedit
 ________________________________________________________________________________
-remove,remove stop tab,
+seven,switch to tab seven,gedit
 ________________________________________________________________________________
-seven,seven switch tab to,
+six,switch to tab six,gedit
 ________________________________________________________________________________
-six,six switch tab to,
+three,switch to tab three,gedit
 ________________________________________________________________________________
-three,switch tab three to,
+two,switch to tab two,gedit
 ________________________________________________________________________________
-two,switch tab to two,
+toggle,toggle case,gedit
 ________________________________________________________________________________

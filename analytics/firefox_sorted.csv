@@ -1,0 +1,116 @@
+go,firefox
+find,firefox
+back,firefox
+delete,firefox
+forward,firefox
+undo,firefox
+down,firefox
+paste,firefox
+reload,firefox
+rotate,firefox
+up,firefox
+bottom,firefox
+copy,firefox
+cut,firefox
+debugger,firefox
+downloads,firefox
+home,firefox
+inspector,firefox
+mute,firefox
+network,firefox
+pause,firefox
+play,firefox
+print,firefox
+profiler,firefox
+quit,firefox
+redo,firefox
+save,firefox
+stop,firefox
+top,firefox
+unmute,firefox
+close tab,firefox
+next tab,firefox
+previous tab,firefox
+new tab,firefox
+next page,firefox
+previous page,firefox
+close window,firefox
+find next,firefox
+find previous,firefox
+page down,firefox
+page up,firefox
+focus next,firefox
+focus previous,firefox
+new window,firefox
+page info,firefox
+page source,firefox
+quick find,firefox
+history sidebar,firefox
+menu bar,firefox
+bookmarks sidebar,firefox
+clear history,firefox
+full screen,firefox
+reset zoom,firefox
+zoom in,firefox
+zoom out,firefox
+browser console,firefox
+decrease volume,firefox
+developer toolbar,firefox
+force reload,firefox
+hand tool,firefox
+increase volume,firefox
+rotate counterclockwise,firefox
+select all,firefox
+web console,firefox
+add ons,firefox
+caret browsing,firefox
+open file,firefox
+style editor,firefox
+go to end,firefox
+go to beginning,firefox
+seek to end,firefox
+seek to beginning,firefox
+move tab left,firefox
+move tab right,firefox
+undo close tab,firefox
+close quick find,firefox
+undo close window,firefox
+library window history,firefox
+bookmark this page,firefox
+library window bookmarks,firefox
+new private window,firefox
+quick find links,firefox
+focus search bar,firefox
+select location bar,firefox
+toggle context menu,firefox
+toggle developer tools,firefox
+toggle reader mode,firefox
+exit full screen,firefox
+text selection tool,firefox
+responsive design view,firefox
+switch to tab one,firefox
+switch to last tab,firefox
+switch to tab eight,firefox
+switch to tab five,firefox
+switch to tab four,firefox
+switch to tab seven,firefox
+switch to tab six,firefox
+switch to tab three,firefox
+switch to tab two,firefox
+move tab to end,firefox
+move tab to start,firefox
+move to next frame,firefox
+move to previous frame,firefox
+switch to presentation mode,firefox
+delete word to left,firefox
+delete word to right,firefox
+focus page number box,firefox
+seek back fifteen seconds,firefox
+seek back ten percent,firefox
+seek forward fifteen seconds,firefox
+seek forward ten percent,firefox
+paste as plain text,firefox
+go one word to left,firefox
+go one word to right,firefox
+go to end of line,firefox
+go to beginning of line,firefox

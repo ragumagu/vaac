@@ -1,0 +1,47 @@
+find,gnome-terminal
+copy,gnome-terminal
+paste,gnome-terminal
+previous tab,gnome-terminal
+close tab,gnome-terminal
+new tab,gnome-terminal
+next tab,gnome-terminal
+erase line,gnome-terminal
+erase word,gnome-terminal
+find previous,gnome-terminal
+find next,gnome-terminal
+clear screen,gnome-terminal
+close window,gnome-terminal
+new window,gnome-terminal
+reset zoom,gnome-terminal
+zoom in,gnome-terminal
+zoom out,gnome-terminal
+clear highlight,gnome-terminal
+full screen,gnome-terminal
+scroll to bottom,gnome-terminal
+scroll to top,gnome-terminal
+delete previous word,gnome-terminal
+switch to tab one,gnome-terminal
+switch to tab eight,gnome-terminal
+switch to tab five,gnome-terminal
+switch to tab four,gnome-terminal
+switch to tab nine,gnome-terminal
+switch to tab seven,gnome-terminal
+switch to tab six,gnome-terminal
+switch to tab ten,gnome-terminal
+switch to tab three,gnome-terminal
+switch to tab two,gnome-terminal
+move tab to left,gnome-terminal
+move tab to right,gnome-terminal
+move back one word,gnome-terminal
+move forward one word,gnome-terminal
+scroll down one line,gnome-terminal
+scroll up one line,gnome-terminal
+move back one character,gnome-terminal
+move forward one character,gnome-terminal
+scroll down one page,gnome-terminal
+scroll up one page,gnome-terminal
+move to start of line,gnome-terminal
+move to end of line,gnome-terminal
+delete to start of line,gnome-terminal
+delete to end of line,gnome-terminal
+delete to start of word,gnome-terminal

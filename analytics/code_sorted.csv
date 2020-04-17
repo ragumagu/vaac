@@ -1,0 +1,142 @@
+close,code
+find,code
+copy,code
+bottom,code
+paste,code
+replace,code
+save,code
+top,code
+undo,code
+continue,code
+cut,code
+restore,code
+start,code
+stop,code
+line down,code
+line up,code
+close editor,code
+show terminal,code
+delete line,code
+duplicate line,code
+indent line,code
+outdent line,code
+trim line,code
+close all,code
+split editor,code
+toggle focus,code
+open file,code
+select all,code
+show search,code
+go back,code
+go forward,code
+new terminal,code
+open preview,code
+show debug,code
+show explorer,code
+show extensions,code
+show hover,code
+show references,code
+zoom in,code
+close window,code
+close window,code
+quick open,code
+new file,code
+page down,code
+page up,code
+toggle breakpoint,code
+find next,code
+find previous,code
+close folder,code
+copy selection,code
+new window,code
+next tab,code
+previous tab,code
+format selection,code
+expand selection,code
+shrink selection,code
+fold region,code
+step out,code
+unfold region,code
+zen mode,code
+copy path,code
+peek definition,code
+step into,code
+step over,code
+zoom out,code
+format document,code
+quick fix,code
+rename symbol,code
+save as,code
+trigger suggestion,code
+full screen,code
+keyboard shortcuts,code
+user settings,code
+go to line,code
+go to file,code
+move line down,code
+move line up,code
+toggle line comment,code
+go to definition,code
+go to symbol,code
+move editor left,code
+move editor right,code
+select current line,code
+toggle editor layout,code
+insert line above,code
+insert line below,code
+undo close editor,code
+add line comment,code
+remove line comment,code
+show all symbols,code
+paste in terminal,code
+open file location,code
+fold all regions,code
+fold all subregions,code
+open markdown preview,code
+show output panel,code
+show problems panel,code
+unfold all regions,code
+unfold all subregions,code
+show command palette,code
+show source control,code
+toggle block comment,code
+replace in files,code
+toggle search details,code
+toggle word wrap,code
+toggle sidebar visibility,code
+insert cursor above,code
+insert cursor below,code
+change file language,code
+exit zen mode,code
+trigger parameter hints,code
+move editor group down,code
+move editor group up,code
+focus next editor group,code
+focus previous editor group,code
+move editor group left,code
+move editor group right,code
+go to next error,code
+go to next warning,code
+go to previous error,code
+go to previous warning,code
+focus first editor group,code
+focus second editor group,code
+focus third editor group,code
+scroll down in terminal,code
+scroll up in terminal,code
+open definition to side,code
+toggle tab moves focus,code
+jump to matching bracket,code
+go to end of line,code
+go to beginning of line,code
+scroll to bottom in terminal,code
+scroll to top in terminal,code
+scroll page down in terminal,code
+scroll page up in terminal,code
+keep preview mode editor open,code
+open file in new window,code
+open markdown preview to side,code
+select all of current selection,code
+select all of current word,code
+select all of find match,code
+insert at end of selected lines,code

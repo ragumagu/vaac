@@ -1,185 +1,185 @@
-window,activate menu window,
-window,close window,
-window,copy screenshot window,
-window,down move one window workspace,
-window,hide window,
-window,last move to window workspace,
-window,maximize window,
-window,move one up window workspace,
-window,move window,
-window,resize window,
-window,restore window,
-window,save screenshot window,
+window,activate window menu,general
+window,close window,general
+window,copy window screenshot,general
+window,hide window,general
+window,maximize window,general
+window,move window,general
+window,move window one workspace down,general
+window,move window one workspace up,general
+window,move window to last workspace,general
+window,resize window,general
+window,restore window,general
+window,save window screenshot,general
 ________________________________________________________________________________
-move,above move to workspace,
-move,below move to workspace,
-move,down move one window workspace,
-move,last move to window workspace,
-move,move one up window workspace,
-move,move window,
+screenshot,copy partial screenshot,general
+screenshot,copy screenshot,general
+screenshot,copy window screenshot,general
+screenshot,save partial screenshot,general
+screenshot,save screenshot,general
+screenshot,save window screenshot,general
 ________________________________________________________________________________
-screenshot,copy partial screenshot,
-screenshot,copy screenshot,
-screenshot,copy screenshot window,
-screenshot,partial save screenshot,
-screenshot,save screenshot,
-screenshot,save screenshot window,
+move,move to workspace above,general
+move,move to workspace below,general
+move,move window,general
+move,move window one workspace down,general
+move,move window one workspace up,general
+move,move window to last workspace,general
 ________________________________________________________________________________
-to,above move to workspace,
-to,below move to workspace,
-to,input next source switch to,
-to,input previous source switch to,
-to,last move to window workspace,
+to,move to workspace above,general
+to,move to workspace below,general
+to,move window to last workspace,general
+to,switch to next input source,general
+to,switch to previous input source,general
 ________________________________________________________________________________
-workspace,above move to workspace,
-workspace,below move to workspace,
-workspace,down move one window workspace,
-workspace,last move to window workspace,
-workspace,move one up window workspace,
+workspace,move to workspace above,general
+workspace,move to workspace below,general
+workspace,move window one workspace down,general
+workspace,move window one workspace up,general
+workspace,move window to last workspace,general
 ________________________________________________________________________________
-show,activities overview show,
-show,all applications show,
-show,command prompt show,
-show,list notification show,
-show,overview show,
+show,show activities overview,general
+show,show all applications,general
+show,show command prompt,general
+show,show notification list,general
+show,show overview,general
 ________________________________________________________________________________
-switch,directly switch windows,
-switch,input next source switch to,
-switch,input previous source switch to,
-switch,of switch windows,
-switch,switch windows,
+switch,switch to next input source,general
+switch,switch to previous input source,general
+switch,switch windows,general
+switch,switch windows directly,general
+switch,switch windows of,general
 ________________________________________________________________________________
-windows,all hide windows,
-windows,directly switch windows,
-windows,of switch windows,
-windows,switch windows,
+windows,hide all windows,general
+windows,switch windows,general
+windows,switch windows directly,general
+windows,switch windows of,general
 ________________________________________________________________________________
-zoom,in zoom,
-zoom,off turn zoom,
-zoom,on turn zoom,
-zoom,out zoom,
+turn,turn screen reader off,general
+turn,turn screen reader on,general
+turn,turn zoom off,general
+turn,turn zoom on,general
 ________________________________________________________________________________
-on,left on split view,
-on,on reader screen turn,
-on,on right split view,
-on,on turn zoom,
+on,turn screen reader on,general
+on,turn zoom on,general
+on,view split on left,general
+on,view split on right,general
 ________________________________________________________________________________
-turn,off reader screen turn,
-turn,off turn zoom,
-turn,on reader screen turn,
-turn,on turn zoom,
+zoom,turn zoom off,general
+zoom,turn zoom on,general
+zoom,zoom in,general
+zoom,zoom out,general
 ________________________________________________________________________________
-copy,copy partial screenshot,
-copy,copy screenshot,
-copy,copy screenshot window,
+copy,copy partial screenshot,general
+copy,copy screenshot,general
+copy,copy window screenshot,general
 ________________________________________________________________________________
-screen,lock screen,
-screen,off reader screen turn,
-screen,on reader screen turn,
+screen,lock screen,general
+screen,turn screen reader off,general
+screen,turn screen reader on,general
 ________________________________________________________________________________
-save,partial save screenshot,
-save,save screenshot,
-save,save screenshot window,
+save,save partial screenshot,general
+save,save screenshot,general
+save,save window screenshot,general
 ________________________________________________________________________________
-menu,activate menu window,
-menu,application menu open,
+menu,activate window menu,general
+menu,open application menu,general
 ________________________________________________________________________________
-notification,active focus notification,
-notification,list notification show,
+partial,copy partial screenshot,general
+partial,save partial screenshot,general
 ________________________________________________________________________________
-overview,activities overview show,
-overview,overview show,
+notification,focus active notification,general
+notification,show notification list,general
 ________________________________________________________________________________
-all,all applications show,
-all,all hide windows,
+hide,hide all windows,general
+hide,hide window,general
 ________________________________________________________________________________
-hide,all hide windows,
-hide,hide window,
+all,hide all windows,general
+all,show all applications,general
 ________________________________________________________________________________
-partial,copy partial screenshot,
-partial,partial save screenshot,
+out,log out,general
+out,zoom out,general
 ________________________________________________________________________________
-one,down move one window workspace,
-one,move one up window workspace,
+one,move window one workspace down,general
+one,move window one workspace up,general
 ________________________________________________________________________________
-input,input next source switch to,
-input,input previous source switch to,
+overview,show activities overview,general
+overview,show overview,general
 ________________________________________________________________________________
-source,input next source switch to,
-source,input previous source switch to,
+input,switch to next input source,general
+input,switch to previous input source,general
 ________________________________________________________________________________
-split,left on split view,
-split,on right split view,
+source,switch to next input source,general
+source,switch to previous input source,general
 ________________________________________________________________________________
-view,left on split view,
-view,on right split view,
+reader,turn screen reader off,general
+reader,turn screen reader on,general
 ________________________________________________________________________________
-out,log out,
-out,out zoom,
+off,turn screen reader off,general
+off,turn zoom off,general
 ________________________________________________________________________________
-off,off reader screen turn,
-off,off turn zoom,
+view,view split on left,general
+view,view split on right,general
 ________________________________________________________________________________
-reader,off reader screen turn,
-reader,on reader screen turn,
+split,view split on left,general
+split,view split on right,general
 ________________________________________________________________________________
-above,above move to workspace,
+activate,activate window menu,general
 ________________________________________________________________________________
-activate,activate menu window,
+close,close window,general
 ________________________________________________________________________________
-active,active focus notification,
+focus,focus active notification,general
 ________________________________________________________________________________
-focus,active focus notification,
+active,focus active notification,general
 ________________________________________________________________________________
-activities,activities overview show,
+lock,lock screen,general
 ________________________________________________________________________________
-applications,all applications show,
+log,log out,general
 ________________________________________________________________________________
-application,application menu open,
+maximize,maximize window,general
 ________________________________________________________________________________
-open,application menu open,
+above,move to workspace above,general
 ________________________________________________________________________________
-below,below move to workspace,
+below,move to workspace below,general
 ________________________________________________________________________________
-close,close window,
+down,move window one workspace down,general
 ________________________________________________________________________________
-command,command prompt show,
+up,move window one workspace up,general
 ________________________________________________________________________________
-prompt,command prompt show,
+last,move window to last workspace,general
 ________________________________________________________________________________
-directly,directly switch windows,
+open,open application menu,general
 ________________________________________________________________________________
-down,down move one window workspace,
+application,open application menu,general
 ________________________________________________________________________________
-in,in zoom,
+record,record screencast,general
 ________________________________________________________________________________
-next,input next source switch to,
+screencast,record screencast,general
 ________________________________________________________________________________
-previous,input previous source switch to,
+resize,resize window,general
 ________________________________________________________________________________
-last,last move to window workspace,
+restore,restore window,general
 ________________________________________________________________________________
-left,left on split view,
+activities,show activities overview,general
 ________________________________________________________________________________
-list,list notification show,
+applications,show all applications,general
 ________________________________________________________________________________
-lock,lock screen,
+command,show command prompt,general
 ________________________________________________________________________________
-log,log out,
+prompt,show command prompt,general
 ________________________________________________________________________________
-maximize,maximize window,
+list,show notification list,general
 ________________________________________________________________________________
-up,move one up window workspace,
+next,switch to next input source,general
 ________________________________________________________________________________
-of,of switch windows,
+previous,switch to previous input source,general
 ________________________________________________________________________________
-right,on right split view,
+directly,switch windows directly,general
 ________________________________________________________________________________
-record,record screencast,
+of,switch windows of,general
 ________________________________________________________________________________
-screencast,record screencast,
+left,view split on left,general
 ________________________________________________________________________________
-resize,resize window,
+right,view split on right,general
 ________________________________________________________________________________
-restore,restore window,
+in,zoom in,general
 ________________________________________________________________________________

@@ -1,1878 +1,1880 @@
-to,beginning go line of to,
-to,bottom in scroll terminal to,
-to,bracket jump matching to,
-to,definition go to,
-to,definition open side to,
-to,end go line of to,
-to,error go next to,
-to,error go previous to,
-to,file go to,
-to,go line to,
-to,go next to warning,
-to,go previous to warning,
-to,go symbol to,
-to,in scroll terminal to top,
-to,markdown open preview side to,
-to,above move to workspace,
-to,below move to workspace,
-to,input next source switch to,
-to,input previous source switch to,
-to,last move to window workspace,
-to,bottom scroll to,
-to,delete end line of to,
-to,delete line of start to,
-to,delete of start to word,
-to,eight switch tab to,
-to,end line move of to,
-to,five switch tab to,
-to,four switch tab to,
-to,left move tab to,
-to,line move of start to,
-to,move right tab to,
-to,nine switch tab to,
-to,one switch tab to,
-to,scroll to top,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab ten to,
-to,switch tab three to,
-to,switch tab to two,
-to,beginning document go of to,
-to,beginning go line of to,
-to,case change lower to,
-to,case change to upper,
-to,document end go of to,
-to,eight switch tab to,
-to,end go line of to,
-to,five switch tab to,
-to,four switch tab to,
-to,go line to,
-to,next switch tab to,
-to,nine switch tab to,
-to,one switch tab to,
-to,previous switch tab to,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab three to,
-to,switch tab to two,
-to,beginning go line of to,
-to,beginning go to,
-to,beginning seek to,
-to,delete left to word,
-to,delete right to word,
-to,eight switch tab to,
-to,end go line of to,
-to,end go to,
-to,end move tab to,
-to,end seek to,
-to,five switch tab to,
-to,four switch tab to,
-to,frame move next to,
-to,frame move previous to,
-to,go left one to word,
-to,go one right to word,
-to,last switch tab to,
-to,mode presentation switch to,
-to,move start tab to,
-to,one switch tab to,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab three to,
-to,switch tab to two,
-to,eight switch tab to,
-to,five switch tab to,
-to,folder go home to,
-to,four switch tab to,
-to,go next tab to,
-to,go previous tab to,
-to,move to trash,
-to,nine switch tab to,
-to,one switch tab to,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab three to,
-to,switch tab to two,
-________________________________________________________________________________
-tab,focus moves tab toggle,
-tab,next tab,
-tab,previous tab,
-tab,tab,
-tab,close tab,
-tab,eight switch tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,left move tab to,
-tab,move right tab to,
-tab,new tab,
-tab,next tab,
-tab,nine switch tab to,
-tab,one switch tab to,
-tab,previous tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab ten to,
-tab,switch tab three to,
-tab,switch tab to two,
-tab,add stop tab,
-tab,close tab,
-tab,close tab undo,
-tab,eight switch tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,group new tab,
-tab,group next tab,
-tab,group previous tab,
-tab,new tab,
-tab,next switch tab to,
-tab,nine switch tab to,
-tab,one switch tab to,
-tab,previous switch tab to,
-tab,remove stop tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab three to,
-tab,switch tab to two,
-tab,close tab,
-tab,close tab undo,
-tab,eight switch tab to,
-tab,end move tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,last switch tab to,
-tab,left move tab,
-tab,move right tab,
-tab,move start tab to,
-tab,new tab,
-tab,next tab,
-tab,one switch tab to,
-tab,previous tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab three to,
-tab,switch tab to two,
-tab,close tab,
-tab,eight switch tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,go next tab to,
-tab,go previous tab to,
-tab,in new open tab,
-tab,left move tab,
-tab,move right tab,
-tab,new tab,
-tab,nine switch tab to,
-tab,one switch tab to,
-tab,restore tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab three to,
-tab,switch tab to two,
-________________________________________________________________________________
-switch,directly switch windows,
-switch,input next source switch to,
-switch,input previous source switch to,
-switch,of switch windows,
-switch,switch windows,
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,nine switch tab to,
-switch,one switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab ten to,
-switch,switch tab three to,
-switch,switch tab to two,
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,next switch tab to,
-switch,nine switch tab to,
-switch,one switch tab to,
-switch,previous switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab three to,
-switch,switch tab to two,
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,last switch tab to,
-switch,mode presentation switch to,
-switch,one switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab three to,
-switch,switch tab to two,
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,nine switch tab to,
-switch,one switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab three to,
-switch,switch tab to two,
-________________________________________________________________________________
-line,above insert line,
-line,add comment line,
-line,beginning go line of to,
-line,below insert line,
-line,comment line remove,
-line,comment line toggle,
-line,current line select,
-line,delete line,
-line,down line,
-line,down line move,
-line,duplicate line,
-line,end go line of to,
-line,go line to,
-line,indent line,
-line,line move up,
-line,line outdent,
-line,line trim,
-line,line up,
-line,line low,
-line,line vertical,
-line,delete end line of to,
-line,delete line of start to,
-line,down line one scroll,
-line,end line move of to,
-line,erase line,
-line,line move of start to,
-line,line one scroll up,
-line,beginning go line of to,
-line,current delete line,
-line,down line move,
-line,end go line of to,
-line,go line to,
-line,line move up,
-line,beginning go line of to,
-line,end go line of to,
-________________________________________________________________________________
-move,down editor group move,
-move,down line move,
-move,editor group left move,
-move,editor group move right,
-move,editor group move up,
-move,editor left move,
-move,editor move right,
-move,line move up,
-move,above move to workspace,
-move,below move to workspace,
-move,down move one window workspace,
-move,last move to window workspace,
-move,move one up window workspace,
-move,move window,
-move,back character move one,
-move,back move one word,
-move,character forward move one,
-move,end line move of to,
-move,forward move one word,
-move,left move tab to,
-move,line move of start to,
-move,move right tab to,
-move,down line move,
-move,left move word,
-move,line move up,
-move,move right word,
-move,end move tab to,
-move,frame move next to,
-move,frame move previous to,
-move,left move tab,
-move,move right tab,
-move,move start tab to,
-move,left move tab,
-move,move right tab,
-move,move to trash,
-________________________________________________________________________________
-window,close window,
-window,close window,
-window,file in new open window,
-window,new window,
-window,activate menu window,
-window,close window,
-window,copy screenshot window,
-window,down move one window workspace,
-window,hide window,
-window,last move to window workspace,
-window,maximize window,
-window,move one up window workspace,
-window,move window,
-window,resize window,
-window,restore window,
-window,save screenshot window,
-window,close window,
-window,new window,
-window,close window,
-window,new window,
-window,bookmarks library window,
-window,close undo window,
-window,close window,
-window,history library window,
-window,new private window,
-window,new window,
-window,and close file open window,
-window,close window,
-window,in new open window,
-window,new window,
-________________________________________________________________________________
-go,back go,
-go,beginning go line of to,
-go,definition go to,
-go,end go line of to,
-go,error go next to,
-go,error go previous to,
-go,file go to,
-go,forward go,
-go,go line to,
-go,go next to warning,
-go,go previous to warning,
-go,go symbol to,
-go,beginning document go of to,
-go,beginning go line of to,
-go,document end go of to,
-go,end go line of to,
-go,go line to,
-go,beginning go line of to,
-go,beginning go to,
-go,end go line of to,
-go,end go to,
-go,go,
-go,go left one to word,
-go,go one right to word,
-go,folder go home to,
-go,go next tab to,
-go,go previous tab to,
-________________________________________________________________________________
-capital,a capital,
-capital,b capital,
-capital,c capital,
-capital,capital d,
-capital,capital e,
-capital,capital f,
-capital,capital g,
-capital,capital h,
-capital,capital i,
-capital,capital j,
-capital,capital k,
-capital,capital l,
-capital,capital m,
-capital,capital n,
-capital,capital o,
-capital,capital p,
-capital,capital q,
-capital,capital r,
-capital,capital s,
-capital,capital t,
-capital,capital u,
-capital,capital v,
-capital,capital w,
-capital,capital x,
-capital,capital y,
-capital,capital z,
-________________________________________________________________________________
-small,a small,
-small,b small,
-small,c small,
-small,d small,
-small,e small,
-small,f small,
-small,g small,
-small,h small,
-small,i small,
-small,j small,
-small,k small,
-small,l small,
-small,m small,
-small,n small,
-small,o small,
-small,p small,
-small,q small,
-small,r small,
-small,s small,
-small,small t,
-small,small u,
-small,small v,
-small,small w,
-small,small x,
-small,small y,
-small,small z,
-________________________________________________________________________________
-show,all show symbols,
-show,command palette show,
-show,control show source,
-show,debug show,
-show,explorer show,
-show,extensions show,
-show,hover show,
-show,output panel show,
-show,panel problems show,
-show,references show,
-show,search show,
-show,show terminal,
-show,activities overview show,
-show,all applications show,
-show,command prompt show,
-show,list notification show,
-show,overview show,
-show,panel show side,
-show,action menu show,
-show,files hidden show,
-show,help show,
-show,item properties show,
-show,show sidebar,
-________________________________________________________________________________
-close,all close,
-close,close,
-close,close editor,
-close,close editor undo,
-close,close folder,
-close,close window,
-close,close window,
-close,close window,
-close,close tab,
-close,close window,
-close,all close tabs,
-close,close tab,
-close,close tab undo,
-close,close window,
-close,close find quick,
-close,close tab,
-close,close tab undo,
-close,close undo window,
-close,close window,
-close,and close file open window,
-close,close tab,
-close,close window,
-________________________________________________________________________________
-left,editor group left move,
-left,editor left move,
-left,alt left,
-left,brace left,
-left,bracket curly left,
-left,bracket left,
-left,bracket left square,
-left,control left,
-left,left,
-left,left paren,
-left,left parenthesis,
-left,left parenthesis,
-left,left shift,
-left,left super,
-left,left on split view,
-left,left move tab to,
-left,left move word,
-left,delete left to word,
-left,go left one to word,
-left,left move tab,
-left,left move tab,
-________________________________________________________________________________
-right,editor group move right,
-right,editor move right,
-right,alt right,
-right,brace right,
-right,bracket curly right,
-right,bracket right,
-right,bracket right square,
-right,control right,
-right,paren right,
-right,parenthesis right,
-right,parenthesis right,
-right,right,
-right,right shift,
-right,right super,
-right,on right split view,
-right,move right tab to,
-right,move right word,
-right,delete right to word,
-right,go one right to word,
-right,move right tab,
-right,move right tab,
-________________________________________________________________________________
-open,definition open side to,
-open,editor keep mode open preview,
-open,file in new open window,
-open,file location open,
-open,file open,
-open,markdown open preview,
-open,markdown open preview side to,
-open,open preview,
-open,open quick,
-open,application menu open,
-open,document open,
-open,file menu open,
-open,guide open user,
-open,open quick,
-open,file open,
-open,and close file open window,
-open,in new open tab,
-open,in new open window,
-open,item location open,
-open,open,
-________________________________________________________________________________
-one,f one,
-one,function one,
-one,one,
-one,down move one window workspace,
-one,move one up window workspace,
-one,back character move one,
-one,back move one word,
-one,character forward move one,
-one,down line one scroll,
-one,down one page scroll,
-one,forward move one word,
-one,line one scroll up,
-one,one page scroll up,
-one,one switch tab to,
-one,one switch tab to,
-one,go left one to word,
-one,go one right to word,
-one,one switch tab to,
-one,one switch tab to,
-________________________________________________________________________________
-of,all current of select selection,
-of,all current of select word,
-of,all find match of select,
-of,at end insert lines of selected,
-of,beginning go line of to,
-of,end go line of to,
-of,of switch windows,
-of,delete end line of to,
-of,delete line of start to,
-of,delete of start to word,
-of,end line move of to,
-of,line move of start to,
-of,beginning document go of to,
-of,beginning go line of to,
-of,document end go of to,
-of,end go line of to,
-of,beginning go line of to,
-of,end go line of to,
-________________________________________________________________________________
-previous,editor focus group previous,
-previous,error go previous to,
-previous,find previous,
-previous,go previous to warning,
-previous,previous tab,
-previous,input previous source switch to,
-previous,delete previous word,
-previous,find previous,
-previous,previous tab,
-previous,find previous,
-previous,group previous tab,
-previous,previous switch tab to,
-previous,find previous,
-previous,focus previous,
-previous,frame move previous to,
-previous,page previous,
-previous,previous tab,
-previous,go previous tab to,
-________________________________________________________________________________
-all,all close,
-all,all current of select selection,
-all,all current of select word,
-all,all find match of select,
-all,all fold regions,
-all,all fold subregions,
-all,all regions unfold,
-all,all select,
-all,all show symbols,
-all,all subregions unfold,
-all,all applications show,
-all,all hide windows,
-all,all close tabs,
-all,all save tabs,
-all,all select,
-all,all select,
-all,all select,
-________________________________________________________________________________
-find,all find match of select,
-find,find,
-find,find next,
-find,find previous,
-find,find,
-find,find next,
-find,find previous,
-find,and find replace,
-find,find,
-find,find next,
-find,find previous,
-find,close find quick,
-find,find,
-find,find links quick,
-find,find next,
-find,find previous,
-find,find quick,
-________________________________________________________________________________
-editor,close editor,
-editor,close editor undo,
-editor,down editor group move,
-editor,editor first focus group,
-editor,editor focus group next,
-editor,editor focus group previous,
-editor,editor focus group second,
-editor,editor focus group third,
-editor,editor group left move,
-editor,editor group move right,
-editor,editor group move up,
-editor,editor keep mode open preview,
-editor,editor layout toggle,
-editor,editor left move,
-editor,editor move right,
-editor,editor split,
-editor,editor style,
-________________________________________________________________________________
-next,editor focus group next,
-next,error go next to,
-next,find next,
-next,go next to warning,
-next,next tab,
-next,input next source switch to,
-next,find next,
-next,next tab,
-next,find next,
-next,group next tab,
-next,next switch tab to,
-next,find next,
-next,focus next,
-next,frame move next to,
-next,next page,
-next,next tab,
-next,go next tab to,
-________________________________________________________________________________
-new,file in new open window,
-new,file new,
-new,new terminal,
-new,new window,
-new,new tab,
-new,new window,
-new,group new tab,
-new,new tab,
-new,new window,
-new,new private window,
-new,new tab,
-new,new window,
-new,folder new,
-new,in new open tab,
-new,in new open window,
-new,new tab,
-new,new window,
-________________________________________________________________________________
-in,bottom in scroll terminal to,
-in,down in page scroll terminal,
-in,down in scroll terminal,
-in,file in new open window,
-in,files in replace,
-in,in page scroll terminal up,
-in,in paste terminal,
-in,in scroll terminal to top,
-in,in scroll terminal up,
-in,in zoom,
-in,in zoom,
-in,in zoom,
-in,in zoom,
-in,in new open tab,
-in,in new open window,
-in,in zoom,
-________________________________________________________________________________
-page,down in page scroll terminal,
-page,down page,
-page,in page scroll terminal up,
-page,page up,
-page,down page,
-page,page up,
-page,down one page scroll,
-page,one page scroll up,
-page,bookmark page this,
-page,box focus number page,
-page,down page,
-page,info page,
-page,next page,
-page,page previous,
-page,page source,
-page,page up,
-________________________________________________________________________________
-zoom,in zoom,
-zoom,out zoom,
-zoom,in zoom,
-zoom,off turn zoom,
-zoom,on turn zoom,
-zoom,out zoom,
-zoom,in zoom,
-zoom,out zoom,
-zoom,reset zoom,
-zoom,in zoom,
-zoom,out zoom,
-zoom,reset zoom,
-zoom,in zoom,
-zoom,out zoom,
-zoom,reset zoom,
-________________________________________________________________________________
-down,down editor group move,
-down,down in page scroll terminal,
-down,down in scroll terminal,
-down,down line,
-down,down line move,
-down,down page,
-down,down,
-down,down page,
-down,down move one window workspace,
-down,down line one scroll,
-down,down one page scroll,
-down,down line move,
-down,down,
-down,down page,
-________________________________________________________________________________
-up,editor group move up,
-up,in page scroll terminal up,
-up,in scroll terminal up,
-up,line move up,
-up,line up,
-up,page up,
-up,page up,
-up,up,
-up,move one up window workspace,
-up,line one scroll up,
-up,one page scroll up,
-up,line move up,
-up,page up,
-up,up,
-________________________________________________________________________________
-f,capital f,
-f,eight f,
-f,eleven f,
-f,f five,
-f,f four,
-f,f nine,
-f,f one,
-f,f seven,
-f,f six,
-f,f small,
-f,f ten,
-f,f three,
-f,f twelve,
-f,f two,
-________________________________________________________________________________
-word,all current of select word,
-word,toggle word wrap,
-word,back move one word,
-word,delete of start to word,
-word,delete previous word,
-word,erase word,
-word,forward move one word,
-word,left move word,
-word,move right word,
-word,delete left to word,
-word,delete right to word,
-word,go left one to word,
-word,go one right to word,
-________________________________________________________________________________
-toggle,block comment toggle,
-toggle,breakpoint toggle,
-toggle,comment line toggle,
-toggle,details search toggle,
-toggle,editor layout toggle,
-toggle,focus moves tab toggle,
-toggle,focus toggle,
-toggle,sidebar toggle visibility,
-toggle,toggle word wrap,
-toggle,case toggle,
-toggle,context menu toggle,
-toggle,developer toggle tools,
-toggle,mode reader toggle,
-________________________________________________________________________________
-scroll,bottom in scroll terminal to,
-scroll,down in page scroll terminal,
-scroll,down in scroll terminal,
-scroll,in page scroll terminal up,
-scroll,in scroll terminal to top,
-scroll,in scroll terminal up,
-scroll,lock scroll,
-scroll,bottom scroll to,
-scroll,down line one scroll,
-scroll,down one page scroll,
-scroll,line one scroll up,
-scroll,one page scroll up,
-scroll,scroll to top,
-________________________________________________________________________________
-group,down editor group move,
-group,editor first focus group,
-group,editor focus group next,
-group,editor focus group previous,
-group,editor focus group second,
-group,editor focus group third,
-group,editor group left move,
-group,editor group move right,
-group,editor group move up,
-group,group new tab,
-group,group next tab,
-group,group previous tab,
-________________________________________________________________________________
-focus,editor first focus group,
-focus,editor focus group next,
-focus,editor focus group previous,
-focus,editor focus group second,
-focus,editor focus group third,
-focus,focus moves tab toggle,
-focus,focus toggle,
-focus,active focus notification,
-focus,bar focus search,
-focus,box focus number page,
-focus,focus next,
-focus,focus previous,
-________________________________________________________________________________
-function,eight function,
-function,eleven function,
-function,five function,
-function,four function,
-function,function nine,
-function,function one,
-function,function seven,
-function,function six,
-function,function ten,
-function,function three,
-function,function twelve,
-function,function two,
-________________________________________________________________________________
-end,at end insert lines of selected,
-end,end go line of to,
-end,end,
-end,delete end line of to,
-end,end line move of to,
-end,document end go of to,
-end,end go line of to,
-end,end go line of to,
-end,end go to,
-end,end move tab to,
-end,end seek to,
-________________________________________________________________________________
-delete,delete line,
-delete,delete,
-delete,delete end line of to,
-delete,delete line of start to,
-delete,delete of start to word,
-delete,delete previous word,
-delete,current delete line,
-delete,delete,
-delete,delete left to word,
-delete,delete right to word,
-delete,delete permanently,
-________________________________________________________________________________
-select,all current of select selection,
-select,all current of select word,
-select,all find match of select,
-select,all select,
-select,current line select,
-select,all select,
-select,all select,
-select,bar location select,
-select,all select,
-select,items matching select,
-________________________________________________________________________________
-copy,copy,
-copy,copy path,
-copy,copy selection,
-copy,copy partial screenshot,
-copy,copy screenshot,
-copy,copy screenshot window,
-copy,copy,
-copy,copy,
-copy,copy,
-copy,copy,
-________________________________________________________________________________
-save,as save,
-save,save,
-save,partial save screenshot,
-save,save screenshot,
-save,save screenshot window,
-save,all save tabs,
-save,as save,
-save,save,
-save,save,
-________________________________________________________________________________
-terminal,bottom in scroll terminal to,
-terminal,down in page scroll terminal,
-terminal,down in scroll terminal,
-terminal,in page scroll terminal up,
-terminal,in paste terminal,
-terminal,in scroll terminal to top,
-terminal,in scroll terminal up,
-terminal,new terminal,
-terminal,show terminal,
-________________________________________________________________________________
-file,change file language,
-file,file go to,
-file,file in new open window,
-file,file location open,
-file,file new,
-file,file open,
-file,file menu open,
-file,file open,
-file,and close file open window,
-________________________________________________________________________________
-screen,full screen,
-screen,print screen,
-screen,lock screen,
-screen,off reader screen turn,
-screen,on reader screen turn,
-screen,clear screen,
-screen,full screen,
-screen,exit full screen,
-screen,full screen,
-________________________________________________________________________________
-back,back go,
-back,back slash,
-back,back character move one,
-back,back move one word,
-back,back,
-back,back fifteen seconds seek,
-back,back percent seek ten,
-back,back,
-________________________________________________________________________________
-undo,close editor undo,
-undo,undo,
-undo,close tab undo,
-undo,undo,
-undo,close tab undo,
-undo,close undo window,
-undo,undo,
-undo,undo,
-________________________________________________________________________________
-menu,menu,
-menu,activate menu window,
-menu,application menu open,
-menu,file menu open,
-menu,bar menu,
-menu,context menu toggle,
-menu,action hide menu,
-menu,action menu show,
-________________________________________________________________________________
-selection,all current of select selection,
-selection,copy selection,
-selection,expand selection,
-selection,format selection,
-selection,selection shrink,
-selection,selection text tool,
-selection,invert selection,
-________________________________________________________________________________
-bracket,bracket jump matching to,
-bracket,bracket curly left,
-bracket,bracket curly right,
-bracket,bracket left,
-bracket,bracket left square,
-bracket,bracket right,
-bracket,bracket right square,
-________________________________________________________________________________
-paste,in paste terminal,
-paste,paste,
-paste,paste,
-paste,paste,
-paste,as paste plain text,
-paste,paste,
-paste,paste,
-________________________________________________________________________________
-out,out step,
-out,out zoom,
-out,log out,
-out,out zoom,
-out,out zoom,
-out,out zoom,
-out,out zoom,
-________________________________________________________________________________
-eight,eight,
-eight,eight f,
-eight,eight function,
-eight,eight switch tab to,
-eight,eight switch tab to,
-eight,eight switch tab to,
-eight,eight switch tab to,
-________________________________________________________________________________
-five,f five,
-five,five,
-five,five function,
-five,five switch tab to,
-five,five switch tab to,
-five,five switch tab to,
-five,five switch tab to,
-________________________________________________________________________________
-four,f four,
-four,four,
-four,four function,
-four,four switch tab to,
-four,four switch tab to,
-four,four switch tab to,
-four,four switch tab to,
-________________________________________________________________________________
-seven,f seven,
-seven,function seven,
-seven,seven,
-seven,seven switch tab to,
-seven,seven switch tab to,
-seven,seven switch tab to,
-seven,seven switch tab to,
-________________________________________________________________________________
-six,f six,
-six,function six,
-six,six,
-six,six switch tab to,
-six,six switch tab to,
-six,six switch tab to,
-six,six switch tab to,
-________________________________________________________________________________
-three,f three,
-three,function three,
-three,three,
-three,switch tab three to,
-three,switch tab three to,
-three,switch tab three to,
-three,switch tab three to,
-________________________________________________________________________________
-two,f two,
-two,function two,
-two,two,
-two,switch tab to two,
-two,switch tab to two,
-two,switch tab to two,
-two,switch tab to two,
-________________________________________________________________________________
-insert,above cursor insert,
-insert,above insert line,
-insert,at end insert lines of selected,
-insert,below cursor insert,
-insert,below insert line,
-insert,insert,
-________________________________________________________________________________
-beginning,beginning go line of to,
-beginning,beginning document go of to,
-beginning,beginning go line of to,
-beginning,beginning go line of to,
-beginning,beginning go to,
-beginning,beginning seek to,
-________________________________________________________________________________
-quick,fix quick,
-quick,open quick,
-quick,open quick,
-quick,close find quick,
-quick,find links quick,
-quick,find quick,
-________________________________________________________________________________
-forward,forward go,
-forward,character forward move one,
-forward,forward move one word,
-forward,fifteen forward seconds seek,
-forward,forward,
-forward,forward percent seek ten,
-________________________________________________________________________________
-nine,f nine,
-nine,function nine,
-nine,nine,
-nine,nine switch tab to,
-nine,nine switch tab to,
-nine,nine switch tab to,
-________________________________________________________________________________
-hide,all hide windows,
-hide,hide window,
-hide,hide panel side,
-hide,action hide menu,
-hide,files hidden hide,
-hide,hide sidebar,
-________________________________________________________________________________
-screenshot,copy partial screenshot,
-screenshot,copy screenshot,
-screenshot,copy screenshot window,
-screenshot,partial save screenshot,
-screenshot,save screenshot,
-screenshot,save screenshot window,
-________________________________________________________________________________
-seek,back fifteen seconds seek,
-seek,back percent seek ten,
-seek,beginning seek to,
-seek,end seek to,
-seek,fifteen forward seconds seek,
-seek,forward percent seek ten,
-________________________________________________________________________________
-mode,editor keep mode open preview,
-mode,exit mode zen,
-mode,mode zen,
-mode,mode presentation switch to,
-mode,mode reader toggle,
-________________________________________________________________________________
-preview,editor keep mode open preview,
-preview,markdown open preview,
-preview,markdown open preview side to,
-preview,open preview,
-preview,preview print,
-________________________________________________________________________________
-full,full screen,
-full,full stop,
-full,full screen,
-full,exit full screen,
-full,full screen,
-________________________________________________________________________________
-sidebar,sidebar toggle visibility,
-sidebar,bookmarks sidebar,
-sidebar,history sidebar,
-sidebar,hide sidebar,
-sidebar,show sidebar,
-________________________________________________________________________________
-start,start,
-start,delete line of start to,
-start,delete of start to word,
-start,line move of start to,
-start,move start tab to,
-________________________________________________________________________________
-stop,stop,
-stop,full stop,
-stop,add stop tab,
-stop,remove stop tab,
-stop,stop,
-________________________________________________________________________________
-sign,dollar sign,
-sign,equals sign,
-sign,number sign,
-sign,percent sign,
-sign,plus sign,
-________________________________________________________________________________
-ten,f ten,
-ten,function ten,
-ten,switch tab ten to,
-ten,back percent seek ten,
-ten,forward percent seek ten,
-________________________________________________________________________________
-print,print,
-print,print screen,
-print,preview print,
-print,print,
-print,print,
-________________________________________________________________________________
-workspace,above move to workspace,
-workspace,below move to workspace,
-workspace,down move one window workspace,
-workspace,last move to window workspace,
-workspace,move one up window workspace,
-________________________________________________________________________________
-comment,add comment line,
-comment,block comment toggle,
-comment,comment line remove,
-comment,comment line toggle,
-________________________________________________________________________________
-current,all current of select selection,
-current,all current of select word,
-current,current line select,
-current,current delete line,
-________________________________________________________________________________
-bottom,bottom,
-bottom,bottom in scroll terminal to,
-bottom,bottom scroll to,
-bottom,bottom,
-________________________________________________________________________________
-control,control show source,
-control,control,
-control,control left,
-control,control right,
-________________________________________________________________________________
-source,control show source,
-source,input next source switch to,
-source,input previous source switch to,
-source,page source,
-________________________________________________________________________________
-cut,cut,
-cut,cut,
-cut,cut,
-cut,cut,
-________________________________________________________________________________
-side,definition open side to,
-side,markdown open preview side to,
-side,hide panel side,
-side,panel show side,
-________________________________________________________________________________
-search,details search toggle,
-search,search show,
-search,bar focus search,
-search,search,
-________________________________________________________________________________
-document,document format,
-document,beginning document go of to,
-document,document end go of to,
-document,document open,
-________________________________________________________________________________
-location,file location open,
-location,bar location select,
-location,enter location,
-location,item location open,
-________________________________________________________________________________
-top,in scroll terminal to top,
-top,top,
-top,scroll to top,
-top,top,
-________________________________________________________________________________
-panel,output panel show,
-panel,panel problems show,
-panel,hide panel side,
-panel,panel show side,
-________________________________________________________________________________
-bar,bar,
-bar,bar focus search,
-bar,bar location select,
-bar,bar menu,
-________________________________________________________________________________
-lock,caps lock,
-lock,lock num,
-lock,lock scroll,
-lock,lock screen,
-________________________________________________________________________________
-parenthesis,left parenthesis,
-parenthesis,left parenthesis,
-parenthesis,parenthesis right,
-parenthesis,parenthesis right,
-________________________________________________________________________________
-percent,percent,
-percent,percent sign,
-percent,back percent seek ten,
-percent,forward percent seek ten,
-________________________________________________________________________________
-windows,all hide windows,
-windows,directly switch windows,
-windows,of switch windows,
-windows,switch windows,
-________________________________________________________________________________
-on,left on split view,
-on,on reader screen turn,
-on,on right split view,
-on,on turn zoom,
-________________________________________________________________________________
-turn,off reader screen turn,
-turn,off turn zoom,
-turn,on reader screen turn,
-turn,on turn zoom,
-________________________________________________________________________________
-clear,clear highlight,
-clear,clear screen,
-clear,clear highlight,
-clear,clear history,
-________________________________________________________________________________
-above,above cursor insert,
-above,above insert line,
-above,above move to workspace,
-________________________________________________________________________________
-add,add comment line,
-add,add stop tab,
-add,add ons,
-________________________________________________________________________________
-fold,all fold regions,
-fold,all fold subregions,
-fold,fold region,
-________________________________________________________________________________
-unfold,all regions unfold,
-unfold,all subregions unfold,
-unfold,region unfold,
-________________________________________________________________________________
-as,as save,
-as,as save,
-as,as paste plain text,
-________________________________________________________________________________
-below,below cursor insert,
-below,below insert line,
-below,below move to workspace,
-________________________________________________________________________________
-change,change file language,
-change,case change lower to,
-change,case change to upper,
-________________________________________________________________________________
-folder,close folder,
-folder,folder go home to,
-folder,folder new,
-________________________________________________________________________________
-definition,definition go to,
-definition,definition open side to,
-definition,definition peek,
-________________________________________________________________________________
-split,editor split,
-split,left on split view,
-split,on right split view,
-________________________________________________________________________________
-files,files in replace,
-files,files hidden hide,
-files,files hidden show,
-________________________________________________________________________________
-replace,files in replace,
-replace,replace,
-replace,and find replace,
-________________________________________________________________________________
-step,into step,
-step,out step,
-step,over step,
-________________________________________________________________________________
-restore,restore,
-restore,restore window,
-restore,restore tab,
-________________________________________________________________________________
-alt,alt,
-alt,alt left,
-alt,alt right,
-________________________________________________________________________________
-and,and,
-and,and find replace,
-and,and close file open window,
-________________________________________________________________________________
-mark,exclamation mark,
-mark,mark question,
-mark,mark quotation,
-________________________________________________________________________________
-home,home,
-home,home,
-home,folder go home to,
-________________________________________________________________________________
-shift,left shift,
-shift,right shift,
-shift,shift,
-________________________________________________________________________________
-super,left super,
-super,right super,
-super,super,
-________________________________________________________________________________
-view,left on split view,
-view,on right split view,
-view,design responsive view,
-________________________________________________________________________________
-reader,off reader screen turn,
-reader,on reader screen turn,
-reader,mode reader toggle,
-________________________________________________________________________________
-reset,reset zoom,
-reset,reset zoom,
-reset,reset zoom,
-________________________________________________________________________________
-case,case change lower to,
-case,case change to upper,
-case,case toggle,
-________________________________________________________________________________
-redo,redo,
-redo,redo,
-redo,redo,
-________________________________________________________________________________
-history,clear history,
-history,history library window,
-history,history sidebar,
-________________________________________________________________________________
-cursor,above cursor insert,
-cursor,below cursor insert,
-________________________________________________________________________________
-regions,all fold regions,
-regions,all regions unfold,
-________________________________________________________________________________
-subregions,all fold subregions,
-subregions,all subregions unfold,
-________________________________________________________________________________
-at,at end insert lines of selected,
-at,at,
-________________________________________________________________________________
-matching,bracket jump matching to,
-matching,items matching select,
-________________________________________________________________________________
-command,command palette show,
-command,command prompt show,
-________________________________________________________________________________
-remove,comment line remove,
-remove,remove stop tab,
-________________________________________________________________________________
-format,document format,
-format,format selection,
-________________________________________________________________________________
-error,error go next to,
-error,error go previous to,
-________________________________________________________________________________
-exit,exit mode zen,
-exit,exit full screen,
-________________________________________________________________________________
-zen,exit mode zen,
-zen,mode zen,
-________________________________________________________________________________
-region,fold region,
-region,region unfold,
-________________________________________________________________________________
-warning,go next to warning,
-warning,go previous to warning,
-________________________________________________________________________________
-symbol,go symbol to,
-symbol,rename symbol,
-________________________________________________________________________________
-trigger,hints parameter trigger,
-trigger,suggestion trigger,
-________________________________________________________________________________
-shortcuts,keyboard shortcuts,
-shortcuts,shortcuts,
-________________________________________________________________________________
-markdown,markdown open preview,
-markdown,markdown open preview side to,
-________________________________________________________________________________
-rename,rename symbol,
-rename,rename,
-________________________________________________________________________________
-user,settings user,
-user,guide open user,
-________________________________________________________________________________
-a,a capital,
-a,a small,
-________________________________________________________________________________
-b,b capital,
-b,b small,
-________________________________________________________________________________
-slash,back slash,
-slash,slash,
-________________________________________________________________________________
-brace,brace left,
-brace,brace right,
-________________________________________________________________________________
-curly,bracket curly left,
-curly,bracket curly right,
-________________________________________________________________________________
-square,bracket left square,
-square,bracket right square,
-________________________________________________________________________________
-c,c capital,
-c,c small,
-________________________________________________________________________________
-d,capital d,
-d,d small,
-________________________________________________________________________________
-e,capital e,
-e,e small,
-________________________________________________________________________________
-g,capital g,
-g,g small,
-________________________________________________________________________________
-h,capital h,
-h,h small,
-________________________________________________________________________________
-i,capital i,
-i,i small,
-________________________________________________________________________________
-j,capital j,
-j,j small,
-________________________________________________________________________________
-k,capital k,
-k,k small,
-________________________________________________________________________________
-l,capital l,
-l,l small,
-________________________________________________________________________________
-m,capital m,
-m,m small,
-________________________________________________________________________________
-n,capital n,
-n,n small,
-________________________________________________________________________________
-o,capital o,
-o,o small,
-________________________________________________________________________________
-p,capital p,
-p,p small,
-________________________________________________________________________________
-q,capital q,
-q,q small,
-________________________________________________________________________________
-r,capital r,
-r,r small,
-________________________________________________________________________________
-s,capital s,
-s,s small,
-________________________________________________________________________________
-t,capital t,
-t,small t,
-________________________________________________________________________________
-u,capital u,
-u,small u,
-________________________________________________________________________________
-v,capital v,
-v,small v,
-________________________________________________________________________________
-w,capital w,
-w,small w,
-________________________________________________________________________________
-x,capital x,
-x,small x,
-________________________________________________________________________________
-y,capital y,
-y,small y,
-________________________________________________________________________________
-z,capital z,
-z,small z,
-________________________________________________________________________________
-caret,caret,
-caret,browsing caret,
-________________________________________________________________________________
-colon,colon,
-colon,colon semi,
-________________________________________________________________________________
-dollar,dollar,
-dollar,dollar sign,
-________________________________________________________________________________
-eleven,eleven f,
-eleven,eleven function,
-________________________________________________________________________________
-enter,enter,
-enter,enter location,
-________________________________________________________________________________
-equals,equals,
-equals,equals sign,
-________________________________________________________________________________
-twelve,f twelve,
-twelve,function twelve,
-________________________________________________________________________________
-than,greater than,
-than,less than,
-________________________________________________________________________________
-paren,left paren,
-paren,paren right,
-________________________________________________________________________________
-number,number sign,
-number,box focus number page,
-________________________________________________________________________________
-pause,pause,
-pause,pause,
-________________________________________________________________________________
-plus,plus,
-plus,plus sign,
-________________________________________________________________________________
-solidus,reverse solidus,
-solidus,solidus,
-________________________________________________________________________________
-notification,active focus notification,
-notification,list notification show,
-________________________________________________________________________________
-overview,activities overview show,
-overview,overview show,
-________________________________________________________________________________
-partial,copy partial screenshot,
-partial,partial save screenshot,
-________________________________________________________________________________
-input,input next source switch to,
-input,input previous source switch to,
-________________________________________________________________________________
-last,last move to window workspace,
-last,last switch tab to,
-________________________________________________________________________________
-off,off reader screen turn,
-off,off turn zoom,
-________________________________________________________________________________
-character,back character move one,
-character,character forward move one,
-________________________________________________________________________________
-highlight,clear highlight,
-highlight,clear highlight,
-________________________________________________________________________________
-erase,erase line,
-erase,erase word,
-________________________________________________________________________________
-tabs,all close tabs,
-tabs,all save tabs,
-________________________________________________________________________________
-text,as paste plain text,
-text,selection text tool,
-________________________________________________________________________________
-fifteen,back fifteen seconds seek,
-fifteen,fifteen forward seconds seek,
-________________________________________________________________________________
-seconds,back fifteen seconds seek,
-seconds,fifteen forward seconds seek,
-________________________________________________________________________________
-bookmarks,bookmarks library window,
-bookmarks,bookmarks sidebar,
-________________________________________________________________________________
-library,bookmarks library window,
-library,history library window,
-________________________________________________________________________________
-console,browser console,
-console,console web,
-________________________________________________________________________________
-rotate,counterclockwise rotate,
-rotate,rotate,
-________________________________________________________________________________
-volume,decrease volume,
-volume,increase volume,
-________________________________________________________________________________
-developer,developer toggle tools,
-developer,developer toolbar,
-________________________________________________________________________________
-reload,force reload,
-reload,reload,
-________________________________________________________________________________
-frame,frame move next to,
-frame,frame move previous to,
-________________________________________________________________________________
-tool,hand tool,
-tool,selection text tool,
-________________________________________________________________________________
-action,action hide menu,
-action,action menu show,
-________________________________________________________________________________
-hidden,files hidden hide,
-hidden,files hidden show,
-________________________________________________________________________________
-item,item location open,
-item,item properties show,
-________________________________________________________________________________
-match,all find match of select,
-________________________________________________________________________________
-symbols,all show symbols,
-________________________________________________________________________________
-lines,at end insert lines of selected,
-________________________________________________________________________________
-selected,at end insert lines of selected,
-________________________________________________________________________________
-block,block comment toggle,
-________________________________________________________________________________
-jump,bracket jump matching to,
-________________________________________________________________________________
-breakpoint,breakpoint toggle,
-________________________________________________________________________________
-language,change file language,
-________________________________________________________________________________
-palette,command palette show,
-________________________________________________________________________________
-continue,continue,
-________________________________________________________________________________
-path,copy path,
-________________________________________________________________________________
-debug,debug show,
-________________________________________________________________________________
-peek,definition peek,
-________________________________________________________________________________
-details,details search toggle,
-________________________________________________________________________________
-duplicate,duplicate line,
-________________________________________________________________________________
-first,editor first focus group,
-________________________________________________________________________________
-second,editor focus group second,
-________________________________________________________________________________
-third,editor focus group third,
-________________________________________________________________________________
-keep,editor keep mode open preview,
-________________________________________________________________________________
-layout,editor layout toggle,
-________________________________________________________________________________
-expand,expand selection,
-________________________________________________________________________________
-explorer,explorer show,
-________________________________________________________________________________
-extensions,extensions show,
-________________________________________________________________________________
-fix,fix quick,
-________________________________________________________________________________
-moves,focus moves tab toggle,
-________________________________________________________________________________
-hints,hints parameter trigger,
-________________________________________________________________________________
-parameter,hints parameter trigger,
-________________________________________________________________________________
-hover,hover show,
-________________________________________________________________________________
-indent,indent line,
-________________________________________________________________________________
-into,into step,
-________________________________________________________________________________
-keyboard,keyboard shortcuts,
-________________________________________________________________________________
-outdent,line outdent,
-________________________________________________________________________________
-trim,line trim,
-________________________________________________________________________________
-output,output panel show,
-________________________________________________________________________________
-over,over step,
-________________________________________________________________________________
-problems,panel problems show,
-________________________________________________________________________________
-references,references show,
-________________________________________________________________________________
-shrink,selection shrink,
-________________________________________________________________________________
-settings,settings user,
-________________________________________________________________________________
-visibility,sidebar toggle visibility,
-________________________________________________________________________________
-suggestion,suggestion trigger,
-________________________________________________________________________________
-wrap,toggle word wrap,
-________________________________________________________________________________
-accent,accent circumflex,
-________________________________________________________________________________
-circumflex,accent circumflex,
-________________________________________________________________________________
-ampersand,ampersand,
-________________________________________________________________________________
-apostrophe,apostrophe,
-________________________________________________________________________________
-asterisk,asterisk,
-________________________________________________________________________________
-backspace,backspace,
-________________________________________________________________________________
-caps,caps lock,
-________________________________________________________________________________
-semi,colon semi,
-________________________________________________________________________________
-comma,comma,
-________________________________________________________________________________
-double,double quote,
-________________________________________________________________________________
-quote,double quote,
-________________________________________________________________________________
-escape,escape,
-________________________________________________________________________________
-exclamation,exclamation mark,
-________________________________________________________________________________
-grave,grave,
-________________________________________________________________________________
-greater,greater than,
-________________________________________________________________________________
-hash,hash,
-________________________________________________________________________________
-hyphen,hyphen,
-________________________________________________________________________________
-less,less than,
-________________________________________________________________________________
-low,line low,
-________________________________________________________________________________
-vertical,line vertical,
-________________________________________________________________________________
-num,lock num,
-________________________________________________________________________________
-question,mark question,
-________________________________________________________________________________
-quotation,mark quotation,
-________________________________________________________________________________
-minus,minus,
-________________________________________________________________________________
-period,period,
-________________________________________________________________________________
-pipe,pipe,
-________________________________________________________________________________
-reverse,reverse solidus,
-________________________________________________________________________________
-score,score under,
-________________________________________________________________________________
-under,score under,
-________________________________________________________________________________
-space,space,
-________________________________________________________________________________
-tilde,tilde,
-________________________________________________________________________________
-zero,zero,
-________________________________________________________________________________
-activate,activate menu window,
-________________________________________________________________________________
-active,active focus notification,
-________________________________________________________________________________
-activities,activities overview show,
-________________________________________________________________________________
-applications,all applications show,
-________________________________________________________________________________
-application,application menu open,
-________________________________________________________________________________
-prompt,command prompt show,
-________________________________________________________________________________
-directly,directly switch windows,
-________________________________________________________________________________
-list,list notification show,
-________________________________________________________________________________
-log,log out,
-________________________________________________________________________________
-maximize,maximize window,
-________________________________________________________________________________
-record,record screencast,
-________________________________________________________________________________
-screencast,record screencast,
-________________________________________________________________________________
-resize,resize window,
-________________________________________________________________________________
-lower,case change lower to,
-________________________________________________________________________________
-upper,case change to upper,
-________________________________________________________________________________
-check,check spelling,
-________________________________________________________________________________
-spelling,check spelling,
-________________________________________________________________________________
-guide,guide open user,
-________________________________________________________________________________
-ons,add ons,
-________________________________________________________________________________
-plain,as paste plain text,
-________________________________________________________________________________
-bookmark,bookmark page this,
-________________________________________________________________________________
-this,bookmark page this,
-________________________________________________________________________________
-box,box focus number page,
-________________________________________________________________________________
-browser,browser console,
-________________________________________________________________________________
-browsing,browsing caret,
-________________________________________________________________________________
-web,console web,
-________________________________________________________________________________
-context,context menu toggle,
-________________________________________________________________________________
-counterclockwise,counterclockwise rotate,
-________________________________________________________________________________
-debugger,debugger,
-________________________________________________________________________________
-decrease,decrease volume,
-________________________________________________________________________________
-design,design responsive view,
-________________________________________________________________________________
-responsive,design responsive view,
-________________________________________________________________________________
-tools,developer toggle tools,
-________________________________________________________________________________
-toolbar,developer toolbar,
-________________________________________________________________________________
-downloads,downloads,
-________________________________________________________________________________
-style,editor style,
-________________________________________________________________________________
-links,find links quick,
-________________________________________________________________________________
-force,force reload,
-________________________________________________________________________________
-hand,hand tool,
-________________________________________________________________________________
-increase,increase volume,
-________________________________________________________________________________
-info,info page,
-________________________________________________________________________________
-inspector,inspector,
-________________________________________________________________________________
-presentation,mode presentation switch to,
-________________________________________________________________________________
-mute,mute,
-________________________________________________________________________________
-network,network,
-________________________________________________________________________________
-private,new private window,
-________________________________________________________________________________
-play,play,
-________________________________________________________________________________
-profiler,profiler,
-________________________________________________________________________________
-quit,quit,
-________________________________________________________________________________
-unmute,unmute,
-________________________________________________________________________________
-permanently,delete permanently,
-________________________________________________________________________________
-help,help show,
-________________________________________________________________________________
-invert,invert selection,
-________________________________________________________________________________
-properties,item properties show,
-________________________________________________________________________________
-items,items matching select,
-________________________________________________________________________________
-trash,move to trash,
-________________________________________________________________________________
-refresh,refresh,
+to,change to lower case,gedit
+to,change to upper case,gedit
+to,delete to end of line,gnome-terminal
+to,delete to start of line,gnome-terminal
+to,delete to start of word,gnome-terminal
+to,delete word to left,firefox
+to,delete word to right,firefox
+to,go one word to left,firefox
+to,go one word to right,firefox
+to,go to beginning,firefox
+to,go to beginning of document,gedit
+to,go to beginning of line,code
+to,go to beginning of line,gedit
+to,go to beginning of line,firefox
+to,go to definition,code
+to,go to end,firefox
+to,go to end of document,gedit
+to,go to end of line,code
+to,go to end of line,gedit
+to,go to end of line,firefox
+to,go to file,code
+to,go to home folder,nautilus
+to,go to line,code
+to,go to line,gedit
+to,go to next error,code
+to,go to next tab,nautilus
+to,go to next warning,code
+to,go to previous error,code
+to,go to previous tab,nautilus
+to,go to previous warning,code
+to,go to symbol,code
+to,jump to matching bracket,code
+to,move tab to end,firefox
+to,move tab to left,gnome-terminal
+to,move tab to right,gnome-terminal
+to,move tab to start,firefox
+to,move to end of line,gnome-terminal
+to,move to next frame,firefox
+to,move to previous frame,firefox
+to,move to start of line,gnome-terminal
+to,move to trash,nautilus
+to,move to workspace above,general
+to,move to workspace below,general
+to,move window to last workspace,general
+to,open definition to side,code
+to,open markdown preview to side,code
+to,scroll to bottom,gnome-terminal
+to,scroll to bottom in terminal,code
+to,scroll to top,gnome-terminal
+to,scroll to top in terminal,code
+to,seek to beginning,firefox
+to,seek to end,firefox
+to,switch to last tab,firefox
+to,switch to next input source,general
+to,switch to next tab,gedit
+to,switch to presentation mode,firefox
+to,switch to previous input source,general
+to,switch to previous tab,gedit
+to,switch to tab eight,gnome-terminal
+to,switch to tab eight,gedit
+to,switch to tab eight,firefox
+to,switch to tab eight,nautilus
+to,switch to tab five,gnome-terminal
+to,switch to tab five,gedit
+to,switch to tab five,firefox
+to,switch to tab five,nautilus
+to,switch to tab four,gnome-terminal
+to,switch to tab four,gedit
+to,switch to tab four,firefox
+to,switch to tab four,nautilus
+to,switch to tab nine,gnome-terminal
+to,switch to tab nine,gedit
+to,switch to tab nine,nautilus
+to,switch to tab one,gnome-terminal
+to,switch to tab one,gedit
+to,switch to tab one,firefox
+to,switch to tab one,nautilus
+to,switch to tab seven,gnome-terminal
+to,switch to tab seven,gedit
+to,switch to tab seven,firefox
+to,switch to tab seven,nautilus
+to,switch to tab six,gnome-terminal
+to,switch to tab six,gedit
+to,switch to tab six,firefox
+to,switch to tab six,nautilus
+to,switch to tab ten,gnome-terminal
+to,switch to tab three,gnome-terminal
+to,switch to tab three,gedit
+to,switch to tab three,firefox
+to,switch to tab three,nautilus
+to,switch to tab two,gnome-terminal
+to,switch to tab two,gedit
+to,switch to tab two,firefox
+to,switch to tab two,nautilus
+________________________________________________________________________________
+tab,add tab stop,gedit
+tab,close tab,gnome-terminal
+tab,close tab,gedit
+tab,close tab,firefox
+tab,close tab,nautilus
+tab,go to next tab,nautilus
+tab,go to previous tab,nautilus
+tab,move tab left,firefox
+tab,move tab left,nautilus
+tab,move tab right,firefox
+tab,move tab right,nautilus
+tab,move tab to end,firefox
+tab,move tab to left,gnome-terminal
+tab,move tab to right,gnome-terminal
+tab,move tab to start,firefox
+tab,new tab,gnome-terminal
+tab,new tab,gedit
+tab,new tab,firefox
+tab,new tab,nautilus
+tab,new tab group,gedit
+tab,next tab,code
+tab,next tab,gnome-terminal
+tab,next tab,firefox
+tab,next tab group,gedit
+tab,open in new tab,nautilus
+tab,previous tab,code
+tab,previous tab,gnome-terminal
+tab,previous tab,firefox
+tab,previous tab group,gedit
+tab,remove tab stop,gedit
+tab,restore tab,nautilus
+tab,switch to last tab,firefox
+tab,switch to next tab,gedit
+tab,switch to previous tab,gedit
+tab,switch to tab eight,gnome-terminal
+tab,switch to tab eight,gedit
+tab,switch to tab eight,firefox
+tab,switch to tab eight,nautilus
+tab,switch to tab five,gnome-terminal
+tab,switch to tab five,gedit
+tab,switch to tab five,firefox
+tab,switch to tab five,nautilus
+tab,switch to tab four,gnome-terminal
+tab,switch to tab four,gedit
+tab,switch to tab four,firefox
+tab,switch to tab four,nautilus
+tab,switch to tab nine,gnome-terminal
+tab,switch to tab nine,gedit
+tab,switch to tab nine,nautilus
+tab,switch to tab one,gnome-terminal
+tab,switch to tab one,gedit
+tab,switch to tab one,firefox
+tab,switch to tab one,nautilus
+tab,switch to tab seven,gnome-terminal
+tab,switch to tab seven,gedit
+tab,switch to tab seven,firefox
+tab,switch to tab seven,nautilus
+tab,switch to tab six,gnome-terminal
+tab,switch to tab six,gedit
+tab,switch to tab six,firefox
+tab,switch to tab six,nautilus
+tab,switch to tab ten,gnome-terminal
+tab,switch to tab three,gnome-terminal
+tab,switch to tab three,gedit
+tab,switch to tab three,firefox
+tab,switch to tab three,nautilus
+tab,switch to tab two,gnome-terminal
+tab,switch to tab two,gedit
+tab,switch to tab two,firefox
+tab,switch to tab two,nautilus
+tab,tab,keys
+tab,toggle tab moves focus,code
+tab,undo close tab,gedit
+tab,undo close tab,firefox
+________________________________________________________________________________
+switch,switch to last tab,firefox
+switch,switch to next input source,general
+switch,switch to next tab,gedit
+switch,switch to presentation mode,firefox
+switch,switch to previous input source,general
+switch,switch to previous tab,gedit
+switch,switch to tab eight,gnome-terminal
+switch,switch to tab eight,gedit
+switch,switch to tab eight,firefox
+switch,switch to tab eight,nautilus
+switch,switch to tab five,gnome-terminal
+switch,switch to tab five,gedit
+switch,switch to tab five,firefox
+switch,switch to tab five,nautilus
+switch,switch to tab four,gnome-terminal
+switch,switch to tab four,gedit
+switch,switch to tab four,firefox
+switch,switch to tab four,nautilus
+switch,switch to tab nine,gnome-terminal
+switch,switch to tab nine,gedit
+switch,switch to tab nine,nautilus
+switch,switch to tab one,gnome-terminal
+switch,switch to tab one,gedit
+switch,switch to tab one,firefox
+switch,switch to tab one,nautilus
+switch,switch to tab seven,gnome-terminal
+switch,switch to tab seven,gedit
+switch,switch to tab seven,firefox
+switch,switch to tab seven,nautilus
+switch,switch to tab six,gnome-terminal
+switch,switch to tab six,gedit
+switch,switch to tab six,firefox
+switch,switch to tab six,nautilus
+switch,switch to tab ten,gnome-terminal
+switch,switch to tab three,gnome-terminal
+switch,switch to tab three,gedit
+switch,switch to tab three,firefox
+switch,switch to tab three,nautilus
+switch,switch to tab two,gnome-terminal
+switch,switch to tab two,gedit
+switch,switch to tab two,firefox
+switch,switch to tab two,nautilus
+switch,switch windows,general
+switch,switch windows directly,general
+switch,switch windows of,general
+________________________________________________________________________________
+line,add line comment,code
+line,delete current line,gedit
+line,delete line,code
+line,delete to end of line,gnome-terminal
+line,delete to start of line,gnome-terminal
+line,duplicate line,code
+line,erase line,gnome-terminal
+line,go to beginning of line,code
+line,go to beginning of line,gedit
+line,go to beginning of line,firefox
+line,go to end of line,code
+line,go to end of line,gedit
+line,go to end of line,firefox
+line,go to line,code
+line,go to line,gedit
+line,indent line,code
+line,insert line above,code
+line,insert line below,code
+line,line down,code
+line,line up,code
+line,low line,keys
+line,move line down,code
+line,move line down,gedit
+line,move line up,code
+line,move line up,gedit
+line,move to end of line,gnome-terminal
+line,move to start of line,gnome-terminal
+line,outdent line,code
+line,remove line comment,code
+line,scroll down one line,gnome-terminal
+line,scroll up one line,gnome-terminal
+line,select current line,code
+line,toggle line comment,code
+line,trim line,code
+line,vertical line,keys
+________________________________________________________________________________
+move,move back one character,gnome-terminal
+move,move back one word,gnome-terminal
+move,move editor group down,code
+move,move editor group left,code
+move,move editor group right,code
+move,move editor group up,code
+move,move editor left,code
+move,move editor right,code
+move,move forward one character,gnome-terminal
+move,move forward one word,gnome-terminal
+move,move line down,code
+move,move line down,gedit
+move,move line up,code
+move,move line up,gedit
+move,move tab left,firefox
+move,move tab left,nautilus
+move,move tab right,firefox
+move,move tab right,nautilus
+move,move tab to end,firefox
+move,move tab to left,gnome-terminal
+move,move tab to right,gnome-terminal
+move,move tab to start,firefox
+move,move to end of line,gnome-terminal
+move,move to next frame,firefox
+move,move to previous frame,firefox
+move,move to start of line,gnome-terminal
+move,move to trash,nautilus
+move,move to workspace above,general
+move,move to workspace below,general
+move,move window,general
+move,move window one workspace down,general
+move,move window one workspace up,general
+move,move window to last workspace,general
+move,move word left,gedit
+move,move word right,gedit
+________________________________________________________________________________
+window,activate window menu,general
+window,close window,code
+window,close window,code
+window,close window,general
+window,close window,gnome-terminal
+window,close window,gedit
+window,close window,firefox
+window,close window,nautilus
+window,copy window screenshot,general
+window,hide window,general
+window,library window bookmarks,firefox
+window,library window history,firefox
+window,maximize window,general
+window,move window,general
+window,move window one workspace down,general
+window,move window one workspace up,general
+window,move window to last workspace,general
+window,new private window,firefox
+window,new window,code
+window,new window,gnome-terminal
+window,new window,gedit
+window,new window,firefox
+window,new window,nautilus
+window,open file and close window,nautilus
+window,open file in new window,code
+window,open in new window,nautilus
+window,resize window,general
+window,restore window,general
+window,save window screenshot,general
+window,undo close window,firefox
+________________________________________________________________________________
+go,go,firefox
+go,go back,code
+go,go forward,code
+go,go one word to left,firefox
+go,go one word to right,firefox
+go,go to beginning,firefox
+go,go to beginning of document,gedit
+go,go to beginning of line,code
+go,go to beginning of line,gedit
+go,go to beginning of line,firefox
+go,go to definition,code
+go,go to end,firefox
+go,go to end of document,gedit
+go,go to end of line,code
+go,go to end of line,gedit
+go,go to end of line,firefox
+go,go to file,code
+go,go to home folder,nautilus
+go,go to line,code
+go,go to line,gedit
+go,go to next error,code
+go,go to next tab,nautilus
+go,go to next warning,code
+go,go to previous error,code
+go,go to previous tab,nautilus
+go,go to previous warning,code
+go,go to symbol,code
+________________________________________________________________________________
+capital,capital a,keys
+capital,capital b,keys
+capital,capital c,keys
+capital,capital d,keys
+capital,capital e,keys
+capital,capital f,keys
+capital,capital g,keys
+capital,capital h,keys
+capital,capital i,keys
+capital,capital j,keys
+capital,capital k,keys
+capital,capital l,keys
+capital,capital m,keys
+capital,capital n,keys
+capital,capital o,keys
+capital,capital p,keys
+capital,capital q,keys
+capital,capital r,keys
+capital,capital s,keys
+capital,capital t,keys
+capital,capital u,keys
+capital,capital v,keys
+capital,capital w,keys
+capital,capital x,keys
+capital,capital y,keys
+capital,capital z,keys
+________________________________________________________________________________
+small,small a,keys
+small,small b,keys
+small,small c,keys
+small,small d,keys
+small,small e,keys
+small,small f,keys
+small,small g,keys
+small,small h,keys
+small,small i,keys
+small,small j,keys
+small,small k,keys
+small,small l,keys
+small,small m,keys
+small,small n,keys
+small,small o,keys
+small,small p,keys
+small,small q,keys
+small,small r,keys
+small,small s,keys
+small,small t,keys
+small,small u,keys
+small,small v,keys
+small,small w,keys
+small,small x,keys
+small,small y,keys
+small,small z,keys
+________________________________________________________________________________
+show,show action menu,nautilus
+show,show activities overview,general
+show,show all applications,general
+show,show all symbols,code
+show,show command palette,code
+show,show command prompt,general
+show,show debug,code
+show,show explorer,code
+show,show extensions,code
+show,show help,nautilus
+show,show hidden files,nautilus
+show,show hover,code
+show,show item properties,nautilus
+show,show notification list,general
+show,show output panel,code
+show,show overview,general
+show,show problems panel,code
+show,show references,code
+show,show search,code
+show,show side panel,gedit
+show,show sidebar,nautilus
+show,show source control,code
+show,show terminal,code
+________________________________________________________________________________
+close,close,code
+close,close all,code
+close,close all tabs,gedit
+close,close editor,code
+close,close folder,code
+close,close quick find,firefox
+close,close tab,gnome-terminal
+close,close tab,gedit
+close,close tab,firefox
+close,close tab,nautilus
+close,close window,code
+close,close window,code
+close,close window,general
+close,close window,gnome-terminal
+close,close window,gedit
+close,close window,firefox
+close,close window,nautilus
+close,open file and close window,nautilus
+close,undo close editor,code
+close,undo close tab,gedit
+close,undo close tab,firefox
+close,undo close window,firefox
+________________________________________________________________________________
+left,alt left,keys
+left,brace left,keys
+left,bracket left,keys
+left,control left,keys
+left,delete word to left,firefox
+left,go one word to left,firefox
+left,left,keys
+left,left curly bracket,keys
+left,left parenthesis,keys
+left,left square bracket,keys
+left,move editor group left,code
+left,move editor left,code
+left,move tab left,firefox
+left,move tab left,nautilus
+left,move tab to left,gnome-terminal
+left,move word left,gedit
+left,paren left,keys
+left,parenthesis left,keys
+left,shift left,keys
+left,super left,keys
+left,view split on left,general
+________________________________________________________________________________
+right,alt right,keys
+right,brace right,keys
+right,bracket right,keys
+right,bracket square right,keys
+right,control right,keys
+right,delete word to right,firefox
+right,go one word to right,firefox
+right,move editor group right,code
+right,move editor right,code
+right,move tab right,firefox
+right,move tab right,nautilus
+right,move tab to right,gnome-terminal
+right,move word right,gedit
+right,paren right,keys
+right,parenthesis right,keys
+right,right,keys
+right,right curly bracket,keys
+right,right parenthesis,keys
+right,shift right,keys
+right,super right,keys
+right,view split on right,general
+________________________________________________________________________________
+open,keep preview mode editor open,code
+open,open,nautilus
+open,open application menu,general
+open,open definition to side,code
+open,open document,gedit
+open,open file,code
+open,open file,firefox
+open,open file and close window,nautilus
+open,open file in new window,code
+open,open file location,code
+open,open file menu,gedit
+open,open in new tab,nautilus
+open,open in new window,nautilus
+open,open item location,nautilus
+open,open markdown preview,code
+open,open markdown preview to side,code
+open,open preview,code
+open,open user guide,gedit
+open,quick open,code
+open,quick open,gedit
+________________________________________________________________________________
+one,f one,keys
+one,function one,keys
+one,go one word to left,firefox
+one,go one word to right,firefox
+one,move back one character,gnome-terminal
+one,move back one word,gnome-terminal
+one,move forward one character,gnome-terminal
+one,move forward one word,gnome-terminal
+one,move window one workspace down,general
+one,move window one workspace up,general
+one,one,keys
+one,scroll down one line,gnome-terminal
+one,scroll down one page,gnome-terminal
+one,scroll up one line,gnome-terminal
+one,scroll up one page,gnome-terminal
+one,switch to tab one,gnome-terminal
+one,switch to tab one,gedit
+one,switch to tab one,firefox
+one,switch to tab one,nautilus
+________________________________________________________________________________
+previous,delete previous word,gnome-terminal
+previous,find previous,code
+previous,find previous,gnome-terminal
+previous,find previous,gedit
+previous,find previous,firefox
+previous,focus previous,firefox
+previous,focus previous editor group,code
+previous,go to previous error,code
+previous,go to previous tab,nautilus
+previous,go to previous warning,code
+previous,move to previous frame,firefox
+previous,previous page,firefox
+previous,previous tab,code
+previous,previous tab,gnome-terminal
+previous,previous tab,firefox
+previous,previous tab group,gedit
+previous,switch to previous input source,general
+previous,switch to previous tab,gedit
+________________________________________________________________________________
+of,delete to end of line,gnome-terminal
+of,delete to start of line,gnome-terminal
+of,delete to start of word,gnome-terminal
+of,go to beginning of document,gedit
+of,go to beginning of line,code
+of,go to beginning of line,gedit
+of,go to beginning of line,firefox
+of,go to end of document,gedit
+of,go to end of line,code
+of,go to end of line,gedit
+of,go to end of line,firefox
+of,insert at end of selected lines,code
+of,move to end of line,gnome-terminal
+of,move to start of line,gnome-terminal
+of,select all of current selection,code
+of,select all of current word,code
+of,select all of find match,code
+of,switch windows of,general
+________________________________________________________________________________
+all,close all,code
+all,close all tabs,gedit
+all,fold all regions,code
+all,fold all subregions,code
+all,hide all windows,general
+all,save all tabs,gedit
+all,select all,code
+all,select all,gedit
+all,select all,firefox
+all,select all,nautilus
+all,select all of current selection,code
+all,select all of current word,code
+all,select all of find match,code
+all,show all applications,general
+all,show all symbols,code
+all,unfold all regions,code
+all,unfold all subregions,code
+________________________________________________________________________________
+editor,close editor,code
+editor,focus first editor group,code
+editor,focus next editor group,code
+editor,focus previous editor group,code
+editor,focus second editor group,code
+editor,focus third editor group,code
+editor,keep preview mode editor open,code
+editor,move editor group down,code
+editor,move editor group left,code
+editor,move editor group right,code
+editor,move editor group up,code
+editor,move editor left,code
+editor,move editor right,code
+editor,split editor,code
+editor,style editor,firefox
+editor,toggle editor layout,code
+editor,undo close editor,code
+________________________________________________________________________________
+find,close quick find,firefox
+find,find,code
+find,find,gnome-terminal
+find,find,gedit
+find,find,firefox
+find,find and replace,gedit
+find,find next,code
+find,find next,gnome-terminal
+find,find next,gedit
+find,find next,firefox
+find,find previous,code
+find,find previous,gnome-terminal
+find,find previous,gedit
+find,find previous,firefox
+find,quick find,firefox
+find,quick find links,firefox
+find,select all of find match,code
+________________________________________________________________________________
+next,find next,code
+next,find next,gnome-terminal
+next,find next,gedit
+next,find next,firefox
+next,focus next,firefox
+next,focus next editor group,code
+next,go to next error,code
+next,go to next tab,nautilus
+next,go to next warning,code
+next,move to next frame,firefox
+next,next page,firefox
+next,next tab,code
+next,next tab,gnome-terminal
+next,next tab,firefox
+next,next tab group,gedit
+next,switch to next input source,general
+next,switch to next tab,gedit
+________________________________________________________________________________
+new,new file,code
+new,new folder,nautilus
+new,new private window,firefox
+new,new tab,gnome-terminal
+new,new tab,gedit
+new,new tab,firefox
+new,new tab,nautilus
+new,new tab group,gedit
+new,new terminal,code
+new,new window,code
+new,new window,gnome-terminal
+new,new window,gedit
+new,new window,firefox
+new,new window,nautilus
+new,open file in new window,code
+new,open in new tab,nautilus
+new,open in new window,nautilus
+________________________________________________________________________________
+in,open file in new window,code
+in,open in new tab,nautilus
+in,open in new window,nautilus
+in,paste in terminal,code
+in,replace in files,code
+in,scroll down in terminal,code
+in,scroll page down in terminal,code
+in,scroll page up in terminal,code
+in,scroll to bottom in terminal,code
+in,scroll to top in terminal,code
+in,scroll up in terminal,code
+in,zoom in,code
+in,zoom in,general
+in,zoom in,gnome-terminal
+in,zoom in,firefox
+in,zoom in,nautilus
+________________________________________________________________________________
+page,bookmark this page,firefox
+page,focus page number box,firefox
+page,next page,firefox
+page,page down,code
+page,page down,keys
+page,page down,firefox
+page,page info,firefox
+page,page source,firefox
+page,page up,code
+page,page up,keys
+page,page up,firefox
+page,previous page,firefox
+page,scroll down one page,gnome-terminal
+page,scroll page down in terminal,code
+page,scroll page up in terminal,code
+page,scroll up one page,gnome-terminal
+________________________________________________________________________________
+zoom,reset zoom,gnome-terminal
+zoom,reset zoom,firefox
+zoom,reset zoom,nautilus
+zoom,turn zoom off,general
+zoom,turn zoom on,general
+zoom,zoom in,code
+zoom,zoom in,general
+zoom,zoom in,gnome-terminal
+zoom,zoom in,firefox
+zoom,zoom in,nautilus
+zoom,zoom out,code
+zoom,zoom out,general
+zoom,zoom out,gnome-terminal
+zoom,zoom out,firefox
+zoom,zoom out,nautilus
+________________________________________________________________________________
+down,down,keys
+down,down,firefox
+down,line down,code
+down,move editor group down,code
+down,move line down,code
+down,move line down,gedit
+down,move window one workspace down,general
+down,page down,code
+down,page down,keys
+down,page down,firefox
+down,scroll down in terminal,code
+down,scroll down one line,gnome-terminal
+down,scroll down one page,gnome-terminal
+down,scroll page down in terminal,code
+________________________________________________________________________________
+up,line up,code
+up,move editor group up,code
+up,move line up,code
+up,move line up,gedit
+up,move window one workspace up,general
+up,page up,code
+up,page up,keys
+up,page up,firefox
+up,scroll page up in terminal,code
+up,scroll up in terminal,code
+up,scroll up one line,gnome-terminal
+up,scroll up one page,gnome-terminal
+up,up,keys
+up,up,firefox
+________________________________________________________________________________
+f,capital f,keys
+f,f eight,keys
+f,f eleven,keys
+f,f five,keys
+f,f four,keys
+f,f nine,keys
+f,f one,keys
+f,f seven,keys
+f,f six,keys
+f,f ten,keys
+f,f three,keys
+f,f twelve,keys
+f,f two,keys
+f,small f,keys
+________________________________________________________________________________
+scroll,scroll down in terminal,code
+scroll,scroll down one line,gnome-terminal
+scroll,scroll down one page,gnome-terminal
+scroll,scroll lock,keys
+scroll,scroll page down in terminal,code
+scroll,scroll page up in terminal,code
+scroll,scroll to bottom,gnome-terminal
+scroll,scroll to bottom in terminal,code
+scroll,scroll to top,gnome-terminal
+scroll,scroll to top in terminal,code
+scroll,scroll up in terminal,code
+scroll,scroll up one line,gnome-terminal
+scroll,scroll up one page,gnome-terminal
+________________________________________________________________________________
+word,delete previous word,gnome-terminal
+word,delete to start of word,gnome-terminal
+word,delete word to left,firefox
+word,delete word to right,firefox
+word,erase word,gnome-terminal
+word,go one word to left,firefox
+word,go one word to right,firefox
+word,move back one word,gnome-terminal
+word,move forward one word,gnome-terminal
+word,move word left,gedit
+word,move word right,gedit
+word,select all of current word,code
+word,toggle word wrap,code
+________________________________________________________________________________
+toggle,toggle block comment,code
+toggle,toggle breakpoint,code
+toggle,toggle case,gedit
+toggle,toggle context menu,firefox
+toggle,toggle developer tools,firefox
+toggle,toggle editor layout,code
+toggle,toggle focus,code
+toggle,toggle line comment,code
+toggle,toggle reader mode,firefox
+toggle,toggle search details,code
+toggle,toggle sidebar visibility,code
+toggle,toggle tab moves focus,code
+toggle,toggle word wrap,code
+________________________________________________________________________________
+focus,focus active notification,general
+focus,focus first editor group,code
+focus,focus next,firefox
+focus,focus next editor group,code
+focus,focus page number box,firefox
+focus,focus previous,firefox
+focus,focus previous editor group,code
+focus,focus search bar,firefox
+focus,focus second editor group,code
+focus,focus third editor group,code
+focus,toggle focus,code
+focus,toggle tab moves focus,code
+________________________________________________________________________________
+group,focus first editor group,code
+group,focus next editor group,code
+group,focus previous editor group,code
+group,focus second editor group,code
+group,focus third editor group,code
+group,move editor group down,code
+group,move editor group left,code
+group,move editor group right,code
+group,move editor group up,code
+group,new tab group,gedit
+group,next tab group,gedit
+group,previous tab group,gedit
+________________________________________________________________________________
+function,function eight,keys
+function,function eleven,keys
+function,function five,keys
+function,function four,keys
+function,function nine,keys
+function,function one,keys
+function,function seven,keys
+function,function six,keys
+function,function ten,keys
+function,function three,keys
+function,function twelve,keys
+function,function two,keys
+________________________________________________________________________________
+delete,delete,keys
+delete,delete,firefox
+delete,delete current line,gedit
+delete,delete line,code
+delete,delete permanently,nautilus
+delete,delete previous word,gnome-terminal
+delete,delete to end of line,gnome-terminal
+delete,delete to start of line,gnome-terminal
+delete,delete to start of word,gnome-terminal
+delete,delete word to left,firefox
+delete,delete word to right,firefox
+________________________________________________________________________________
+end,delete to end of line,gnome-terminal
+end,end,keys
+end,go to end,firefox
+end,go to end of document,gedit
+end,go to end of line,code
+end,go to end of line,gedit
+end,go to end of line,firefox
+end,insert at end of selected lines,code
+end,move tab to end,firefox
+end,move to end of line,gnome-terminal
+end,seek to end,firefox
+________________________________________________________________________________
+copy,copy,code
+copy,copy,gnome-terminal
+copy,copy,gedit
+copy,copy,firefox
+copy,copy,nautilus
+copy,copy partial screenshot,general
+copy,copy path,code
+copy,copy screenshot,general
+copy,copy selection,code
+copy,copy window screenshot,general
+________________________________________________________________________________
+select,select all,code
+select,select all,gedit
+select,select all,firefox
+select,select all,nautilus
+select,select all of current selection,code
+select,select all of current word,code
+select,select all of find match,code
+select,select current line,code
+select,select location bar,firefox
+select,select matching items,nautilus
+________________________________________________________________________________
+file,change file language,code
+file,go to file,code
+file,new file,code
+file,open file,code
+file,open file,firefox
+file,open file and close window,nautilus
+file,open file in new window,code
+file,open file location,code
+file,open file menu,gedit
+________________________________________________________________________________
+screen,clear screen,gnome-terminal
+screen,exit full screen,firefox
+screen,full screen,code
+screen,full screen,gnome-terminal
+screen,full screen,firefox
+screen,lock screen,general
+screen,print screen,keys
+screen,turn screen reader off,general
+screen,turn screen reader on,general
+________________________________________________________________________________
+terminal,new terminal,code
+terminal,paste in terminal,code
+terminal,scroll down in terminal,code
+terminal,scroll page down in terminal,code
+terminal,scroll page up in terminal,code
+terminal,scroll to bottom in terminal,code
+terminal,scroll to top in terminal,code
+terminal,scroll up in terminal,code
+terminal,show terminal,code
+________________________________________________________________________________
+save,save,code
+save,save,gedit
+save,save,firefox
+save,save all tabs,gedit
+save,save as,code
+save,save as,gedit
+save,save partial screenshot,general
+save,save screenshot,general
+save,save window screenshot,general
+________________________________________________________________________________
+back,back,firefox
+back,back,nautilus
+back,back slash,keys
+back,go back,code
+back,move back one character,gnome-terminal
+back,move back one word,gnome-terminal
+back,seek back fifteen seconds,firefox
+back,seek back ten percent,firefox
+________________________________________________________________________________
+undo,undo,code
+undo,undo,gedit
+undo,undo,firefox
+undo,undo,nautilus
+undo,undo close editor,code
+undo,undo close tab,gedit
+undo,undo close tab,firefox
+undo,undo close window,firefox
+________________________________________________________________________________
+menu,activate window menu,general
+menu,hide action menu,nautilus
+menu,menu,keys
+menu,menu bar,firefox
+menu,open application menu,general
+menu,open file menu,gedit
+menu,show action menu,nautilus
+menu,toggle context menu,firefox
+________________________________________________________________________________
+selection,copy selection,code
+selection,expand selection,code
+selection,format selection,code
+selection,invert selection,nautilus
+selection,select all of current selection,code
+selection,shrink selection,code
+selection,text selection tool,firefox
+________________________________________________________________________________
+bracket,bracket left,keys
+bracket,bracket right,keys
+bracket,bracket square right,keys
+bracket,jump to matching bracket,code
+bracket,left curly bracket,keys
+bracket,left square bracket,keys
+bracket,right curly bracket,keys
+________________________________________________________________________________
+paste,paste,code
+paste,paste,gnome-terminal
+paste,paste,gedit
+paste,paste,firefox
+paste,paste,nautilus
+paste,paste as plain text,firefox
+paste,paste in terminal,code
+________________________________________________________________________________
+out,log out,general
+out,step out,code
+out,zoom out,code
+out,zoom out,general
+out,zoom out,gnome-terminal
+out,zoom out,firefox
+out,zoom out,nautilus
+________________________________________________________________________________
+two,f two,keys
+two,function two,keys
+two,switch to tab two,gnome-terminal
+two,switch to tab two,gedit
+two,switch to tab two,firefox
+two,switch to tab two,nautilus
+two,two,keys
+________________________________________________________________________________
+three,f three,keys
+three,function three,keys
+three,switch to tab three,gnome-terminal
+three,switch to tab three,gedit
+three,switch to tab three,firefox
+three,switch to tab three,nautilus
+three,three,keys
+________________________________________________________________________________
+four,f four,keys
+four,four,keys
+four,function four,keys
+four,switch to tab four,gnome-terminal
+four,switch to tab four,gedit
+four,switch to tab four,firefox
+four,switch to tab four,nautilus
+________________________________________________________________________________
+five,f five,keys
+five,five,keys
+five,function five,keys
+five,switch to tab five,gnome-terminal
+five,switch to tab five,gedit
+five,switch to tab five,firefox
+five,switch to tab five,nautilus
+________________________________________________________________________________
+six,f six,keys
+six,function six,keys
+six,six,keys
+six,switch to tab six,gnome-terminal
+six,switch to tab six,gedit
+six,switch to tab six,firefox
+six,switch to tab six,nautilus
+________________________________________________________________________________
+seven,f seven,keys
+seven,function seven,keys
+seven,seven,keys
+seven,switch to tab seven,gnome-terminal
+seven,switch to tab seven,gedit
+seven,switch to tab seven,firefox
+seven,switch to tab seven,nautilus
+________________________________________________________________________________
+eight,eight,keys
+eight,f eight,keys
+eight,function eight,keys
+eight,switch to tab eight,gnome-terminal
+eight,switch to tab eight,gedit
+eight,switch to tab eight,firefox
+eight,switch to tab eight,nautilus
+________________________________________________________________________________
+forward,forward,firefox
+forward,go forward,code
+forward,move forward one character,gnome-terminal
+forward,move forward one word,gnome-terminal
+forward,seek forward fifteen seconds,firefox
+forward,seek forward ten percent,firefox
+________________________________________________________________________________
+beginning,go to beginning,firefox
+beginning,go to beginning of document,gedit
+beginning,go to beginning of line,code
+beginning,go to beginning of line,gedit
+beginning,go to beginning of line,firefox
+beginning,seek to beginning,firefox
+________________________________________________________________________________
+insert,insert,keys
+insert,insert at end of selected lines,code
+insert,insert cursor above,code
+insert,insert cursor below,code
+insert,insert line above,code
+insert,insert line below,code
+________________________________________________________________________________
+quick,close quick find,firefox
+quick,quick find,firefox
+quick,quick find links,firefox
+quick,quick fix,code
+quick,quick open,code
+quick,quick open,gedit
+________________________________________________________________________________
+nine,f nine,keys
+nine,function nine,keys
+nine,nine,keys
+nine,switch to tab nine,gnome-terminal
+nine,switch to tab nine,gedit
+nine,switch to tab nine,nautilus
+________________________________________________________________________________
+screenshot,copy partial screenshot,general
+screenshot,copy screenshot,general
+screenshot,copy window screenshot,general
+screenshot,save partial screenshot,general
+screenshot,save screenshot,general
+screenshot,save window screenshot,general
+________________________________________________________________________________
+hide,hide action menu,nautilus
+hide,hide all windows,general
+hide,hide hidden files,nautilus
+hide,hide side panel,gedit
+hide,hide sidebar,nautilus
+hide,hide window,general
+________________________________________________________________________________
+seek,seek back fifteen seconds,firefox
+seek,seek back ten percent,firefox
+seek,seek forward fifteen seconds,firefox
+seek,seek forward ten percent,firefox
+seek,seek to beginning,firefox
+seek,seek to end,firefox
+________________________________________________________________________________
+mode,exit zen mode,code
+mode,keep preview mode editor open,code
+mode,switch to presentation mode,firefox
+mode,toggle reader mode,firefox
+mode,zen mode,code
+________________________________________________________________________________
+full,exit full screen,firefox
+full,full screen,code
+full,full screen,gnome-terminal
+full,full screen,firefox
+full,full stop,keys
+________________________________________________________________________________
+preview,keep preview mode editor open,code
+preview,open markdown preview,code
+preview,open markdown preview to side,code
+preview,open preview,code
+preview,print preview,gedit
+________________________________________________________________________________
+start,delete to start of line,gnome-terminal
+start,delete to start of word,gnome-terminal
+start,move tab to start,firefox
+start,move to start of line,gnome-terminal
+start,start,code
+________________________________________________________________________________
+stop,add tab stop,gedit
+stop,full stop,keys
+stop,remove tab stop,gedit
+stop,stop,code
+stop,stop,firefox
+________________________________________________________________________________
+sidebar,bookmarks sidebar,firefox
+sidebar,hide sidebar,nautilus
+sidebar,history sidebar,firefox
+sidebar,show sidebar,nautilus
+sidebar,toggle sidebar visibility,code
+________________________________________________________________________________
+ten,f ten,keys
+ten,function ten,keys
+ten,seek back ten percent,firefox
+ten,seek forward ten percent,firefox
+ten,switch to tab ten,gnome-terminal
+________________________________________________________________________________
+print,print,keys
+print,print,gedit
+print,print,firefox
+print,print preview,gedit
+print,print screen,keys
+________________________________________________________________________________
+sign,dollar sign,keys
+sign,equals sign,keys
+sign,number sign,keys
+sign,percent sign,keys
+sign,plus sign,keys
+________________________________________________________________________________
+workspace,move to workspace above,general
+workspace,move to workspace below,general
+workspace,move window one workspace down,general
+workspace,move window one workspace up,general
+workspace,move window to last workspace,general
+________________________________________________________________________________
+comment,add line comment,code
+comment,remove line comment,code
+comment,toggle block comment,code
+comment,toggle line comment,code
+________________________________________________________________________________
+bottom,bottom,code
+bottom,bottom,firefox
+bottom,scroll to bottom,gnome-terminal
+bottom,scroll to bottom in terminal,code
+________________________________________________________________________________
+cut,cut,code
+cut,cut,gedit
+cut,cut,firefox
+cut,cut,nautilus
+________________________________________________________________________________
+document,format document,code
+document,go to beginning of document,gedit
+document,go to end of document,gedit
+document,open document,gedit
+________________________________________________________________________________
+side,hide side panel,gedit
+side,open definition to side,code
+side,open markdown preview to side,code
+side,show side panel,gedit
+________________________________________________________________________________
+location,enter location,nautilus
+location,open file location,code
+location,open item location,nautilus
+location,select location bar,firefox
+________________________________________________________________________________
+top,scroll to top,gnome-terminal
+top,scroll to top in terminal,code
+top,top,code
+top,top,firefox
+________________________________________________________________________________
+current,delete current line,gedit
+current,select all of current selection,code
+current,select all of current word,code
+current,select current line,code
+________________________________________________________________________________
+panel,hide side panel,gedit
+panel,show output panel,code
+panel,show problems panel,code
+panel,show side panel,gedit
+________________________________________________________________________________
+search,focus search bar,firefox
+search,search,nautilus
+search,show search,code
+search,toggle search details,code
+________________________________________________________________________________
+source,page source,firefox
+source,show source control,code
+source,switch to next input source,general
+source,switch to previous input source,general
+________________________________________________________________________________
+control,control,keys
+control,control left,keys
+control,control right,keys
+control,show source control,code
+________________________________________________________________________________
+lock,caps lock,keys
+lock,lock screen,general
+lock,num lock,keys
+lock,scroll lock,keys
+________________________________________________________________________________
+percent,percent,keys
+percent,percent sign,keys
+percent,seek back ten percent,firefox
+percent,seek forward ten percent,firefox
+________________________________________________________________________________
+parenthesis,left parenthesis,keys
+parenthesis,parenthesis left,keys
+parenthesis,parenthesis right,keys
+parenthesis,right parenthesis,keys
+________________________________________________________________________________
+bar,bar,keys
+bar,focus search bar,firefox
+bar,menu bar,firefox
+bar,select location bar,firefox
+________________________________________________________________________________
+windows,hide all windows,general
+windows,switch windows,general
+windows,switch windows directly,general
+windows,switch windows of,general
+________________________________________________________________________________
+turn,turn screen reader off,general
+turn,turn screen reader on,general
+turn,turn zoom off,general
+turn,turn zoom on,general
+________________________________________________________________________________
+on,turn screen reader on,general
+on,turn zoom on,general
+on,view split on left,general
+on,view split on right,general
+________________________________________________________________________________
+clear,clear highlight,gnome-terminal
+clear,clear highlight,gedit
+clear,clear history,firefox
+clear,clear screen,gnome-terminal
+________________________________________________________________________________
+add,add line comment,code
+add,add ons,firefox
+add,add tab stop,gedit
+________________________________________________________________________________
+change,change file language,code
+change,change to lower case,gedit
+change,change to upper case,gedit
+________________________________________________________________________________
+folder,close folder,code
+folder,go to home folder,nautilus
+folder,new folder,nautilus
+________________________________________________________________________________
+fold,fold all regions,code
+fold,fold all subregions,code
+fold,fold region,code
+________________________________________________________________________________
+definition,go to definition,code
+definition,open definition to side,code
+definition,peek definition,code
+________________________________________________________________________________
+above,insert cursor above,code
+above,insert line above,code
+above,move to workspace above,general
+________________________________________________________________________________
+below,insert cursor below,code
+below,insert line below,code
+below,move to workspace below,general
+________________________________________________________________________________
+replace,find and replace,gedit
+replace,replace,code
+replace,replace in files,code
+________________________________________________________________________________
+files,hide hidden files,nautilus
+files,replace in files,code
+files,show hidden files,nautilus
+________________________________________________________________________________
+restore,restore,code
+restore,restore tab,nautilus
+restore,restore window,general
+________________________________________________________________________________
+as,paste as plain text,firefox
+as,save as,code
+as,save as,gedit
+________________________________________________________________________________
+split,split editor,code
+split,view split on left,general
+split,view split on right,general
+________________________________________________________________________________
+step,step into,code
+step,step out,code
+step,step over,code
+________________________________________________________________________________
+unfold,unfold all regions,code
+unfold,unfold all subregions,code
+unfold,unfold region,code
+________________________________________________________________________________
+mark,exclamation mark,keys
+mark,question mark,keys
+mark,quotation mark,keys
+________________________________________________________________________________
+and,and,keys
+and,find and replace,gedit
+and,open file and close window,nautilus
+________________________________________________________________________________
+home,go to home folder,nautilus
+home,home,keys
+home,home,firefox
+________________________________________________________________________________
+shift,shift,keys
+shift,shift left,keys
+shift,shift right,keys
+________________________________________________________________________________
+super,super,keys
+super,super left,keys
+super,super right,keys
+________________________________________________________________________________
+alt,alt,keys
+alt,alt left,keys
+alt,alt right,keys
+________________________________________________________________________________
+reader,toggle reader mode,firefox
+reader,turn screen reader off,general
+reader,turn screen reader on,general
+________________________________________________________________________________
+view,responsive design view,firefox
+view,view split on left,general
+view,view split on right,general
+________________________________________________________________________________
+reset,reset zoom,gnome-terminal
+reset,reset zoom,firefox
+reset,reset zoom,nautilus
+________________________________________________________________________________
+case,change to lower case,gedit
+case,change to upper case,gedit
+case,toggle case,gedit
+________________________________________________________________________________
+redo,redo,gedit
+redo,redo,firefox
+redo,redo,nautilus
+________________________________________________________________________________
+history,clear history,firefox
+history,history sidebar,firefox
+history,library window history,firefox
+________________________________________________________________________________
+exit,exit full screen,firefox
+exit,exit zen mode,code
+________________________________________________________________________________
+zen,exit zen mode,code
+zen,zen mode,code
+________________________________________________________________________________
+regions,fold all regions,code
+regions,unfold all regions,code
+________________________________________________________________________________
+subregions,fold all subregions,code
+subregions,unfold all subregions,code
+________________________________________________________________________________
+region,fold region,code
+region,unfold region,code
+________________________________________________________________________________
+format,format document,code
+format,format selection,code
+________________________________________________________________________________
+error,go to next error,code
+error,go to previous error,code
+________________________________________________________________________________
+warning,go to next warning,code
+warning,go to previous warning,code
+________________________________________________________________________________
+symbol,go to symbol,code
+symbol,rename symbol,code
+________________________________________________________________________________
+at,at,keys
+at,insert at end of selected lines,code
+________________________________________________________________________________
+cursor,insert cursor above,code
+cursor,insert cursor below,code
+________________________________________________________________________________
+matching,jump to matching bracket,code
+matching,select matching items,nautilus
+________________________________________________________________________________
+shortcuts,keyboard shortcuts,code
+shortcuts,shortcuts,nautilus
+________________________________________________________________________________
+markdown,open markdown preview,code
+markdown,open markdown preview to side,code
+________________________________________________________________________________
+remove,remove line comment,code
+remove,remove tab stop,gedit
+________________________________________________________________________________
+rename,rename,nautilus
+rename,rename symbol,code
+________________________________________________________________________________
+command,show command palette,code
+command,show command prompt,general
+________________________________________________________________________________
+trigger,trigger parameter hints,code
+trigger,trigger suggestion,code
+________________________________________________________________________________
+user,open user guide,gedit
+user,user settings,code
+________________________________________________________________________________
+eleven,f eleven,keys
+eleven,function eleven,keys
+________________________________________________________________________________
+twelve,f twelve,keys
+twelve,function twelve,keys
+________________________________________________________________________________
+pause,pause,keys
+pause,pause,firefox
+________________________________________________________________________________
+number,focus page number box,firefox
+number,number sign,keys
+________________________________________________________________________________
+dollar,dollar,keys
+dollar,dollar sign,keys
+________________________________________________________________________________
+caret,caret,keys
+caret,caret browsing,firefox
+________________________________________________________________________________
+paren,paren left,keys
+paren,paren right,keys
+________________________________________________________________________________
+equals,equals,keys
+equals,equals sign,keys
+________________________________________________________________________________
+plus,plus,keys
+plus,plus sign,keys
+________________________________________________________________________________
+solidus,reverse solidus,keys
+solidus,solidus,keys
+________________________________________________________________________________
+slash,back slash,keys
+slash,slash,keys
+________________________________________________________________________________
+square,bracket square right,keys
+square,left square bracket,keys
+________________________________________________________________________________
+curly,left curly bracket,keys
+curly,right curly bracket,keys
+________________________________________________________________________________
+brace,brace left,keys
+brace,brace right,keys
+________________________________________________________________________________
+enter,enter,keys
+enter,enter location,nautilus
+________________________________________________________________________________
+colon,colon,keys
+colon,semi colon,keys
+________________________________________________________________________________
+than,greater than,keys
+than,less than,keys
+________________________________________________________________________________
+a,capital a,keys
+a,small a,keys
+________________________________________________________________________________
+b,capital b,keys
+b,small b,keys
+________________________________________________________________________________
+c,capital c,keys
+c,small c,keys
+________________________________________________________________________________
+d,capital d,keys
+d,small d,keys
+________________________________________________________________________________
+e,capital e,keys
+e,small e,keys
+________________________________________________________________________________
+g,capital g,keys
+g,small g,keys
+________________________________________________________________________________
+h,capital h,keys
+h,small h,keys
+________________________________________________________________________________
+i,capital i,keys
+i,small i,keys
+________________________________________________________________________________
+j,capital j,keys
+j,small j,keys
+________________________________________________________________________________
+k,capital k,keys
+k,small k,keys
+________________________________________________________________________________
+l,capital l,keys
+l,small l,keys
+________________________________________________________________________________
+m,capital m,keys
+m,small m,keys
+________________________________________________________________________________
+n,capital n,keys
+n,small n,keys
+________________________________________________________________________________
+o,capital o,keys
+o,small o,keys
+________________________________________________________________________________
+p,capital p,keys
+p,small p,keys
+________________________________________________________________________________
+q,capital q,keys
+q,small q,keys
+________________________________________________________________________________
+r,capital r,keys
+r,small r,keys
+________________________________________________________________________________
+s,capital s,keys
+s,small s,keys
+________________________________________________________________________________
+t,capital t,keys
+t,small t,keys
+________________________________________________________________________________
+u,capital u,keys
+u,small u,keys
+________________________________________________________________________________
+v,capital v,keys
+v,small v,keys
+________________________________________________________________________________
+w,capital w,keys
+w,small w,keys
+________________________________________________________________________________
+x,capital x,keys
+x,small x,keys
+________________________________________________________________________________
+y,capital y,keys
+y,small y,keys
+________________________________________________________________________________
+z,capital z,keys
+z,small z,keys
+________________________________________________________________________________
+partial,copy partial screenshot,general
+partial,save partial screenshot,general
+________________________________________________________________________________
+notification,focus active notification,general
+notification,show notification list,general
+________________________________________________________________________________
+last,move window to last workspace,general
+last,switch to last tab,firefox
+________________________________________________________________________________
+overview,show activities overview,general
+overview,show overview,general
+________________________________________________________________________________
+input,switch to next input source,general
+input,switch to previous input source,general
+________________________________________________________________________________
+off,turn screen reader off,general
+off,turn zoom off,general
+________________________________________________________________________________
+highlight,clear highlight,gnome-terminal
+highlight,clear highlight,gedit
+________________________________________________________________________________
+erase,erase line,gnome-terminal
+erase,erase word,gnome-terminal
+________________________________________________________________________________
+character,move back one character,gnome-terminal
+character,move forward one character,gnome-terminal
+________________________________________________________________________________
+tabs,close all tabs,gedit
+tabs,save all tabs,gedit
+________________________________________________________________________________
+bookmarks,bookmarks sidebar,firefox
+bookmarks,library window bookmarks,firefox
+________________________________________________________________________________
+console,browser console,firefox
+console,web console,firefox
+________________________________________________________________________________
+volume,decrease volume,firefox
+volume,increase volume,firefox
+________________________________________________________________________________
+developer,developer toolbar,firefox
+developer,toggle developer tools,firefox
+________________________________________________________________________________
+reload,force reload,firefox
+reload,reload,firefox
+________________________________________________________________________________
+tool,hand tool,firefox
+tool,text selection tool,firefox
+________________________________________________________________________________
+library,library window bookmarks,firefox
+library,library window history,firefox
+________________________________________________________________________________
+frame,move to next frame,firefox
+frame,move to previous frame,firefox
+________________________________________________________________________________
+text,paste as plain text,firefox
+text,text selection tool,firefox
+________________________________________________________________________________
+rotate,rotate,firefox
+rotate,rotate counterclockwise,firefox
+________________________________________________________________________________
+fifteen,seek back fifteen seconds,firefox
+fifteen,seek forward fifteen seconds,firefox
+________________________________________________________________________________
+seconds,seek back fifteen seconds,firefox
+seconds,seek forward fifteen seconds,firefox
+________________________________________________________________________________
+action,hide action menu,nautilus
+action,show action menu,nautilus
+________________________________________________________________________________
+hidden,hide hidden files,nautilus
+hidden,show hidden files,nautilus
+________________________________________________________________________________
+item,open item location,nautilus
+item,show item properties,nautilus
+________________________________________________________________________________
+language,change file language,code
+________________________________________________________________________________
+continue,continue,code
+________________________________________________________________________________
+path,copy path,code
+________________________________________________________________________________
+duplicate,duplicate line,code
+________________________________________________________________________________
+expand,expand selection,code
+________________________________________________________________________________
+first,focus first editor group,code
+________________________________________________________________________________
+second,focus second editor group,code
+________________________________________________________________________________
+third,focus third editor group,code
+________________________________________________________________________________
+indent,indent line,code
+________________________________________________________________________________
+selected,insert at end of selected lines,code
+________________________________________________________________________________
+lines,insert at end of selected lines,code
+________________________________________________________________________________
+jump,jump to matching bracket,code
+________________________________________________________________________________
+keep,keep preview mode editor open,code
+________________________________________________________________________________
+keyboard,keyboard shortcuts,code
+________________________________________________________________________________
+outdent,outdent line,code
+________________________________________________________________________________
+peek,peek definition,code
+________________________________________________________________________________
+fix,quick fix,code
+________________________________________________________________________________
+match,select all of find match,code
+________________________________________________________________________________
+symbols,show all symbols,code
+________________________________________________________________________________
+palette,show command palette,code
+________________________________________________________________________________
+debug,show debug,code
+________________________________________________________________________________
+explorer,show explorer,code
+________________________________________________________________________________
+extensions,show extensions,code
+________________________________________________________________________________
+hover,show hover,code
+________________________________________________________________________________
+output,show output panel,code
+________________________________________________________________________________
+problems,show problems panel,code
+________________________________________________________________________________
+references,show references,code
+________________________________________________________________________________
+shrink,shrink selection,code
+________________________________________________________________________________
+into,step into,code
+________________________________________________________________________________
+over,step over,code
+________________________________________________________________________________
+block,toggle block comment,code
+________________________________________________________________________________
+breakpoint,toggle breakpoint,code
+________________________________________________________________________________
+layout,toggle editor layout,code
+________________________________________________________________________________
+details,toggle search details,code
+________________________________________________________________________________
+visibility,toggle sidebar visibility,code
+________________________________________________________________________________
+moves,toggle tab moves focus,code
+________________________________________________________________________________
+wrap,toggle word wrap,code
+________________________________________________________________________________
+parameter,trigger parameter hints,code
+________________________________________________________________________________
+hints,trigger parameter hints,code
+________________________________________________________________________________
+suggestion,trigger suggestion,code
+________________________________________________________________________________
+trim,trim line,code
+________________________________________________________________________________
+settings,user settings,code
+________________________________________________________________________________
+escape,escape,keys
+________________________________________________________________________________
+grave,grave,keys
+________________________________________________________________________________
+tilde,tilde,keys
+________________________________________________________________________________
+exclamation,exclamation mark,keys
+________________________________________________________________________________
+hash,hash,keys
+________________________________________________________________________________
+circumflex,circumflex accent,keys
+________________________________________________________________________________
+accent,circumflex accent,keys
+________________________________________________________________________________
+ampersand,ampersand,keys
+________________________________________________________________________________
+asterisk,asterisk,keys
+________________________________________________________________________________
+minus,minus,keys
+________________________________________________________________________________
+hyphen,hyphen,keys
+________________________________________________________________________________
+low,low line,keys
+________________________________________________________________________________
+under,under score,keys
+________________________________________________________________________________
+score,under score,keys
+________________________________________________________________________________
+reverse,reverse solidus,keys
+________________________________________________________________________________
+vertical,vertical line,keys
+________________________________________________________________________________
+pipe,pipe,keys
+________________________________________________________________________________
+backspace,backspace,keys
+________________________________________________________________________________
+num,num lock,keys
+________________________________________________________________________________
+caps,caps lock,keys
+________________________________________________________________________________
+semi,semi colon,keys
+________________________________________________________________________________
+apostrophe,apostrophe,keys
+________________________________________________________________________________
+quotation,quotation mark,keys
+________________________________________________________________________________
+double,double quote,keys
+________________________________________________________________________________
+quote,double quote,keys
+________________________________________________________________________________
+less,less than,keys
+________________________________________________________________________________
+comma,comma,keys
+________________________________________________________________________________
+greater,greater than,keys
+________________________________________________________________________________
+period,period,keys
+________________________________________________________________________________
+question,question mark,keys
+________________________________________________________________________________
+meta,meta,keys
+________________________________________________________________________________
+space,space,keys
+________________________________________________________________________________
+zero,zero,keys
+________________________________________________________________________________
+activate,activate window menu,general
+________________________________________________________________________________
+active,focus active notification,general
+________________________________________________________________________________
+log,log out,general
+________________________________________________________________________________
+maximize,maximize window,general
+________________________________________________________________________________
+application,open application menu,general
+________________________________________________________________________________
+record,record screencast,general
+________________________________________________________________________________
+screencast,record screencast,general
+________________________________________________________________________________
+resize,resize window,general
+________________________________________________________________________________
+activities,show activities overview,general
+________________________________________________________________________________
+applications,show all applications,general
+________________________________________________________________________________
+prompt,show command prompt,general
+________________________________________________________________________________
+list,show notification list,general
+________________________________________________________________________________
+directly,switch windows directly,general
+________________________________________________________________________________
+lower,change to lower case,gedit
+________________________________________________________________________________
+upper,change to upper case,gedit
+________________________________________________________________________________
+check,check spelling,gedit
+________________________________________________________________________________
+spelling,check spelling,gedit
+________________________________________________________________________________
+guide,open user guide,gedit
+________________________________________________________________________________
+ons,add ons,firefox
+________________________________________________________________________________
+bookmark,bookmark this page,firefox
+________________________________________________________________________________
+this,bookmark this page,firefox
+________________________________________________________________________________
+browser,browser console,firefox
+________________________________________________________________________________
+browsing,caret browsing,firefox
+________________________________________________________________________________
+debugger,debugger,firefox
+________________________________________________________________________________
+decrease,decrease volume,firefox
+________________________________________________________________________________
+toolbar,developer toolbar,firefox
+________________________________________________________________________________
+downloads,downloads,firefox
+________________________________________________________________________________
+box,focus page number box,firefox
+________________________________________________________________________________
+force,force reload,firefox
+________________________________________________________________________________
+hand,hand tool,firefox
+________________________________________________________________________________
+increase,increase volume,firefox
+________________________________________________________________________________
+inspector,inspector,firefox
+________________________________________________________________________________
+mute,mute,firefox
+________________________________________________________________________________
+network,network,firefox
+________________________________________________________________________________
+private,new private window,firefox
+________________________________________________________________________________
+info,page info,firefox
+________________________________________________________________________________
+plain,paste as plain text,firefox
+________________________________________________________________________________
+play,play,firefox
+________________________________________________________________________________
+profiler,profiler,firefox
+________________________________________________________________________________
+links,quick find links,firefox
+________________________________________________________________________________
+quit,quit,firefox
+________________________________________________________________________________
+responsive,responsive design view,firefox
+________________________________________________________________________________
+design,responsive design view,firefox
+________________________________________________________________________________
+counterclockwise,rotate counterclockwise,firefox
+________________________________________________________________________________
+style,style editor,firefox
+________________________________________________________________________________
+presentation,switch to presentation mode,firefox
+________________________________________________________________________________
+context,toggle context menu,firefox
+________________________________________________________________________________
+tools,toggle developer tools,firefox
+________________________________________________________________________________
+unmute,unmute,firefox
+________________________________________________________________________________
+web,web console,firefox
+________________________________________________________________________________
+permanently,delete permanently,nautilus
+________________________________________________________________________________
+invert,invert selection,nautilus
+________________________________________________________________________________
+trash,move to trash,nautilus
+________________________________________________________________________________
+refresh,refresh,nautilus
+________________________________________________________________________________
+items,select matching items,nautilus
+________________________________________________________________________________
+help,show help,nautilus
+________________________________________________________________________________
+properties,show item properties,nautilus
 ________________________________________________________________________________

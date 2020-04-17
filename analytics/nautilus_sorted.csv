@@ -1,0 +1,52 @@
+open,nautilus
+back,nautilus
+copy,nautilus
+cut,nautilus
+paste,nautilus
+redo,nautilus
+refresh,nautilus
+rename,nautilus
+search,nautilus
+shortcuts,nautilus
+undo,nautilus
+new tab,nautilus
+close tab,nautilus
+restore tab,nautilus
+new window,nautilus
+close window,nautilus
+new folder,nautilus
+show sidebar,nautilus
+show help,nautilus
+zoom in,nautilus
+hide sidebar,nautilus
+reset zoom,nautilus
+zoom out,nautilus
+enter location,nautilus
+select all,nautilus
+delete permanently,nautilus
+invert selection,nautilus
+move tab left,nautilus
+move tab right,nautilus
+move to trash,nautilus
+open item location,nautilus
+show action menu,nautilus
+show hidden files,nautilus
+show item properties,nautilus
+hide action menu,nautilus
+hide hidden files,nautilus
+select matching items,nautilus
+switch to tab eight,nautilus
+switch to tab five,nautilus
+switch to tab four,nautilus
+switch to tab nine,nautilus
+switch to tab one,nautilus
+switch to tab seven,nautilus
+switch to tab six,nautilus
+switch to tab three,nautilus
+switch to tab two,nautilus
+go to next tab,nautilus
+go to previous tab,nautilus
+open in new tab,nautilus
+go to home folder,nautilus
+open in new window,nautilus
+open file and close window,nautilus

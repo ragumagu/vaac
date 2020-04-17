@@ -1,0 +1,58 @@
+find,gedit
+save,gedit
+print,gedit
+undo,gedit
+copy,gedit
+cut,gedit
+paste,gedit
+redo,gedit
+close tab,gedit
+new tab,gedit
+find next,gedit
+find previous,gedit
+open document,gedit
+close window,gedit
+new window,gedit
+quick open,gedit
+save as,gedit
+select all,gedit
+toggle case,gedit
+print preview,gedit
+check spelling,gedit
+clear highlight,gedit
+go to line,gedit
+new tab group,gedit
+next tab group,gedit
+previous tab group,gedit
+undo close tab,gedit
+add tab stop,gedit
+remove tab stop,gedit
+move line down,gedit
+move line up,gedit
+close all tabs,gedit
+delete current line,gedit
+save all tabs,gedit
+move word left,gedit
+move word right,gedit
+find and replace,gedit
+open file menu,gedit
+open user guide,gedit
+hide side panel,gedit
+show side panel,gedit
+switch to next tab,gedit
+switch to previous tab,gedit
+switch to tab eight,gedit
+switch to tab five,gedit
+switch to tab four,gedit
+switch to tab nine,gedit
+switch to tab one,gedit
+switch to tab seven,gedit
+switch to tab six,gedit
+switch to tab three,gedit
+switch to tab two,gedit
+change to lower case,gedit
+change to upper case,gedit
+go to beginning of line,gedit
+go to end of line,gedit
+go to beginning of document,gedit
+go to end of document,gedit

@@ -1,197 +1,197 @@
-to,bottom scroll to,
-to,delete end line of to,
-to,delete line of start to,
-to,delete of start to word,
-to,eight switch tab to,
-to,end line move of to,
-to,five switch tab to,
-to,four switch tab to,
-to,left move tab to,
-to,line move of start to,
-to,move right tab to,
-to,nine switch tab to,
-to,one switch tab to,
-to,scroll to top,
-to,seven switch tab to,
-to,six switch tab to,
-to,switch tab ten to,
-to,switch tab three to,
-to,switch tab to two,
+to,delete to end of line,gnome-terminal
+to,delete to start of line,gnome-terminal
+to,delete to start of word,gnome-terminal
+to,move tab to left,gnome-terminal
+to,move tab to right,gnome-terminal
+to,move to end of line,gnome-terminal
+to,move to start of line,gnome-terminal
+to,scroll to bottom,gnome-terminal
+to,scroll to top,gnome-terminal
+to,switch to tab eight,gnome-terminal
+to,switch to tab five,gnome-terminal
+to,switch to tab four,gnome-terminal
+to,switch to tab nine,gnome-terminal
+to,switch to tab one,gnome-terminal
+to,switch to tab seven,gnome-terminal
+to,switch to tab six,gnome-terminal
+to,switch to tab ten,gnome-terminal
+to,switch to tab three,gnome-terminal
+to,switch to tab two,gnome-terminal
 ________________________________________________________________________________
-tab,close tab,
-tab,eight switch tab to,
-tab,five switch tab to,
-tab,four switch tab to,
-tab,left move tab to,
-tab,move right tab to,
-tab,new tab,
-tab,next tab,
-tab,nine switch tab to,
-tab,one switch tab to,
-tab,previous tab,
-tab,seven switch tab to,
-tab,six switch tab to,
-tab,switch tab ten to,
-tab,switch tab three to,
-tab,switch tab to two,
+tab,close tab,gnome-terminal
+tab,move tab to left,gnome-terminal
+tab,move tab to right,gnome-terminal
+tab,new tab,gnome-terminal
+tab,next tab,gnome-terminal
+tab,previous tab,gnome-terminal
+tab,switch to tab eight,gnome-terminal
+tab,switch to tab five,gnome-terminal
+tab,switch to tab four,gnome-terminal
+tab,switch to tab nine,gnome-terminal
+tab,switch to tab one,gnome-terminal
+tab,switch to tab seven,gnome-terminal
+tab,switch to tab six,gnome-terminal
+tab,switch to tab ten,gnome-terminal
+tab,switch to tab three,gnome-terminal
+tab,switch to tab two,gnome-terminal
 ________________________________________________________________________________
-switch,eight switch tab to,
-switch,five switch tab to,
-switch,four switch tab to,
-switch,nine switch tab to,
-switch,one switch tab to,
-switch,seven switch tab to,
-switch,six switch tab to,
-switch,switch tab ten to,
-switch,switch tab three to,
-switch,switch tab to two,
+switch,switch to tab eight,gnome-terminal
+switch,switch to tab five,gnome-terminal
+switch,switch to tab four,gnome-terminal
+switch,switch to tab nine,gnome-terminal
+switch,switch to tab one,gnome-terminal
+switch,switch to tab seven,gnome-terminal
+switch,switch to tab six,gnome-terminal
+switch,switch to tab ten,gnome-terminal
+switch,switch to tab three,gnome-terminal
+switch,switch to tab two,gnome-terminal
 ________________________________________________________________________________
-one,back character move one,
-one,back move one word,
-one,character forward move one,
-one,down line one scroll,
-one,down one page scroll,
-one,forward move one word,
-one,line one scroll up,
-one,one page scroll up,
-one,one switch tab to,
+one,move back one character,gnome-terminal
+one,move back one word,gnome-terminal
+one,move forward one character,gnome-terminal
+one,move forward one word,gnome-terminal
+one,scroll down one line,gnome-terminal
+one,scroll down one page,gnome-terminal
+one,scroll up one line,gnome-terminal
+one,scroll up one page,gnome-terminal
+one,switch to tab one,gnome-terminal
 ________________________________________________________________________________
-move,back character move one,
-move,back move one word,
-move,character forward move one,
-move,end line move of to,
-move,forward move one word,
-move,left move tab to,
-move,line move of start to,
-move,move right tab to,
+move,move back one character,gnome-terminal
+move,move back one word,gnome-terminal
+move,move forward one character,gnome-terminal
+move,move forward one word,gnome-terminal
+move,move tab to left,gnome-terminal
+move,move tab to right,gnome-terminal
+move,move to end of line,gnome-terminal
+move,move to start of line,gnome-terminal
 ________________________________________________________________________________
-line,delete end line of to,
-line,delete line of start to,
-line,down line one scroll,
-line,end line move of to,
-line,erase line,
-line,line move of start to,
-line,line one scroll up,
+line,delete to end of line,gnome-terminal
+line,delete to start of line,gnome-terminal
+line,erase line,gnome-terminal
+line,move to end of line,gnome-terminal
+line,move to start of line,gnome-terminal
+line,scroll down one line,gnome-terminal
+line,scroll up one line,gnome-terminal
 ________________________________________________________________________________
-scroll,bottom scroll to,
-scroll,down line one scroll,
-scroll,down one page scroll,
-scroll,line one scroll up,
-scroll,one page scroll up,
-scroll,scroll to top,
+scroll,scroll down one line,gnome-terminal
+scroll,scroll down one page,gnome-terminal
+scroll,scroll to bottom,gnome-terminal
+scroll,scroll to top,gnome-terminal
+scroll,scroll up one line,gnome-terminal
+scroll,scroll up one page,gnome-terminal
 ________________________________________________________________________________
-word,back move one word,
-word,delete of start to word,
-word,delete previous word,
-word,erase word,
-word,forward move one word,
+word,delete previous word,gnome-terminal
+word,delete to start of word,gnome-terminal
+word,erase word,gnome-terminal
+word,move back one word,gnome-terminal
+word,move forward one word,gnome-terminal
 ________________________________________________________________________________
-of,delete end line of to,
-of,delete line of start to,
-of,delete of start to word,
-of,end line move of to,
-of,line move of start to,
+of,delete to end of line,gnome-terminal
+of,delete to start of line,gnome-terminal
+of,delete to start of word,gnome-terminal
+of,move to end of line,gnome-terminal
+of,move to start of line,gnome-terminal
 ________________________________________________________________________________
-delete,delete end line of to,
-delete,delete line of start to,
-delete,delete of start to word,
-delete,delete previous word,
+delete,delete previous word,gnome-terminal
+delete,delete to end of line,gnome-terminal
+delete,delete to start of line,gnome-terminal
+delete,delete to start of word,gnome-terminal
 ________________________________________________________________________________
-start,delete line of start to,
-start,delete of start to word,
-start,line move of start to,
+previous,delete previous word,gnome-terminal
+previous,find previous,gnome-terminal
+previous,previous tab,gnome-terminal
 ________________________________________________________________________________
-previous,delete previous word,
-previous,find previous,
-previous,previous tab,
+start,delete to start of line,gnome-terminal
+start,delete to start of word,gnome-terminal
+start,move to start of line,gnome-terminal
 ________________________________________________________________________________
-find,find,
-find,find next,
-find,find previous,
+find,find,gnome-terminal
+find,find next,gnome-terminal
+find,find previous,gnome-terminal
 ________________________________________________________________________________
-zoom,in zoom,
-zoom,out zoom,
-zoom,reset zoom,
+zoom,reset zoom,gnome-terminal
+zoom,zoom in,gnome-terminal
+zoom,zoom out,gnome-terminal
 ________________________________________________________________________________
-back,back character move one,
-back,back move one word,
+clear,clear highlight,gnome-terminal
+clear,clear screen,gnome-terminal
 ________________________________________________________________________________
-character,back character move one,
-character,character forward move one,
+screen,clear screen,gnome-terminal
+screen,full screen,gnome-terminal
 ________________________________________________________________________________
-forward,character forward move one,
-forward,forward move one word,
+close,close tab,gnome-terminal
+close,close window,gnome-terminal
 ________________________________________________________________________________
-clear,clear highlight,
-clear,clear screen,
+window,close window,gnome-terminal
+window,new window,gnome-terminal
 ________________________________________________________________________________
-screen,clear screen,
-screen,full screen,
+end,delete to end of line,gnome-terminal
+end,move to end of line,gnome-terminal
 ________________________________________________________________________________
-close,close tab,
-close,close window,
+erase,erase line,gnome-terminal
+erase,erase word,gnome-terminal
 ________________________________________________________________________________
-window,close window,
-window,new window,
+next,find next,gnome-terminal
+next,next tab,gnome-terminal
 ________________________________________________________________________________
-end,delete end line of to,
-end,end line move of to,
+back,move back one character,gnome-terminal
+back,move back one word,gnome-terminal
 ________________________________________________________________________________
-down,down line one scroll,
-down,down one page scroll,
+character,move back one character,gnome-terminal
+character,move forward one character,gnome-terminal
 ________________________________________________________________________________
-page,down one page scroll,
-page,one page scroll up,
+forward,move forward one character,gnome-terminal
+forward,move forward one word,gnome-terminal
 ________________________________________________________________________________
-erase,erase line,
-erase,erase word,
+new,new tab,gnome-terminal
+new,new window,gnome-terminal
 ________________________________________________________________________________
-next,find next,
-next,next tab,
+down,scroll down one line,gnome-terminal
+down,scroll down one page,gnome-terminal
 ________________________________________________________________________________
-up,line one scroll up,
-up,one page scroll up,
+page,scroll down one page,gnome-terminal
+page,scroll up one page,gnome-terminal
 ________________________________________________________________________________
-new,new tab,
-new,new window,
+up,scroll up one line,gnome-terminal
+up,scroll up one page,gnome-terminal
 ________________________________________________________________________________
-bottom,bottom scroll to,
+highlight,clear highlight,gnome-terminal
 ________________________________________________________________________________
-highlight,clear highlight,
+copy,copy,gnome-terminal
 ________________________________________________________________________________
-copy,copy,
+full,full screen,gnome-terminal
 ________________________________________________________________________________
-eight,eight switch tab to,
+left,move tab to left,gnome-terminal
 ________________________________________________________________________________
-five,five switch tab to,
+right,move tab to right,gnome-terminal
 ________________________________________________________________________________
-four,four switch tab to,
+paste,paste,gnome-terminal
 ________________________________________________________________________________
-full,full screen,
+reset,reset zoom,gnome-terminal
 ________________________________________________________________________________
-in,in zoom,
+bottom,scroll to bottom,gnome-terminal
 ________________________________________________________________________________
-left,left move tab to,
+top,scroll to top,gnome-terminal
 ________________________________________________________________________________
-right,move right tab to,
+eight,switch to tab eight,gnome-terminal
 ________________________________________________________________________________
-nine,nine switch tab to,
+five,switch to tab five,gnome-terminal
 ________________________________________________________________________________
-out,out zoom,
+four,switch to tab four,gnome-terminal
 ________________________________________________________________________________
-paste,paste,
+nine,switch to tab nine,gnome-terminal
 ________________________________________________________________________________
-reset,reset zoom,
+seven,switch to tab seven,gnome-terminal
 ________________________________________________________________________________
-top,scroll to top,
+six,switch to tab six,gnome-terminal
 ________________________________________________________________________________
-seven,seven switch tab to,
+ten,switch to tab ten,gnome-terminal
 ________________________________________________________________________________
-six,six switch tab to,
+three,switch to tab three,gnome-terminal
 ________________________________________________________________________________
-ten,switch tab ten to,
+two,switch to tab two,gnome-terminal
 ________________________________________________________________________________
-three,switch tab three to,
+in,zoom in,gnome-terminal
 ________________________________________________________________________________
-two,switch tab to two,
+out,zoom out,gnome-terminal
 ________________________________________________________________________________

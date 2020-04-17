@@ -1,0 +1,42 @@
+move window,general
+hide window,general
+close window,general
+maximize window,general
+resize window,general
+restore window,general
+copy screenshot,general
+save screenshot,general
+switch windows,general
+show overview,general
+zoom out,general
+zoom in,general
+lock screen,general
+log out,general
+record screencast,general
+copy window screenshot,general
+save window screenshot,general
+activate window menu,general
+turn zoom on,general
+copy partial screenshot,general
+save partial screenshot,general
+switch windows directly,general
+switch windows of,general
+turn zoom off,general
+hide all windows,general
+show activities overview,general
+show all applications,general
+show notification list,general
+show command prompt,general
+focus active notification,general
+open application menu,general
+move to workspace above,general
+move to workspace below,general
+turn screen reader on,general
+turn screen reader off,general
+view split on left,general
+view split on right,general
+move window to last workspace,general
+move window one workspace down,general
+move window one workspace up,general
+switch to next input source,general
+switch to previous input source,general
