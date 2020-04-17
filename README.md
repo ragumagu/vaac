@@ -11,21 +11,32 @@ Vaac works by matching words in the command to standard commands supported by th
 # Scripts:
 
 ### Recorder:
-The recorder.py program prompts a phrase and records it into a file, in the recordings folder.
+The recorder.py program prompts a phrase from the corpus and records it into a file in the recordings folder.
 If the phrase is a single word, it will be stored in `recordings/{word}/{word}_{n}.wav`. Else if the phrase is a line from the corpus, it will be stored in `recordings/{corpus_name}/{line_number}_{n}.wav` where `n` is the nth recording of the phrase.
 
 Read the prompted phrase vocally into the microphone.
-Press j/s to start recording.
-Press k/d to stop recording.
-Press l/f to store recording.
-Press ;/g to re-record without storing.
-Press e or any other key to exit.
-INFO: Verify your recordings as often as possible. Make sure they are of good quality, and that the utterances are clear and complete. Lag in microphone might cause utterances to be cut off in the middle.
+
+Press j/s to start recording.  
+Press k/d to stop recording.  
+Press l/f to store recording.  
+Press ;/g to re-record without storing.  
+Press e or any other key to exit.  
+
+Verify your recordings as often as possible. Make sure they are of good quality, and that the utterances are clear and complete. Lag in microphone might cause utterances to be cut off in the middle.
+
 If needed, use
+```
 	$ pactl load-module module-echo-cancel
+```
 to reduce noise in recordings.
 
 If you make any mistakes when recording you can skip it using the ;/g option. However if you save it and want to redo it, simply delete the recording and run recorder again. It will automatically search for missing files and prompt the corresponding phrase.
+
+**Note:** You can use the mic_test.sh script to check if your mic is working properly.
+```
+	$ ./mic_test.sh
+```
+ After starting the script, it will start recording for five seconds, and then play the recorded audio.
 
 ### Terminal:
 The terminal.py program provides an interface to use Vaac. You can type into this terminal, or speak into it. Because of inherent inaccuracies in speech recognition, the terminal will not prompt messages for commands that do not make 'sense'. That means, if Vaac cannot understand a certain command, it will not prompt errors in the terminal. However, such errors are recorded in the logs.
@@ -33,7 +44,9 @@ The terminal.py program provides an interface to use Vaac. You can type into thi
 The terminal accepts simple, natural language commands.
 
 You can provide one argument to help:
+```
     > help [code|firefox|gedit|nautilus|terminal]
+```
 to get a list of commands supported for each application.
 
 You can use up and down to navigate through commands history, and page up and page down to scroll.
@@ -59,52 +72,49 @@ The first half and second half are comma separated.
 
 ## Usage:
 
-1. Use setup.sh:
-```
-	$ ./setup.sh
-```
-
- to setup files and folders.
+1. Use setup.sh to setup files and folders:
+	```
+		$ ./setup.sh
+	```
 
 2. In the config folder, add applications for which you want support. Vaac will provide configs for some applications by default. If you want to make changes to the keyboard shortcuts, do it in the config folder.
 
 3. Once changes are made to config folder, run preprocessor.py:
-```
-	$ python3 preprocesssor.py
-```
-
- If it reports any errors, correct them in the config files before proceeding further.
+	```
+		$ python3 preprocesssor.py
+	```  
+   If it reports any errors, correct them in the config files before proceeding further.
 
 4. Run analyzeConfig.py to run some analysis on the current config.
-```
-	$ python3 analyzeConfig.py
-```
+	```
+		$ python3 analyzeConfig.py
+	```
 
 5. Run analyseCorpus.py to run analysis on the text corpuses.
-```
-	$ python3 analyzeCorpus.py
-```
+	```
+		$ python3 analyzeCorpus.py
+	```
 
 6. Use recorder.py to make recordings of the corpus.
-```
-	$ python3 recorder.py
-```
+	```
+		$ python3 recorder.py
+	```
 
 7. Use trainer.sh to train the model:
-```
-	$ ./trainer.sh
-```
+	```
+		$ ./trainer.sh
+	```
 
 8. You can now use the terminal application.
-```
-	$ python terminal.py
-```
+	```
+		$ python terminal.py
+	```
 
 ## Corpus:
 There are no set rules to create a corpus. However, here are some rules of thumb:
 * Use short phrases (length ~ 3)
 * Phrases need not be exact commands, they can be nonsensical too.
-* Try to balance the word frequencies, so that the model trains on each word. To help do this, you can use the analyzeCorpus.py script, which generates the corpus_counts.csv file.
+* Try to balance the word frequencies, so that the model trains on each word equally. To help do this, you can use the analyzeCorpus.py script, which generates the corpus_counts.csv file.
 * If you have to add new words, and have recorded the current corpus, create and add a new corpus file to the corpus folder. Do not edit the current corpus files, as there has to be a one to one match between the corpus files and recordings.
 
 ## Tips:
