@@ -107,6 +107,8 @@ class InputHandler:
             self.cmd_list_pointer -= 1
             if self.cmd_list_pointer < 0:
                 self.cmd_list_pointer = 0
+            if len(self.commands_list) == 0:
+                return
 
             while len(self.command) > 0:
                 self.command.pop()
@@ -118,6 +120,11 @@ class InputHandler:
 
         elif self.char.value == curses.KEY_DOWN:
             self.cmd_list_pointer += 1
+
+            if len(self.commands_list) == 0:
+                self.cmd_list_pointer = 0
+                return
+
             if self.cmd_list_pointer >= len(self.commands_list):
                 self.cmd_list_pointer = len(self.commands_list)-1
 
