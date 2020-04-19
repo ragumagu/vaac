@@ -46,7 +46,7 @@ Vaac must be able use the specified lm.
 atleast, build the equivalent of a dumb terminal.
 34. ~~Pressing up and down on an empty vaac terminal will cause index errors.~~
 35. Help strings don't print from the right files.
-36. Vaac terminal exits if maxlines is exceeded.
+36. ~~Vaac terminal exits if maxlines is exceeded.~~
 
 User workflow should go like this:
 1. Install dependencies.

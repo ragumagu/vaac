@@ -12,5 +12,3 @@ min_command_freq = 1
 
 [VAAC_TERMINAL]
 maxlines = 2000
-
-

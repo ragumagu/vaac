@@ -18,9 +18,7 @@ class WindowHandler:
         curses.update_lines_cols()
         self.pad.resize(self.maxlines, curses.COLS)
         self.pad.erase()
-        self.pad.addstr(str(inputHandler.commands_list)+'\n')
-        self.pad.addstr(inputHandler.screen_log)
-        self.pad.addstr(inputHandler.prompt+''.join(inputHandler.command))
+        self.pad.addstr(inputHandler.getScreenOutput())
 
     def updateyx(self, inputHandler):
         y, x = self.pad.getyx()
@@ -56,7 +54,7 @@ class WindowHandler:
             logging.critical(str(ex))
 
 class InputHandler:
-    def __init__(self, command, cmd_char_idx, char, stdscr, pad):
+    def __init__(self, command, cmd_char_idx, char, stdscr, pad, maxlines):
         # command is a multiprocessing.manager.list proxy object; it is a list
         # of chars
         self.command = command
@@ -68,7 +66,7 @@ class InputHandler:
 
         self.stdscr = stdscr
         self.pad = pad
-
+        self.maxlines = maxlines
         self.commands_list = []
         self.cmd_list_pointer = len(self.commands_list)
         self.resizeBool = False
@@ -77,7 +75,7 @@ class InputHandler:
         self.prompt = "> "
         self.screen_log = ('This is the vaac terminal program.\n'
                            + 'Type "help" for more information.\n')
-
+        self.screen_log_len = self.calcNumberOfLines(self.screen_log)
         wm = WindowManager()
         self.extractor = Extractor(wm)
 
@@ -90,7 +88,7 @@ class InputHandler:
     def processArgs(self):
         self.resizeBool = False
 
-        if self.char.value >= 32 and self.char.value <= 126:            
+        if self.char.value >= 32 and self.char.value <= 126:
             if self.insertMode:
                 if self.cmd_char_idx.value < len(self.command):
                     self.command[self.cmd_char_idx.value] = chr(self.char.value)
@@ -181,6 +179,43 @@ class InputHandler:
         elif self.char.value == curses.KEY_RESIZE:
             self.resizeBool = True
 
+    def getScreenOutput(self):
+        return self.screen_log + self.prompt +''.join(self.command)
+
+    def calcNumberOfLines(self,string):
+        lines = 0 # number of lines required to show string on screen
+        cursor = 0
+        for char in string:
+            cursor += 1
+            if char == '\n' or cursor == curses.COLS:
+                lines += 1
+                cursor = 0
+        return lines
+
+    def trimScreenLog(self,diff):
+        cursor = 0
+        for i in range(len(self.screen_log)):
+            cursor += 1
+            if self.screen_log[i] == '\n' or cursor == curses.COLS:
+                diff -= 1
+                cursor = 0
+            if diff == 0:
+                self.screen_log = self.screen_log[i+1:]
+                return
+
+    def append(self,outputString):
+        outputStringLines = self.calcNumberOfLines(outputString)
+
+        lines = self.screen_log_len + outputStringLines
+        self.screen_log += outputString
+        if lines >= self.maxlines:
+            diff = lines - self.maxlines
+            diff += 1 # trim one more to fit within maxlines
+            self.trimScreenLog(diff)
+            self.screen_log_len = self.maxlines -1
+        else:
+            self.screen_log_len += outputStringLines
+
     def checkIfExit(self):
         # The index error occurs initially, when no command has been entered.
         try:
@@ -192,14 +227,16 @@ class InputHandler:
     def getLastInput(self):
         return self.commands_list[-1]
 
+
     def getOutput(self):
         input_command = self.commands_list[-1]
         logging.debug("input: "+input_command)
-        self.screen_log += self.prompt+input_command+"\n"
+        #self.screen_log += self.prompt+input_command+"\n"
+        self.append(self.prompt+input_command+"\n")
 
         if input_command == 'exit':
             return
         else:
             output = self.extractor.extract_and_run(input_command)
             if output is not None:
-                self.screen_log += output
+                self.append(output)

@@ -42,7 +42,7 @@ def output(inputchars, cmd_char_idx, submitBool,
     pad = curses.newpad(maxlines, curses.COLS)
     inputHandler = InputHandler(
         inputchars, cmd_char_idx, char,
-        stdscr, pad
+        stdscr, pad,maxlines
     )
     windowHandler = WindowHandler(stdscr, pad, inputHandler, maxlines)
     stdscr.refresh()
