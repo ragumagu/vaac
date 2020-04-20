@@ -1,14 +1,14 @@
-1. vaac does not cycle through windows.
+1. ~~vaac does not cycle through windows.~~! Done through focus next window.
 3. ~~If no argument is provided to 'focus', it still focuses extractor.current_application.~~
 4. ~~Organize the 'window manager' changes, so that they can be toggled on and off, for when you make a gui or when you want to hide the terminal and still use vaac in the background. !window_manager and display_manager are now different~~
 5. ~~There is no way to peek at the commands list by vaac.~~
 6. Vaac does not recognize equivalent sentences.
-7. Vaac does not wait till user completes command. There is no buffer concept.
+7. ~~Vaac does not wait till user completes command. There is no buffer concept.~~
 8. Request for higher speech recognition accuracy and larger vocabulary.
 9. Vaac does not ask for confirmation, it does not have 'yes','no','repeat' in vocabulary.
-10. Vaac does not improve itself. Training is not automated. Recording and vaac_terminal are not integrated.
+10. Vaac does not improve itself. Training is not automated. ~~Recording and vaac_terminal are not integrated. !One tool per job~~
 11. ~~Vaac does not provide a type-able command line-like interface.~~
-12. Vaac does not support sending individual keystrokes by voice.
+12. ~~Vaac does not support sending individual keystrokes by voice.~~
 13. Extractor does not have a clear set of rules which devs can read. ~~Implement multiple layers of filters in the extractor.~~ Make the code readable. Some of the logic regarding fuzzy ratios has to be cleared up: which ones must be used, and what is the weightage that is to be given to each deduction.
 14. "copy and paste" vs "find and replace"
 15. "switch to tab two"

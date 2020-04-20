@@ -25,6 +25,7 @@ class Extractor:
         self.target_app = ''
         self.command = ''
         self.extracted_commands = []
+        self.buffer = []
         self.applications = [
             ['visual studio code', 'vs code', 'code'],
             ['mozilla firefox', 'mozilla', 'browser', 'firefox'],
@@ -73,6 +74,9 @@ class Extractor:
                 return ['focus', self.target_app]
             else:
                 return ['open', self.current_app]
+        elif (self.command in ['focus next','focus other window','focus next window']):
+            self.wm.cycle_index(self.current_app)
+            return ['focus', self.current_app]
         else:
             return None
 
@@ -109,6 +113,29 @@ class Extractor:
         else:
             return None
 
+    def clear_buffer(self):
+        logging.debug('clearing buffer')
+        for i in range(len(self.buffer)):
+            self.buffer.pop()
+
+    def filter_buffer(self):
+        '''Runs all filters on self.buffer if no match is found in other.'''
+        self.buffer.append(self.command)        
+        self.command = ' '.join(self.buffer)
+        logging.debug('command in buffer is '+self.command)
+        
+        filters = [
+            self.filter_repeat, self.filter_open, self.filter_search,
+        ]
+        
+        result = None
+        for filter in filters:
+            result = filter()
+            if result is not None:
+                break
+                
+        return result
+
     def extract(self):
         '''Matches self.command with various filters, and returns resulting command as a list.'''
         self.command = self.command.lower().strip()
@@ -119,6 +146,7 @@ class Extractor:
 
         filters = [
             self.filter_repeat, self.filter_open, self.filter_search,
+            self.filter_buffer,
         ]
         result = None
         for filter in filters:
@@ -127,9 +155,11 @@ class Extractor:
                 break
 
         if result is not None:
-            self.extracted_commands.append(result) # save result
+            self.clear_buffer()
+            self.extracted_commands.append(result) # save result            
         else:
             logging.warning('Command not clear!')
+        logging.debug('extractor returning'+str(result))
         return result
 
     def find_target_application(self):

@@ -28,4 +28,7 @@ def run(command, wm):
     else:
         if len(command) == 3:
             wm.focus(command[2])
-        subprocess.run(['xdotool', command[0], command[1]])
+        cmd = ['xdotool', command[0]]
+        for keystroke in command[1].split():
+            cmd.append(keystroke)
+        subprocess.run(cmd)
