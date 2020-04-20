@@ -1,0 +1,24 @@
+firefox,opens it if not open otherwise focuses it
+code,opens it if not open otherwise focuses it
+gedit,opens it if not open otherwise focuses it
+nautilus,opens it if not open otherwise focuses it
+terminal,opens it if not open otherwise focuses it
+go to firefox,opens it if not open otherwise focuses it
+go to code,opens it if not open otherwise focuses it
+go to gedit,opens it if not open otherwise focuses it
+go to nautilus,opens it if not open otherwise focuses it
+go to terminal,opens it if not open otherwise focuses it
+switch to firefox,opens it if not open otherwise focuses it
+switch to code,opens it if not open otherwise focuses it
+switch to gedit,opens it if not open otherwise focuses it
+switch to nautilus,opens it if not open otherwise focuses it
+switch to terminal,opens it if not open otherwise focuses it
+open firefox,opens it if not open otherwise focuses it
+open code,opens it if not open otherwise focuses it
+open gedit,opens it if not open otherwise focuses it
+open nautilus,opens it if not open otherwise focuses it
+open terminal,opens it if not open otherwise focuses it
+repeat,executes previous valid command
+focus next,focuses next window of the same app
+focus other window,focuses next window of the same app
+focus next window,focuses next window of the same app

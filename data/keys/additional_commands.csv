@@ -1,0 +1,24 @@
+CODE,opens it if not open otherwise focuses it
+CODE GO TO,opens it if not open otherwise focuses it
+CODE OPEN,opens it if not open otherwise focuses it
+CODE SWITCH TO,opens it if not open otherwise focuses it
+FIREFOX,opens it if not open otherwise focuses it
+FIREFOX GO TO,opens it if not open otherwise focuses it
+FIREFOX OPEN,opens it if not open otherwise focuses it
+FIREFOX SWITCH TO,opens it if not open otherwise focuses it
+FOCUS NEXT,focuses next window of the same app
+FOCUS NEXT WINDOW,focuses next window of the same app
+FOCUS OTHER WINDOW,focuses next window of the same app
+GEDIT,opens it if not open otherwise focuses it
+GEDIT GO TO,opens it if not open otherwise focuses it
+GEDIT OPEN,opens it if not open otherwise focuses it
+GEDIT SWITCH TO,opens it if not open otherwise focuses it
+GO NAUTILUS TO,opens it if not open otherwise focuses it
+GO TERMINAL TO,opens it if not open otherwise focuses it
+NAUTILUS,opens it if not open otherwise focuses it
+NAUTILUS OPEN,opens it if not open otherwise focuses it
+NAUTILUS SWITCH TO,opens it if not open otherwise focuses it
+OPEN TERMINAL,opens it if not open otherwise focuses it
+REPEAT,executes previous valid command
+SWITCH TERMINAL TO,opens it if not open otherwise focuses it
+TERMINAL,opens it if not open otherwise focuses it

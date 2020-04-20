@@ -85,9 +85,9 @@ class Extractor:
             with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
                 return helptxt.read()
         else:
-            lst = [str(item[0]).lower()
-                   for item in self.files_map[self.target_app]]
-            return '\n'.join(lst)+'\n'
+            with open(f'./config/{app_name}.csv', 'r') as helptxt:
+                lst = [item[0] for item in csv.reader(helptxt)]
+                return '\n'.join(lst)+'\n'
 
     def filter_search(self):
         if self.target_app != '?':

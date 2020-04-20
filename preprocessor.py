@@ -16,13 +16,12 @@ for app_name in files:
     sourcepath = f'./config/{app_name}.csv'
     destpath = f'./data/keys/{app_name}.csv'
     lst = []
-
     with open(sourcepath, 'r') as sourcefile:
         lst = list(csv.reader(sourcefile))
 
-        for idx, line in enumerate(lst):
+        for idx, line in enumerate(lst):            
             if (not all(c.isalpha() or c.isspace() for c in line[0])
-            or not all(c.isalpha() or c.isspace() for c in line[1])
+            or not all(c.isalnum() or c.isspace() or c in '+_' for c in line[1])
             ):
                 print('Error: Found invalid character in command, line',
                       idx+1, 'of file:', sourcepath, "\n\t", line)

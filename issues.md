@@ -45,7 +45,7 @@ Vaac must be able use the specified lm.
 33. term.py needs some work with regard to testing for bugs: ~~needs vertical scrolling. and line/word wrapping.~~ The code can be reorganized. Check for functions and keys not already handled. ~~Check for terminal functions which can be implemented. Check if you can use subprocess to run input commands from this term.py. There are some bugs with switching between the buffer and current_command list. Find out the best way to resolve this.~~
 atleast, build the equivalent of a dumb terminal.
 34. ~~Pressing up and down on an empty vaac terminal will cause index errors.~~
-35. Help strings don't print from the right files.
+35. ~~Help strings don't print from the right files.~~
 36. ~~Vaac terminal exits if maxlines is exceeded.~~
 
 User workflow should go like this:
