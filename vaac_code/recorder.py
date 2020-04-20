@@ -60,7 +60,7 @@ class RecordingManager:
             print("DEBUG:getPhrases checking from",self.n, 'to', len(corpus))
             for n in range(self.n,len(corpus)):
                 for i in range(self.min_command_freq):
-                    recpath = f'recordings/{corpusname}/recording{n}_{i}.wav'
+                    recpath = f'recordings/corpus/{corpusname}/recording{n}_{i}.wav'
                     print("DEBUG: searching for",recpath)
                     if not os.path.exists(recpath):
                         self.corpus = corpusname
@@ -84,6 +84,6 @@ class RecordingManager:
         if self.recording_words:
             recpath = f'recordings/words/{self.word}/{self.word}_{self.i}.wav'
         else:
-            recpath = f'recordings/{self.corpus}/recording{self.n}_{self.i}.wav'
+            recpath = f'recordings/corpus/{self.corpus}/recording{self.n}_{self.i}.wav'
         subprocess.run(['mv','/tmp/test.wav',recpath])
         print("DEBUG:moving to",recpath)

@@ -93,10 +93,15 @@ class AnalyzeCSV():
                         + line[2] + "\n")
                 PartitionsFile.write('_'*80+'\n')
 
-
 if __name__ == "__main__":
     file_names = [Path(item).stem for item in glob.glob('./config/*.csv')]
     print(file_names)
     print('Processing', len(file_names), 'files.')
+
+    # Create analyzeCSV objects for each file
     _ = [AnalyzeCSV([name]) for name in file_names]
+
+    # Create analyzeCSV object for all files
     AnalyzeCSV(file_names)
+
+

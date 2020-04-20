@@ -1,0 +1,539 @@
+add line comment
+bottom
+change file language
+close
+close all
+close editor
+close folder
+close window
+continue
+copy
+copy path
+copy selection
+cut
+delete line
+duplicate line
+exit zen mode
+expand selection
+find
+find next
+find previous
+focus first editor group
+focus next editor group
+focus previous editor group
+focus second editor group
+focus third editor group
+fold all regions
+fold all subregions
+fold region
+format document
+format selection
+full screen
+go back
+go forward
+go to beginning of line
+go to definition
+go to end of line
+go to file
+go to line
+go to next error
+go to next warning
+go to previous error
+go to previous warning
+go to symbol
+indent line
+insert at end of selected lines
+insert cursor above
+insert cursor below
+insert line above
+insert line below
+jump to matching bracket
+keep preview mode editor open
+keyboard shortcuts
+line down
+line up
+move editor group down
+move editor group left
+move editor group right
+move editor group up
+move editor left
+move editor right
+move line down
+move line up
+new file
+new terminal
+new window
+next tab
+open definition to side
+open file
+open file in new window
+open file location
+open markdown preview
+open markdown preview to side
+open preview
+outdent line
+page down
+page up
+paste
+paste in terminal
+peek definition
+previous tab
+quick fix
+quick open
+remove line comment
+rename symbol
+replace
+replace in files
+restore
+save
+save as
+scroll down in terminal
+scroll page down in terminal
+scroll page up in terminal
+scroll to bottom in terminal
+scroll to top in terminal
+scroll up in terminal
+select all
+select all of current selection
+select all of current word
+select all of find match
+select current line
+show all symbols
+show command palette
+show debug
+show explorer
+show extensions
+show hover
+show output panel
+show problems panel
+show references
+show search
+show source control
+show terminal
+shrink selection
+split editor
+start
+step into
+step out
+step over
+stop
+toggle block comment
+toggle breakpoint
+toggle editor layout
+toggle focus
+toggle line comment
+toggle search details
+toggle sidebar visibility
+toggle tab moves focus
+toggle word wrap
+top
+trigger parameter hints
+trigger suggestion
+trim line
+undo
+undo close editor
+unfold all regions
+unfold all subregions
+unfold region
+user settings
+zen mode
+zoom in
+zoom out
+left
+up
+right
+down
+escape
+f one
+f two
+f three
+f four
+f five
+f six
+f seven
+f eight
+f nine
+f ten
+f eleven
+f twelve
+function one
+function two
+function three
+function four
+function five
+function six
+function seven
+function eight
+function nine
+function ten
+function eleven
+function twelve
+print screen
+print
+scroll lock
+pause
+grave
+tilde
+exclamation mark
+at
+number sign
+hash
+dollar sign
+dollar
+percent sign
+percent
+circumflex accent
+caret
+ampersand
+and
+asterisk
+left parenthesis
+paren left
+parenthesis left
+right parenthesis
+parenthesis right
+paren right
+minus
+hyphen
+low line
+under score
+equals sign
+equals
+plus sign
+plus
+reverse solidus
+back slash
+vertical line
+bar
+pipe
+backspace
+insert
+home
+num lock
+tab
+left square bracket
+bracket left
+left curly bracket
+brace left
+bracket square right
+bracket right
+right curly bracket
+brace right
+enter
+delete
+end
+caps lock
+colon
+semi colon
+apostrophe
+quotation mark
+double quote
+shift
+shift left
+less than
+comma
+greater than
+full stop
+period
+question mark
+solidus
+slash
+shift right
+control
+control left
+super
+super left
+alt
+meta
+alt left
+space
+alt right
+super right
+menu
+control right
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+capital a
+capital b
+capital c
+capital d
+capital e
+capital f
+capital g
+capital h
+capital i
+capital j
+capital k
+capital l
+capital m
+capital n
+capital o
+capital p
+capital q
+capital r
+capital s
+capital t
+capital u
+capital v
+capital w
+capital x
+capital y
+capital z
+small a
+small b
+small c
+small d
+small e
+small f
+small g
+small h
+small i
+small j
+small k
+small l
+small m
+small n
+small o
+small p
+small q
+small r
+small s
+small t
+small u
+small v
+small w
+small x
+small y
+small z
+activate window menu
+copy partial screenshot
+copy screenshot
+copy window screenshot
+focus active notification
+hide all windows
+hide window
+lock screen
+log out
+maximize window
+move to workspace above
+move to workspace below
+move window
+move window one workspace down
+move window one workspace up
+move window to last workspace
+open application menu
+record screencast
+resize window
+restore window
+save partial screenshot
+save screenshot
+save window screenshot
+show activities overview
+show all applications
+show command prompt
+show notification list
+show overview
+switch to next input source
+switch to previous input source
+switch windows
+switch windows directly
+switch windows of
+turn screen reader off
+turn screen reader on
+turn zoom off
+turn zoom on
+view split on left
+view split on right
+clear highlight
+clear screen
+close tab
+delete previous word
+delete to end of line
+delete to start of line
+delete to start of word
+erase line
+erase word
+move back one character
+move back one word
+move forward one character
+move forward one word
+move tab to left
+move tab to right
+move to end of line
+move to start of line
+new tab
+reset zoom
+scroll down one line
+scroll down one page
+scroll to bottom
+scroll to top
+scroll up one line
+scroll up one page
+switch to tab eight
+switch to tab five
+switch to tab four
+switch to tab nine
+switch to tab one
+switch to tab seven
+switch to tab six
+switch to tab ten
+switch to tab three
+switch to tab two
+add tab stop
+change to lower case
+change to upper case
+check spelling
+close all tabs
+delete current line
+find and replace
+go to beginning of document
+go to end of document
+hide side panel
+move word left
+move word right
+new tab group
+next tab group
+open document
+open file menu
+open user guide
+previous tab group
+print preview
+redo
+remove tab stop
+save all tabs
+show side panel
+switch to next tab
+switch to previous tab
+toggle case
+undo close tab
+add ons
+back
+bookmark this page
+bookmarks sidebar
+browser console
+caret browsing
+clear history
+close quick find
+debugger
+decrease volume
+delete word to left
+delete word to right
+developer toolbar
+downloads
+exit full screen
+focus next
+focus page number box
+focus previous
+focus search bar
+force reload
+forward
+go
+go one word to left
+go one word to right
+go to beginning
+go to end
+hand tool
+history sidebar
+increase volume
+inspector
+library window bookmarks
+library window history
+menu bar
+move tab left
+move tab right
+move tab to end
+move tab to start
+move to next frame
+move to previous frame
+mute
+network
+new private window
+next page
+page info
+page source
+paste as plain text
+play
+previous page
+profiler
+quick find
+quick find links
+quit
+reload
+responsive design view
+rotate
+rotate counterclockwise
+seek back fifteen seconds
+seek back ten percent
+seek forward fifteen seconds
+seek forward ten percent
+seek to beginning
+seek to end
+select location bar
+style editor
+switch to last tab
+switch to presentation mode
+text selection tool
+toggle context menu
+toggle developer tools
+toggle reader mode
+undo close window
+unmute
+web console
+delete permanently
+enter location
+go to home folder
+go to next tab
+go to previous tab
+hide action menu
+hide hidden files
+hide sidebar
+invert selection
+move to trash
+new folder
+open
+open file and close window
+open in new tab
+open in new window
+open item location
+refresh
+rename
+restore tab
+search
+select matching items
+shortcuts
+show action menu
+show help
+show hidden files
+show item properties
+show sidebar
+firefox
+code
+gedit
+nautilus
+terminal
+go to firefox
+go to code
+go to gedit
+go to nautilus
+go to terminal
+switch to firefox
+switch to code
+switch to gedit
+switch to nautilus
+switch to terminal
+open firefox
+open code
+open gedit
+open nautilus
+open terminal
+repeat
+focus other window
+focus next window
