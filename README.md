@@ -167,10 +167,10 @@ at a glance to have a general idea of the system.
 	```
 	In the process of training, you might come across some errors related to Baum-Welch: 'Failed to align audio to trancript: final state of the search is not reached'. A few of these errors can be neglected, however, if this occurs for every recording in the corpus, these errors have to be resolved.
 
-	More resources on training models:
-	https://cmusphinx.github.io/wiki/tutorialam/
-	https://cmusphinx.github.io/wiki/tutoriallm/
-	http://jrmeyer.github.io/asr/2016/01/27/CMU-Sphinx-Cheatsheet.html
+	More resources on training models:  
+	https://cmusphinx.github.io/wiki/tutorialam/  
+	https://cmusphinx.github.io/wiki/tutoriallm/  
+	http://jrmeyer.github.io/asr/2016/01/27/CMU-Sphinx-Cheatsheet.html  
 
 
 13. Set the paths to the hmm model, language model and dic in the vaac_config:
@@ -195,4 +195,3 @@ There are no set rules to create a corpus. However, here are some rules of thumb
 ## Tips:
 This is work in progress, so, you will need work-arounds till each problem is taken care of.
 * If you have problems with focus, try restarting Gnome shell by pressing Alt+F2 and typing in 'r' into the prompt.
-* Try having only one instance/window of every application to make sure that the commands are directed to the correct window.
