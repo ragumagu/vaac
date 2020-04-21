@@ -67,6 +67,8 @@ class Extractor:
     def filter_open(self):
         if self.command == 'help':
             return self.get_help_string(self.target_app)
+        elif self.command == 'help others':
+            return self.get_help_string('others')
         elif (self.command in ['open', 'focus', 'go to', 'switch to', '']
               and self.target_app != '?'):
             self.current_app = self.target_app
@@ -83,6 +85,9 @@ class Extractor:
     def get_help_string(self, app_name):
         if app_name == '?':
             with open('./vaac_code/vaac_terminal_help.txt', 'r') as helptxt:
+                return helptxt.read()
+        elif app_name == 'others':
+            with open('./config/additional_commands', 'r') as helptxt:
                 return helptxt.read()
         else:
             with open(f'./config/{app_name}.csv', 'r') as helptxt:

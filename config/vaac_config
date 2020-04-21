@@ -1,5 +1,7 @@
 [PATHS]
-model_path = model
+hmm = vaac_model/model_parameters/vaac_model.cd_cont_2000
+lm = vaac_model/etc/vaac_model.lm.DMP
+dic = vaac_model/etc/vaac_model.dic
 keysymfile = ./config/keys.csv
 
 [CORPUS]

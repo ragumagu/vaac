@@ -11,7 +11,9 @@ if __name__ == "__main__":
 
     config = configparser.ConfigParser()
     config.read('./config/vaac_config')
-    model_path = config['PATHS']['model_path']
+    hmm = config['PATHS']['hmm']
+    lm = config['PATHS']['lm']
+    dic = config['PATHS']['dic']
 
     speech = LiveSpeech(
         verbose=False,
@@ -19,9 +21,9 @@ if __name__ == "__main__":
         buffer_size=2048,
         no_search=False,
         full_utt=False,
-        hmm=os.path.join(model_path, 'vaac_model.cd_cont_2000'),
-        lm=os.path.join(model_path, 'vaac_model.lm.DMP'),
-        dic=os.path.join(model_path, 'vaac_model.dic')
+        hmm=hmm,
+        lm=lm,
+        dic=dic
     )
     
     wm = WindowManager()	
