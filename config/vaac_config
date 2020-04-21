@@ -1,5 +1,5 @@
 [PATHS]
-model_path = vaac_model
+model_path = model
 keysymfile = ./config/keys.csv
 
 [CORPUS]

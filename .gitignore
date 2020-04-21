@@ -2,5 +2,7 @@
 recordings/
 # Ignore everything in logs
 logs/
+# Ignore model training folders
+vaac_model/
 # ... but do not ignore this file
 !.gitignore

@@ -17,7 +17,7 @@ for word in words[:1]:
         for file in sorted(glob.glob(f'{word}/*')):
             # To remove .wav extention
             fileid = file.replace('./recordings/','')[:-4] +'\n'
-            transcription = f'<s> {Path(word).stem} </s> ({Path(file).stem})\n'
+            transcription = f'<s> {Path(word).stem.upper()} </s> ({Path(file).stem})\n'
             test_fileids_file.write(fileid)
             test_transcription_file.write(transcription)
 
@@ -28,7 +28,7 @@ for word in words[1:]:
         for file in sorted(glob.glob(f'{word}/*')):
             # To remove .wav extention
             fileid = file.replace('./recordings/','')[:-4] +'\n'
-            transcription = f'<s> {Path(word).stem} </s> ({Path(file).stem})\n'
+            transcription = f'<s> {Path(word).stem.upper()} </s> ({Path(file).stem})\n'
             fileidsfile.write(fileid)
             transcriptionfile.write(transcription)
 
@@ -42,6 +42,6 @@ for folder in folders:
             fileid = file.replace('./recordings/','')[:-4] +'\n'
             lst = re.findall(r'\d+', Path(file).stem)
             n = int(lst[0])
-            transcription = f'<s> {corpus[n][0]} </s> ({Path(file).stem})\n'
+            transcription = f'<s> {corpus[n][0].upper()} </s> ({Path(file).stem})\n'
             fileidsfile.write(fileid)
             transcriptionfile.write(transcription)

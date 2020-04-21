@@ -36,6 +36,7 @@ do
         i=1
     done
 done < "$modeldir/etc/$modeldir.dic"
+echo SIL >> "$modeldir/etc/$modeldir.phone"
 sort -u -o "$modeldir/etc/$modeldir.phone" "$modeldir/etc/$modeldir.phone"
 
 echo "Copying .filler file..."
@@ -44,6 +45,12 @@ cp "data/model.filler" "$modeldir/etc/$modeldir.filler"
 echo "Generating fileids and transcription"
 python3 vaac_code/generate_fileids.py
 
-echo "Done"
+echo "Copying recordings into $modeldir/wav"
+mkdir -p "$modeldir/wav/"
+cp -a "recordings/." "$modeldir/wav/"
 
+echo "Running sphinxtrain setup"
+cd "$modeldir"
+sphinxtrain -t $modeldir setup
 
+#echo "Done"

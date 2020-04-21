@@ -100,10 +100,24 @@ The first half and second half are comma separated.
 		$ python3 recorder.py
 	```
 
-7. Use trainer.sh to train the model:
+7. Use generate_grammar.py to generate the grammar file:
 	```
-		$ ./trainer.sh
+		$ python3 generate_grammar.py
 	```
+
+8. Upload the grammar file to lm tool:
+	http://www.speech.cs.cmu.edu/tools/lmtool-new.html
+
+9. Download the generated .tgz file into vaac folder.
+10. Use setupModel script to setup a model:
+	$ ./setupModel.sh tarfile=TAR****.tgz
+
+11. Navigate into vaac_model/etc/. Edit sphinx_train.cfg as required. 
+	You might set number of senones to 2000, like
+	    $CFG_N_TIED_STATES = 2000;
+	instead of 200.
+12. Navigate to vaac_model/. Run sphinxtrain:
+	$ sphinxtrain run
 
 8. You can now use the terminal application.
 	```

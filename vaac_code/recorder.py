@@ -45,7 +45,7 @@ class RecordingManager:
         for word in words:
             for i in range(self.min_word_freq):
                 recpath = f'recordings/words/{word}/{word}_{i}.wav'
-                print("DEBUG: searching for",recpath)
+                #print("DEBUG: searching for",recpath)
                 if not os.path.exists(recpath):
                     self.word = word
                     self.i = i
@@ -57,11 +57,11 @@ class RecordingManager:
             corpusname = Path(corpusfilestr).stem
             with open(corpusfilestr,'r') as corpusfile:
                 corpus = list(csv.reader(corpusfile))
-            print("DEBUG:getPhrases checking from",self.n, 'to', len(corpus))
+            #print("DEBUG:getPhrases checking from",self.n, 'to', len(corpus))
             for n in range(self.n,len(corpus)):
                 for i in range(self.min_command_freq):
                     recpath = f'recordings/corpus/{corpusname}/recording{n}_{i}.wav'
-                    print("DEBUG: searching for",recpath)
+                    #print("DEBUG: searching for",recpath)
                     if not os.path.exists(recpath):
                         self.corpus = corpusname
                         self.n = n
@@ -82,8 +82,11 @@ class RecordingManager:
     def save(self):
         recpath = ''
         if self.recording_words:
+            dirpath = f'recordings/words/{self.word}/'
             recpath = f'recordings/words/{self.word}/{self.word}_{self.i}.wav'
         else:
+            dirpath = f'recordings/corpus/{self.corpus}/'
             recpath = f'recordings/corpus/{self.corpus}/recording{self.n}_{self.i}.wav'
+        subprocess.run(['mkdir','-p',dirpath])
         subprocess.run(['mv','/tmp/test.wav',recpath])
         print("DEBUG:moving to",recpath)
