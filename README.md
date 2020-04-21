@@ -96,13 +96,16 @@ This script is just a helpful wrapper to setup a model for training. It does the
 The first half and second half are comma separated.
 
 ## Usage:
-Note: Do not ignore errors and warnings in any step. Verify that the files, data, are saved and exist in the expected form at each step. 
+Note: Do not ignore errors and warnings in any step. Verify that the files, data, are saved and exist in the expected form at each step.
+It is recommended to read the entire Pocketsphinx tutorial:  
+>	https://cmusphinx.github.io/wiki/tutorial/  
+
+at a glance to have a general idea of the system.
 
 1. Setup sphinxbase, pocketsphinx, and sphinxtrain. Here is a list of resources:  
-	https://cmusphinx.github.io/wiki/tutorial/  
 	https://cmusphinx.github.io/wiki/tutorialpocketsphinx/  
 	http://jrmeyer.github.io/asr/2016/01/09/Installing-CMU-Sphinx-on-Ubuntu.html  
-	http://jrmeyer.github.io/asr/2016/01/27/CMU-Sphinx-Cheatsheet.html  
+	
 
 2. Most of the following commands should be run in the vaac folder.
 	```
@@ -163,6 +166,12 @@ Note: Do not ignore errors and warnings in any step. Verify that the files, data
 		$ sphinxtrain run
 	```
 	In the process of training, you might come across some errors related to Baum-Welch: 'Failed to align audio to trancript: final state of the search is not reached'. A few of these errors can be neglected, however, if this occurs for every recording in the corpus, these errors have to be resolved.
+
+	More resources on training models:
+	https://cmusphinx.github.io/wiki/tutorialam/
+	https://cmusphinx.github.io/wiki/tutoriallm/
+	http://jrmeyer.github.io/asr/2016/01/27/CMU-Sphinx-Cheatsheet.html
+
 
 13. Set the paths to the hmm model, language model and dic in the vaac_config:
 	
