@@ -137,9 +137,9 @@ Note: Do not ignore errors and warnings in any step. Verify that the files, data
 	```
 	This step will take quite some time.
 
-7. Use generate_grammar.py to generate the grammar file:
+7. Use generateGrammar.py to generate the grammar file:
 	```
-		$ python3 generate_grammar.py
+		$ python3 generateGrammar.py
 	```
 	You will now see a new file named grammar in the current directory.
 
