@@ -83,8 +83,8 @@ The generateGrammar.py script generates a grammar file by accumulating all comma
 ### Setup Model:
 This script is just a helpful wrapper to setup a model for training. It does the following:
 * unzips the content of TAR****.tgz file downloaded from lm tool into vaac_model/etc. 
-* renames the files to have prefix vaac_model
-* converts the .lm file to .lm.DMP file
+* renames the files to have prefix vaac_model.
+* converts the .lm file to .lm.DMP file : Although the tutorial says that the .DMP file format is obsolete, Sphinxtrain requires a .DMP file.
 * extracts phones from the .dic file.
 * copies the filler file from data to vaac_model/etc
 * generates file_ids and transcription: This involves creating the file ids and transcription files for training and testing the model, only for recordings present in the recordings folder. This way, missing files and incomplete recordings of the corpus do not affect this script.
@@ -106,6 +106,7 @@ at a glance to have a general idea of the system.
 	https://cmusphinx.github.io/wiki/tutorialpocketsphinx/  
 	http://jrmeyer.github.io/asr/2016/01/09/Installing-CMU-Sphinx-on-Ubuntu.html  
 	
+	It is recommended to download zip files from the GitHub repositories, as these get the latest fixes. After the downloading the zip files, run make and install as suggested in the tutorial.
 
 2. Most of the following commands should be run in the vaac folder.
 	```
