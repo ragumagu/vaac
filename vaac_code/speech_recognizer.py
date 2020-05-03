@@ -1,6 +1,6 @@
 '''This is the speech recognizer module for vaac.'''
 import os
-from pocketsphinx import LiveSpeech, get_model_path
+from pocketsphinx import LiveSpeech
 
 model_path = "/home/shrinidhi/project/vaac/vaac_model"
 

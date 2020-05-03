@@ -108,6 +108,8 @@ at a glance to have a general idea of the system.
 	
 	It is recommended to download zip files from the GitHub repositories, as these get the latest fixes. After the downloading the zip files, run make and install as suggested in the tutorial.
 
+2. Pip install pocketsphinx python.
+
 2. Most of the following commands should be run in the vaac folder.
 	```
 		$ cd /path/to/vaac/
@@ -121,7 +123,7 @@ at a glance to have a general idea of the system.
 
 3. Once changes are made to config folder, run preprocessor.py:
 	```
-		$ python3 preprocesssor.py
+		$ python3 preprocessor.py
 	```  
    If it reports any errors, correct them in the config files before proceeding further.
 
