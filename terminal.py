@@ -87,6 +87,10 @@ def main(stdscr):
     cmd_char_idx = manager.Value('i', 0)
     char = manager.Value('i', 0)
     updateBool = manager.Value(c_bool, True)
+
+    # The following variable submitBool is necessary, because voice inputs can 
+    # be triggered only by using inputHandler.takeInput(char=ord('\n')) which
+    # is not the same as inputchars.append('\n'). This is done in output().
     submitBool = manager.Value(c_bool, False)
 
     # Process for running pocketsphinx.
