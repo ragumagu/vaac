@@ -10,7 +10,9 @@ from multiprocessing import Manager, Process
 from multiprocessing.sharedctypes import Value
 
 from pocketsphinx import LiveSpeech
+
 from vaac_code.terminal import InputHandler, WindowHandler
+
 
 def run_pocketsphinx(inputchars, cmd_char_idx, submitBool,hmm,lm,dic):    
     speech = LiveSpeech(
@@ -106,7 +108,6 @@ def main(stdscr):
 
     keyboard_proc.start()
     pocketsphinx_proc.start()
-    time.sleep(0.1)
     output_proc.start()
 
     output_proc.join()
