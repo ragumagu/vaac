@@ -9,11 +9,11 @@ from curses import wrapper
 from multiprocessing import Manager, Process
 from multiprocessing.sharedctypes import Value
 
-from vaac_code.speech_recognizer import VaacSpeech
+from pocketsphinx import LiveSpeech
 from vaac_code.terminal import InputHandler, WindowHandler
 
 def run_pocketsphinx(inputchars, cmd_char_idx, submitBool,hmm,lm,dic):    
-    speech = VaacSpeech(
+    speech = LiveSpeech(
         verbose=True,
         logfn='logs/pocketsphinx_log',
         sampling_rate=16000,

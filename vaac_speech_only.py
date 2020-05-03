@@ -2,7 +2,7 @@ import configparser
 import os
 import subprocess
 
-from pocketsphinx import LiveSpeech, get_model_path
+from pocketsphinx import LiveSpeech
 
 from vaac_code.extractor import Extractor
 from vaac_code.window_manager import WindowManager
