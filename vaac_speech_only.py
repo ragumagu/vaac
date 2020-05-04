@@ -1,11 +1,8 @@
 import configparser
-import os
-import subprocess
 
 from pocketsphinx import LiveSpeech
 
 from vaac_code.extractor import Extractor
-from vaac_code.window_manager import WindowManager
 
 if __name__ == "__main__":
 
@@ -25,9 +22,9 @@ if __name__ == "__main__":
         lm=lm,
         dic=dic
     )
-    	
+
     extractor = Extractor()
-    
+
     for phrase in speech:
         phrase = str(phrase)
         print("> ", phrase)

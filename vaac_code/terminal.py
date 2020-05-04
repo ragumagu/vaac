@@ -73,7 +73,6 @@ class InputHandler:
         self.maxlines = maxlines
         self.commands_list = []
         self.cmd_list_pointer = len(self.commands_list)
-        self.resizeBool = False
         self.insertMode = False
         self.exitstring = "exit"
         self.prompt = "> "
@@ -87,8 +86,6 @@ class InputHandler:
             self.char.value = int(kwargs.pop('char'))
 
     def processArgs(self):
-        self.resizeBool = False
-
         if self.char.value >= 32 and self.char.value <= 126:
             if self.insertMode:
                 if self.cmd_char_idx.value < len(self.command):
@@ -152,13 +149,9 @@ class InputHandler:
         elif self.char.value == ord('\n') and len(self.command) != 0:
             self.cmd_list_pointer += 1
 
-            if len(self.commands_list) != 0 and self.commands_list[-1] == "":
-                self.commands_list.pop()
-
             command_string = "".join(self.command)
             self.commands_list.append(command_string)
             self.getOutput()  # Probable spaghetti
-            self.commands_list.append("")
 
             while len(self.command) > 0:
                 self.command.pop()
@@ -178,9 +171,6 @@ class InputHandler:
 
         elif self.char.value == curses.KEY_END:
             self.cmd_char_idx.value = len(self.command)
-
-        elif self.char.value == curses.KEY_RESIZE:
-            self.resizeBool = True
 
     def getScreenOutput(self):
         return self.screen_log + self.prompt + ''.join(self.command)
@@ -222,13 +212,10 @@ class InputHandler:
     def checkIfExit(self):
         # The index error occurs initially, when no command has been entered.
         try:
-            if self.commands_list[-2] == self.exitstring:
+            if self.commands_list[-1] == self.exitstring:
                 return True
         except IndexError:
             return False
-
-    def getLastInput(self):
-        return self.commands_list[-1]
 
     def getOutput(self):
         input_command = self.commands_list[-1]

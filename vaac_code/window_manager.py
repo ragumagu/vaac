@@ -1,9 +1,10 @@
 '''This is the window manager module for vaac.'''
-from collections import defaultdict
 import ast
-import subprocess
-import shlex
 import logging
+import subprocess
+from collections import defaultdict
+
+
 class WindowManager():
     def __init__(self):
         # window_pointers keeps pointers to window ids
@@ -25,7 +26,7 @@ class WindowManager():
         output_string = subprocess.getoutput(command).lower()
         try:
             output = ast.literal_eval(output_string)
-        except:
+        except Exception:
             logging.warn("Got an invalid string.")
             return
         apps_windows_dict = defaultdict(list)
@@ -45,7 +46,8 @@ class WindowManager():
             del self.window_pointers[item]
 
     def cycle_index(self, app):
-        '''Call this method to cycle between windows of the same app. You have to call focus after calling this method to focus the next window.'''
+        '''Call this method to cycle between windows of the same app. You have
+        to call focus after calling this method to focus the next window.'''
         self.window_pointers[app] += 1
         if self.window_pointers[app] == len(self.apps_windows_dict[app]):
             self.window_pointers[app] = 0

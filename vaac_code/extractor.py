@@ -14,6 +14,7 @@ from fuzzywuzzy import fuzz
 import vaac_code.executor as executor
 from vaac_code.window_manager import WindowManager
 
+
 class Extractor:
     '''Extractor class provides methods to extract commands and run them.
     Filter methods return the matched command.
@@ -32,11 +33,11 @@ class Extractor:
             ['text editor', 'gedit'],
             ['general'],
             ['terminal', 'gnome-terminal'],
-            ['files', 'nautilus'],            
+            ['files', 'nautilus'],
         ]
         self.app_names = [
             'code', 'firefox', 'gedit',
-            'general', 'gnome-terminal', 'nautilus', 
+            'general', 'gnome-terminal', 'nautilus',
             'keys',
         ]
         self.files_map = {}
@@ -56,11 +57,11 @@ class Extractor:
 
     def filter_repeat(self):
         if (self.command == 'repeat'
-            and self.extracted_commands != []):
+                and self.extracted_commands != []):
             result = self.extracted_commands[-1]
             if ((len(result) == 3 and result[2] in self.open_applications)
                 or (len(result) == 2)
-                or (isinstance(result,str))):
+                    or (isinstance(result, str))):
                 return result
         return None
 
@@ -76,7 +77,8 @@ class Extractor:
                 return ['focus', self.target_app]
             else:
                 return ['open', self.current_app]
-        elif (self.command in ['focus next','focus other window','focus next window']):
+        elif (self.command in ['focus next', 'focus other window',
+                               'focus next window']):
             self.wm.cycle_index(self.current_app)
             return ['focus', self.current_app]
         else:
@@ -97,21 +99,22 @@ class Extractor:
     def filter_search(self):
         if self.target_app != '?':
             self.current_app = self.target_app
-        targets = [self.current_app,'general','keys']
+        targets = [self.current_app, 'general', 'keys']
         for target in targets:
             matched_command = self.match(target)
             if matched_command is not None:
                 break
         return matched_command
 
-    def match(self,app_name):
+    def match(self, app_name):
         matched_command = max(self.files_map[app_name],
-                              key=lambda x: fuzz.token_sort_ratio(self.command, x[0]))
+                              key=lambda x: fuzz.token_sort_ratio(
+                                  self.command, x[0]))
 
         max_ratio = fuzz.token_sort_ratio(self.command, matched_command[0])
         if max_ratio == 100:
             result = matched_command[1:]
-            if app_name not in ['general',]:
+            if app_name not in ['general', ]:
                 result.append(self.current_app)
             result.insert(0, 'key')
             return result
@@ -125,24 +128,25 @@ class Extractor:
 
     def filter_buffer(self):
         '''Runs all filters on self.buffer if no match is found in other.'''
-        self.buffer.append(self.command)        
+        self.buffer.append(self.command)
         self.command = ' '.join(self.buffer)
         logging.debug('command in buffer is '+self.command)
-        
+
         filters = [
             self.filter_repeat, self.filter_open, self.filter_search,
         ]
-        
+
         result = None
         for filter in filters:
             result = filter()
             if result is not None:
                 break
-                
+
         return result
 
     def extract(self):
-        '''Matches self.command with various filters, and returns resulting command as a list.'''
+        '''Matches self.command with various filters, and returns
+        resulting command as a list.'''
         self.command = self.command.lower().strip()
         self.find_target_application()
 
@@ -161,7 +165,7 @@ class Extractor:
 
         if result is not None:
             self.clear_buffer()
-            self.extracted_commands.append(result) # save result            
+            self.extracted_commands.append(result)  # save result
         else:
             logging.warning('Command not clear!')
         logging.debug('extractor returning'+str(result))
