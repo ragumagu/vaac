@@ -1,20 +1,17 @@
 import configparser
 import curses
 import logging
-import os
-import subprocess
 import time
-from ctypes import c_bool, c_wchar_p
+from ctypes import c_bool
 from curses import wrapper
 from multiprocessing import Manager, Process
-from multiprocessing.sharedctypes import Value
 
 from pocketsphinx import LiveSpeech
 
 from vaac_code.terminal import InputHandler, WindowHandler
 
 
-def run_pocketsphinx(inputchars, cmd_char_idx, submitBool,hmm,lm,dic):    
+def run_pocketsphinx(inputchars, cmd_char_idx, submitBool, hmm, lm, dic):
     speech = LiveSpeech(
         verbose=True,
         logfn='logs/pocketsphinx_log',
@@ -40,11 +37,11 @@ def take_keyboard_input(stdscr, char, updateBool):
 
 
 def output(inputchars, cmd_char_idx, submitBool,
-           stdscr, char, updateBool, logger,maxlines):
+           stdscr, char, updateBool, logger, maxlines):
     pad = curses.newpad(maxlines, curses.COLS)
     inputHandler = InputHandler(
         inputchars, cmd_char_idx, char,
-        stdscr, pad,maxlines
+        stdscr, pad, maxlines
     )
     windowHandler = WindowHandler(stdscr, pad, inputHandler, maxlines)
     stdscr.refresh()
@@ -68,7 +65,8 @@ def output(inputchars, cmd_char_idx, submitBool,
 
 def main(stdscr):
     logging.basicConfig(
-        format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s', filename='logs/vaac_terminal.log',
+        format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s:%(message)s',
+        filename='logs/vaac_terminal.log',
         filemode="a",
         level=logging.DEBUG
     )
@@ -80,7 +78,7 @@ def main(stdscr):
     hmm = config['PATHS']['hmm']
     lm = config['PATHS']['lm']
     dic = config['PATHS']['dic']
-    maxlines = config.getint('VAAC_TERMINAL','maxlines')    
+    maxlines = config.getint('VAAC_TERMINAL', 'maxlines')
 
     manager = Manager()
     inputchars = manager.list()
@@ -88,14 +86,14 @@ def main(stdscr):
     char = manager.Value('i', 0)
     updateBool = manager.Value(c_bool, True)
 
-    # The following variable submitBool is necessary, because voice inputs can 
+    # The following variable submitBool is necessary, because voice inputs can
     # be triggered only by using inputHandler.takeInput(char=ord('\n')) which
     # is not the same as inputchars.append('\n'). This is done in output().
     submitBool = manager.Value(c_bool, False)
 
     # Process for running pocketsphinx.
     pocketsphinx_proc = Process(target=run_pocketsphinx, args=(
-        inputchars, cmd_char_idx, submitBool,hmm,lm,dic))
+        inputchars, cmd_char_idx, submitBool, hmm, lm, dic))
 
     # Process for taking input from keyboard.
     keyboard_proc = Process(target=take_keyboard_input,

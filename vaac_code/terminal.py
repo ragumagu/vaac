@@ -1,9 +1,8 @@
 '''This is the terminal module for Vaac'''
 import curses
 import logging
-from curses import ascii, wrapper
 from vaac_code.extractor import Extractor
-from vaac_code.window_manager import WindowManager
+
 
 class WindowHandler:
     def __init__(self, stdscr, screen_pad, inputHandler, maxlines):
@@ -39,7 +38,9 @@ class WindowHandler:
         elif y >= curses.LINES-1:
             self.y_offset = y - curses.LINES + 1
 
-        if (self.y_offset == y - curses.LINES + 1) or (self.y_offset == 0 and (inputHandler.screen_log.count("\n") < curses.LINES)):
+        if ((self.y_offset == y - curses.LINES + 1) or
+            (self.y_offset == 0 and
+             (inputHandler.screen_log.count("\n") < curses.LINES))):
             curses.curs_set(2)
         else:
             curses.curs_set(0)
@@ -49,19 +50,22 @@ class WindowHandler:
 
     def refresh(self):
         try:
-            self.pad.refresh(self.y_offset, 0, 0, 0, curses.LINES-1, curses.COLS)
+            self.pad.refresh(self.y_offset, 0, 0, 0,
+                             curses.LINES-1, curses.COLS)
         except Exception as ex:
             logging.critical(str(ex))
+
 
 class InputHandler:
     def __init__(self, command, cmd_char_idx, char, stdscr, pad, maxlines):
         # command is a multiprocessing.manager.list proxy object; it is a list
         # of chars
         self.command = command
-        # command is a multiprocessing.manager.Value(int) proxy object; it is a # pointer to chars in command.
+        # cmd_char_idx is a multiprocessing.manager.Value(int) proxy object;
+        # it is a pointer to chars in command.
         self.cmd_char_idx = cmd_char_idx
-        # command is a multiprocessing.manager.Value(int) proxy object; it holds
-        # the input char from getch().
+        # char is a multiprocessing.manager.Value(int) proxy object; it
+        # holds the input char from getch().
         self.char = char
 
         self.stdscr = stdscr
@@ -76,12 +80,9 @@ class InputHandler:
         self.screen_log = ('This is the vaac terminal program.\n'
                            + 'Type "help" for more information.\n')
         self.screen_log_len = self.calcNumberOfLines(self.screen_log)
-        wm = WindowManager()
-        self.extractor = Extractor(wm)
+        self.extractor = Extractor()
 
     def takeInput(self, **kwargs):
-        if len(kwargs) == 0:
-            self.char.value = self.stdscr.getch()
         if len(kwargs) == 1:
             self.char.value = int(kwargs.pop('char'))
 
@@ -91,11 +92,13 @@ class InputHandler:
         if self.char.value >= 32 and self.char.value <= 126:
             if self.insertMode:
                 if self.cmd_char_idx.value < len(self.command):
-                    self.command[self.cmd_char_idx.value] = chr(self.char.value)
+                    self.command[self.cmd_char_idx.value] = chr(
+                        self.char.value)
                 else:
                     self.command.append(chr(self.char.value))
             else:
-                self.command.insert(self.cmd_char_idx.value, chr(self.char.value))
+                self.command.insert(self.cmd_char_idx.value,
+                                    chr(self.char.value))
             self.cmd_char_idx.value += 1
 
         if self.char.value == curses.KEY_IC:
@@ -180,10 +183,10 @@ class InputHandler:
             self.resizeBool = True
 
     def getScreenOutput(self):
-        return self.screen_log + self.prompt +''.join(self.command)
+        return self.screen_log + self.prompt + ''.join(self.command)
 
-    def calcNumberOfLines(self,string):
-        lines = 0 # number of lines required to show string on screen
+    def calcNumberOfLines(self, string):
+        lines = 0  # number of lines required to show string on screen
         cursor = 0
         for char in string:
             cursor += 1
@@ -192,7 +195,7 @@ class InputHandler:
                 cursor = 0
         return lines
 
-    def trimScreenLog(self,diff):
+    def trimScreenLog(self, diff):
         cursor = 0
         for i in range(len(self.screen_log)):
             cursor += 1
@@ -203,16 +206,16 @@ class InputHandler:
                 self.screen_log = self.screen_log[i+1:]
                 return
 
-    def append(self,outputString):
+    def append(self, outputString):
         outputStringLines = self.calcNumberOfLines(outputString)
 
         lines = self.screen_log_len + outputStringLines
         self.screen_log += outputString
         if lines >= self.maxlines:
             diff = lines - self.maxlines
-            diff += 1 # trim one more to fit within maxlines
+            diff += 1  # trim one more to fit within maxlines
             self.trimScreenLog(diff)
-            self.screen_log_len = self.maxlines -1
+            self.screen_log_len = self.maxlines - 1
         else:
             self.screen_log_len += outputStringLines
 
@@ -221,17 +224,16 @@ class InputHandler:
         try:
             if self.commands_list[-2] == self.exitstring:
                 return True
-        except IndexError as ie:
+        except IndexError:
             return False
 
     def getLastInput(self):
         return self.commands_list[-1]
 
-
     def getOutput(self):
         input_command = self.commands_list[-1]
         logging.debug("input: "+input_command)
-        #self.screen_log += self.prompt+input_command+"\n"
+
         self.append(self.prompt+input_command+"\n")
 
         if input_command == 'exit':

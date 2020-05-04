@@ -12,16 +12,16 @@ import logging
 from fuzzywuzzy import fuzz
 
 import vaac_code.executor as executor
-
+from vaac_code.window_manager import WindowManager
 
 class Extractor:
     '''Extractor class provides methods to extract commands and run them.
     Filter methods return the matched command.
     '''
 
-    def __init__(self, wm):
-        self.wm = wm
-        self.current_app = wm.get_active_window_class()
+    def __init__(self):
+        self.wm = WindowManager()
+        self.current_app = self.wm.get_active_window_class()
         self.target_app = ''
         self.command = ''
         self.extracted_commands = []

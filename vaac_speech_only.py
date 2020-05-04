@@ -25,9 +25,8 @@ if __name__ == "__main__":
         lm=lm,
         dic=dic
     )
-    
-    wm = WindowManager()	
-    extractor = Extractor(wm)
+    	
+    extractor = Extractor()
     
     for phrase in speech:
         phrase = str(phrase)
