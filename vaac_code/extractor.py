@@ -101,12 +101,37 @@ class Extractor:
             self.current_app = self.target_app
         targets = [self.current_app, 'general', 'keys']
         for target in targets:
-            matched_command = self.match(target)
+            matched_command = self.matchBinary(target)
             if matched_command is not None:
                 break
         return matched_command
 
-    def match(self, app_name):
+    def binarySearch(self, A, X):
+        ''' Returns A[i] if A[i][0] == X, else returns -1.'''
+        low, high = 0, len(A)
+        while low < high:
+            i = low + (high - low) // 2
+            if X == A[i][0]:
+                return A[i]
+            elif X > A[i][0]:
+                low = i + 1
+            else:  # X < A[i][0]
+                high = i
+        return None
+
+    def matchBinary(self, app_name):
+        command = ' '.join(sorted(self.command.upper().split()))        
+        matched_command = self.binarySearch(self.files_map[app_name], command)
+        if matched_command is not None:
+            result = matched_command[1:]
+            if app_name not in ['general', ]:
+                result.append(self.current_app)
+            result.insert(0, 'key')
+            return result
+        else:
+            return None
+
+    def matchFuzzy(self, app_name):
         matched_command = max(self.files_map[app_name],
                               key=lambda x: fuzz.token_sort_ratio(
                                   self.command, x[0]))
