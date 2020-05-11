@@ -1,7 +1,3 @@
-# extract all words
-# generate grammar
-# generate other possible sentences so that the frequencies match.
-
 import csv
 from timeit import default_timer as timer
 

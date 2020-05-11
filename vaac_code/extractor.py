@@ -120,7 +120,7 @@ class Extractor:
         return None
 
     def matchBinary(self, app_name):
-        command = ' '.join(sorted(self.command.upper().split()))        
+        command = ' '.join(sorted(self.command.upper().split()))
         matched_command = self.binarySearch(self.files_map[app_name], command)
         if matched_command is not None:
             result = matched_command[1:]

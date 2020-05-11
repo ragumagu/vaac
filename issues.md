@@ -5,8 +5,8 @@
 6. Vaac does not recognize equivalent sentences.
 7. ~~Vaac does not wait till user completes command. There is no buffer concept.~~
 8. Request for higher speech recognition accuracy and larger vocabulary.
-9. Vaac does not ask for confirmation, it does not have 'yes','no','repeat' in vocabulary.
-10. Vaac does not improve itself. Training is not automated. ~~Recording and vaac_terminal are not integrated. !One tool per job~~
+9. ~~Vaac does not ask for confirmation, it does not have 'yes','no','repeat' in vocabulary.~~
+10. ~~Vaac does not improve itself. Training is not automated. Recording and vaac_terminal are not integrated.~~ # One tool per job
 11. ~~Vaac does not provide a type-able command line-like interface.~~
 12. ~~Vaac does not support sending individual keystrokes by voice.~~
 13. Extractor does not have a clear set of rules which devs can read. ~~Implement multiple layers of filters in the extractor.~~ Make the code readable. Some of the logic regarding fuzzy ratios has to be cleared up: which ones must be used, and what is the weightage that is to be given to each deduction.
