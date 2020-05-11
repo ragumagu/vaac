@@ -9,25 +9,19 @@ import subprocess
 import configparser
 
 
-class GetchUnix:
-    '''The _GetchUnix class replicates the functionality of the getch() method.
-    '''
-    def __init__(self):
-        import tty
-        import sys
-
-    def __call__(self):
-        import sys
-        import tty
-        import termios
-        fd = sys.stdin.fileno()
-        old_settings = termios.tcgetattr(fd)
-        try:
-            tty.setraw(sys.stdin.fileno())
-            ch = sys.stdin.read(1)
-        finally:
-            termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
-        return ch
+def getch():
+    '''This method returns a single character input from keyboard.'''
+    import sys
+    import tty
+    import termios
+    fd = sys.stdin.fileno()
+    old_settings = termios.tcgetattr(fd)
+    try:
+        tty.setraw(sys.stdin.fileno())
+        ch = sys.stdin.read(1)
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+    return ch
 
 
 class RecordingManager:
