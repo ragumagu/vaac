@@ -11,6 +11,7 @@ CASE CHANGE TO UPPER,ctrl+u
 CASE TOGGLE,ctrl+asciitilde
 CHECK SPELLING,shift+F7
 CLEAR HIGHLIGHT,ctrl+shift+k
+CLOSE,ctrl+q
 CLOSE TAB,ctrl+w
 CLOSE TAB UNDO,ctrl+shift+t
 CLOSE WINDOW,ctrl+q

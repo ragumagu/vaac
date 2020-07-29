@@ -6,7 +6,9 @@ bottom,End
 browser console,ctrl+shift+j
 caret browsing,F7
 clear history,ctrl+shift+Delete
+close,ctrl+shift+w
 close quick find,Escape
+close,ctrl+shift+w
 close tab,ctrl+w
 close window,ctrl+shift+w
 copy,ctrl+c

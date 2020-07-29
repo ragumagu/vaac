@@ -1,3 +1,5 @@
+close,firefox
+close,firefox
 go,firefox
 find,firefox
 back,firefox
@@ -32,9 +34,9 @@ close tab,firefox
 next tab,firefox
 previous tab,firefox
 new tab,firefox
+close window,firefox
 next page,firefox
 previous page,firefox
-close window,firefox
 find next,firefox
 find previous,firefox
 page down,firefox
@@ -70,9 +72,9 @@ go to end,firefox
 go to beginning,firefox
 seek to end,firefox
 seek to beginning,firefox
+undo close tab,firefox
 move tab left,firefox
 move tab right,firefox
-undo close tab,firefox
 close quick find,firefox
 undo close window,firefox
 library window history,firefox

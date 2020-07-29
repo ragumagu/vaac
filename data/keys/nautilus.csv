@@ -3,6 +3,7 @@ ACTION MENU SHOW,F10
 ALL SELECT,ctrl+a
 AND CLOSE FILE OPEN WINDOW,shift+ctrl+Down
 BACK,BackSpace
+CLOSE,ctrl+w
 CLOSE TAB,ctrl+w
 CLOSE WINDOW,ctrl+w
 COPY,ctrl+c

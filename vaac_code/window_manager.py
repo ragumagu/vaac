@@ -24,6 +24,7 @@ class WindowManager():
     def update_apps_windows(self):
         command = "./vaac_code/running_apps.sh"
         output_string = subprocess.getoutput(command).lower()
+        logging.debug(output_string)
         try:
             output = ast.literal_eval(output_string)
         except Exception:

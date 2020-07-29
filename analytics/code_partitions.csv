@@ -147,14 +147,6 @@ move,move editor right,code
 move,move line down,code
 move,move line up,code
 ________________________________________________________________________________
-close,close,code
-close,close all,code
-close,close editor,code
-close,close folder,code
-close,close window,code
-close,close window,code
-close,undo close editor,code
-________________________________________________________________________________
 focus,focus first editor group,code
 focus,focus next editor group,code
 focus,focus previous editor group,code
@@ -169,6 +161,13 @@ file,new file,code
 file,open file,code
 file,open file in new window,code
 file,open file location,code
+________________________________________________________________________________
+close,close,code
+close,close all,code
+close,close editor,code
+close,close folder,code
+close,close window,code
+close,undo close editor,code
 ________________________________________________________________________________
 of,go to beginning of line,code
 of,go to end of line,code
@@ -233,11 +232,6 @@ comment,remove line comment,code
 comment,toggle block comment,code
 comment,toggle line comment,code
 ________________________________________________________________________________
-window,close window,code
-window,close window,code
-window,new window,code
-window,open file in new window,code
-________________________________________________________________________________
 find,find,code
 find,find next,code
 find,find previous,code
@@ -257,6 +251,10 @@ page,page down,code
 page,page up,code
 page,scroll page down in terminal,code
 page,scroll page up in terminal,code
+________________________________________________________________________________
+window,close window,code
+window,new window,code
+window,open file in new window,code
 ________________________________________________________________________________
 copy,copy,code
 copy,copy path,code

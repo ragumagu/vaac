@@ -288,7 +288,6 @@ move,move word right,gedit
 ________________________________________________________________________________
 window,activate window menu,general
 window,close window,code
-window,close window,code
 window,close window,general
 window,close window,gnome-terminal
 window,close window,gedit
@@ -399,6 +398,32 @@ small,small x,keys
 small,small y,keys
 small,small z,keys
 ________________________________________________________________________________
+close,close,code
+close,close,gedit
+close,close,firefox
+close,close,firefox
+close,close,nautilus
+close,close all,code
+close,close all tabs,gedit
+close,close editor,code
+close,close folder,code
+close,close quick find,firefox
+close,close tab,gnome-terminal
+close,close tab,gedit
+close,close tab,firefox
+close,close tab,nautilus
+close,close window,code
+close,close window,general
+close,close window,gnome-terminal
+close,close window,gedit
+close,close window,firefox
+close,close window,nautilus
+close,open file and close window,nautilus
+close,undo close editor,code
+close,undo close tab,gedit
+close,undo close tab,firefox
+close,undo close window,firefox
+________________________________________________________________________________
 show,show action menu,nautilus
 show,show activities overview,general
 show,show all applications,general
@@ -422,29 +447,6 @@ show,show side panel,gedit
 show,show sidebar,nautilus
 show,show source control,code
 show,show terminal,code
-________________________________________________________________________________
-close,close,code
-close,close all,code
-close,close all tabs,gedit
-close,close editor,code
-close,close folder,code
-close,close quick find,firefox
-close,close tab,gnome-terminal
-close,close tab,gedit
-close,close tab,firefox
-close,close tab,nautilus
-close,close window,code
-close,close window,code
-close,close window,general
-close,close window,gnome-terminal
-close,close window,gedit
-close,close window,firefox
-close,close window,nautilus
-close,open file and close window,nautilus
-close,undo close editor,code
-close,undo close tab,gedit
-close,undo close tab,firefox
-close,undo close window,firefox
 ________________________________________________________________________________
 left,alt left,keys
 left,brace left,keys

@@ -1,4 +1,5 @@
 back,BackSpace
+close,ctrl+w
 close tab,ctrl+w
 close window,ctrl+w
 copy,ctrl+c

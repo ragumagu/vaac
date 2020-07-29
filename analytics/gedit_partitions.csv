@@ -56,16 +56,17 @@ line,go to line,gedit
 line,move line down,gedit
 line,move line up,gedit
 ________________________________________________________________________________
+close,close,gedit
+close,close all tabs,gedit
+close,close tab,gedit
+close,close window,gedit
+close,undo close tab,gedit
+________________________________________________________________________________
 go,go to beginning of document,gedit
 go,go to beginning of line,gedit
 go,go to end of document,gedit
 go,go to end of line,gedit
 go,go to line,gedit
-________________________________________________________________________________
-close,close all tabs,gedit
-close,close tab,gedit
-close,close window,gedit
-close,undo close tab,gedit
 ________________________________________________________________________________
 find,find,gedit
 find,find and replace,gedit

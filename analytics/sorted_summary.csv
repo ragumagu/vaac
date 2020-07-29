@@ -1,6 +1,10 @@
 tab,keys
 go,firefox
 close,code
+close,gedit
+close,firefox
+close,firefox
+close,nautilus
 left,keys
 right,keys
 open,nautilus
@@ -134,7 +138,6 @@ next tab,firefox
 restore tab,nautilus
 move window,general
 close window,code
-close window,code
 close window,general
 close window,gnome-terminal
 close window,gedit
@@ -143,19 +146,18 @@ close window,nautilus
 line down,code
 line up,code
 switch windows,general
+delete line,code
 new window,code
 new window,gnome-terminal
 new window,gedit
 new window,firefox
 new window,nautilus
-delete line,code
-capital f,keys
-small f,keys
 close all,code
 close editor,code
+capital f,keys
+small f,keys
 erase line,gnome-terminal
 duplicate line,code
-hide window,general
 indent line,code
 low line,keys
 outdent line,code
@@ -166,6 +168,7 @@ find previous,gnome-terminal
 find previous,gedit
 find previous,firefox
 go back,code
+hide window,general
 find next,code
 find next,gnome-terminal
 find next,gedit
@@ -177,20 +180,20 @@ next page,firefox
 restore window,general
 show terminal,code
 function one,keys
-maximize window,general
-resize window,general
 zoom in,code
 zoom in,general
 zoom in,gnome-terminal
 zoom in,firefox
 zoom in,nautilus
 focus previous,firefox
+maximize window,general
 page down,code
 page down,keys
 page down,firefox
 page up,code
 page up,keys
 page up,firefox
+resize window,general
 focus next,firefox
 open file,code
 open file,firefox
@@ -221,6 +224,7 @@ capital w,keys
 capital x,keys
 capital y,keys
 capital z,keys
+close folder,code
 show sidebar,nautilus
 small a,keys
 small b,keys
@@ -256,7 +260,6 @@ new file,code
 new terminal,code
 quick open,code
 quick open,gedit
-close folder,code
 control left,keys
 control right,keys
 left parenthesis,keys
@@ -409,10 +412,10 @@ go to symbol,code
 scroll to bottom,gnome-terminal
 scroll to top,gnome-terminal
 seek to end,firefox
-seek to beginning,firefox
-previous tab group,gedit
 undo close tab,gedit
 undo close tab,firefox
+seek to beginning,firefox
+previous tab group,gedit
 new tab group,gedit
 next tab group,gedit
 move line down,code
@@ -430,17 +433,17 @@ undo close window,firefox
 toggle line comment,code
 delete current line,gedit
 switch windows directly,general
-select current line,code
-new private window,firefox
 undo close editor,code
-copy window screenshot,general
+select current line,code
 close quick find,firefox
-save window screenshot,general
+new private window,firefox
+copy window screenshot,general
+close all tabs,gedit
 insert line above,code
 insert line below,code
+save window screenshot,general
 add line comment,code
 delete previous word,gnome-terminal
-close all tabs,gedit
 remove line comment,code
 show all applications,general
 show all symbols,code

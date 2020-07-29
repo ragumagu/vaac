@@ -3,6 +3,7 @@ change to lower case,ctrl+l
 change to upper case,ctrl+u
 check spelling,shift+F7
 clear highlight,ctrl+shift+k
+close,ctrl+q
 close all tabs,ctrl+shift+w
 close tab,ctrl+w
 close window,ctrl+q

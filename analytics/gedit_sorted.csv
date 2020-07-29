@@ -1,3 +1,4 @@
+close,gedit
 find,gedit
 save,gedit
 print,gedit
@@ -8,10 +9,10 @@ paste,gedit
 redo,gedit
 close tab,gedit
 new tab,gedit
+close window,gedit
 find next,gedit
 find previous,gedit
 open document,gedit
-close window,gedit
 new window,gedit
 quick open,gedit
 save as,gedit
@@ -21,10 +22,10 @@ print preview,gedit
 check spelling,gedit
 clear highlight,gedit
 go to line,gedit
+undo close tab,gedit
 new tab group,gedit
 next tab group,gedit
 previous tab group,gedit
-undo close tab,gedit
 add tab stop,gedit
 remove tab stop,gedit
 move line down,gedit

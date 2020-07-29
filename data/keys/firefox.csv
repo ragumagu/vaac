@@ -18,6 +18,8 @@ BOX FOCUS NUMBER PAGE,ctrl+alt+g
 BROWSER CONSOLE,ctrl+shift+j
 BROWSING CARET,F7
 CLEAR HISTORY,ctrl+shift+Delete
+CLOSE,ctrl+shift+w
+CLOSE,ctrl+shift+w
 CLOSE FIND QUICK,Escape
 CLOSE TAB,ctrl+w
 CLOSE TAB UNDO,ctrl+shift+t

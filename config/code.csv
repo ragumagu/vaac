@@ -6,7 +6,6 @@ close all,ctrl+k ctrl+w
 close editor,ctrl+w
 close folder,ctrl+k f
 close window,alt+F4
-close window,ctrl+w
 continue,F5
 copy,ctrl+c
 copy path,ctrl+k p

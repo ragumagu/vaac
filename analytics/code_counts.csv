@@ -10,9 +10,9 @@ open,9
 terminal,9
 toggle,9
 move,8
-close,7
 focus,7
 file,6
+close,6
 of,6
 down,6
 up,6
@@ -23,11 +23,11 @@ previous,5
 insert,5
 select,5
 comment,4
-window,4
 find,4
 preview,4
 new,4
 page,4
+window,3
 copy,3
 mode,3
 fold,3

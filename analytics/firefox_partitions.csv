@@ -62,6 +62,14 @@ page,page source,firefox
 page,page up,firefox
 page,previous page,firefox
 ________________________________________________________________________________
+close,close,firefox
+close,close,firefox
+close,close quick find,firefox
+close,close tab,firefox
+close,close window,firefox
+close,undo close tab,firefox
+close,undo close window,firefox
+________________________________________________________________________________
 go,go,firefox
 go,go one word to left,firefox
 go,go one word to right,firefox
@@ -97,12 +105,6 @@ seek,seek forward fifteen seconds,firefox
 seek,seek forward ten percent,firefox
 seek,seek to beginning,firefox
 seek,seek to end,firefox
-________________________________________________________________________________
-close,close quick find,firefox
-close,close tab,firefox
-close,close window,firefox
-close,undo close tab,firefox
-close,undo close window,firefox
 ________________________________________________________________________________
 next,find next,firefox
 next,focus next,firefox

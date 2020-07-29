@@ -58,14 +58,15 @@ show,show hidden files,nautilus
 show,show item properties,nautilus
 show,show sidebar,nautilus
 ________________________________________________________________________________
+close,close,nautilus
+close,close tab,nautilus
+close,close window,nautilus
+close,open file and close window,nautilus
+________________________________________________________________________________
 window,close window,nautilus
 window,new window,nautilus
 window,open file and close window,nautilus
 window,open in new window,nautilus
-________________________________________________________________________________
-close,close tab,nautilus
-close,close window,nautilus
-close,open file and close window,nautilus
 ________________________________________________________________________________
 go,go to home folder,nautilus
 go,go to next tab,nautilus
