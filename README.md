@@ -1,6 +1,6 @@
 # VAAC
 
-Vaac stands for Voice Assist and Control. It is a project in progress, and aims to provide vocal access to applications.
+Vaac stands for Voice Assist and Control. It aims to provide vocal access across applications.
 
 Vaac uses Pocketsphinx: https://github.com/cmusphinx/pocketsphinx as the speech recognition engine. Vaac requires setting up Sphinxbase and Sphinxtrain for training the Pocketsphinx model.
 
